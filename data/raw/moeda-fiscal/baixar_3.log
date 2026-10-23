@@ -1,0 +1,9 @@
+1 7 bruto/marcos/bcb-cambio-1999-flutuante.html OK
+2 7 bruto/marcos/bcb-cambio-1999-politica-cambial.html OK
+3 7 bruto/marcos/imf-pr02-40-brasil-2002.html FALHA falhou apos 4 tentativas: https://www.imf.org/en/news/articles/2015/09/14/01/49/pr0240 (<HTTPError 403: 'Forbidden'>)
+
+4 7 bruto/marcos/mpv442-2008.html OK
+5 7 bruto/marcos/sec-lehman-8k-2008-09-15.html FALHA falhou apos 4 tentativas: https://www.sec.gov/Archives/edgar/data/806085/000110465908059632/a08-22764_48k.htm (<HTTPError 403: 'Forbidden'>)
+
+6 7 bruto/marcos/codace-comunicado-2020-06-29-copia-poder360.pdf OK
+7 7 bruto/marcos/who-dg-remarks-2020-03-11.html OK

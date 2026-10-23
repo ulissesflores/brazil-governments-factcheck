@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256-chain",
-  "chain_hash": "820545332c18ee2084cda502828a191df361a9ed53996748a9e9d4c157af22f6",
+  "chain_hash": "2ae6312bf9279c8317361fb7db7c7908bdd8206dc26071a64d02ac060ad848af",
   "files": [
     {
       "path": "REPRODUCIBILITY.md",
@@ -2932,7 +2932,43 @@
     },
     {
       "path": "data/raw/moeda-fiscal/RESULTADO.md",
-      "sha256": "be157fe0349861906ae4be4ad0e9a55565e089598edc1c8cf80d125199d86101"
+      "sha256": "102fb7de55e3bb6ffae6ca88faef9215dbf7252864d01e1828c9ef2bba180212"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/STATE.md",
+      "sha256": "e323e2c8a020f353b15bd5d7d8ba6f747e6f5fd7d3882ef69c5c87efec182519"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/baixar_1.log",
+      "sha256": "ab4be621402f988506ed6de997d78ee5b4ca65b23f7691c598629ce59c1b731a"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/baixar_2.log",
+      "sha256": "e64eb776d35dfd19389762c063229035ac2ede747167c281dd1f76e8727f7064"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/baixar_3.log",
+      "sha256": "25c96c1ba344b39bd3d21ec5063ef0405664c07f138fa4a04dea4108a646a2d0"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/baixar_4.log",
+      "sha256": "182bc2c38782dea4b4137e7b793074772c08d633c4ec10090c0323f09fc98ed3"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/baixar_5.log",
+      "sha256": "87fe5e27f3a55c8486667f4245540d69eaf6a84ecb089dc9a41cf8a4f0649fb4"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/baixar_6.log",
+      "sha256": "130b5157682fb8a3373c595b2386db8b70cf381ab8494abfecee2e0445eb5752"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/baixar_7.log",
+      "sha256": "f8f0116edb0310b396a16bb26fc6156516f37ed83843dc9c7df3facc2338cfd2"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/baixar_8.log",
+      "sha256": "703908b30b77e9cd07eaa13e0c98c8136bd385ae1595c996cb0158095f7c72b7"
     },
     {
       "path": "data/raw/moeda-fiscal/bruto/bcb/ckan_17624.json",
@@ -3704,7 +3740,7 @@
     },
     {
       "path": "data/raw/moeda-fiscal/manifest.jsonl",
-      "sha256": "f4a4929e66eae841a409b88fb8ed6bb6e2289e4ba80a6f60498a6a69ba6f8544"
+      "sha256": "2937802f320c05148c7b571ef0b2ea835d1a27ea3fe6e19381f5fe2f3371e876"
     },
     {
       "path": "data/raw/moeda-fiscal/marcos.csv",
@@ -3723,12 +3759,48 @@
       "sha256": "6a1a010f6130439e716e4b2209dac455b4378b956ac22c7fc8022327f03efaad"
     },
     {
+      "path": "data/raw/moeda-fiscal/scripts/alvos_2.tsv",
+      "sha256": "b1436a5a8e5f1f28a9942a2c978e19cf80cb9ab245edaf48080ac5faff0c7844"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/scripts/alvos_3.tsv",
+      "sha256": "acaa7d25ad2dc0ba5dcbc2de1d8a808a656203f8107da5fa1209053428cb6722"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/scripts/alvos_4.tsv",
+      "sha256": "c87cf357e8be623132ffb14818c4762b94cdb02a3135b41733c8ab2a00c39317"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/scripts/alvos_5.tsv",
+      "sha256": "91f23cbaecaa2ac1943999b08bb88d6423bffb61bf3cbfef630651f007d03a57"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/scripts/alvos_6.tsv",
+      "sha256": "f847677108f57cc9e25782b2dc3dfeea5d4e141cf35884a8f01728e68959e6f2"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/scripts/alvos_7.tsv",
+      "sha256": "9d300c6e8e8c7b329c2f4e353f8a45042f40a3969279ddbbb9902532bb094290"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/scripts/alvos_8.tsv",
+      "sha256": "add5c3412c2f15b9a4583d5a6368154c7445edd3f4e2f5757ac084704b5dff51"
+    },
+    {
       "path": "data/raw/moeda-fiscal/scripts/baixar_1_bcb_ipea.py",
       "sha256": "76805df8063fffacc6c163bf348dca72baa9fc59fd48951db35a49eeb185010a"
     },
     {
       "path": "data/raw/moeda-fiscal/scripts/baixar_2_planalto.py",
       "sha256": "ab8996429a2905f73c5bbc3606ef2770b7110b0ea0e68a12b7891b8f2f12f0e6"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/scripts/baixar_tesouro_despesas.log",
+      "sha256": "a2fac5cb0b70b3d4d0c6ae2b80868f3471fb4f4c1082c7401d95b3e604b9c223"
+    },
+    {
+      "path": "data/raw/moeda-fiscal/scripts/baixar_tesouro_despesas.py",
+      "sha256": "fa3fce70130e9ce4e42b089e0b501a26c217b7d9647e65287ec9acc090da3fd9"
     },
     {
       "path": "data/raw/moeda-fiscal/scripts/construir_A_moeda.py",

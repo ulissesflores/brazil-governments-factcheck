@@ -222,3 +222,9 @@ Codigos confirmados no CKAN (titulo, unidade e primeiro mes na API):
 - IPCA/IGP-DI no CKAN: volta se o BCB indexar os codigos 433/190.
 - Portal da Transparencia em HTML: volta se alguem fornecer chave de API.
 - Pagina de metadados do SGS: "System unavailable"; volta se o servico voltar.
+
+## 5. Adendo 2026-10-23: emendas pagas (CGU) e bases do Tesouro
+
+- [OK] `bruto/emendas/EmendasParlamentares.zip` (Portal da Transparencia, CGU, 32,5 MB, hash na cadeia): `scripts/emendas_pagas.py` -> `series/emendas_pagas_por_tipo_e_ano.csv` (valor pago no exercicio e restos a pagar pagos, por tipo e ano, 2014-2026). Na pagina: `emendas_pagas` e `emendas_pib`.
+- [OK] `bruto/tesouro-despesas/despesas-transferencias-uniao-<ano>.xlsx`, 2008-2025 (Tesouro Transparente, CKAN 8675a0a4..., 30-40 MB cada, so o hash no repositorio): `scripts/baixar_tesouro_despesas.py`.
+- [NAO EXISTE] Emendas pagas antes de 2014: o identificador de resultado primario das bases do Tesouro (`ID_IN_RESULTADO_EOF`) so traz o codigo 6 (despesa discricionaria decorrente de emenda individual) a partir de 2014; em 2013 ha apenas 0 (financeiro), 1 (primario obrigatorio), 2 (primario discricionario) e 3 (sem impacto fiscal). Antes da LDO 2014 a emenda nao era marcada no orcamento. Nada foi estimado.

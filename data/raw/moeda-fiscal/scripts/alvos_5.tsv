@@ -1,0 +1,15 @@
+bruto/bcb/ckan_28217.json	https://dadosabertos.bcb.gov.br/api/3/action/package_search?rows=5&q=codigo_sgs%3A28217
+bruto/bcb/ckan_28868.json	https://dadosabertos.bcb.gov.br/api/3/action/package_search?rows=5&q=codigo_sgs%3A28868
+bruto/bcb/ckan_432.json	https://dadosabertos.bcb.gov.br/api/3/action/package_search?rows=5&q=codigo_sgs%3A432
+bruto/bcb/ckan_4609.json	https://dadosabertos.bcb.gov.br/api/3/action/package_search?rows=5&q=codigo_sgs%3A4609
+bruto/bcb/ckan_4611.json	https://dadosabertos.bcb.gov.br/api/3/action/package_search?rows=5&q=codigo_sgs%3A4611
+bruto/bcb/ckan_4614.json	https://dadosabertos.bcb.gov.br/api/3/action/package_search?rows=5&q=codigo_sgs%3A4614
+bruto/bcb/ckan_4616.json	https://dadosabertos.bcb.gov.br/api/3/action/package_search?rows=5&q=codigo_sgs%3A4616
+bruto/bcb/sgs_17633.json	https://api.bcb.gov.br/dados/serie/bcdata.sgs.17633/dados?formato=json
+bruto/bcb/sgs_28867.json	https://api.bcb.gov.br/dados/serie/bcdata.sgs.28867/dados?formato=json
+bruto/bcb/sgs_28868.json	https://api.bcb.gov.br/dados/serie/bcdata.sgs.28868/dados?formato=json
+bruto/bcb/sgs_432_2006-2015.json	https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=01/01/2006&dataFinal=31/12/2015
+bruto/ipea/PRECOS12_IPCAG12.json	http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='PRECOS12_IPCAG12')
+bruto/ipea/PRECOS12_IPCAG12_metadados.json	http://www.ipeadata.gov.br/api/odata4/Metadados('PRECOS12_IPCAG12')
+bruto/ipea/IGP12_IGPDIG12.json	http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='IGP12_IGPDIG12')
+bruto/ipea/IGP12_IGPDIG12_metadados.json	http://www.ipeadata.gov.br/api/odata4/Metadados('IGP12_IGPDIG12')

@@ -1,6 +1,6 @@
 # Hash chain
 
-chain_hash: `820545332c18ee2084cda502828a191df361a9ed53996748a9e9d4c157af22f6`
+chain_hash: `2ae6312bf9279c8317361fb7db7c7908bdd8206dc26071a64d02ac060ad848af`
 
 | file | sha256 |
 |---|---|
@@ -736,7 +736,16 @@ chain_hash: `820545332c18ee2084cda502828a191df361a9ed53996748a9e9d4c157af22f6`
 | `data/raw/mecanismos-preco/series/receita-desoneracoes-instituidas-combustiveis.csv` | `6e12231237cac4b707dec0c7d752adc36f2296a968ad5824d65733cd4fd1c39e` |
 | `data/raw/mecanismos-preco/series/receita-gastos-tributarios-folha-cide.csv` | `e7eb9f5467f97ccdf7da0143a2754e588ed9a8934d3dd81876f238f6593a264d` |
 | `data/raw/mecanismos-preco/simetria-por-governo.csv` | `f29e6f803367e207b9faf63c7f685a7fc36bebbae88f589f4c8a9f4ad173729a` |
-| `data/raw/moeda-fiscal/RESULTADO.md` | `be157fe0349861906ae4be4ad0e9a55565e089598edc1c8cf80d125199d86101` |
+| `data/raw/moeda-fiscal/RESULTADO.md` | `102fb7de55e3bb6ffae6ca88faef9215dbf7252864d01e1828c9ef2bba180212` |
+| `data/raw/moeda-fiscal/STATE.md` | `e323e2c8a020f353b15bd5d7d8ba6f747e6f5fd7d3882ef69c5c87efec182519` |
+| `data/raw/moeda-fiscal/baixar_1.log` | `ab4be621402f988506ed6de997d78ee5b4ca65b23f7691c598629ce59c1b731a` |
+| `data/raw/moeda-fiscal/baixar_2.log` | `e64eb776d35dfd19389762c063229035ac2ede747167c281dd1f76e8727f7064` |
+| `data/raw/moeda-fiscal/baixar_3.log` | `25c96c1ba344b39bd3d21ec5063ef0405664c07f138fa4a04dea4108a646a2d0` |
+| `data/raw/moeda-fiscal/baixar_4.log` | `182bc2c38782dea4b4137e7b793074772c08d633c4ec10090c0323f09fc98ed3` |
+| `data/raw/moeda-fiscal/baixar_5.log` | `87fe5e27f3a55c8486667f4245540d69eaf6a84ecb089dc9a41cf8a4f0649fb4` |
+| `data/raw/moeda-fiscal/baixar_6.log` | `130b5157682fb8a3373c595b2386db8b70cf381ab8494abfecee2e0445eb5752` |
+| `data/raw/moeda-fiscal/baixar_7.log` | `f8f0116edb0310b396a16bb26fc6156516f37ed83843dc9c7df3facc2338cfd2` |
+| `data/raw/moeda-fiscal/baixar_8.log` | `703908b30b77e9cd07eaa13e0c98c8136bd385ae1595c996cb0158095f7c72b7` |
 | `data/raw/moeda-fiscal/bruto/bcb/ckan_17624.json` | `300b8c4d0f359cd0dafafba9c41a47dcd9256beb42f4d9d584993fbc628651a9` |
 | `data/raw/moeda-fiscal/bruto/bcb/ckan_17625.json` | `b7782a408bbb89e3bea9dd9f59ffbe85700a77c2869408aeb2466c4657ae0bb5` |
 | `data/raw/moeda-fiscal/bruto/bcb/ckan_17633.json` | `fb54a45d3e139605f8ad18dae63f9dc258a3af313c94fc8f7d08d97d864406d8` |
@@ -929,13 +938,22 @@ chain_hash: `820545332c18ee2084cda502828a191df361a9ed53996748a9e9d4c157af22f6`
 | `data/raw/moeda-fiscal/derivado/conferencia_selic.csv` | `4e93fa790d301f9f45330116e43f32e0456ef25cb6c25aa549c609d3b064edbb` |
 | `data/raw/moeda-fiscal/derivado/nfsp_codigos_confirmados_ckan.csv` | `a7dfa9fdf13eaccb6268aa6a6fd7acc133b579889f386726bbf531d9eea76615` |
 | `data/raw/moeda-fiscal/eventos_fiscais.csv` | `29933388e99e5f5d8c5452f7e69d073d7a81ef08e88d1f24acdc1167c346efbd` |
-| `data/raw/moeda-fiscal/manifest.jsonl` | `f4a4929e66eae841a409b88fb8ed6bb6e2289e4ba80a6f60498a6a69ba6f8544` |
+| `data/raw/moeda-fiscal/manifest.jsonl` | `2937802f320c05148c7b571ef0b2ea835d1a27ea3fe6e19381f5fe2f3371e876` |
 | `data/raw/moeda-fiscal/marcos.csv` | `b85e233d09a508a1dd33252465b941c69270e56c561e209ef13b22281a51c433` |
 | `data/raw/moeda-fiscal/quebras.csv` | `0888248f8ccd9040a75ee748665ee80932f15987b397c00b3cc6d5cbfa1904fa` |
 | `data/raw/moeda-fiscal/regras_emendas.csv` | `18043a441577f2bee34c7704df29285956d899aba0bbaf86119f3c0f665c4d75` |
 | `data/raw/moeda-fiscal/rp_identificadores.csv` | `6a1a010f6130439e716e4b2209dac455b4378b956ac22c7fc8022327f03efaad` |
+| `data/raw/moeda-fiscal/scripts/alvos_2.tsv` | `b1436a5a8e5f1f28a9942a2c978e19cf80cb9ab245edaf48080ac5faff0c7844` |
+| `data/raw/moeda-fiscal/scripts/alvos_3.tsv` | `acaa7d25ad2dc0ba5dcbc2de1d8a808a656203f8107da5fa1209053428cb6722` |
+| `data/raw/moeda-fiscal/scripts/alvos_4.tsv` | `c87cf357e8be623132ffb14818c4762b94cdb02a3135b41733c8ab2a00c39317` |
+| `data/raw/moeda-fiscal/scripts/alvos_5.tsv` | `91f23cbaecaa2ac1943999b08bb88d6423bffb61bf3cbfef630651f007d03a57` |
+| `data/raw/moeda-fiscal/scripts/alvos_6.tsv` | `f847677108f57cc9e25782b2dc3dfeea5d4e141cf35884a8f01728e68959e6f2` |
+| `data/raw/moeda-fiscal/scripts/alvos_7.tsv` | `9d300c6e8e8c7b329c2f4e353f8a45042f40a3969279ddbbb9902532bb094290` |
+| `data/raw/moeda-fiscal/scripts/alvos_8.tsv` | `add5c3412c2f15b9a4583d5a6368154c7445edd3f4e2f5757ac084704b5dff51` |
 | `data/raw/moeda-fiscal/scripts/baixar_1_bcb_ipea.py` | `76805df8063fffacc6c163bf348dca72baa9fc59fd48951db35a49eeb185010a` |
 | `data/raw/moeda-fiscal/scripts/baixar_2_planalto.py` | `ab8996429a2905f73c5bbc3606ef2770b7110b0ea0e68a12b7891b8f2f12f0e6` |
+| `data/raw/moeda-fiscal/scripts/baixar_tesouro_despesas.log` | `a2fac5cb0b70b3d4d0c6ae2b80868f3471fb4f4c1082c7401d95b3e604b9c223` |
+| `data/raw/moeda-fiscal/scripts/baixar_tesouro_despesas.py` | `fa3fce70130e9ce4e42b089e0b501a26c217b7d9647e65287ec9acc090da3fd9` |
 | `data/raw/moeda-fiscal/scripts/construir_A_moeda.py` | `f42bc81720880f8f30b29f5821d80a5f53999183700e72d0337fa01eaafb0c39` |
 | `data/raw/moeda-fiscal/scripts/construir_B_fiscal.py` | `a85172024eb7fb5f8f1ccca41f6a4ca7180835a41508e98dc563d4d79a80cf09` |
 | `data/raw/moeda-fiscal/scripts/construir_C_textos.py` | `5f70e33345e54f4a79f60dc8f1fafc278cddd130d70d24e20f0a000487ad8074` |

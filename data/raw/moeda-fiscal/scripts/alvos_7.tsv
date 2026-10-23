@@ -1,0 +1,4 @@
+bruto/bcb/ckan_22052.json	https://dadosabertos.bcb.gov.br/api/3/action/package_search?rows=5&q=codigo_sgs%3A22052
+bruto/bcb/ckan_22051.json	https://dadosabertos.bcb.gov.br/api/3/action/package_search?rows=5&q=codigo_sgs%3A22051
+bruto/bcb/sgs_22052.json	https://api.bcb.gov.br/dados/serie/bcdata.sgs.22052/dados?formato=json
+bruto/bcb/sgs_22051.json	https://api.bcb.gov.br/dados/serie/bcdata.sgs.22051/dados?formato=json
