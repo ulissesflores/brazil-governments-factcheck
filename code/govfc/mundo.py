@@ -12,6 +12,7 @@ adjustment, no score.
 
 import csv
 import json
+import math
 from pathlib import Path
 
 from govfc.dinamica import anos_do_mandato
@@ -87,8 +88,8 @@ def media_comum(a, b, anos):
     if len(comuns) < 2 or len(comuns) < len(anos) / 2:
         return None, None, len(comuns)
     return (
-        sum(a[y] for y in comuns) / len(comuns),
-        sum(b[y] for y in comuns) / len(comuns),
+        math.fsum(a[y] for y in comuns) / len(comuns),
+        math.fsum(b[y] for y in comuns) / len(comuns),
         len(comuns),
     )
 

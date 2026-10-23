@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256-chain",
-  "chain_hash": "6aee2406e99ebe2cac996c60a2407802d9780e87ead7606f7eeea043a93e22b2",
+  "chain_hash": "81da9466a1fc304ba104bae81594d0430fe4f6559919d57408f9443d4bb559fd",
   "files": [
     {
       "path": "REPRODUCIBILITY.md",
@@ -16,7 +16,7 @@
     },
     {
       "path": "code/govfc/build_results.py",
-      "sha256": "3efb27239c57b727fbfde9725e70b0834e919ddddde4f865f2d77fd6df17953b"
+      "sha256": "bb0a59d7dd26c7e56bdc685f5c75e9e619bd4b853b9dbb3a3a2447a6546b443d"
     },
     {
       "path": "code/govfc/chain.py",
@@ -28,7 +28,7 @@
     },
     {
       "path": "code/govfc/dinamica.py",
-      "sha256": "5321155338725a770dd34787d1de4e9b1c972e00f62ec403354178255844ef96"
+      "sha256": "6f534ae95d2e224d82c844d5e372afe444d59e9244b749e04810ddb795be0574"
     },
     {
       "path": "code/govfc/explica.py",
@@ -44,7 +44,7 @@
     },
     {
       "path": "code/govfc/indice.py",
-      "sha256": "a9f5bf54bc6ba78bf6338105cbf60c19ca7c76e797bc2c418961b94c112b7650"
+      "sha256": "5d5d3db0e18b900eefd6e960c1db02781ee3d731d54d718c73e0e30a1b3bfe09"
     },
     {
       "path": "code/govfc/literatura.py",
@@ -60,7 +60,7 @@
     },
     {
       "path": "code/govfc/mundo.py",
-      "sha256": "053993e5918921a243e07adb8a9984383f541ca6d86605464ebd0817c69b9d11"
+      "sha256": "77d98028324a75b48d2f068d887e811aae30bd2b57a00e60ca247b3b6be009f5"
     },
     {
       "path": "code/govfc/svg.py",
@@ -68,7 +68,7 @@
     },
     {
       "path": "code/govfc/terminal.py",
-      "sha256": "118214953d934a32e711f8ba9803dfef63108b02400fb986a22fc99c7b4c8bca"
+      "sha256": "375a7fe8187c4ac5e131e94d2f95f99de3a15ebf62c82aa306d7936a97d7e065"
     },
     {
       "path": "code/govfc/verdict.py",

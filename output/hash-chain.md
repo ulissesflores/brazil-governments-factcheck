@@ -1,26 +1,26 @@
 # Hash chain
 
-chain_hash: `6aee2406e99ebe2cac996c60a2407802d9780e87ead7606f7eeea043a93e22b2`
+chain_hash: `81da9466a1fc304ba104bae81594d0430fe4f6559919d57408f9443d4bb559fd`
 
 | file | sha256 |
 |---|---|
 | `REPRODUCIBILITY.md` | `3828e6b99e9acc38f920a1d113dbf6df0e25905877b11840688285a66b950355` |
 | `code/govfc/__init__.py` | `22b5ee74815a6b3133555ad2343f529c8acb259c9a3f5d332e036c149e420a27` |
 | `code/govfc/auditoria.py` | `6b84e9ef394eb8772b5b3979037f4a4b19759144b35964ef37e41101051c12e9` |
-| `code/govfc/build_results.py` | `3efb27239c57b727fbfde9725e70b0834e919ddddde4f865f2d77fd6df17953b` |
+| `code/govfc/build_results.py` | `bb0a59d7dd26c7e56bdc685f5c75e9e619bd4b853b9dbb3a3a2447a6546b443d` |
 | `code/govfc/chain.py` | `59ff161832148e3a6c1ec9a2fd366b0f08534d8372cad56d712d6f395b749f6e` |
 | `code/govfc/curate.py` | `35d69a4d3b0c260fa71f6d6faa1340310581d215b2ab89cb47ba87702a494053` |
-| `code/govfc/dinamica.py` | `5321155338725a770dd34787d1de4e9b1c972e00f62ec403354178255844ef96` |
+| `code/govfc/dinamica.py` | `6f534ae95d2e224d82c844d5e372afe444d59e9244b749e04810ddb795be0574` |
 | `code/govfc/explica.py` | `8927cc34ceda093b0b9828f2d6e811366ddb9c8f3460d5d1125e39b0f8600062` |
 | `code/govfc/figuras.py` | `23ac08cc61f1154287668526fd9a82a05628b977130b964c5f7612d9f204880e` |
 | `code/govfc/i18n.py` | `c247356f1c346f9d9301b5653ccb2d9601ead173814cf3c956ab039715f1ba81` |
-| `code/govfc/indice.py` | `a9f5bf54bc6ba78bf6338105cbf60c19ca7c76e797bc2c418961b94c112b7650` |
+| `code/govfc/indice.py` | `5d5d3db0e18b900eefd6e960c1db02781ee3d731d54d718c73e0e30a1b3bfe09` |
 | `code/govfc/literatura.py` | `b1599d2190a0e65460c7182850c79211f1d381580b9a5edb5d0793ab2c2460d7` |
 | `code/govfc/mandatos.py` | `ef51b1e39fd55fc7ab333583c27aca3ca9862e6954f5a7dd7945807969d5cfbc` |
 | `code/govfc/medidor.py` | `c2286888727da8c2ced6f12a35c2ee640eaaa4e433aec01941d0b52e5f804fe2` |
-| `code/govfc/mundo.py` | `053993e5918921a243e07adb8a9984383f541ca6d86605464ebd0817c69b9d11` |
+| `code/govfc/mundo.py` | `77d98028324a75b48d2f068d887e811aae30bd2b57a00e60ca247b3b6be009f5` |
 | `code/govfc/svg.py` | `ff792b43e935c58d179f20fc1619e2a9504120882b43392ac3d4625ed4a6cfcb` |
-| `code/govfc/terminal.py` | `118214953d934a32e711f8ba9803dfef63108b02400fb986a22fc99c7b4c8bca` |
+| `code/govfc/terminal.py` | `375a7fe8187c4ac5e131e94d2f95f99de3a15ebf62c82aa306d7936a97d7e065` |
 | `code/govfc/verdict.py` | `fd416fcb0c3c6b5c19e86dcb81000e517db067ffcc020f277a9d04ec489393ff` |
 | `data/curated/indicators.csv` | `b64a81942c73edef743811f2f5f143a26396fcb106f34bc06145b7ddf563d449` |
 | `data/curated/mandatos.csv` | `5a7580ee69ff5d787e99be8a54d06fc678d4b5541a623fe6781b1831a5408cc6` |

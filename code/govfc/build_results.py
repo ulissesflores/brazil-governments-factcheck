@@ -105,7 +105,7 @@ def _media(valores):
     """Arithmetic mean, or ``None`` if any value is missing or the list is empty."""
     if not valores or any(v is None for v in valores):
         return None
-    return sum(valores) / len(valores)
+    return math.fsum(valores) / len(valores)
 
 
 def _geo(valores):

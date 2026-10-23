@@ -172,14 +172,14 @@ def pontuar(serie, direcao, bal):
 
 def media(vals):
     """Arithmetic mean or ``None`` when empty."""
-    return sum(vals) / len(vals) if vals else None
+    return math.fsum(vals) / len(vals) if vals else None
 
 
 def media_geometrica(vals):
     """Geometric mean; undefined (``None``) when any value is not positive."""
     if not vals or any(v <= 0 for v in vals):
         return None
-    return math.exp(sum(math.log(v) for v in vals) / len(vals))
+    return math.exp(math.fsum(math.log(v) for v in vals) / len(vals))
 
 
 def ampi(vals):
@@ -196,11 +196,11 @@ def correlacao(xs, ys):
     if len(xs) < 3:
         return 0.0
     mx, my = media(xs), media(ys)
-    sx = math.sqrt(sum((x - mx) ** 2 for x in xs))
-    sy = math.sqrt(sum((y - my) ** 2 for y in ys))
+    sx = math.sqrt(math.fsum((x - mx) ** 2 for x in xs))
+    sy = math.sqrt(math.fsum((y - my) ** 2 for y in ys))
     if not sx or not sy:
         return 0.0
-    return sum((x - mx) * (y - my) for x, y in zip(xs, ys, strict=True)) / (sx * sy)
+    return math.fsum((x - mx) * (y - my) for x, y in zip(xs, ys, strict=True)) / (sx * sy)
 
 
 def agregar(areas_por_ano, pesos, forma="aritmetica"):
@@ -221,14 +221,14 @@ def agregar(areas_por_ano, pesos, forma="aritmetica"):
         if not presentes:
             continue
         w = {a: pesos[a] for a in presentes}
-        tot = sum(w.values())
+        tot = math.fsum(w.values())
         if forma == "aritmetica":
-            out[ano] = sum(sc[a] * w[a] / tot for a in presentes)
+            out[ano] = math.fsum(sc[a] * w[a] / tot for a in presentes)
         elif forma == "geometrica":
             out[ano] = (
                 None
                 if any(sc[a] <= 0 for a in presentes)
-                else math.exp(sum(w[a] / tot * math.log(sc[a]) for a in presentes))
+                else math.exp(math.fsum(w[a] / tot * math.log(sc[a]) for a in presentes))
             )
         else:
             out[ano] = ampi([sc[a] for a in presentes])
@@ -266,7 +266,7 @@ def ajustar_pesos(areas_por_ano, areas, tol=0.02, max_iter=100):
         for a in areas:
             if s[a] > 0:
                 pesos[a] = min(hi, max(lo, pesos[a] * math.sqrt(alvo / s[a])))
-        tot = sum(pesos.values())
+        tot = math.fsum(pesos.values())
         pesos = {a: w / tot for a, w in pesos.items()}
     return nominal, False, max_iter
 
@@ -1045,7 +1045,7 @@ def _versao(itens, govs, rotulo, mensais=None):
     ranks = {g["id"]: [] for g in govs}
     for _ in range(SORTEIOS):
         draw = [rnd.gammavariate(1.0, 1.0) for _ in areas]
-        tot = sum(draw)
+        tot = math.fsum(draw)
         w = {a: d / tot for a, d in zip(areas, draw, strict=True)}
         cs = {c["gov"]: c["c"] for c in mandato_candles(agregar(scores, w), govs)}
         ordem = sorted(cs, key=lambda g: -cs[g])

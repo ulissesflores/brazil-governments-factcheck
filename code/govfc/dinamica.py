@@ -434,12 +434,12 @@ def ols(xs, ys):
     n = len(xs)
     if n < 3:
         return None, None
-    mx, my = sum(xs) / n, sum(ys) / n
-    sxx = sum((x - mx) ** 2 for x in xs)
+    mx, my = math.fsum(xs) / n, math.fsum(ys) / n
+    sxx = math.fsum((x - mx) ** 2 for x in xs)
     if sxx == 0:
         return None, None
-    b = sum((x - mx) * (y - my) for x, y in zip(xs, ys, strict=True)) / sxx
-    res = sum((y - (my + b * (x - mx))) ** 2 for x, y in zip(xs, ys, strict=True))
+    b = math.fsum((x - mx) * (y - my) for x, y in zip(xs, ys, strict=True)) / sxx
+    res = math.fsum((y - (my + b * (x - mx))) ** 2 for x, y in zip(xs, ys, strict=True))
     se = math.sqrt(res / (n - 2) / sxx) if n > 2 else None
     return b, se
 
@@ -448,8 +448,8 @@ def desvio(v):
     """Sample standard deviation; ``None`` below 2 values."""
     if len(v) < 2:
         return None
-    m = sum(v) / len(v)
-    return math.sqrt(sum((x - m) ** 2 for x in v) / (len(v) - 1))
+    m = math.fsum(v) / len(v)
+    return math.sqrt(math.fsum((x - m) ** 2 for x in v) / (len(v) - 1))
 
 
 def _efeito_numerico(texto):
@@ -533,13 +533,13 @@ def celula(cfg, serie, anos, anos_prev, quebras, dec):
     antes = serie.get(anos[0] - 1)
     inicio = antes if antes is not None else ys[0]
     fim = ys[-1]
-    media = sum(ys) / len(ys)
+    media = math.fsum(ys) / len(ys)
     if cfg["tipo"] == "nivel":
         variacao = fim - inicio
         vol = desvio([b - a for a, b in zip(ys, ys[1:], strict=False)])
     else:
         prev = [serie[y] for y in anos_prev if y in serie]
-        variacao = (media - sum(prev) / len(prev)) if len(prev) >= 2 else None
+        variacao = (media - math.fsum(prev) / len(prev)) if len(prev) >= 2 else None
         vol = desvio(ys)
     b, se = ols(xs, ys)
     acel = None

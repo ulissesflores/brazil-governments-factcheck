@@ -15,6 +15,7 @@ is an estimate.
 
 import csv
 import json
+import math
 import re
 from pathlib import Path
 
@@ -99,7 +100,7 @@ def _renda_decil_mensal(decis, obs):
     for k in sorted(ipca):
         nivel *= 1 + ipca[k] / 100
         idx.setdefault(int(k[:4]), []).append(nivel)
-    media = {a: sum(v) / len(v) for a, v in idx.items()}
+    media = {a: math.fsum(v) / len(v) for a, v in idx.items()}
     pref = {"PNADC-E1": 0, "PNADC-E5": 1, "PNAD": 2}
     por_ano = {}
     for r in obs:
@@ -119,7 +120,7 @@ def _renda_decil_mensal(decis, obs):
     out = {}
     for a, dd in por_ano.items():
         if len(dd) == len(decis) and a in media and 2017 in media:
-            usd_dia = sum(v for v, _ in dd.values()) / len(decis)
+            usd_dia = math.fsum(v for v, _ in dd.values()) / len(decis)
             out[a] = usd_dia * 365 / 12 * PPC2017_EM_REAIS * media[a] / media[2017]
     return out
 
@@ -130,7 +131,7 @@ def _preco_medio_anual(produto):
     for r in _lido(RAW / "produtos" / "series" / "produtos_em_horas.csv"):
         if r["produto"] == produto and r["granularidade"] == "mensal" and r["preco_R$_atuais"]:
             por.setdefault(int(r["ano"]), []).append(float(r["preco_R$_atuais"]))
-    return {a: sum(v) / len(v) for a, v in por.items()}
+    return {a: math.fsum(v) / len(v) for a, v in por.items()}
 
 
 def _derivado_mensal(colecao, nome):
