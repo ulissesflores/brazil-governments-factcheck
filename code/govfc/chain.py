@@ -17,6 +17,7 @@ import argparse
 import datetime
 import hashlib
 import json
+import os
 import sys
 import time
 import urllib.request
@@ -51,13 +52,30 @@ def _agora():
     return datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def _cabecalhos(url):
+    """Request headers: the user agent and, for api.openalex.org, the operator's API key.
+
+    The key is read from ``OPENALEX_API_KEY`` or ``~/.config/openalex/api_key`` and sent as a
+    bearer header, never in the URL, so the manifest records a URL that anyone can re-fetch.
+    """
+    h = {"User-Agent": UA}
+    if url.startswith("https://api.openalex.org/"):
+        chave = os.environ.get("OPENALEX_API_KEY", "")
+        arquivo = Path.home() / ".config" / "openalex" / "api_key"
+        if not chave and arquivo.exists():
+            chave = arquivo.read_text(encoding="utf-8").strip()
+        if chave:
+            h["Authorization"] = f"Bearer {chave}"
+    return h
+
+
 def baixar(pasta, url, destino, nota=""):
     """Download ``url`` (up to 4 attempts), save it to ``pasta/destino``, log it in the manifest."""
     pasta = Path(pasta)
     ultimo = None
     for tentativa in range(1, 5):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            req = urllib.request.Request(url, headers=_cabecalhos(url))
             with urllib.request.urlopen(req, timeout=90) as r:
                 corpo, status = r.read(), r.status
             if corpo.strip():

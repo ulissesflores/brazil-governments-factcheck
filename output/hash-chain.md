@@ -1,6 +1,6 @@
 # Hash chain
 
-chain_hash: `81da9466a1fc304ba104bae81594d0430fe4f6559919d57408f9443d4bb559fd`
+chain_hash: `820545332c18ee2084cda502828a191df361a9ed53996748a9e9d4c157af22f6`
 
 | file | sha256 |
 |---|---|
@@ -8,7 +8,7 @@ chain_hash: `81da9466a1fc304ba104bae81594d0430fe4f6559919d57408f9443d4bb559fd`
 | `code/govfc/__init__.py` | `22b5ee74815a6b3133555ad2343f529c8acb259c9a3f5d332e036c149e420a27` |
 | `code/govfc/auditoria.py` | `6b84e9ef394eb8772b5b3979037f4a4b19759144b35964ef37e41101051c12e9` |
 | `code/govfc/build_results.py` | `bb0a59d7dd26c7e56bdc685f5c75e9e619bd4b853b9dbb3a3a2447a6546b443d` |
-| `code/govfc/chain.py` | `59ff161832148e3a6c1ec9a2fd366b0f08534d8372cad56d712d6f395b749f6e` |
+| `code/govfc/chain.py` | `a37b2195839b53095af8db99593797896bf0f498151ac86486dac281856cbea5` |
 | `code/govfc/curate.py` | `35d69a4d3b0c260fa71f6d6faa1340310581d215b2ab89cb47ba87702a494053` |
 | `code/govfc/dinamica.py` | `6f534ae95d2e224d82c844d5e372afe444d59e9244b749e04810ddb795be0574` |
 | `code/govfc/explica.py` | `8927cc34ceda093b0b9828f2d6e811366ddb9c8f3460d5d1125e39b0f8600062` |

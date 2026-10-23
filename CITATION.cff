@@ -22,6 +22,12 @@ authors:
     affiliation: "Codex Hash Research Laboratory"
 type: dataset
 version: 1.0.0
+doi: 10.5281/zenodo.23604103
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23604103
+    description: "Concept DOI (all versions); each release has its own version DOI on Zenodo."
+repository-code: "https://github.com/ulissesflores/brazil-governments-factcheck"
 license:
   - Apache-2.0
   - CC-BY-4.0

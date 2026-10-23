@@ -4,6 +4,7 @@
 
 **57 numbers from a viral infographic about eight Brazilian governments, checked one by one against public data under a rule fixed in code; then the X-ray of what it left out: 101 hash-chained series since 1964, a pre-registered index of living conditions and the peer-reviewed literature on each episode. No score of merit.**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23604103.svg)](https://doi.org/10.5281/zenodo.23604103)
 ![license: Apache-2.0 + CC BY 4.0](https://img.shields.io/badge/license-Apache--2.0%20%2B%20CC%20BY%204.0-blue)
 ![python](https://img.shields.io/badge/python-3.11%20%7C%203.12-informational)
 ![tests](https://img.shields.io/badge/tests-116_passing-success)
@@ -104,7 +105,7 @@ Carlos Ulisses Flores. ORCID [0000-0002-6034-7765](https://orcid.org/0000-0002-6
 
 ## Citation
 
-A DOI will be minted at the first release; until then cite the repository URL and the `chain_hash` printed by `python3 make_provenance.py`. Metadata: `CITATION.cff`, `codemeta.json`.
+Cite the concept DOI 10.5281/zenodo.23604103 (it always resolves to the latest version); a specific run is cited by its version DOI, shown on the Zenodo record of each release. Metadata: `CITATION.cff`, `codemeta.json`.
 
 ```bibtex
 @misc{flores2026raiox,
@@ -113,7 +114,7 @@ A DOI will be minted at the first release; until then cite the repository URL an
   year    = {2026},
   version = {1.0.0},
   url     = {https://github.com/ulissesflores/brazil-governments-factcheck},
-  note    = {DOI: concept DOI to be minted by Zenodo at the first release; cite the version DOI for a specific run}
+  doi     = {10.5281/zenodo.23604103}
 }
 ```
 

@@ -4,6 +4,7 @@
 
 **57 מספרים מאינפוגרפיקה ויראלית על שמונה ממשלות ברזיל, שנבדקו אחד-אחד מול נתונים ציבוריים תחת כלל שנקבע בקוד; ואז צילום הרנטגן של מה שהושמט: 101 סדרות משורשרות בגיבוב מאז 1964, מדד רשום-מראש של תנאי חיים והספרות שעברה ביקורת עמיתים על כל אפיזודה. ללא ציון ערך.**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23604103.svg)](https://doi.org/10.5281/zenodo.23604103)
 ![license: Apache-2.0 + CC BY 4.0](https://img.shields.io/badge/license-Apache--2.0%20%2B%20CC%20BY%204.0-blue)
 ![python](https://img.shields.io/badge/python-3.11%20%7C%203.12-informational)
 ![tests](https://img.shields.io/badge/tests-116_passing-success)
@@ -104,7 +105,7 @@ Carlos Ulisses Flores. ORCID [0000-0002-6034-7765](https://orcid.org/0000-0002-6
 
 ## ציטוט
 
-DOI (מזהה אובייקט דיגיטלי) יונפק בגרסה הציבורית הראשונה; עד אז יש לצטט את כתובת ה-URL של המאגר ואת ה-`chain_hash` שמדפיס `python3 make_provenance.py`. מטא-נתונים: `CITATION.cff`, `codemeta.json`.
+צטטו את ה-concept DOI 10.5281/zenodo.23604103 (מוביל תמיד לגרסה האחרונה); ריצה מסוימת מצוטטת לפי DOI הגרסה שלה, המופיע ברשומת Zenodo של כל release. מטא-נתונים: `CITATION.cff`, `codemeta.json`.
 
 ```bibtex
 @misc{flores2026raiox,
@@ -113,7 +114,7 @@ DOI (מזהה אובייקט דיגיטלי) יונפק בגרסה הציבור�
   year    = {2026},
   version = {1.0.0},
   url     = {https://github.com/ulissesflores/brazil-governments-factcheck},
-  note    = {DOI: concept DOI to be minted by Zenodo at the first release; cite the version DOI for a specific run}
+  doi     = {10.5281/zenodo.23604103}
 }
 ```
 

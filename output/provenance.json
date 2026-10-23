@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256-chain",
-  "chain_hash": "81da9466a1fc304ba104bae81594d0430fe4f6559919d57408f9443d4bb559fd",
+  "chain_hash": "820545332c18ee2084cda502828a191df361a9ed53996748a9e9d4c157af22f6",
   "files": [
     {
       "path": "REPRODUCIBILITY.md",
@@ -20,7 +20,7 @@
     },
     {
       "path": "code/govfc/chain.py",
-      "sha256": "59ff161832148e3a6c1ec9a2fd366b0f08534d8372cad56d712d6f395b749f6e"
+      "sha256": "a37b2195839b53095af8db99593797896bf0f498151ac86486dac281856cbea5"
     },
     {
       "path": "code/govfc/curate.py",

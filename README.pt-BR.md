@@ -4,6 +4,7 @@
 
 **57 números de um infográfico viral sobre oito governos brasileiros, conferidos um a um contra dados públicos sob uma regra fixada em código; depois, o raio-X do que ele deixou de fora: 101 séries com cadeia de hash desde 1964, um índice pré-registrado de condições de vida e a literatura revisada por pares sobre cada episódio. Sem nota de mérito.**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23604103.svg)](https://doi.org/10.5281/zenodo.23604103)
 ![license: Apache-2.0 + CC BY 4.0](https://img.shields.io/badge/license-Apache--2.0%20%2B%20CC%20BY%204.0-blue)
 ![python](https://img.shields.io/badge/python-3.11%20%7C%203.12-informational)
 ![tests](https://img.shields.io/badge/tests-116_passing-success)
@@ -104,7 +105,7 @@ Carlos Ulisses Flores. ORCID [0000-0002-6034-7765](https://orcid.org/0000-0002-6
 
 ## Citação
 
-Um DOI (identificador digital de objeto) será cunhado na primeira versão publicada; até lá, cite a URL do repositório e o `chain_hash` impresso por `python3 make_provenance.py`. Metadados: `CITATION.cff`, `codemeta.json`.
+Cite o concept DOI 10.5281/zenodo.23604103 (resolve sempre para a versão mais recente); uma execução específica é citada pelo DOI de versão, mostrado no registro do Zenodo de cada release. Metadados: `CITATION.cff`, `codemeta.json`.
 
 ```bibtex
 @misc{flores2026raiox,
@@ -113,7 +114,7 @@ Um DOI (identificador digital de objeto) será cunhado na primeira versão publi
   year    = {2026},
   version = {1.0.0},
   url     = {https://github.com/ulissesflores/brazil-governments-factcheck},
-  note    = {DOI: concept DOI to be minted by Zenodo at the first release; cite the version DOI for a specific run}
+  doi     = {10.5281/zenodo.23604103}
 }
 ```
 

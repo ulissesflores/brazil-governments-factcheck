@@ -2,10 +2,22 @@
   "title": "Brazil governments fact-check and X-ray: hash-chained public data to check a viral infographic and compare what it omits",
   "upload_type": "dataset",
   "version": "1.0.0",
-  "access_right": "closed",
-  "notes": "No DOI without the operator's explicit authorization. access_right flips to open at the release that mints the DOI.",
+  "access_right": "open",
+  "notes": "Concept DOI 10.5281/zenodo.23604103. Reproduce with python3 run_all.py (ends in provenance verified); the repository seal (chain_hash) is printed by make_provenance.py.",
   "license": "cc-by-4.0",
-  "creators": [{"name": "Flores, Carlos Ulisses", "orcid": "0000-0002-6034-7765", "affiliation": "Codex Hash Research Laboratory"}],
-  "keywords": ["brazil", "fact-checking", "reproducibility", "hash-chain", "method-breaks"],
+  "creators": [
+    {
+      "name": "Flores, Carlos Ulisses",
+      "orcid": "0000-0002-6034-7765",
+      "affiliation": "Codex Hash Research Laboratory"
+    }
+  ],
+  "keywords": [
+    "brazil",
+    "fact-checking",
+    "reproducibility",
+    "hash-chain",
+    "method-breaks"
+  ],
   "language": "eng"
 }

@@ -4,6 +4,8 @@ Format: Keep a Changelog; versioning: SemVer. 1.0.0 is the first release and the
 
 ## [1.0.0] - 2026-10-23
 
+Concept DOI 10.5281/zenodo.23604103 (Zenodo; the rc1 release minted the deposit, the final tag carries this DOI in the files).
+
 ### Added
 * Verdict rule applied to the 57 numbers printed on the infographic (`code/govfc/verdict.py`, `build_results.py`).
 * Acquisition hash chain per folder (`manifest.jsonl`) with `verify`, `--allow-missing`, `restore`; repository seal `chain_hash`.
