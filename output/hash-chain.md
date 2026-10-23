@@ -1,6 +1,6 @@
 # Hash chain
 
-chain_hash: `ffbff662f02b8e2309ed42b1959c10bd3aed523b318fa74393e2ff18e28384aa`
+chain_hash: `6aee2406e99ebe2cac996c60a2407802d9780e87ead7606f7eeea043a93e22b2`
 
 | file | sha256 |
 |---|---|
@@ -1956,7 +1956,7 @@ chain_hash: `ffbff662f02b8e2309ed42b1959c10bd3aed523b318fa74393e2ff18e28384aa`
 | `data/raw/referencias-q1/pipeline/scim_parsed.json` | `269483ab80f82bd745a1b50b67fe46229216a8efd43452580c5ba3f3789d64e7` |
 | `data/raw/referencias-q1/pipeline/sel.py` | `27531b4fe0ddef59118e3e66ecf27f61ce7a2bfcc28bd7e9170505f834003095` |
 | `data/raw/referencias-q1/pipeline/texts.py` | `9cb3b38ff53db666e0ffbc2874972e7aaeb2b472e724b2e58d09257c4557742a` |
-| `data/raw/referencias-q1/referencias-q1.csv` | `92a828b75b23348f31c29b87c2e50ba37d3d5e34e7551c642ff946d9c7e6fb0e` |
+| `data/raw/referencias-q1/referencias-q1.csv` | `e6107e962796ab651dfa4aaed69b957d2a7dac6e636d09fd6dae59ad12ead1bf` |
 | `data/raw/referencias-q1/scimago/scimago-nomatch-0271-5287.json` | `755eaccf29e1202f3f30a335a25b310b48475496e9a24801aad4725534c2059b` |
 | `data/raw/referencias-q1/scimago/scimago-nomatch-1018-5941.json` | `6195909bffbf54752a0f2e32ffa8b1ef400a478ca45487bfbfc19f17444d04b2` |
 | `data/raw/referencias-q1/scimago/scimago-nomatch-1813-9450.json` | `cdc7bee8b339db111f921a0d350fc336f678e4ba1f34086bf03cc4503407d7d6` |

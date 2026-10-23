@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256-chain",
-  "chain_hash": "ffbff662f02b8e2309ed42b1959c10bd3aed523b318fa74393e2ff18e28384aa",
+  "chain_hash": "6aee2406e99ebe2cac996c60a2407802d9780e87ead7606f7eeea043a93e22b2",
   "files": [
     {
       "path": "REPRODUCIBILITY.md",
@@ -7812,7 +7812,7 @@
     },
     {
       "path": "data/raw/referencias-q1/referencias-q1.csv",
-      "sha256": "92a828b75b23348f31c29b87c2e50ba37d3d5e34e7551c642ff946d9c7e6fb0e"
+      "sha256": "e6107e962796ab651dfa4aaed69b957d2a7dac6e636d09fd6dae59ad12ead1bf"
     },
     {
       "path": "data/raw/referencias-q1/scimago/scimago-nomatch-0271-5287.json",
