@@ -111,7 +111,7 @@ Se acuñará un DOI (identificador digital de objeto) en la primera versión pub
   author  = {Flores, Carlos Ulisses},
   title   = {Brazil X-Ray by Government: hash-chained public data to check a viral infographic and compare what it omits},
   year    = {2026},
-  version = {0.1.0},
+  version = {1.0.0},
   url     = {https://github.com/ulissesflores/brazil-governments-factcheck},
   note    = {DOI: concept DOI to be minted by Zenodo at the first release; cite the version DOI for a specific run}
 }

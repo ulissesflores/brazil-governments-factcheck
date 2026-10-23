@@ -1,8 +1,8 @@
 # Changelog
 
-Format: Keep a Changelog; versioning: SemVer. Pre-release versions are `0.x` until the first release mints the DOI.
+Format: Keep a Changelog; versioning: SemVer. 1.0.0 is the first release and the one that mints the DOI (concept DOI added at the final tag).
 
-## [0.1.0] - unreleased
+## [1.0.0] - 2026-10-23
 
 ### Added
 * Verdict rule applied to the 57 numbers printed on the infographic (`code/govfc/verdict.py`, `build_results.py`).

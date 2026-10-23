@@ -1,6 +1,6 @@
 [project]
 name = "brazil-governments-factcheck"
-version = "0.1.0"
+version = "1.0.0"
 description = "Reproducible fact-check of a viral infographic that compares Brazilian governments (1967-2026): hash-chained public data, sourced formulas, one verdict rule, and sealed results."
 readme = "README.md"
 requires-python = ">=3.11"
