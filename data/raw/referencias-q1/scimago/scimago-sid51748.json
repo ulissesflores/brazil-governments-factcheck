@@ -1,0 +1,19 @@
+{
+ "categorias_ano_mais_recente_por_categoria": [
+  {
+   "ano": 2025,
+   "categoria": "Medicine (miscellaneous)",
+   "quartil": "Q1"
+  }
+ ],
+ "consulta_issn": [
+  "1756-1833"
+ ],
+ "data_consulta": "2026-10-19",
+ "linhas_categoria_ano": 27,
+ "metodo": "fetch() dentro do Chrome real do Ulisses na pagina do Scimago (curl/urllib recebem 403 do Cloudflare); extraida a 1a tabela (Category/Year/Quartile) e mantido o ano mais recente de cada categoria",
+ "sha256_texto_resposta_prefixo20": "791addb7fee588beb9f5",
+ "sid": "51748",
+ "titulo_scimago": "BMJ",
+ "url": "https://www.scimagojr.com/journalsearch.php?q=51748&tip=sid&clean=0"
+}

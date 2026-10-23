@@ -1,0 +1,186 @@
+arquivo,indicador,fonte,n_linhas,primeiro,ultimo,unidade
+base_ampliada_depositos_compulsorios_em_especie_sgs1828.csv,base_ampliada_depositos_compulsorios_em_especie,BCB SGS 1828,386,1994-07,2026-08,Milhares de unidades monetárias correntes
+compulsorios_depositos_a_prazo_em_especie_sgs1850.csv,compulsorios_depositos_a_prazo_em_especie,BCB SGS 1850,374,1995-07,2026-08,Milhares de unidades monetárias correntes
+compulsorios_exigibilidade_adicional_em_especie_sgs1797.csv,compulsorios_exigibilidade_adicional_em_especie,BCB SGS 1797,167,2002-09,2017-06,Milhares de unidades monetárias correntes
+compulsorios_poupanca_em_especie_sgs1848.csv,compulsorios_poupanca_em_especie,BCB SGS 1848,386,1994-07,2026-08,Milhares de unidades monetárias correntes
+compulsorios_recursos_a_vista_em_especie_sgs1849.csv,compulsorios_recursos_a_vista_em_especie,BCB SGS 1849,386,1994-07,2026-08,Milhares de unidades monetárias correntes
+compulsorios_saldo_total_sgs17633.csv,compulsorios_saldo_total,BCB SGS 17633,385,1994-08,2026-08,Milhares de unidades monetárias correntes
+credito_ampliado_empresas_e_familias_pib_sgs28217.csv,credito_ampliado_empresas_e_familias_pib,BCB SGS 28217,164,2013-01,2026-08,Percentual
+credito_ampliado_empresas_pib_sgs28867.csv,credito_ampliado_empresas_pib,BCB SGS 28867,164,2013-01,2026-08,Percentual
+credito_ampliado_familias_pib_sgs28868.csv,credito_ampliado_familias_pib,BCB SGS 28868,164,2013-01,2026-08,Percentual
+credito_ampliado_total_pib_sgs28215.csv,credito_ampliado_total_pib,BCB SGS 28215,164,2013-01,2026-08,Percentual
+credito_sfn_recursos_direcionados_pib_sgs20628.csv,credito_sfn_recursos_direcionados_pib,BCB SGS 20628,234,2007-03,2026-08,Percentual
+credito_sfn_recursos_livres_pib_sgs20625.csv,credito_sfn_recursos_livres_pib,BCB SGS 20625,234,2007-03,2026-08,Percentual
+credito_sfn_setor_privado_total_rs_mi_sgs22052.csv,credito_sfn_setor_privado_total_rs_mi,BCB SGS 22052,176,2012-01,2026-08,Milhões de reais
+credito_sfn_setor_publico_total_rs_mi_sgs22051.csv,credito_sfn_setor_publico_total_rs_mi,BCB SGS 22051,176,2012-01,2026-08,Milhões de reais
+credito_sfn_total_pib_sgs20622.csv,credito_sfn_total_pib,BCB SGS 20622,374,1995-07,2026-08,Percentual
+insuficiencia_direcionamento_credito_total_sgs17624.csv,insuficiencia_direcionamento_credito_total,BCB SGS 17624,275,2003-10,2026-08,Milhares de unidades monetárias correntes
+juro_real_ex_post_anual_igpdi.csv,juro_real_ex_post_anual_igpdi,derivado: Ipeadata BM12_TJOVER12 e Ipeadata IGP12_IGPDIG12 (FGV),52,1974,2025,"% ao ano, real"
+juro_real_ex_post_anual_ipca.csv,juro_real_ex_post_anual_ipca,derivado: Ipeadata BM12_TJOVER12 e Ipeadata PRECOS12_IPCAG12 (IBGE/SNIPC),46,1980,2025,"% ao ano, real"
+juro_real_ex_post_mensal_igpdi.csv,juro_real_ex_post_mensal_igpdi,derivado: Ipeadata BM12_TJOVER12 e Ipeadata IGP12_IGPDIG12 (FGV),633,1974-01,2026-09,"% ao mes, real"
+juro_real_ex_post_mensal_ipca.csv,juro_real_ex_post_mensal_ipca,derivado: Ipeadata BM12_TJOVER12 e Ipeadata PRECOS12_IPCAG12 (IBGE/SNIPC),561,1980-01,2026-09,"% ao mes, real"
+multiplicador_M1_M0_conceito_antigo.csv,multiplicador_M1_M0,"derivado de monetario/saida/mensal.csv (colunas M1_fim e M0_fim; origem BCB SGS/CKAN, ver monetario/RESULTADO.md)",869,1946-02,2018-06,razao (adimensional)
+multiplicador_M1_M0_novo.csv,multiplicador_M1_M0,"derivado de monetario/saida/mensal.csv (colunas M1_novo e M0_fim; origem BCB SGS/CKAN, ver monetario/RESULTADO.md)",296,2002-01,2026-08,razao (adimensional)
+multiplicador_M3_M0_novo.csv,multiplicador_M3_M0,"derivado de monetario/saida/mensal.csv (colunas M3_novo e M0_fim; origem BCB SGS/CKAN, ver monetario/RESULTADO.md)",297,2001-12,2026-08,razao (adimensional)
+multiplicador_M3_M0_regime2001.csv,multiplicador_M3_M0,"derivado de monetario/saida/mensal.csv (colunas M3_reg2001 e M0_fim; origem BCB SGS/CKAN, ver monetario/RESULTADO.md)",359,1988-08,2018-06,razao (adimensional)
+nfsp_juros_nominais_banco_central_12m_pct_pib_sgs5752.csv,nfsp_juros_nominais_banco_central_12m_pct_pib,BCB SGS 5752,321,1999-12,2026-08,Percentual
+nfsp_juros_nominais_banco_central_anual_pct_pib_sgs5752.csv,nfsp_juros_nominais_banco_central_anual_pct_pib,BCB SGS 5752,27,1999,2025,Percentual
+nfsp_juros_nominais_banco_central_fluxo_mensal_rs_mi_sgs4608.csv,nfsp_juros_nominais_banco_central_fluxo_mensal_rs_mi,BCB SGS 4608,332,1999-01,2026-08,Milhões de reais
+nfsp_juros_nominais_empresas_estatais_12m_pct_pib_sgs5756.csv,nfsp_juros_nominais_empresas_estatais_12m_pct_pib,BCB SGS 5756,286,2002-11,2026-08,Percentual
+nfsp_juros_nominais_empresas_estatais_anual_pct_pib_sgs5756.csv,nfsp_juros_nominais_empresas_estatais_anual_pct_pib,BCB SGS 5756,24,2002,2025,Percentual
+nfsp_juros_nominais_empresas_estatais_estaduais_12m_pct_pib_sgs5758.csv,nfsp_juros_nominais_empresas_estatais_estaduais_12m_pct_pib,BCB SGS 5758,333,1998-12,2026-08,Percentual
+nfsp_juros_nominais_empresas_estatais_estaduais_anual_pct_pib_sgs5758.csv,nfsp_juros_nominais_empresas_estatais_estaduais_anual_pct_pib,BCB SGS 5758,28,1998,2025,Percentual
+nfsp_juros_nominais_empresas_estatais_estaduais_fluxo_mensal_rs_mi_sgs4614.csv,nfsp_juros_nominais_empresas_estatais_estaduais_fluxo_mensal_rs_mi,BCB SGS 4614,344,1998-01,2026-08,Milhões de reais
+nfsp_juros_nominais_empresas_estatais_federais_12m_pct_pib_sgs5757.csv,nfsp_juros_nominais_empresas_estatais_federais_12m_pct_pib,BCB SGS 5757,286,2002-11,2026-08,Percentual
+nfsp_juros_nominais_empresas_estatais_federais_anual_pct_pib_sgs5757.csv,nfsp_juros_nominais_empresas_estatais_federais_anual_pct_pib,BCB SGS 5757,24,2002,2025,Percentual
+nfsp_juros_nominais_empresas_estatais_federais_fluxo_mensal_rs_mi_sgs4613.csv,nfsp_juros_nominais_empresas_estatais_federais_fluxo_mensal_rs_mi,BCB SGS 4613,297,2001-12,2026-08,Milhões de reais
+nfsp_juros_nominais_empresas_estatais_fluxo_mensal_rs_mi_sgs4612.csv,nfsp_juros_nominais_empresas_estatais_fluxo_mensal_rs_mi,BCB SGS 4612,297,2001-12,2026-08,Milhões de reais
+nfsp_juros_nominais_empresas_estatais_municipais_12m_pct_pib_sgs5759.csv,nfsp_juros_nominais_empresas_estatais_municipais_12m_pct_pib,BCB SGS 5759,333,1998-12,2026-08,Percentual
+nfsp_juros_nominais_empresas_estatais_municipais_anual_pct_pib_sgs5759.csv,nfsp_juros_nominais_empresas_estatais_municipais_anual_pct_pib,BCB SGS 5759,28,1998,2025,Percentual
+nfsp_juros_nominais_empresas_estatais_municipais_fluxo_mensal_rs_mi_sgs4615.csv,nfsp_juros_nominais_empresas_estatais_municipais_fluxo_mensal_rs_mi,BCB SGS 4615,344,1998-01,2026-08,Milhões de reais
+nfsp_juros_nominais_governo_federal_12m_pct_pib_sgs5751.csv,nfsp_juros_nominais_governo_federal_12m_pct_pib,BCB SGS 5751,321,1999-12,2026-08,Percentual
+nfsp_juros_nominais_governo_federal_anual_pct_pib_sgs5751.csv,nfsp_juros_nominais_governo_federal_anual_pct_pib,BCB SGS 5751,27,1999,2025,Percentual
+nfsp_juros_nominais_governo_federal_e_banco_central_12m_pct_pib_sgs5750.csv,nfsp_juros_nominais_governo_federal_e_banco_central_12m_pct_pib,BCB SGS 5750,417,1991-12,2026-08,Percentual
+nfsp_juros_nominais_governo_federal_e_banco_central_anual_pct_pib_sgs5750.csv,nfsp_juros_nominais_governo_federal_e_banco_central_anual_pct_pib,BCB SGS 5750,35,1991,2025,Percentual
+nfsp_juros_nominais_governo_federal_e_banco_central_fluxo_mensal_rs_mi_sgs4606.csv,nfsp_juros_nominais_governo_federal_e_banco_central_fluxo_mensal_rs_mi,BCB SGS 4606,427,1991-02,2026-08,Milhões de reais
+nfsp_juros_nominais_governo_federal_fluxo_mensal_rs_mi_sgs4607.csv,nfsp_juros_nominais_governo_federal_fluxo_mensal_rs_mi,BCB SGS 4607,332,1999-01,2026-08,Milhões de reais
+nfsp_juros_nominais_governos_estaduais_12m_pct_pib_sgs5754.csv,nfsp_juros_nominais_governos_estaduais_12m_pct_pib,BCB SGS 5754,333,1998-12,2026-08,Percentual
+nfsp_juros_nominais_governos_estaduais_anual_pct_pib_sgs5754.csv,nfsp_juros_nominais_governos_estaduais_anual_pct_pib,BCB SGS 5754,28,1998,2025,Percentual
+nfsp_juros_nominais_governos_estaduais_e_municipais_12m_pct_pib_sgs5753.csv,nfsp_juros_nominais_governos_estaduais_e_municipais_12m_pct_pib,BCB SGS 5753,417,1991-12,2026-08,Percentual
+nfsp_juros_nominais_governos_estaduais_e_municipais_anual_pct_pib_sgs5753.csv,nfsp_juros_nominais_governos_estaduais_e_municipais_anual_pct_pib,BCB SGS 5753,35,1991,2025,Percentual
+nfsp_juros_nominais_governos_estaduais_e_municipais_fluxo_mensal_rs_mi_sgs4609.csv,nfsp_juros_nominais_governos_estaduais_e_municipais_fluxo_mensal_rs_mi,BCB SGS 4609,427,1991-02,2026-08,Milhões de reais
+nfsp_juros_nominais_governos_estaduais_fluxo_mensal_rs_mi_sgs4610.csv,nfsp_juros_nominais_governos_estaduais_fluxo_mensal_rs_mi,BCB SGS 4610,344,1998-01,2026-08,Milhões de reais
+nfsp_juros_nominais_governos_municipais_12m_pct_pib_sgs5755.csv,nfsp_juros_nominais_governos_municipais_12m_pct_pib,BCB SGS 5755,333,1998-12,2026-08,Percentual
+nfsp_juros_nominais_governos_municipais_anual_pct_pib_sgs5755.csv,nfsp_juros_nominais_governos_municipais_anual_pct_pib,BCB SGS 5755,28,1998,2025,Percentual
+nfsp_juros_nominais_governos_municipais_fluxo_mensal_rs_mi_sgs4611.csv,nfsp_juros_nominais_governos_municipais_fluxo_mensal_rs_mi,BCB SGS 4611,344,1998-01,2026-08,Milhões de reais
+nfsp_juros_nominais_setor_publico_consolidado_12m_pct_pib_sgs5760.csv,nfsp_juros_nominais_setor_publico_consolidado_12m_pct_pib,BCB SGS 5760,286,2002-11,2026-08,Percentual
+nfsp_juros_nominais_setor_publico_consolidado_anual_pct_pib_sgs5760.csv,nfsp_juros_nominais_setor_publico_consolidado_anual_pct_pib,BCB SGS 5760,24,2002,2025,Percentual
+nfsp_juros_nominais_setor_publico_consolidado_fluxo_mensal_rs_mi_sgs4616.csv,nfsp_juros_nominais_setor_publico_consolidado_fluxo_mensal_rs_mi,BCB SGS 4616,297,2001-12,2026-08,Milhões de reais
+nfsp_nominal_banco_central_12m_pct_pib_sgs5719.csv,nfsp_nominal_banco_central_12m_pct_pib,BCB SGS 5719,321,1999-12,2026-08,Percentual
+nfsp_nominal_banco_central_anual_pct_pib_sgs5719.csv,nfsp_nominal_banco_central_anual_pct_pib,BCB SGS 5719,27,1999,2025,Percentual
+nfsp_nominal_banco_central_fluxo_mensal_rs_mi_sgs4575.csv,nfsp_nominal_banco_central_fluxo_mensal_rs_mi,BCB SGS 4575,332,1999-01,2026-08,Milhões de reais
+nfsp_nominal_empresas_estatais_12m_pct_pib_sgs5723.csv,nfsp_nominal_empresas_estatais_12m_pct_pib,BCB SGS 5723,286,2002-11,2026-08,Percentual
+nfsp_nominal_empresas_estatais_anual_pct_pib_sgs5723.csv,nfsp_nominal_empresas_estatais_anual_pct_pib,BCB SGS 5723,24,2002,2025,Percentual
+nfsp_nominal_empresas_estatais_estaduais_12m_pct_pib_sgs5725.csv,nfsp_nominal_empresas_estatais_estaduais_12m_pct_pib,BCB SGS 5725,333,1998-12,2026-08,Percentual
+nfsp_nominal_empresas_estatais_estaduais_anual_pct_pib_sgs5725.csv,nfsp_nominal_empresas_estatais_estaduais_anual_pct_pib,BCB SGS 5725,28,1998,2025,Percentual
+nfsp_nominal_empresas_estatais_estaduais_fluxo_mensal_rs_mi_sgs4581.csv,nfsp_nominal_empresas_estatais_estaduais_fluxo_mensal_rs_mi,BCB SGS 4581,344,1998-01,2026-08,Milhões de reais
+nfsp_nominal_empresas_estatais_federais_12m_pct_pib_sgs5724.csv,nfsp_nominal_empresas_estatais_federais_12m_pct_pib,BCB SGS 5724,286,2002-11,2026-08,Percentual
+nfsp_nominal_empresas_estatais_federais_anual_pct_pib_sgs5724.csv,nfsp_nominal_empresas_estatais_federais_anual_pct_pib,BCB SGS 5724,24,2002,2025,Percentual
+nfsp_nominal_empresas_estatais_federais_fluxo_mensal_rs_mi_sgs4580.csv,nfsp_nominal_empresas_estatais_federais_fluxo_mensal_rs_mi,BCB SGS 4580,297,2001-12,2026-08,Milhões de reais
+nfsp_nominal_empresas_estatais_fluxo_mensal_rs_mi_sgs4579.csv,nfsp_nominal_empresas_estatais_fluxo_mensal_rs_mi,BCB SGS 4579,297,2001-12,2026-08,Milhões de reais
+nfsp_nominal_empresas_estatais_municipais_12m_pct_pib_sgs5726.csv,nfsp_nominal_empresas_estatais_municipais_12m_pct_pib,BCB SGS 5726,333,1998-12,2026-08,Percentual
+nfsp_nominal_empresas_estatais_municipais_anual_pct_pib_sgs5726.csv,nfsp_nominal_empresas_estatais_municipais_anual_pct_pib,BCB SGS 5726,28,1998,2025,Percentual
+nfsp_nominal_empresas_estatais_municipais_fluxo_mensal_rs_mi_sgs4582.csv,nfsp_nominal_empresas_estatais_municipais_fluxo_mensal_rs_mi,BCB SGS 4582,344,1998-01,2026-08,Milhões de reais
+nfsp_nominal_governo_federal_12m_pct_pib_sgs5718.csv,nfsp_nominal_governo_federal_12m_pct_pib,BCB SGS 5718,321,1999-12,2026-08,Percentual
+nfsp_nominal_governo_federal_anual_pct_pib_sgs5718.csv,nfsp_nominal_governo_federal_anual_pct_pib,BCB SGS 5718,27,1999,2025,Percentual
+nfsp_nominal_governo_federal_e_banco_central_12m_pct_pib_sgs5717.csv,nfsp_nominal_governo_federal_e_banco_central_12m_pct_pib,BCB SGS 5717,417,1991-12,2026-08,Percentual
+nfsp_nominal_governo_federal_e_banco_central_anual_pct_pib_sgs5717.csv,nfsp_nominal_governo_federal_e_banco_central_anual_pct_pib,BCB SGS 5717,35,1991,2025,Percentual
+nfsp_nominal_governo_federal_e_banco_central_fluxo_mensal_rs_mi_sgs4573.csv,nfsp_nominal_governo_federal_e_banco_central_fluxo_mensal_rs_mi,BCB SGS 4573,427,1991-02,2026-08,Milhões de reais
+nfsp_nominal_governo_federal_fluxo_mensal_rs_mi_sgs4574.csv,nfsp_nominal_governo_federal_fluxo_mensal_rs_mi,BCB SGS 4574,332,1999-01,2026-08,Milhões de reais
+nfsp_nominal_governos_estaduais_12m_pct_pib_sgs5721.csv,nfsp_nominal_governos_estaduais_12m_pct_pib,BCB SGS 5721,333,1998-12,2026-08,Percentual
+nfsp_nominal_governos_estaduais_anual_pct_pib_sgs5721.csv,nfsp_nominal_governos_estaduais_anual_pct_pib,BCB SGS 5721,28,1998,2025,Percentual
+nfsp_nominal_governos_estaduais_e_municipais_12m_pct_pib_sgs5720.csv,nfsp_nominal_governos_estaduais_e_municipais_12m_pct_pib,BCB SGS 5720,417,1991-12,2026-08,Percentual
+nfsp_nominal_governos_estaduais_e_municipais_anual_pct_pib_sgs5720.csv,nfsp_nominal_governos_estaduais_e_municipais_anual_pct_pib,BCB SGS 5720,35,1991,2025,Percentual
+nfsp_nominal_governos_estaduais_e_municipais_fluxo_mensal_rs_mi_sgs4576.csv,nfsp_nominal_governos_estaduais_e_municipais_fluxo_mensal_rs_mi,BCB SGS 4576,427,1991-02,2026-08,Milhões de reais
+nfsp_nominal_governos_estaduais_fluxo_mensal_rs_mi_sgs4577.csv,nfsp_nominal_governos_estaduais_fluxo_mensal_rs_mi,BCB SGS 4577,344,1998-01,2026-08,Milhões de reais
+nfsp_nominal_governos_municipais_12m_pct_pib_sgs5722.csv,nfsp_nominal_governos_municipais_12m_pct_pib,BCB SGS 5722,333,1998-12,2026-08,Percentual
+nfsp_nominal_governos_municipais_anual_pct_pib_sgs5722.csv,nfsp_nominal_governos_municipais_anual_pct_pib,BCB SGS 5722,28,1998,2025,Percentual
+nfsp_nominal_governos_municipais_fluxo_mensal_rs_mi_sgs4578.csv,nfsp_nominal_governos_municipais_fluxo_mensal_rs_mi,BCB SGS 4578,344,1998-01,2026-08,Milhões de reais
+nfsp_nominal_setor_publico_consolidado_12m_pct_pib_sgs5727.csv,nfsp_nominal_setor_publico_consolidado_12m_pct_pib,BCB SGS 5727,286,2002-11,2026-08,Percentual
+nfsp_nominal_setor_publico_consolidado_anual_pct_pib_sgs5727.csv,nfsp_nominal_setor_publico_consolidado_anual_pct_pib,BCB SGS 5727,24,2002,2025,Percentual
+nfsp_nominal_setor_publico_consolidado_fluxo_mensal_rs_mi_sgs4583.csv,nfsp_nominal_setor_publico_consolidado_fluxo_mensal_rs_mi,BCB SGS 4583,297,2001-12,2026-08,Milhões de reais
+nfsp_primario_banco_central_12m_pct_pib_sgs5785.csv,nfsp_primario_banco_central_12m_pct_pib,BCB SGS 5785,321,1999-12,2026-08,Percentual
+nfsp_primario_banco_central_anual_pct_pib_sgs5785.csv,nfsp_primario_banco_central_anual_pct_pib,BCB SGS 5785,27,1999,2025,Percentual
+nfsp_primario_banco_central_fluxo_mensal_rs_mi_sgs4641.csv,nfsp_primario_banco_central_fluxo_mensal_rs_mi,BCB SGS 4641,332,1999-01,2026-08,Milhões de reais
+nfsp_primario_empresas_estatais_12m_pct_pib_sgs5789.csv,nfsp_primario_empresas_estatais_12m_pct_pib,BCB SGS 5789,286,2002-11,2026-08,Percentual
+nfsp_primario_empresas_estatais_anual_pct_pib_sgs5789.csv,nfsp_primario_empresas_estatais_anual_pct_pib,BCB SGS 5789,24,2002,2025,Percentual
+nfsp_primario_empresas_estatais_estaduais_12m_pct_pib_sgs5791.csv,nfsp_primario_empresas_estatais_estaduais_12m_pct_pib,BCB SGS 5791,333,1998-12,2026-08,Percentual
+nfsp_primario_empresas_estatais_estaduais_anual_pct_pib_sgs5791.csv,nfsp_primario_empresas_estatais_estaduais_anual_pct_pib,BCB SGS 5791,28,1998,2025,Percentual
+nfsp_primario_empresas_estatais_estaduais_fluxo_mensal_rs_mi_sgs4647.csv,nfsp_primario_empresas_estatais_estaduais_fluxo_mensal_rs_mi,BCB SGS 4647,368,1996-01,2026-08,Milhões de reais
+nfsp_primario_empresas_estatais_federais_12m_pct_pib_sgs5790.csv,nfsp_primario_empresas_estatais_federais_12m_pct_pib,BCB SGS 5790,286,2002-11,2026-08,Percentual
+nfsp_primario_empresas_estatais_federais_anual_pct_pib_sgs5790.csv,nfsp_primario_empresas_estatais_federais_anual_pct_pib,BCB SGS 5790,24,2002,2025,Percentual
+nfsp_primario_empresas_estatais_federais_fluxo_mensal_rs_mi_sgs4646.csv,nfsp_primario_empresas_estatais_federais_fluxo_mensal_rs_mi,BCB SGS 4646,297,2001-12,2026-08,Milhões de reais
+nfsp_primario_empresas_estatais_fluxo_mensal_rs_mi_sgs4645.csv,nfsp_primario_empresas_estatais_fluxo_mensal_rs_mi,BCB SGS 4645,297,2001-12,2026-08,Milhões de reais
+nfsp_primario_empresas_estatais_municipais_12m_pct_pib_sgs5792.csv,nfsp_primario_empresas_estatais_municipais_12m_pct_pib,BCB SGS 5792,333,1998-12,2026-08,Percentual
+nfsp_primario_empresas_estatais_municipais_anual_pct_pib_sgs5792.csv,nfsp_primario_empresas_estatais_municipais_anual_pct_pib,BCB SGS 5792,28,1998,2025,Percentual
+nfsp_primario_empresas_estatais_municipais_fluxo_mensal_rs_mi_sgs4648.csv,nfsp_primario_empresas_estatais_municipais_fluxo_mensal_rs_mi,BCB SGS 4648,368,1996-01,2026-08,Milhões de reais
+nfsp_primario_governo_federal_12m_pct_pib_sgs5784.csv,nfsp_primario_governo_federal_12m_pct_pib,BCB SGS 5784,321,1999-12,2026-08,Percentual
+nfsp_primario_governo_federal_anual_pct_pib_sgs5784.csv,nfsp_primario_governo_federal_anual_pct_pib,BCB SGS 5784,27,1999,2025,Percentual
+nfsp_primario_governo_federal_e_banco_central_12m_pct_pib_sgs5783.csv,nfsp_primario_governo_federal_e_banco_central_12m_pct_pib,BCB SGS 5783,417,1991-12,2026-08,Percentual
+nfsp_primario_governo_federal_e_banco_central_anual_pct_pib_sgs5783.csv,nfsp_primario_governo_federal_e_banco_central_anual_pct_pib,BCB SGS 5783,35,1991,2025,Percentual
+nfsp_primario_governo_federal_e_banco_central_fluxo_mensal_rs_mi_sgs4639.csv,nfsp_primario_governo_federal_e_banco_central_fluxo_mensal_rs_mi,BCB SGS 4639,427,1991-02,2026-08,Milhões de reais
+nfsp_primario_governo_federal_fluxo_mensal_rs_mi_sgs4640.csv,nfsp_primario_governo_federal_fluxo_mensal_rs_mi,BCB SGS 4640,332,1999-01,2026-08,Milhões de reais
+nfsp_primario_governos_estaduais_12m_pct_pib_sgs5787.csv,nfsp_primario_governos_estaduais_12m_pct_pib,BCB SGS 5787,333,1998-12,2026-08,Percentual
+nfsp_primario_governos_estaduais_anual_pct_pib_sgs5787.csv,nfsp_primario_governos_estaduais_anual_pct_pib,BCB SGS 5787,28,1998,2025,Percentual
+nfsp_primario_governos_estaduais_e_municipais_12m_pct_pib_sgs5786.csv,nfsp_primario_governos_estaduais_e_municipais_12m_pct_pib,BCB SGS 5786,417,1991-12,2026-08,Percentual
+nfsp_primario_governos_estaduais_e_municipais_anual_pct_pib_sgs5786.csv,nfsp_primario_governos_estaduais_e_municipais_anual_pct_pib,BCB SGS 5786,35,1991,2025,Percentual
+nfsp_primario_governos_estaduais_e_municipais_fluxo_mensal_rs_mi_sgs4642.csv,nfsp_primario_governos_estaduais_e_municipais_fluxo_mensal_rs_mi,BCB SGS 4642,427,1991-02,2026-08,Milhões de reais
+nfsp_primario_governos_estaduais_fluxo_mensal_rs_mi_sgs4643.csv,nfsp_primario_governos_estaduais_fluxo_mensal_rs_mi,BCB SGS 4643,344,1998-01,2026-08,Milhões de reais
+nfsp_primario_governos_municipais_12m_pct_pib_sgs5788.csv,nfsp_primario_governos_municipais_12m_pct_pib,BCB SGS 5788,333,1998-12,2026-08,Percentual
+nfsp_primario_governos_municipais_anual_pct_pib_sgs5788.csv,nfsp_primario_governos_municipais_anual_pct_pib,BCB SGS 5788,28,1998,2025,Percentual
+nfsp_primario_governos_municipais_fluxo_mensal_rs_mi_sgs4644.csv,nfsp_primario_governos_municipais_fluxo_mensal_rs_mi,BCB SGS 4644,344,1998-01,2026-08,Milhões de reais
+nfsp_primario_setor_publico_consolidado_12m_pct_pib_sgs5793.csv,nfsp_primario_setor_publico_consolidado_12m_pct_pib,BCB SGS 5793,286,2002-11,2026-08,Percentual
+nfsp_primario_setor_publico_consolidado_anual_pct_pib_sgs5793.csv,nfsp_primario_setor_publico_consolidado_anual_pct_pib,BCB SGS 5793,24,2002,2025,Percentual
+nfsp_primario_setor_publico_consolidado_fluxo_mensal_rs_mi_sgs4649.csv,nfsp_primario_setor_publico_consolidado_fluxo_mensal_rs_mi,BCB SGS 4649,297,2001-12,2026-08,Milhões de reais
+outros_recolhimentos_total_sgs17625.csv,outros_recolhimentos_total,BCB SGS 17625,275,2003-10,2026-08,Milhares de unidades monetárias correntes
+rtn_gc_caixa_despesa_beneficios_previdenciarios_pct_pib.csv,gc_caixa_despesa_beneficios_previdenciarios_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",29,1997,2025,% do PIB
+rtn_gc_caixa_despesa_beneficios_previdenciarios_rs_mi.csv,gc_caixa_despesa_beneficios_previdenciarios_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",29,1997,2025,R$ milhoes correntes
+rtn_gc_caixa_despesa_discricionarias_pct_pib.csv,gc_caixa_despesa_discricionarias_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",18,2008,2025,% do PIB
+rtn_gc_caixa_despesa_discricionarias_rs_mi.csv,gc_caixa_despesa_discricionarias_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",18,2008,2025,R$ milhoes correntes
+rtn_gc_caixa_despesa_obrigatorias_com_controle_de_fluxo_pct_pib.csv,gc_caixa_despesa_obrigatorias_com_controle_de_fluxo_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",18,2008,2025,% do PIB
+rtn_gc_caixa_despesa_obrigatorias_com_controle_de_fluxo_rs_mi.csv,gc_caixa_despesa_obrigatorias_com_controle_de_fluxo_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",18,2008,2025,R$ milhoes correntes
+rtn_gc_caixa_despesa_outras_obrigatorias_pct_pib.csv,gc_caixa_despesa_outras_obrigatorias_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",29,1997,2025,% do PIB
+rtn_gc_caixa_despesa_outras_obrigatorias_rs_mi.csv,gc_caixa_despesa_outras_obrigatorias_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",29,1997,2025,R$ milhoes correntes
+rtn_gc_caixa_despesa_pessoal_e_encargos_pct_pib.csv,gc_caixa_despesa_pessoal_e_encargos_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",29,1997,2025,% do PIB
+rtn_gc_caixa_despesa_pessoal_e_encargos_rs_mi.csv,gc_caixa_despesa_pessoal_e_encargos_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",29,1997,2025,R$ milhoes correntes
+rtn_gc_caixa_despesa_poder_executivo_sujeita_programacao_financeira_pct_pib.csv,gc_caixa_despesa_poder_executivo_sujeita_programacao_financeira_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",29,1997,2025,% do PIB
+rtn_gc_caixa_despesa_poder_executivo_sujeita_programacao_financeira_rs_mi.csv,gc_caixa_despesa_poder_executivo_sujeita_programacao_financeira_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",29,1997,2025,R$ milhoes correntes
+rtn_gc_caixa_despesa_total_mensal_rs_mi.csv,gc_caixa_despesa_total_mensal_rs_mi,"Tesouro Nacional, RTN, tabela 1.1",355,1997-01,2026-07,R$ milhoes correntes
+rtn_gc_caixa_despesa_total_pct_pib.csv,gc_caixa_despesa_total_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",29,1997,2025,% do PIB
+rtn_gc_caixa_despesa_total_rs_mi.csv,gc_caixa_despesa_total_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",29,1997,2025,R$ milhoes correntes
+rtn_gc_caixa_juros_nominais_mensal_rs_mi.csv,gc_caixa_juros_nominais_mensal_rs_mi,"Tesouro Nacional, RTN, tabela 1.1",354,1997-01,2026-06,R$ milhoes correntes
+rtn_gc_caixa_juros_nominais_pct_pib.csv,gc_caixa_juros_nominais_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",29,1997,2025,% do PIB
+rtn_gc_caixa_juros_nominais_rs_mi.csv,gc_caixa_juros_nominais_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",29,1997,2025,R$ milhoes correntes
+rtn_gc_caixa_receita_liquida_mensal_rs_mi.csv,gc_caixa_receita_liquida_mensal_rs_mi,"Tesouro Nacional, RTN, tabela 1.1",355,1997-01,2026-07,R$ milhoes correntes
+rtn_gc_caixa_receita_liquida_pct_pib.csv,gc_caixa_receita_liquida_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",29,1997,2025,% do PIB
+rtn_gc_caixa_receita_liquida_rs_mi.csv,gc_caixa_receita_liquida_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",29,1997,2025,R$ milhoes correntes
+rtn_gc_caixa_receita_total_mensal_rs_mi.csv,gc_caixa_receita_total_mensal_rs_mi,"Tesouro Nacional, RTN, tabela 1.1",355,1997-01,2026-07,R$ milhoes correntes
+rtn_gc_caixa_receita_total_pct_pib.csv,gc_caixa_receita_total_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",29,1997,2025,% do PIB
+rtn_gc_caixa_receita_total_rs_mi.csv,gc_caixa_receita_total_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",29,1997,2025,R$ milhoes correntes
+rtn_gc_caixa_resultado_nominal_mensal_rs_mi.csv,gc_caixa_resultado_nominal_mensal_rs_mi,"Tesouro Nacional, RTN, tabela 1.1",354,1997-01,2026-06,R$ milhoes correntes
+rtn_gc_caixa_resultado_nominal_pct_pib.csv,gc_caixa_resultado_nominal_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",29,1997,2025,% do PIB
+rtn_gc_caixa_resultado_nominal_rs_mi.csv,gc_caixa_resultado_nominal_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",29,1997,2025,R$ milhoes correntes
+rtn_gc_caixa_resultado_primario_abaixo_da_linha_mensal_rs_mi.csv,gc_caixa_resultado_primario_abaixo_da_linha_mensal_rs_mi,"Tesouro Nacional, RTN, tabela 1.1",354,1997-01,2026-06,R$ milhoes correntes
+rtn_gc_caixa_resultado_primario_abaixo_da_linha_pct_pib.csv,gc_caixa_resultado_primario_abaixo_da_linha_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",29,1997,2025,% do PIB
+rtn_gc_caixa_resultado_primario_abaixo_da_linha_rs_mi.csv,gc_caixa_resultado_primario_abaixo_da_linha_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",29,1997,2025,R$ milhoes correntes
+rtn_gc_caixa_resultado_primario_acima_da_linha_mensal_rs_mi.csv,gc_caixa_resultado_primario_acima_da_linha_mensal_rs_mi,"Tesouro Nacional, RTN, tabela 1.1",355,1997-01,2026-07,R$ milhoes correntes
+rtn_gc_caixa_resultado_primario_acima_da_linha_pct_pib.csv,gc_caixa_resultado_primario_acima_da_linha_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",29,1997,2025,% do PIB
+rtn_gc_caixa_resultado_primario_acima_da_linha_rs_mi.csv,gc_caixa_resultado_primario_acima_da_linha_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",29,1997,2025,R$ milhoes correntes
+rtn_gc_caixa_transferencias_reparticao_receita_pct_pib.csv,gc_caixa_transferencias_reparticao_receita_pct_pib,"Tesouro Nacional, RTN, tabela 2.1-A",29,1997,2025,% do PIB
+rtn_gc_caixa_transferencias_reparticao_receita_rs_mi.csv,gc_caixa_transferencias_reparticao_receita_rs_mi,"Tesouro Nacional, RTN, tabela 2.1",29,1997,2025,R$ milhoes correntes
+rtn_gc_valor_pago_beneficios_previdenciarios_valor_pago_pct_pib.csv,gc_valor_pago_beneficios_previdenciarios_valor_pago_pct_pib,"Tesouro Nacional, RTN, tabela 2.5-A",18,2008,2025,% do PIB
+rtn_gc_valor_pago_beneficios_previdenciarios_valor_pago_rs_mi.csv,gc_valor_pago_beneficios_previdenciarios_valor_pago_rs_mi,"Tesouro Nacional, RTN, tabela 2.5",18,2008,2025,R$ milhoes correntes
+rtn_gc_valor_pago_despesa_total_valor_pago_pct_pib.csv,gc_valor_pago_despesa_total_valor_pago_pct_pib,"Tesouro Nacional, RTN, tabela 2.5-A",18,2008,2025,% do PIB
+rtn_gc_valor_pago_despesa_total_valor_pago_rs_mi.csv,gc_valor_pago_despesa_total_valor_pago_rs_mi,"Tesouro Nacional, RTN, tabela 2.5",18,2008,2025,R$ milhoes correntes
+rtn_gc_valor_pago_discricionarias_valor_pago_pct_pib.csv,gc_valor_pago_discricionarias_valor_pago_pct_pib,"Tesouro Nacional, RTN, tabela 2.5-A",18,2008,2025,% do PIB
+rtn_gc_valor_pago_discricionarias_valor_pago_rs_mi.csv,gc_valor_pago_discricionarias_valor_pago_rs_mi,"Tesouro Nacional, RTN, tabela 2.5",18,2008,2025,R$ milhoes correntes
+rtn_gc_valor_pago_memo_discricionarias_creditos_extraordinarios_valor_pago_pct_pib.csv,gc_valor_pago_memo_discricionarias_creditos_extraordinarios_valor_pago_pct_pib,"Tesouro Nacional, RTN, tabela 2.5-A",18,2008,2025,% do PIB
+rtn_gc_valor_pago_memo_discricionarias_creditos_extraordinarios_valor_pago_rs_mi.csv,gc_valor_pago_memo_discricionarias_creditos_extraordinarios_valor_pago_rs_mi,"Tesouro Nacional, RTN, tabela 2.5",18,2008,2025,R$ milhoes correntes
+rtn_gc_valor_pago_obrigatorias_controle_fluxo_valor_pago_pct_pib.csv,gc_valor_pago_obrigatorias_controle_fluxo_valor_pago_pct_pib,"Tesouro Nacional, RTN, tabela 2.5-A",18,2008,2025,% do PIB
+rtn_gc_valor_pago_obrigatorias_controle_fluxo_valor_pago_rs_mi.csv,gc_valor_pago_obrigatorias_controle_fluxo_valor_pago_rs_mi,"Tesouro Nacional, RTN, tabela 2.5",18,2008,2025,R$ milhoes correntes
+rtn_gc_valor_pago_outras_obrigatorias_valor_pago_pct_pib.csv,gc_valor_pago_outras_obrigatorias_valor_pago_pct_pib,"Tesouro Nacional, RTN, tabela 2.5-A",18,2008,2025,% do PIB
+rtn_gc_valor_pago_outras_obrigatorias_valor_pago_rs_mi.csv,gc_valor_pago_outras_obrigatorias_valor_pago_rs_mi,"Tesouro Nacional, RTN, tabela 2.5",18,2008,2025,R$ milhoes correntes
+rtn_gc_valor_pago_pessoal_valor_pago_pct_pib.csv,gc_valor_pago_pessoal_valor_pago_pct_pib,"Tesouro Nacional, RTN, tabela 2.5-A",18,2008,2025,% do PIB
+rtn_gc_valor_pago_pessoal_valor_pago_rs_mi.csv,gc_valor_pago_pessoal_valor_pago_rs_mi,"Tesouro Nacional, RTN, tabela 2.5",18,2008,2025,R$ milhoes correntes
+rtn_gc_valor_pago_poder_executivo_programacao_financeira_valor_pago_pct_pib.csv,gc_valor_pago_poder_executivo_programacao_financeira_valor_pago_pct_pib,"Tesouro Nacional, RTN, tabela 2.5-A",18,2008,2025,% do PIB
+rtn_gc_valor_pago_poder_executivo_programacao_financeira_valor_pago_rs_mi.csv,gc_valor_pago_poder_executivo_programacao_financeira_valor_pago_rs_mi,"Tesouro Nacional, RTN, tabela 2.5",18,2008,2025,R$ milhoes correntes
+selic_meta_copom_fim_de_mes_ipeadata_BM366.csv,selic_meta_copom_fim_de_mes,Ipeadata BM366_TJOVER366,364,1996-07,2026-10,% a.a. (Ipeadata: (% a.a.))
+selic_meta_copom_fim_de_mes_sgs432.csv,selic_meta_copom_fim_de_mes,BCB SGS 432,332,1999-03,2026-10,% a.a. (Percentual ao ano)
+selic_meta_copom_mudancas_sgs432.csv,selic_meta_copom_mudanca,BCB SGS 432,161,1999-03,2026-09,% a.a.
+selic_over_mensal_ipeadata_BM12_TJOVER12.csv,selic_over_mensal,Ipeadata BM12_TJOVER12 (Bacen/Boletim/M. Finan.),630,1974-01,2026-09,(% a.m.) (metadado Ipeadata)
+selic_over_mensal_ipeadata_PAN12_TJOVER12.csv,selic_over_mensal,Ipeadata PAN12_TJOVER12 (Bacen/Boletim/M. Finan.),633,1974-01,2026-09,(% a.a.) (metadado Ipeadata)
+selic_over_mensal_sgs4390.csv,selic_over_mensal,BCB SGS 4390,482,1986-08,2026-09,% a.m. (Percentual ao mês)
+velocidade_PIB_M1_dezembro_conceito_antigo.csv,velocidade_PIB_M1,"derivado de monetario/saida/anual.csv (coluna M1_dez_pib_pct; PIB de IBGE/Ipeadata, ver monetario/RESULTADO.md)",72,1946,2017,vezes por ano (PIB / M1)
+velocidade_PIB_M1_dezembro_novo.csv,velocidade_PIB_M1,"derivado de monetario/saida/anual.csv (coluna M1_novo_dez_pib_pct; PIB de IBGE/Ipeadata, ver monetario/RESULTADO.md)",24,2002,2025,vezes por ano (PIB / M1)
+velocidade_PIB_M1_media12_conceito_antigo.csv,velocidade_PIB_M1,"derivado de monetario/saida/anual.csv (coluna M1_med12_pib_pct; PIB de IBGE/Ipeadata, ver monetario/RESULTADO.md)",71,1947,2017,vezes por ano (PIB / M1)
+velocidade_PIB_M1_media12_novo.csv,velocidade_PIB_M1,"derivado de monetario/saida/anual.csv (coluna M1_novo_med12_pib_pct; PIB de IBGE/Ipeadata, ver monetario/RESULTADO.md)",24,2002,2025,vezes por ano (PIB / M1)

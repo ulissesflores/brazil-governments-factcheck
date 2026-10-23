@@ -1,0 +1,5 @@
+janela,ipca_geral_pct,aluguel_residencial_pct,plano_saude_pct,preco_relativo_aluguel_pct,preco_relativo_plano_saude_pct,ipca_geral_conferencia_sgs433_pct,nota
+dez/1999-dez/2024,346.9813,225.0170,660.3406,-27.2862,70.1057,346.9813,acumulado = I(fim)/I(inicio)-1 sobre o numero-indice encadeado (dez/1999=100); relativo = razao dos acumulados; cada acumulado parte de taxas mensais publicadas com 2 casas decimais
+dez/2014-dez/2024,74.8951,55.4608,134.5880,-11.1120,34.1307,74.8951,acumulado = I(fim)/I(inicio)-1 sobre o numero-indice encadeado (dez/1999=100); relativo = razao dos acumulados; cada acumulado parte de taxas mensais publicadas com 2 casas decimais
+dez/2018-dez/2022,26.9273,24.0160,21.3219,-2.2937,-4.4162,26.9273,acumulado = I(fim)/I(inicio)-1 sobre o numero-indice encadeado (dez/1999=100); relativo = razao dos acumulados; cada acumulado parte de taxas mensais publicadas com 2 casas decimais
+dez/2001-dez/2024,291.7245,229.2511,591.6105,-15.9483,76.5553,291.7245,acumulado = I(fim)/I(inicio)-1 sobre o numero-indice encadeado (dez/1999=100); relativo = razao dos acumulados; cada acumulado parte de taxas mensais publicadas com 2 casas decimais

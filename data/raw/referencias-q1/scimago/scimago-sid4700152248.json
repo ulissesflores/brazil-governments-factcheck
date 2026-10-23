@@ -1,0 +1,19 @@
+{
+ "categorias_ano_mais_recente_por_categoria": [
+  {
+   "ano": 2025,
+   "categoria": "Education",
+   "quartil": "Q1"
+  }
+ ],
+ "consulta_issn": [
+  "1747-938X"
+ ],
+ "data_consulta": "2026-10-19",
+ "linhas_categoria_ano": 19,
+ "metodo": "fetch() dentro do Chrome real do Ulisses na pagina do Scimago (curl/urllib recebem 403 do Cloudflare); extraida a 1a tabela (Category/Year/Quartile) e mantido o ano mais recente de cada categoria",
+ "sha256_texto_resposta_prefixo20": "8e53833ff47df4d5846e",
+ "sid": "4700152248",
+ "titulo_scimago": "Educational Research Review",
+ "url": "https://www.scimagojr.com/journalsearch.php?q=4700152248&tip=sid&clean=0"
+}

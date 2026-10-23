@@ -1,0 +1,349 @@
+indicador,governo,inicio,fim,media,valor_inicial,valor_final,n_anos,segmento_metodo,vintage
+sau_mortmat,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat,figueiredo,1979-03-15,1985-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat,sarney,1985-03-15,1990-03-15,168,186 (1985),150 (1989),5,MMEIG-modelado,WDI 2026-10-08 (MMEIG)
+sau_mortmat,collor,1990-03-15,1992-10-02,128.6667,140 (1990),118 (1992),3,MMEIG-modelado,WDI 2026-10-08 (MMEIG)
+sau_mortmat,itamar,1992-10-02,1995-01-01,110.5,113 (1993),108 (1994),2,MMEIG-modelado,WDI 2026-10-08 (MMEIG)
+sau_mortmat,fhc,1995-01-01,2003-01-01,81.625,103 (1995),66 (2002),8,MMEIG-modelado,WDI 2026-10-08 (MMEIG)
+sau_mortmat,lula12,2003-01-01,2011-01-01,69.875,67 (2003),66 (2010),8,MMEIG-modelado,WDI 2026-10-08 (MMEIG)
+sau_mortmat,dilma,2011-01-01,2016-08-31,62.1667,62 (2011),64 (2016),6,MMEIG-modelado,WDI 2026-10-08 (MMEIG)
+sau_mortmat,temer,2016-08-31,2019-01-01,61.5,61 (2017),62 (2018),2,MMEIG-modelado,WDI 2026-10-08 (MMEIG)
+sau_mortmat,bolsonaro,2019-01-01,2023-01-01,95.5,65 (2019),104 (2022),4,MMEIG-modelado,WDI 2026-10-08 (MMEIG)
+sau_mortmat,lula3,2023-01-01,2026-10-19,67,67 (2023),67 (2023),1,MMEIG-modelado,WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,figueiredo,1979-03-15,1985-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,sarney,1985-03-15,1990-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,collor,1990-03-15,1992-10-02,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,itamar,1992-10-02,1995-01-01,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,fhc,1995-01-01,2003-01-01,93.9,115.7 (1995),75.9 (2002),8,estimativa-nacional(SIM/SINASC),WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,lula12,2003-01-01,2011-01-01,73.425,73 (2003),68.9 (2010),8,estimativa-nacional(SIM/SINASC),WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,dilma,2011-01-01,2016-08-31,62.2333,61.8 (2011),64.4 (2016),6,estimativa-nacional(SIM/SINASC),WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,temer,2016-08-31,2019-01-01,61.8,64.5 (2017),59.1 (2018),2,estimativa-nacional(SIM/SINASC),WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,bolsonaro,2019-01-01,2023-01-01,76.925,57.9 (2019),57.7 (2022),4,estimativa-nacional(SIM/SINASC),WDI 2026-10-08 (MMEIG)
+sau_mortmat_nacional,lula3,2023-01-01,2026-10-19,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (MMEIG)
+sau_dtp3,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,figueiredo,1979-03-15,1985-03-15,53.6,37 (1980),68 (1984),5,WUENIC-rev2025,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,sarney,1985-03-15,1990-03-15,59.2,66 (1985),56 (1989),5,WUENIC-rev2025,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,collor,1990-03-15,1992-10-02,71.6667,66 (1990),71 (1992),3,WUENIC-rev2025,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,itamar,1992-10-02,1995-01-01,74.5,75 (1993),74 (1994),2,WUENIC-rev2025,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,fhc,1995-01-01,2003-01-01,89.875,81 (1995),99 (2002),8,WUENIC-rev2025,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,lula12,2003-01-01,2011-01-01,99,99 (2003),99 (2010),8,WUENIC-rev2025,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,dilma,2011-01-01,2016-08-31,94.8333,99 (2011),89 (2016),6,WUENIC-rev2025,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,temer,2016-08-31,2019-01-01,85,83 (2017),87 (2018),2,WUENIC-rev2025,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,bolsonaro,2019-01-01,2023-01-01,73,70 (2019),77 (2022),4,WUENIC-rev2025,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3,lula3,2023-01-01,2026-10-19,87.3333,86 (2023),86 (2025),3,WUENIC-rev2025,WUENIC 2025 (WIISE export 2026-10-19)
+sau_dtp3_admin,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,WIISE export 2026-10-19
+sau_dtp3_admin,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,WIISE export 2026-10-19
+sau_dtp3_admin,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,WIISE export 2026-10-19
+sau_dtp3_admin,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,WIISE export 2026-10-19
+sau_dtp3_admin,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,WIISE export 2026-10-19
+sau_dtp3_admin,figueiredo,1979-03-15,1985-03-15,53.2,40 (1980),67 (1984),5,administrativa,WIISE export 2026-10-19
+sau_dtp3_admin,sarney,1985-03-15,1990-03-15,58,65 (1985),54 (1989),5,administrativa,WIISE export 2026-10-19
+sau_dtp3_admin,collor,1990-03-15,1992-10-02,71.6667,66 (1990),71 (1992),3,administrativa,WIISE export 2026-10-19
+sau_dtp3_admin,itamar,1992-10-02,1995-01-01,72,75 (1993),69 (1994),2,administrativa,WIISE export 2026-10-19
+sau_dtp3_admin,fhc,1995-01-01,2003-01-01,89.875,81 (1995),99 (2002),8,administrativa,WIISE export 2026-10-19
+sau_dtp3_admin,lula12,2003-01-01,2011-01-01,102.375,104 (2003),99 (2010),8,administrativa,WIISE export 2026-10-19
+sau_dtp3_admin,dilma,2011-01-01,2016-08-31,95.0433,100 (2011),89.26 (2016),6,administrativa,WIISE export 2026-10-19
+sau_dtp3_admin,temer,2016-08-31,2019-01-01,85,83 (2017),87 (2018),2,administrativa,WIISE export 2026-10-19
+sau_dtp3_admin,bolsonaro,2019-01-01,2023-01-01,73.18,70 (2019),77.16 (2022),4,administrativa,WIISE export 2026-10-19
+sau_dtp3_admin,lula3,2023-01-01,2026-10-19,87.55,85.86 (2023),86.39 (2025),3,administrativa,WIISE export 2026-10-19
+sau_dtp3,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,figueiredo,1979-03-15,1985-03-15,53.6,37 (1980),68 (1984),5,WUENIC-rev-anterior(WDI),WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,sarney,1985-03-15,1990-03-15,59.2,66 (1985),56 (1989),5,WUENIC-rev-anterior(WDI),WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,collor,1990-03-15,1992-10-02,71.6667,66 (1990),71 (1992),3,WUENIC-rev-anterior(WDI),WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,itamar,1992-10-02,1995-01-01,74.5,75 (1993),74 (1994),2,WUENIC-rev-anterior(WDI),WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,fhc,1995-01-01,2003-01-01,89.875,81 (1995),99 (2002),8,WUENIC-rev-anterior(WDI),WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,lula12,2003-01-01,2011-01-01,99,99 (2003),99 (2010),8,WUENIC-rev-anterior(WDI),WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,dilma,2011-01-01,2016-08-31,94.8333,99 (2011),89 (2016),6,WUENIC-rev-anterior(WDI),WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,temer,2016-08-31,2019-01-01,85,83 (2017),87 (2018),2,WUENIC-rev-anterior(WDI),WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,bolsonaro,2019-01-01,2023-01-01,73,70 (2019),77 (2022),4,WUENIC-rev-anterior(WDI),WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_dtp3,lula3,2023-01-01,2026-10-19,90.5,90 (2023),91 (2024),2,WUENIC-rev-anterior(WDI),WUENIC anterior a 2025 (via WDI 2026-10-08)
+sau_gasto_pub_pib,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,figueiredo,1979-03-15,1985-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,sarney,1985-03-15,1990-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,collor,1990-03-15,1992-10-02,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,itamar,1992-10-02,1995-01-01,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,fhc,1995-01-01,2003-01-01,3.5565,3.4701 (2000),3.6864 (2002),3,GHED,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,lula12,2003-01-01,2011-01-01,3.5171,3.5095 (2003),3.577 (2010),8,GHED,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,dilma,2011-01-01,2016-08-31,3.6454,3.4657 (2011),3.948 (2016),6,GHED,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,temer,2016-08-31,2019-01-01,3.9212,3.9532 (2017),3.8892 (2018),2,GHED,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,bolsonaro,2019-01-01,2023-01-01,4.1638,3.917 (2019),4.2597 (2022),4,GHED,WDI 2026-10-08 (GHED 2025-12-12)
+sau_gasto_pub_pib,lula3,2023-01-01,2026-10-19,4.2939,4.2939 (2023),4.2939 (2023),1,GHED,WDI 2026-10-08 (GHED 2025-12-12)
+seg_homic_n,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,figueiredo,1979-03-15,1985-03-15,15471.8333,11192 (1979),19706 (1984),6,SIM-CID9,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,sarney,1985-03-15,1990-03-15,23050,19695 (1985),28767 (1989),5,SIM-CID9,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,collor,1990-03-15,1992-10-02,30440.6667,32015 (1990),28555 (1992),3,SIM-CID9,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,itamar,1992-10-02,1995-01-01,31624.5,30618 (1993),32631 (1994),2,SIM-CID9,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,fhc,1995-01-01,2003-01-01,43101.75,37152 (1995),49816 (2002),8,SIM-CID9 + SIM-CID10 (CRUZA QUEBRA DE METODO),Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n|SIM-CID9,fhc,1995-01-01,2003-01-01,37152,37152 (1995),37152 (1995),1,SIM-CID9,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n|SIM-CID10,fhc,1995-01-01,2003-01-01,43951.7143,38929 (1996),49816 (2002),7,SIM-CID10,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,lula12,2003-01-01,2011-01-01,50277.5,51534 (2003),53016 (2010),8,SIM-CID10,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,dilma,2011-01-01,2016-08-31,58219.8333,52807 (2011),62517 (2016),6,SIM-CID10,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,temer,2016-08-31,2019-01-01,61779,65602 (2017),57956 (2018),2,SIM-CID10,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,bolsonaro,2019-01-01,2023-01-01,47406.5,45503 (2019),46408 (2022),4,SIM-CID10,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_n,lula3,2023-01-01,2026-10-19,44168.5,45747 (2023),42590 (2024),2,SIM-CID10,Ipeadata AVIOL12_HOMIC (serie atualizada 2026-07-08; SIM final ate 2024)
+seg_homic_taxa,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,figueiredo,1979-03-15,1985-03-15,13.1003,11.7162 (1980),15.1488 (1984),5,SIM-CID9,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,sarney,1985-03-15,1990-03-15,16.591,14.8084 (1985),19.9775 (1989),5,SIM-CID9,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,collor,1990-03-15,1992-10-02,20.4359,21.8394 (1990),18.8424 (1992),3,SIM-CID9,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,itamar,1992-10-02,1995-01-01,20.3717,19.8837 (1993),20.8597 (1994),2,SIM-CID9,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,fhc,1995-01-01,2003-01-01,25.4871,23.3844 (1995),27.7947 (2002),8,SIM-CID9 + SIM-CID10 (CRUZA QUEBRA DE METODO),Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa|SIM-CID9,fhc,1995-01-01,2003-01-01,23.3844,23.3844 (1995),23.3844 (1995),1,SIM-CID9,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa|SIM-CID10,fhc,1995-01-01,2003-01-01,25.7875,24.1311 (1996),27.7947 (2002),7,SIM-CID10,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,lula12,2003-01-01,2011-01-01,26.7015,28.4125 (2003),27.2227 (2010),8,SIM-CID10,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,dilma,2011-01-01,2016-08-31,29.0929,26.9206 (2011),30.6648 (2016),6,SIM-CID10,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,temer,2016-08-31,2019-01-01,30.0149,31.968 (2017),28.0619 (2018),2,SIM-CID10,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,bolsonaro,2019-01-01,2023-01-01,22.6275,21.887 (2019),22.0086 (2022),4,SIM-CID10,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa,lula3,2023-01-01,2026-10-19,20.8222,21.6098 (2023),20.0345 (2024),2,SIM-CID10,Ipeadata AVIOL12_HOMIC (2026-07-08) + IBGE Projecao rev.2024
+seg_homic_taxa_unodc,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,figueiredo,1979-03-15,1985-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,sarney,1985-03-15,1990-03-15,,,,0,sem dado no ano de maioria do mandato,WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,collor,1990-03-15,1992-10-02,18.3434,19.6463 (1990),16.8315 (1992),3,UNODC(WDI),WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,itamar,1992-10-02,1995-01-01,18.3045,17.8659 (1993),18.7432 (1994),2,UNODC(WDI),WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,fhc,1995-01-01,2003-01-01,24.9923,21.0221 (1995),27.8482 (2002),8,UNODC(WDI),WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,lula12,2003-01-01,2011-01-01,26.5386,28.2711 (2003),26.9946 (2010),8,UNODC(WDI),WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,dilma,2011-01-01,2016-08-31,28.8087,26.7471 (2011),30.1194 (2016),6,UNODC(WDI),WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,temer,2016-08-31,2019-01-01,29.1609,31.1612 (2017),27.1606 (2018),2,UNODC(WDI),WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,bolsonaro,2019-01-01,2023-01-01,20.9109,21.2446 (2019),20.0812 (2022),4,UNODC(WDI),WDI 2026-10-08 (UNODC)
+seg_homic_taxa_unodc,lula3,2023-01-01,2026-10-19,19.2753,19.2753 (2023),19.2753 (2023),1,UNODC(WDI),WDI 2026-10-08 (UNODC)
+seg_homic_indet_taxa,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,figueiredo,1979-03-15,1985-03-15,23.2021,23.1473 (1980),25.0164 (1984),5,SIM-CID9,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,sarney,1985-03-15,1990-03-15,27.0297,25.0678 (1985),29.5026 (1989),5,SIM-CID9,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,collor,1990-03-15,1992-10-02,27.6156,27.9557 (1990),27.1718 (1992),3,SIM-CID9,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,itamar,1992-10-02,1995-01-01,28.9444,28.8618 (1993),29.0269 (1994),2,SIM-CID9,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,fhc,1995-01-01,2003-01-01,32.0765,29.8021 (1995),34.8009 (2002),8,SIM-CID9 + SIM-CID10 (CRUZA QUEBRA DE METODO),"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa|SIM-CID9,fhc,1995-01-01,2003-01-01,29.8021,29.8021 (1995),29.8021 (1995),1,SIM-CID9,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa|SIM-CID10,fhc,1995-01-01,2003-01-01,32.4014,30.2182 (1996),34.8009 (2002),7,SIM-CID10,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,lula12,2003-01-01,2011-01-01,32.6436,34.5329 (2003),32.205 (2010),8,SIM-CID10,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,dilma,2011-01-01,2016-08-31,34.0723,32.1984 (2011),35.7043 (2016),6,SIM-CID10,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,temer,2016-08-31,2019-01-01,35.3827,36.7431 (2017),34.0223 (2018),2,SIM-CID10,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,bolsonaro,2019-01-01,2023-01-01,29.7961,29.8946 (2019),29.375 (2022),4,SIM-CID10,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_homic_indet_taxa,lula3,2023-01-01,2026-10-19,28.1514,28.174 (2023),28.1287 (2024),2,SIM-CID10,"Ipeadata (2026-07-08) + SIM TabNet (final ate 2024, extracao 02/12/2025) + IBGE Projecao rev.2024"
+seg_indet_pct,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,figueiredo,1979-03-15,1985-03-15,45.3824,54.6453 (1979),39.3706 (1984),6,SIM-CID9,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,sarney,1985-03-15,1990-03-15,38.7407,40.8631 (1985),32.2935 (1989),5,SIM-CID9,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,collor,1990-03-15,1992-10-02,26.0761,21.8923 (1990),30.7443 (1992),3,SIM-CID9,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,itamar,1992-10-02,1995-01-01,29.6334,31.1129 (1993),28.154 (1994),2,SIM-CID9,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,fhc,1995-01-01,2003-01-01,20.55,21.5446 (1995),20.1712 (2002),8,SIM-CID9 + SIM-CID10 (CRUZA QUEBRA DE METODO),"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct|SIM-CID9,fhc,1995-01-01,2003-01-01,21.5446,21.5446 (1995),21.5446 (1995),1,SIM-CID9,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct|SIM-CID10,fhc,1995-01-01,2003-01-01,20.4079,20.1585 (1996),20.1712 (2002),7,SIM-CID10,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,lula12,2003-01-01,2011-01-01,18.353,17.8633 (2003),15.6593 (2010),8,SIM-CID10,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,dilma,2011-01-01,2016-08-31,14.8175,16.5513 (2011),14.3859 (2016),6,SIM-CID10,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,temer,2016-08-31,2019-01-01,15.6835,13.3235 (2017),18.0435 (2018),2,SIM-CID10,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,bolsonaro,2019-01-01,2023-01-01,24.8538,27.4353 (2019),25.9316 (2022),4,SIM-CID10,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_indet_pct,lula3,2023-01-01,2026-10-19,27.1709,24.2348 (2023),30.1069 (2024),2,SIM-CID10,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,figueiredo,1979-03-15,1985-03-15,21.2154,20.1409 (1979),22.5041 (1984),6,SIM-CID9,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,sarney,1985-03-15,1990-03-15,19.7784,21.1371 (1985),18.3664 (1989),5,SIM-CID9,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,collor,1990-03-15,1992-10-02,18.0542,18.1669 (1990),17.819 (1992),3,SIM-CID9,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,itamar,1992-10-02,1995-01-01,17.5057,17.9739 (1993),17.0374 (1994),2,SIM-CID9,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,fhc,1995-01-01,2003-01-01,14.7897,16.2025 (1995),13.6523 (2002),8,SIM-CID9 + SIM-CID10 (CRUZA QUEBRA DE METODO),"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct|SIM-CID9,fhc,1995-01-01,2003-01-01,16.2025,16.2025 (1995),16.2025 (1995),1,SIM-CID9,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct|SIM-CID10,fhc,1995-01-01,2003-01-01,14.5879,15.0777 (1996),13.6523 (2002),7,SIM-CID10,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,lula12,2003-01-01,2011-01-01,9.1931,13.3122 (2003),7.0031 (2010),8,SIM-CID10,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,dilma,2011-01-01,2016-08-31,6.0397,6.6948 (2011),5.7925 (2016),6,SIM-CID10,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,temer,2016-08-31,2019-01-01,5.4131,5.4715 (2017),5.3546 (2018),2,SIM-CID10,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,bolsonaro,2019-01-01,2023-01-01,5.4607,5.5543 (2019),5.3486 (2022),4,SIM-CID10,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+seg_maldef_pct,lula3,2023-01-01,2026-10-19,4.6814,4.8531 (2023),4.5096 (2024),2,SIM-CID10,"SIM TabNet (final ate 2024, extracao 02/12/2025; CID-9 consulta 2026-10-19)"
+ali_pou,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,figueiredo,1979-03-15,1985-03-15,,,,0,sem dado no ano de maioria do mandato,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,sarney,1985-03-15,1990-03-15,,,,0,sem dado no ano de maioria do mandato,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,collor,1990-03-15,1992-10-02,,,,0,sem dado no ano de maioria do mandato,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,itamar,1992-10-02,1995-01-01,,,,0,sem dado no ano de maioria do mandato,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,fhc,1995-01-01,2003-01-01,9.8,10.5 (2001),9.1 (2002),2,FAOSTAT-vintage-2026,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,lula12,2003-01-01,2011-01-01,4.9625,7.6 (2003),3 (2010),8,FAOSTAT-vintage-2026,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,dilma,2011-01-01,2016-08-31,2.5333,2.7 (2011),2.5 (2016),6,FAOSTAT-vintage-2026,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,temer,2016-08-31,2019-01-01,2.5,2.5 (2017),2.5 (2018),2,FAOSTAT-vintage-2026,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,bolsonaro,2019-01-01,2023-01-01,3.05,2.5 (2019),3.4 (2022),4,FAOSTAT-vintage-2026,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,lula3,2023-01-01,2026-10-19,2.6,2.7 (2023),2.5 (2024),2,FAOSTAT-vintage-2026,FAOSTAT 2026-07-10 (SOFI 2026)
+ali_pou,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,SOFI 2015
+ali_pou,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,SOFI 2015
+ali_pou,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,SOFI 2015
+ali_pou,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,SOFI 2015
+ali_pou,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,SOFI 2015
+ali_pou,figueiredo,1979-03-15,1985-03-15,,,,0,sem dado no ano de maioria do mandato,SOFI 2015
+ali_pou,sarney,1985-03-15,1990-03-15,,,,0,sem dado no ano de maioria do mandato,SOFI 2015
+ali_pou,collor,1990-03-15,1992-10-02,14.8,14.8 (1991),14.8 (1991),1,SOFI2015,SOFI 2015
+ali_pou,itamar,1992-10-02,1995-01-01,,,,0,sem dado no ano de maioria do mandato,SOFI 2015
+ali_pou,fhc,1995-01-01,2003-01-01,11.2,11.2 (2001),11.2 (2001),1,SOFI2015,SOFI 2015
+ali_pou,lula12,2003-01-01,2011-01-01,5,5 (2006),5 (2006),1,SOFI2015,SOFI 2015
+ali_pou,dilma,2011-01-01,2016-08-31,5,5 (2011),5 (2015),2,SOFI2015,SOFI 2015
+ali_pou,temer,2016-08-31,2019-01-01,,,,0,sem dado no ano de maioria do mandato,SOFI 2015
+ali_pou,bolsonaro,2019-01-01,2023-01-01,,,,0,sem dado no ano de maioria do mandato,SOFI 2015
+ali_pou,lula3,2023-01-01,2026-10-19,,,,0,sem dado no ano de maioria do mandato,SOFI 2015
+amb_prodes_amz,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,figueiredo,1979-03-15,1985-03-15,,,,0,sem dado no ano de maioria do mandato,PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,sarney,1985-03-15,1990-03-15,17516.6667,21050 (1988),13730 (1990),3,PRODES-analogico(1988-2000),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,collor,1990-03-15,1992-10-02,12408,11030 (1991),13786 (1992),2,PRODES-analogico(1988-2000),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,itamar,1992-10-02,1995-01-01,14896,14896 (1993),14896 (1994),2,PRODES-analogico(1988-2000),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,fhc,1995-01-01,2003-01-01,19141.25,29059 (1995),21650 (2002),8,PRODES-analogico(1988-2000) + PRODES-digital(2001-2005) (CRUZA QUEBRA DE METODO),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|PRODES-analogico(1988-2000),fhc,1995-01-01,2003-01-01,18885.8333,29059 (1995),18226 (2000),6,PRODES-analogico(1988-2000),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|PRODES-digital(2001-2005),fhc,1995-01-01,2003-01-01,19907.5,18165 (2001),21650 (2002),2,PRODES-digital(2001-2005),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,lula12,2003-01-01,2011-01-01,15686.75,25396 (2003),7000 (2010),8,PRODES-digital(2001-2005) + PRODES-TerraAmazon(2006-) (CRUZA QUEBRA DE METODO),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|PRODES-digital(2001-2005),lula12,2003-01-01,2011-01-01,24060.6667,25396 (2003),19014 (2005),3,PRODES-digital(2001-2005),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|PRODES-TerraAmazon(2006-),lula12,2003-01-01,2011-01-01,10662.4,14286 (2006),7000 (2010),5,PRODES-TerraAmazon(2006-),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,dilma,2011-01-01,2016-08-31,5998.6667,6418 (2011),7893 (2016),6,PRODES-TerraAmazon(2006-),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,temer,2016-08-31,2019-01-01,7241.5,6947 (2017),7536 (2018),2,PRODES-TerraAmazon(2006-),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,bolsonaro,2019-01-01,2023-01-01,11403,10129 (2019),11594 (2022),4,PRODES-TerraAmazon(2006-),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,lula3,2023-01-01,2026-10-19,7104.3333,9064 (2023),5731 (2025),3,PRODES-TerraAmazon(2006-),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,figueiredo,1979-03-15,1985-03-15,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,sarney,1985-03-15,1990-03-15,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,collor,1990-03-15,1992-10-02,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,itamar,1992-10-02,1995-01-01,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,fhc,1995-01-01,2003-01-01,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,lula12,2003-01-01,2011-01-01,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,dilma,2011-01-01,2016-08-31,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,temer,2016-08-31,2019-01-01,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,bolsonaro,2019-01-01,2023-01-01,,,,0,sem dado no ano de maioria do mandato,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,lula3,2023-01-01,2026-10-19,3335,3335 (2026),3335 (2026),1,PRODES-estimativa-271tiles,"PRODES 2026 estimativa (Nota Tecnica 2026-10-16, 271 tiles)"
+amb_prodes_amz,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,figueiredo,1979-03-15,1985-03-15,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,sarney,1985-03-15,1990-03-15,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,collor,1990-03-15,1992-10-02,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,itamar,1992-10-02,1995-01-01,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,fhc,1995-01-01,2003-01-01,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,lula12,2003-01-01,2011-01-01,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,dilma,2011-01-01,2016-08-31,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,temer,2016-08-31,2019-01-01,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,bolsonaro,2019-01-01,2023-01-01,,,,0,sem dado no ano de maioria do mandato,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+amb_prodes_amz,lula3,2023-01-01,2026-10-19,6288,6288 (2024),6288 (2024),1,PRODES-estimativa-268tiles,"PRODES 2024 estimativa (out/2024, 268 tiles)"
+dem_polyarchy,castelo,1964-04-15,1967-03-15,0.166,0.209 (1964),0.144 (1966),3,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,costa_silva,1967-03-15,1969-08-31,0.179,0.183 (1967),0.174 (1969),3,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,medici,1969-10-30,1974-03-15,0.175,0.177 (1970),0.175 (1973),4,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,geisel,1974-03-15,1979-03-15,0.184,0.177 (1974),0.187 (1978),5,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,figueiredo,1979-03-15,1985-03-15,0.2575,0.207 (1979),0.29 (1984),6,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,sarney,1985-03-15,1990-03-15,0.5656,0.392 (1985),0.724 (1989),5,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,collor,1990-03-15,1992-10-02,0.826,0.814 (1990),0.836 (1992),3,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,itamar,1992-10-02,1995-01-01,0.843,0.84 (1993),0.846 (1994),2,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,fhc,1995-01-01,2003-01-01,0.8508,0.847 (1995),0.856 (2002),8,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,lula12,2003-01-01,2011-01-01,0.8642,0.855 (2003),0.871 (2010),8,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,dilma,2011-01-01,2016-08-31,0.8557,0.875 (2011),0.781 (2016),6,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,temer,2016-08-31,2019-01-01,0.7615,0.774 (2017),0.749 (2018),2,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,bolsonaro,2019-01-01,2023-01-01,0.6947,0.691 (2019),0.699 (2022),4,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polyarchy,lula3,2023-01-01,2026-10-19,0.791,0.79 (2023),0.784 (2025),3,V-Dem-v16,"V-Dem v16 (OWID, 2026-03-17)"
+dem_polity2,castelo,1964-04-15,1967-03-15,-7,-3 (1964),-9 (1966),3,Polity5,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,costa_silva,1967-03-15,1969-08-31,-9,-9 (1967),-9 (1969),3,Polity5,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,medici,1969-10-30,1974-03-15,-9,-9 (1970),-9 (1973),4,Polity5,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,geisel,1974-03-15,1979-03-15,-4,-4 (1974),-4 (1978),5,Polity5,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,figueiredo,1979-03-15,1985-03-15,-3.5,-4 (1979),-3 (1984),6,Polity5,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,sarney,1985-03-15,1990-03-15,7.4,7 (1985),8 (1989),5,Polity5,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,collor,1990-03-15,1992-10-02,8,8 (1990),8 (1992),3,Polity5,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,itamar,1992-10-02,1995-01-01,8,8 (1993),8 (1994),2,Polity5,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,fhc,1995-01-01,2003-01-01,8,8 (1995),8 (2002),8,Polity5,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,lula12,2003-01-01,2011-01-01,8,8 (2003),8 (2010),8,Polity5,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,dilma,2011-01-01,2016-08-31,8,8 (2011),8 (2016),6,Polity5,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,temer,2016-08-31,2019-01-01,8,8 (2017),8 (2018),2,Polity5,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,bolsonaro,2019-01-01,2023-01-01,,,,0,sem dado no ano de maioria do mandato,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_polity2,lula3,2023-01-01,2026-10-19,,,,0,sem dado no ano de maioria do mandato,Polity5 p5v2018 (arquivo de 2023-02-28)
+dem_fh_direitos_politicos,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,Freedom in the World 2024
+dem_fh_direitos_politicos,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,Freedom in the World 2024
+dem_fh_direitos_politicos,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,Freedom in the World 2024
+dem_fh_direitos_politicos,medici,1969-10-30,1974-03-15,5,5 (1972),5 (1973),2,FH,Freedom in the World 2024
+dem_fh_direitos_politicos,geisel,1974-03-15,1979-03-15,4,4 (1974),4 (1978),5,FH,Freedom in the World 2024
+dem_fh_direitos_politicos,figueiredo,1979-03-15,1985-03-15,4,4 (1979),4 (1980),2,FH,Freedom in the World 2024
+dem_fh_direitos_politicos,sarney,1985-03-15,1990-03-15,,,,0,sem dado no ano de maioria do mandato,Freedom in the World 2024
+dem_fh_direitos_politicos,collor,1990-03-15,1992-10-02,2,2 (1990),2 (1992),3,FH,Freedom in the World 2024
+dem_fh_direitos_politicos,itamar,1992-10-02,1995-01-01,2.5,3 (1993),2 (1994),2,FH,Freedom in the World 2024
+dem_fh_direitos_politicos,fhc,1995-01-01,2003-01-01,2.625,2 (1995),2 (2002),8,FH,Freedom in the World 2024
+dem_fh_direitos_politicos,lula12,2003-01-01,2011-01-01,2,2 (2003),2 (2010),8,FH,Freedom in the World 2024
+dem_fh_direitos_politicos,dilma,2011-01-01,2016-08-31,2,2 (2011),2 (2016),6,FH,Freedom in the World 2024
+dem_fh_direitos_politicos,temer,2016-08-31,2019-01-01,2,2 (2017),2 (2018),2,FH,Freedom in the World 2024
+dem_fh_direitos_politicos,bolsonaro,2019-01-01,2023-01-01,2,2 (2019),2 (2022),4,FH,Freedom in the World 2024
+dem_fh_direitos_politicos,lula3,2023-01-01,2026-10-19,2,2 (2023),2 (2023),1,FH,Freedom in the World 2024
+dem_fh_liberdades_civis,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,Freedom in the World 2024
+dem_fh_liberdades_civis,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,Freedom in the World 2024
+dem_fh_liberdades_civis,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,Freedom in the World 2024
+dem_fh_liberdades_civis,medici,1969-10-30,1974-03-15,5,5 (1972),5 (1973),2,FH,Freedom in the World 2024
+dem_fh_liberdades_civis,geisel,1974-03-15,1979-03-15,4.6,4 (1974),4 (1978),5,FH,Freedom in the World 2024
+dem_fh_liberdades_civis,figueiredo,1979-03-15,1985-03-15,3,3 (1979),3 (1980),2,FH,Freedom in the World 2024
+dem_fh_liberdades_civis,sarney,1985-03-15,1990-03-15,,,,0,sem dado no ano de maioria do mandato,Freedom in the World 2024
+dem_fh_liberdades_civis,collor,1990-03-15,1992-10-02,3,3 (1990),3 (1992),3,FH,Freedom in the World 2024
+dem_fh_liberdades_civis,itamar,1992-10-02,1995-01-01,4,4 (1993),4 (1994),2,FH,Freedom in the World 2024
+dem_fh_liberdades_civis,fhc,1995-01-01,2003-01-01,3.625,4 (1995),3 (2002),8,FH,Freedom in the World 2024
+dem_fh_liberdades_civis,lula12,2003-01-01,2011-01-01,2.25,3 (2003),2 (2010),8,FH,Freedom in the World 2024
+dem_fh_liberdades_civis,dilma,2011-01-01,2016-08-31,2,2 (2011),2 (2016),6,FH,Freedom in the World 2024
+dem_fh_liberdades_civis,temer,2016-08-31,2019-01-01,2,2 (2017),2 (2018),2,FH,Freedom in the World 2024
+dem_fh_liberdades_civis,bolsonaro,2019-01-01,2023-01-01,2.75,2 (2019),3 (2022),4,FH,Freedom in the World 2024
+dem_fh_liberdades_civis,lula3,2023-01-01,2026-10-19,3,3 (2023),3 (2023),1,FH,Freedom in the World 2024
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,castelo,1964-04-15,1967-03-15,,,,0,sem dado no ano de maioria do mandato,PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,costa_silva,1967-03-15,1969-08-31,,,,0,sem dado no ano de maioria do mandato,PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,junta,1969-08-31,1969-10-30,,,,0,sem dado no ano de maioria do mandato,PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,medici,1969-10-30,1974-03-15,,,,0,sem dado no ano de maioria do mandato,PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,geisel,1974-03-15,1979-03-15,,,,0,sem dado no ano de maioria do mandato,PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,figueiredo,1979-03-15,1985-03-15,,,,0,sem dado no ano de maioria do mandato,PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,sarney,1985-03-15,1990-03-15,17516.6667,21050 (1987),13730 (1989),3,PRODES-analogico(1988-2000),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,collor,1990-03-15,1992-10-02,13237.3333,11030 (1990),14896 (1992),3,PRODES-analogico(1988-2000),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,itamar,1992-10-02,1995-01-01,21977.5,14896 (1993),29059 (1994),2,PRODES-analogico(1988-2000),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,fhc,1995-01-01,2003-01-01,18683.375,18161 (1995),25396 (2002),8,PRODES-analogico(1988-2000) + PRODES-digital(2001-2005) (CRUZA QUEBRA DE METODO),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio|PRODES-analogico(1988-2000),fhc,1995-01-01,2003-01-01,16851.2,18161 (1995),18226 (1999),5,PRODES-analogico(1988-2000),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio|PRODES-digital(2001-2005),fhc,1995-01-01,2003-01-01,21737,18165 (2000),25396 (2002),3,PRODES-digital(2001-2005),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,lula12,2003-01-01,2011-01-01,13314.5,27772 (2003),6418 (2010),8,PRODES-digital(2001-2005) + PRODES-TerraAmazon(2006-) (CRUZA QUEBRA DE METODO),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio|PRODES-digital(2001-2005),lula12,2003-01-01,2011-01-01,23393,27772 (2003),19014 (2004),2,PRODES-digital(2001-2005),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio|PRODES-TerraAmazon(2006-),lula12,2003-01-01,2011-01-01,9955,14286 (2005),6418 (2010),6,PRODES-TerraAmazon(2006-),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,dilma,2011-01-01,2016-08-31,6086.8333,4571 (2011),6947 (2016),6,PRODES-TerraAmazon(2006-),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,temer,2016-08-31,2019-01-01,8832.5,7536 (2017),10129 (2018),2,PRODES-TerraAmazon(2006-),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,bolsonaro,2019-01-01,2023-01-01,11136.75,10851 (2019),9064 (2022),4,PRODES-TerraAmazon(2006-),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)
+amb_prodes_amz|atribuicao-alternativa:ano-calendario-de-inicio,lula3,2023-01-01,2026-10-19,6124.5,6518 (2023),5731 (2024),2,PRODES-TerraAmazon(2006-),PRODES TerraBrasilis rates2026.json (atualizado 2026-10-16)

@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"PAN12_TD12","SERNOME":"Taxa de desemprego - INATIVA","SERCOMENTARIO":"Regi\u00f5es metropolitanas (RMs): Recife, Salvador, Belo Horizonte, Rio de Janeiro, S\u00e3o Paulo e Porto Alegre.  Per\u00edodo de refer\u00eancia: 30 dias. S\u00e9rie interrompida. \r\n<p>Para acessar dados atualizados pela Pnad Cont\u00ednua, utilize os links a seguir:\r\n<a href=\"http://www.ipeadata.gov.br/ExibeSerie.aspx?serid=1347352645&amp;module=M\">Taxa de descocupa\u00e7\u00e3o</a>   |   \r\n<a href=\"http://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726928&MINDATA=2022&MAXDATA=2025&TNIVID=0&TPAID=1&module=S\">Taxa trimestral - desagrega\u00e7\u00f5es (geogr\u00e1fico, g\u00eanero, cor, escolaridade, faixa et\u00e1ria)</a>.<p>","SERATUALIZACAO":"2016-02-02T17:12:21-02:00","BASNOME":"Macroecon\u00f4mico","FNTSIGLA":"IBGE/PME","FNTNOME":"Instituto Brasileiro de Geografia e Estat\u00edstica, Pesquisa Mensal de Emprego (IBGE/PME) - obs:  PME foi encerrada em mar\u00e7o de 2016, com a divulga\u00e7\u00e3o dos resultados referentes ao m\u00eas de fevereiro de 2016.","FNTURL":"http://www.ibge.gov.br/home/estatistica/indicadores/trabalhoerendimento/pme_nova/default_encerramento.shtm","PERNOME":"Mensal","UNINOME":"(%)","MULNOME":null,"SERSTATUS":"I","TEMCODIGO":12,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

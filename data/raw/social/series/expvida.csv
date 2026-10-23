@@ -1,0 +1,144 @@
+indicador,fonte,definicao_linha,ano,valor,unidade,nota
+expvida,IBGE-Projecao-rev2008,"IBGE 'Observacoes sobre a evolucao da mortalidade' (2010), Tabela 2",1980,62.57,anos,
+expvida,IBGE-Projecao-rev2008,"IBGE 'Observacoes sobre a evolucao da mortalidade' (2010), Tabela 2",1991,66.93,anos,
+expvida,IBGE-Projecao-rev2008,"IBGE 'Observacoes sobre a evolucao da mortalidade' (2010), Tabela 2",2000,70.46,anos,
+expvida,IBGE-Projecao-rev2008,idem,2009,73.17,anos,texto p.7
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2000 (publicada no ano seguinte),2000,68.62,anos,tabuas_ibge/x/TEXTO_BRASIL_TABUA_COMPLETA_DE_MORTALIDADE_AMBOS_OS_SEXOS_2000_1_DECIMAL_DOU.xlsx
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2005 (publicada no ano seguinte),2005,71.95,anos,tabuas_ibge/x/TABUAS_COMPLETAS_DE_MORTALIDADE_AMBOS_OS_SEXOS_2005.xlsx
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2010 (publicada no ano seguinte),2010,73.48,anos,tabuas_ibge/x/ambos_2010.xlsx
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2014 (publicada no ano seguinte),2014,75.2,anos,tabuas_ibge/x/ambos_os_sexos_2014.xlsx
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2015 (publicada no ano seguinte),2015,75.49,anos,tabuas_ibge/x/ambos_os_sexos_2015.xlsx
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2016 (publicada no ano seguinte),2016,75.77,anos,tabuas_ibge/x/ambos_os_sexos_2016.xlsx
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2017 (publicada no ano seguinte),2017,76.05,anos,tabuas_ibge/x/ambos_os_sexos_2017.xlsx
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2018 (publicada no ano seguinte),2018,76.31,anos,tabuas_ibge/x/ambos_os_sexos_2018.xlsx
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2019 (publicada no ano seguinte),2019,76.55,anos,tabuas_ibge/x/ambos_os_sexos_2019.xlsx
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2020 (publicada no ano seguinte),2020,76.79,anos,tabuas_ibge/x/ambos_os_sexos_2020.xlsx
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2021 (publicada no ano seguinte),2021,77.03,anos,tabuas_ibge/ambos_os_sexos_2021.xlsx
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2022 (publicada no ano seguinte),2022,75.45,anos,tabuas_ibge/ambos_os_sexos_2022.xlsx
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2023 (publicada no ano seguinte),2023,76.39,anos,tabuas_ibge/ambos_os_sexos_2023.xlsx
+expvida,IBGE-Tabua-como-publicada,Tabua Completa de Mortalidade 2024 (publicada no ano seguinte),2024,76.61,anos,tabuas_ibge/ambos_os_sexos_2024.xlsx
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),1940,45.5,anos,total
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),1950,48.0,anos,total
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),1960,52.5,anos,total
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),1970,57.6,anos,total
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),1980,62.5,anos,total
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),1991,66.9,anos,total
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),2000,71.1,anos,total
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),2010,74.4,anos,total
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),2019,76.2,anos,total
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),2020,74.8,anos,total
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),2021,72.8,anos,total
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),2022,75.4,anos,total
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),2023,76.4,anos,total
+expvida,IBGE-Tabuas2024-serie-vigente,Agencia IBGE 28/11/2025 (reconstrucao 1940-2024),2024,76.6,anos,total
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2000,69.83,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2001,70.28,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2002,70.73,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2003,71.16,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2004,71.58,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2005,71.99,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2006,72.39,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2007,72.77,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2008,73.15,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2009,73.51,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2010,73.86,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2011,74.2,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2012,74.52,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2013,74.84,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2014,75.14,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2015,75.44,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2016,75.72,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2017,75.99,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2018,76.25,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2019,76.5,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2020,76.74,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2021,76.97,anos,
+expvida,Ipeadata-DEPIS_ESVIDA,IBGE Projecao (rev. 2018),2022,77.19,anos,
+expvida,Ipeadata-EVNNEW,Atlas DH (PNUD) 1998/2000 - INATIVA,1940,36.7,anos,
+expvida,Ipeadata-EVNNEW,Atlas DH (PNUD) 1998/2000 - INATIVA,1950,43.0,anos,
+expvida,Ipeadata-EVNNEW,Atlas DH (PNUD) 1998/2000 - INATIVA,1960,55.5,anos,
+expvida,Ipeadata-EVNNEW,Atlas DH (PNUD) 1998/2000 - INATIVA,1970,51.43,anos,
+expvida,Ipeadata-EVNNEW,Atlas DH (PNUD) 1998/2000 - INATIVA,1980,56.87,anos,
+expvida,Ipeadata-EVNNEW,Atlas DH (PNUD) 1998/2000 - INATIVA,1991,64.73,anos,
+expvida,Ipeadata-EVNNEW,Atlas DH (PNUD) 1998/2000 - INATIVA,2000,68.61,anos,
+expvida,Ipeadata-EVNNEW,Atlas DH (PNUD) 1998/2000 - INATIVA,2010,73.94,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2000,69.8,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2001,70.3,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2002,70.7,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2003,71.2,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2004,71.6,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2005,72.0,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2006,72.4,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2007,72.8,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2008,73.1,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2009,73.5,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2010,73.9,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2011,74.2,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2012,74.5,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2013,74.8,anos,
+expvida,SIDRA-1174,"IBGE Projecao (rev. 2013), serie IDS ate 2014",2014,75.1,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1960,53.16,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1961,53.59,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1962,54.02,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1963,54.45,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1964,54.85,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1965,55.24,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1966,55.62,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1967,56.02,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1968,56.47,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1969,56.9,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1970,57.34,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1971,57.79,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1972,58.26,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1973,58.68,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1974,59.08,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1975,59.56,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1976,60.01,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1977,60.46,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1978,60.92,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1979,61.37,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1980,61.82,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1981,62.27,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1982,62.71,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1983,63.13,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1984,63.55,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1985,63.98,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1986,64.39,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1987,64.78,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1988,65.16,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1989,65.51,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1990,65.86,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1991,66.2,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1992,66.54,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1993,66.89,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1994,67.29,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1995,67.7,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1996,68.11,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1997,68.5,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1998,68.85,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,1999,69.21,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2000,69.58,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2001,69.98,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2002,70.4,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2003,70.88,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2004,71.36,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2005,71.83,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2006,72.3,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2007,72.73,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2008,73.11,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2009,73.46,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2010,73.78,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2011,74.05,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2012,74.33,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2013,74.61,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2014,74.82,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2015,75.11,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2016,75.08,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2017,75.38,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2018,75.63,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2019,75.81,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2020,74.51,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2021,73.04,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2022,74.87,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2023,75.85,anos,
+expvida,WB-WDI-SP.DYN.LE00.IN,UN WPP via Banco Mundial,2024,76.02,anos,

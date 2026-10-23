@@ -1,0 +1,766 @@
+indicador,governo,inicio,fim,media,valor_inicial,valor_final,n_anos,segmento_metodo
+ass_bpc_idade_minima,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+ass_bpc_idade_minima,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+ass_bpc_idade_minima,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+ass_bpc_idade_minima,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+ass_bpc_idade_minima,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+ass_bpc_idade_minima,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+ass_bpc_idade_minima,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+ass_bpc_idade_minima,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+ass_bpc_idade_minima,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+ass_bpc_idade_minima,Fernando Henrique Cardoso,1995-01-01,2003-01-01,67.8571,70.0000,67.0000,7,Planalto(Lei 8.742/1993 art. 20 e 38; Lei 9.720/1998; Lei 10.741/2003 art. 34)
+ass_bpc_idade_minima,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,65.2500,67.0000,65.0000,8,Planalto(Lei 8.742/1993 art. 20 e 38; Lei 9.720/1998; Lei 10.741/2003 art. 34)
+ass_bpc_idade_minima,Dilma Rousseff,2011-01-01,2016-08-31,65.0000,65.0000,65.0000,6,Planalto(Lei 8.742/1993 art. 20 e 38; Lei 9.720/1998; Lei 10.741/2003 art. 34)
+ass_bpc_idade_minima,Michel Temer,2016-08-31,2019-01-01,65.0000,65.0000,65.0000,2,Planalto(Lei 8.742/1993 art. 20 e 38; Lei 9.720/1998; Lei 10.741/2003 art. 34)
+ass_bpc_idade_minima,Jair Bolsonaro,2019-01-01,2023-01-01,65.0000,65.0000,65.0000,4,Planalto(Lei 8.742/1993 art. 20 e 38; Lei 9.720/1998; Lei 10.741/2003 art. 34)
+ass_bpc_idade_minima,Lula (3o mandato),2023-01-01,2026-10-19,65.0000,65.0000,65.0000,3,Planalto(Lei 8.742/1993 art. 20 e 38; Lei 9.720/1998; Lei 10.741/2003 art. 34)
+ass_bpc_limiar_meio_sm_real,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+ass_bpc_limiar_meio_sm_real,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+ass_bpc_limiar_meio_sm_real,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+ass_bpc_limiar_meio_sm_real,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+ass_bpc_limiar_meio_sm_real,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+ass_bpc_limiar_meio_sm_real,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+ass_bpc_limiar_meio_sm_real,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+ass_bpc_limiar_meio_sm_real,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+ass_bpc_limiar_meio_sm_real,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+ass_bpc_limiar_meio_sm_real,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+ass_bpc_limiar_meio_sm_real,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+ass_bpc_limiar_meio_sm_real,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+ass_bpc_limiar_meio_sm_real,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+ass_bpc_limiar_meio_sm_real,Jair Bolsonaro,2019-01-01,2023-01-01,684.6494,695.6482,692.9771,3,Planalto(Lei 13.981/2020; Lei 14.176/2021)+MTE+BCB-IPCA
+ass_bpc_limiar_meio_sm_real,Lula (3o mandato),2023-01-01,2026-10-19,738.8326,721.3913,759.0000,3,Planalto(Lei 13.981/2020; Lei 14.176/2021)+MTE+BCB-IPCA
+ass_bpc_limiar_quarto_sm_real,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+ass_bpc_limiar_quarto_sm_real,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+ass_bpc_limiar_quarto_sm_real,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+ass_bpc_limiar_quarto_sm_real,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+ass_bpc_limiar_quarto_sm_real,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+ass_bpc_limiar_quarto_sm_real,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+ass_bpc_limiar_quarto_sm_real,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+ass_bpc_limiar_quarto_sm_real,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+ass_bpc_limiar_quarto_sm_real,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+ass_bpc_limiar_quarto_sm_real,Fernando Henrique Cardoso,1995-01-01,2003-01-01,165.9479,152.0617,181.4751,7,Planalto(Lei 8.742/1993 art. 20 par.3)+MTE(salario minimo)+BCB-IPCA
+ass_bpc_limiar_quarto_sm_real,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,246.2623,199.2408,295.3542,8,Planalto(Lei 8.742/1993 art. 20 par.3)+MTE(salario minimo)+BCB-IPCA
+ass_bpc_limiar_quarto_sm_real,Dilma Rousseff,2011-01-01,2016-08-31,323.4169,296.3515,341.0423,6,Planalto(Lei 8.742/1993 art. 20 par.3)+MTE(salario minimo)+BCB-IPCA
+ass_bpc_limiar_quarto_sm_real,Michel Temer,2016-08-31,2019-01-01,349.4531,352.7362,346.1701,2,Planalto(Lei 8.742/1993 art. 20 par.3)+MTE(salario minimo)+BCB-IPCA
+ass_bpc_limiar_quarto_sm_real,Jair Bolsonaro,2019-01-01,2023-01-01,343.5401,347.1861,346.4886,4,Planalto(Lei 8.742/1993 art. 20 par.3)+MTE(salario minimo)+BCB-IPCA
+ass_bpc_limiar_quarto_sm_real,Lula (3o mandato),2023-01-01,2026-10-19,369.4163,360.6956,379.5000,3,Planalto(Lei 8.742/1993 art. 20 par.3)+MTE(salario minimo)+BCB-IPCA
+ass_bpc_por_mil_hab,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+ass_bpc_por_mil_hab,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+ass_bpc_por_mil_hab,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+ass_bpc_por_mil_hab,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+ass_bpc_por_mil_hab,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+ass_bpc_por_mil_hab,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+ass_bpc_por_mil_hab,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+ass_bpc_por_mil_hab,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+ass_bpc_por_mil_hab,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+ass_bpc_por_mil_hab,Fernando Henrique Cardoso,1995-01-01,2003-01-01,5.9211,2.2042,8.9335,7,MDS-BPC(Ipeadata BPC_idos+BPC_defi) / IBGE-Pop(DEPIS_POP)
+ass_bpc_por_mil_hab,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,14.0485,9.6277,17.8319,8,MDS-BPC(Ipeadata BPC_idos+BPC_defi) / IBGE-Pop(DEPIS_POP)
+ass_bpc_por_mil_hab,Dilma Rousseff,2011-01-01,2016-08-31,20.0034,18.6297,21.1712,5,MDS-BPC(Ipeadata BPC_idos+BPC_defi) / IBGE-Pop(DEPIS_POP)
+ass_bpc_por_mil_hab,Michel Temer,2016-08-31,2019-01-01,22.6440,22.4344,22.8535,2,MDS-BPC(Ipeadata BPC_idos+BPC_defi) / IBGE-Pop(DEPIS_POP)
+ass_bpc_por_mil_hab,Jair Bolsonaro,2019-01-01,2023-01-01,23.4744,22.6781,25.1911,4,MDS-BPC(Ipeadata BPC_idos+BPC_defi) / IBGE-Pop(DEPIS_POP)
+ass_bpc_por_mil_hab,Lula (3o mandato),2023-01-01,2026-10-19,29.3551,27.9946,30.7156,2,MDS-BPC(Ipeadata BPC_idos+BPC_defi) / IBGE-Pop(DEPIS_POP)
+ass_pbf_familias_por_mil_hab,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+ass_pbf_familias_por_mil_hab,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+ass_pbf_familias_por_mil_hab,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+ass_pbf_familias_por_mil_hab,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+ass_pbf_familias_por_mil_hab,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+ass_pbf_familias_por_mil_hab,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+ass_pbf_familias_por_mil_hab,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+ass_pbf_familias_por_mil_hab,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+ass_pbf_familias_por_mil_hab,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+ass_pbf_familias_por_mil_hab,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+ass_pbf_familias_por_mil_hab,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,56.3844,36.8141,66.9873,7,MDS-PBF(Ipeadata FAM_PBF) / IBGE-Pop(DEPIS_POP)
+ass_pbf_familias_por_mil_hab,Dilma Rousseff,2011-01-01,2016-08-31,69.9297,69.1867,67.2379,6,MDS-PBF(Ipeadata FAM_PBF) / IBGE-Pop(DEPIS_POP)
+ass_pbf_familias_por_mil_hab,Michel Temer,2016-08-31,2019-01-01,69.1534,68.5700,69.7369,2,MDS-PBF(Ipeadata FAM_PBF) / IBGE-Pop(DEPIS_POP)
+ass_pbf_familias_por_mil_hab,Jair Bolsonaro,2019-01-01,2023-01-01,76.9329,64.8964,103.2848,4,MDS-PBF(Ipeadata FAM_PBF) / IBGE-Pop(DEPIS_POP)
+ass_pbf_familias_por_mil_hab,Lula (3o mandato),2023-01-01,2026-10-19,101.0851,102.3739,99.7963,2,MDS-PBF(Ipeadata FAM_PBF) / IBGE-Pop(DEPIS_POP)
+ass_pbf_limiar_extrema_pobreza_real,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+ass_pbf_limiar_extrema_pobreza_real,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+ass_pbf_limiar_extrema_pobreza_real,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+ass_pbf_limiar_extrema_pobreza_real,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+ass_pbf_limiar_extrema_pobreza_real,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+ass_pbf_limiar_extrema_pobreza_real,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+ass_pbf_limiar_extrema_pobreza_real,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+ass_pbf_limiar_extrema_pobreza_real,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+ass_pbf_limiar_extrema_pobreza_real,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+ass_pbf_limiar_extrema_pobreza_real,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+ass_pbf_limiar_extrema_pobreza_real,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,160.0319,154.3058,162.1552,7,Planalto(decretos/leis do PBF)+BCB-IPCA(SGS433)
+ass_pbf_limiar_extrema_pobreza_real,Dilma Rousseff,2011-01-01,2016-08-31,138.4974,152.2540,131.7663,6,Planalto(decretos/leis do PBF)+BCB-IPCA(SGS433)
+ass_pbf_limiar_extrema_pobreza_real,Michel Temer,2016-08-31,2019-01-01,128.5863,127.9939,129.1788,2,Planalto(decretos/leis do PBF)+BCB-IPCA(SGS433)
+ass_pbf_limiar_extrema_pobreza_real,Jair Bolsonaro,2019-01-01,2023-01-01,120.8443,123.8459,120.0703,4,Planalto(decretos/leis do PBF)+BCB-IPCA(SGS433)
+ass_pbf_limiar_extrema_pobreza_real,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+ass_pbf_limiar_pobreza_real,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+ass_pbf_limiar_pobreza_real,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+ass_pbf_limiar_pobreza_real,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+ass_pbf_limiar_pobreza_real,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+ass_pbf_limiar_pobreza_real,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+ass_pbf_limiar_pobreza_real,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+ass_pbf_limiar_pobreza_real,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+ass_pbf_limiar_pobreza_real,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+ass_pbf_limiar_pobreza_real,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+ass_pbf_limiar_pobreza_real,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+ass_pbf_limiar_pobreza_real,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,320.0638,308.6116,324.3105,7,Planalto(decretos/leis do PBF)+BCB-IPCA(SGS433)
+ass_pbf_limiar_pobreza_real,Dilma Rousseff,2011-01-01,2016-08-31,276.9948,304.5080,263.5327,6,Planalto(decretos/leis do PBF)+BCB-IPCA(SGS433)
+ass_pbf_limiar_pobreza_real,Michel Temer,2016-08-31,2019-01-01,257.1727,255.9878,258.3576,2,Planalto(decretos/leis do PBF)+BCB-IPCA(SGS433)
+ass_pbf_limiar_pobreza_real,Jair Bolsonaro,2019-01-01,2023-01-01,241.6886,247.6919,240.1406,4,Planalto(decretos/leis do PBF)+BCB-IPCA(SGS433)
+ass_pbf_limiar_pobreza_real,Lula (3o mandato),2023-01-01,2026-10-19,227.8580,238.2777,218.0000,3,Planalto(decretos/leis do PBF)+BCB-IPCA(SGS433)
+edu_alfabetizacao_adultos_wdi,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_alfabetizacao_adultos_wdi,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_alfabetizacao_adultos_wdi,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_alfabetizacao_adultos_wdi,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_alfabetizacao_adultos_wdi,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_alfabetizacao_adultos_wdi,Figueiredo,1979-03-15,1985-03-15,74.5900,74.5900,74.5900,1,Banco Mundial WDI(SE.ADT.LITR.ZS)
+edu_alfabetizacao_adultos_wdi,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_alfabetizacao_adultos_wdi,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+edu_alfabetizacao_adultos_wdi,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_alfabetizacao_adultos_wdi,Fernando Henrique Cardoso,1995-01-01,2003-01-01,86.3700,86.3700,86.3700,1,Banco Mundial WDI(SE.ADT.LITR.ZS)
+edu_alfabetizacao_adultos_wdi,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,89.8283,88.6200,90.3800,6,Banco Mundial WDI(SE.ADT.LITR.ZS)
+edu_alfabetizacao_adultos_wdi,Dilma Rousseff,2011-01-01,2016-08-31,91.8033,91.4100,92.8100,6,Banco Mundial WDI(SE.ADT.LITR.ZS)
+edu_alfabetizacao_adultos_wdi,Michel Temer,2016-08-31,2019-01-01,93.1550,93.0800,93.2300,2,Banco Mundial WDI(SE.ADT.LITR.ZS)
+edu_alfabetizacao_adultos_wdi,Jair Bolsonaro,2019-01-01,2023-01-01,94.4466,93.8926,94.3769,4,Banco Mundial WDI(SE.ADT.LITR.ZS)
+edu_alfabetizacao_adultos_wdi,Lula (3o mandato),2023-01-01,2026-10-19,94.6562,94.5725,94.7400,2,Banco Mundial WDI(SE.ADT.LITR.ZS)
+edu_analfab15,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_analfab15,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_analfab15,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_analfab15,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_analfab15,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_analfab15,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_analfab15,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_analfab15,Collor,1990-03-15,1992-10-02,20.0700,20.0700,20.0700,1,Atlas-DH-Censo(ADH_T_ANALF15M)
+edu_analfab15,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_analfab15,Fernando Henrique Cardoso,1995-01-01,2003-01-01,13.6300,13.6300,13.6300,1,Atlas-DH-Censo(ADH_T_ANALF15M)
+edu_analfab15,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,9.6100,9.6100,9.6100,1,Atlas-DH-Censo(ADH_T_ANALF15M)
+edu_analfab15,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+edu_analfab15,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+edu_analfab15,Jair Bolsonaro,2019-01-01,2023-01-01,7.0000,7.0000,7.0000,1,Atlas-DH-Censo(ADH_T_ANALF15M)
+edu_analfab15,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNAD_IDS1187,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNAD_IDS1187,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNAD_IDS1187,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNAD_IDS1187,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNAD_IDS1187,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNAD_IDS1187,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNAD_IDS1187,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNAD_IDS1187,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNAD_IDS1187,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNAD_IDS1187,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNAD_IDS1187,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,10.5000,11.5000,9.8000,6,IBGE-PNAD(IDS1187)
+edu_analfab15__IBGE_PNAD_IDS1187,Dilma Rousseff,2011-01-01,2016-08-31,8.4200,8.6000,8.0000,5,IBGE-PNAD(IDS1187)
+edu_analfab15__IBGE_PNAD_IDS1187,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNAD_IDS1187,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNAD_IDS1187,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Dilma Rousseff,2011-01-01,2016-08-31,6.7000,6.7000,6.7000,1,IBGE-PNADC(Ipea PNADCA_TXA15MUF)
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Michel Temer,2016-08-31,2019-01-01,6.4000,6.5000,6.3000,2,IBGE-PNADC(Ipea PNADCA_TXA15MUF)
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Jair Bolsonaro,2019-01-01,2023-01-01,5.8500,6.1000,5.6000,2,IBGE-PNADC(Ipea PNADCA_TXA15MUF)
+edu_analfab15__IBGE_PNADC_Ipea_PNADCA_TXA15MUF,Lula (3o mandato),2023-01-01,2026-10-19,5.2000,5.4000,4.9000,3,IBGE-PNADC(Ipea PNADCA_TXA15MUF)
+edu_analfab15__IBGE_PNADC_SIDRA7113,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_SIDRA7113,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_SIDRA7113,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_SIDRA7113,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_SIDRA7113,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_SIDRA7113,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_SIDRA7113,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_SIDRA7113,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_SIDRA7113,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_SIDRA7113,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_SIDRA7113,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+edu_analfab15__IBGE_PNADC_SIDRA7113,Dilma Rousseff,2011-01-01,2016-08-31,6.7000,6.7000,6.7000,1,IBGE-PNADC(SIDRA7113)
+edu_analfab15__IBGE_PNADC_SIDRA7113,Michel Temer,2016-08-31,2019-01-01,6.4000,6.5000,6.3000,2,IBGE-PNADC(SIDRA7113)
+edu_analfab15__IBGE_PNADC_SIDRA7113,Jair Bolsonaro,2019-01-01,2023-01-01,5.8500,6.1000,5.6000,2,IBGE-PNADC(SIDRA7113)
+edu_analfab15__IBGE_PNADC_SIDRA7113,Lula (3o mandato),2023-01-01,2026-10-19,5.2000,5.4000,4.9000,3,IBGE-PNADC(SIDRA7113)
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Collor,1990-03-15,1992-10-02,19.6452,19.6452,19.6452,1,IBGE-SIDRA-Censo(recalculo)
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Fernando Henrique Cardoso,1995-01-01,2003-01-01,13.2206,13.2206,13.2206,1,IBGE-SIDRA-Censo(recalculo)
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,9.6260,9.6260,9.6260,1,IBGE-SIDRA-Censo(recalculo)
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Jair Bolsonaro,2019-01-01,2023-01-01,6.9983,6.9983,6.9983,1,IBGE-SIDRA-Censo(recalculo)
+edu_analfab15__IBGE_SIDRA_Censo_recalculo,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Medici,1969-10-30,1974-03-15,32.9686,32.9686,32.9686,1,Ipea-Atlas1998(TXA15M7091)
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Figueiredo,1979-03-15,1985-03-15,25.3410,25.3410,25.3410,1,Ipea-Atlas1998(TXA15M7091)
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Collor,1990-03-15,1992-10-02,19.3992,19.3992,19.3992,1,Ipea-Atlas1998(TXA15M7091)
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+edu_analfab15__Ipea_Atlas1998_TXA15M7091,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+edu_anos_estudo_15mais,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_anos_estudo_15mais,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_anos_estudo_15mais,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_anos_estudo_15mais,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_anos_estudo_15mais,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_anos_estudo_15mais,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_anos_estudo_15mais,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_anos_estudo_15mais,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+edu_anos_estudo_15mais,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_anos_estudo_15mais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+edu_anos_estudo_15mais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+edu_anos_estudo_15mais,Dilma Rousseff,2011-01-01,2016-08-31,9.3000,9.3000,9.3000,1,IBGE-PNADC(SIDRA7126)
+edu_anos_estudo_15mais,Michel Temer,2016-08-31,2019-01-01,9.5500,9.5000,9.6000,2,IBGE-PNADC(SIDRA7126)
+edu_anos_estudo_15mais,Jair Bolsonaro,2019-01-01,2023-01-01,9.9000,9.8000,10.0000,2,IBGE-PNADC(SIDRA7126)
+edu_anos_estudo_15mais,Lula (3o mandato),2023-01-01,2026-10-19,10.2333,10.1000,10.4000,3,IBGE-PNADC(SIDRA7126)
+edu_anos_estudo_25mais,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_anos_estudo_25mais,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_anos_estudo_25mais,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_anos_estudo_25mais,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_anos_estudo_25mais,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_anos_estudo_25mais,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_anos_estudo_25mais,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_anos_estudo_25mais,Collor,1990-03-15,1992-10-02,4.8670,4.8670,4.8670,1,Ipea-Atlas(MEDUCA)
+edu_anos_estudo_25mais,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_anos_estudo_25mais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,5.8720,5.8720,5.8720,1,Ipea-Atlas(MEDUCA)
+edu_anos_estudo_25mais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+edu_anos_estudo_25mais,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+edu_anos_estudo_25mais,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+edu_anos_estudo_25mais,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+edu_anos_estudo_25mais,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+edu_gasto_publico_pib,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_gasto_publico_pib,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_gasto_publico_pib,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_gasto_publico_pib,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_gasto_publico_pib,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_gasto_publico_pib,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_gasto_publico_pib,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_gasto_publico_pib,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+edu_gasto_publico_pib,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_gasto_publico_pib,Fernando Henrique Cardoso,1995-01-01,2003-01-01,4.1116,4.5682,3.7504,6,Banco Mundial WDI(SE.XPD.TOTL.GD.ZS)
+edu_gasto_publico_pib,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,4.9542,3.9745,5.6488,7,Banco Mundial WDI(SE.XPD.TOTL.GD.ZS)
+edu_gasto_publico_pib,Dilma Rousseff,2011-01-01,2016-08-31,5.9892,5.7374,6.3140,6,Banco Mundial WDI(SE.XPD.TOTL.GD.ZS)
+edu_gasto_publico_pib,Michel Temer,2016-08-31,2019-01-01,6.2045,6.3205,6.0885,2,Banco Mundial WDI(SE.XPD.TOTL.GD.ZS)
+edu_gasto_publico_pib,Jair Bolsonaro,2019-01-01,2023-01-01,5.7128,5.9635,5.6192,4,Banco Mundial WDI(SE.XPD.TOTL.GD.ZS)
+edu_gasto_publico_pib,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+edu_persistencia_ultima_serie_primario,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_persistencia_ultima_serie_primario,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_persistencia_ultima_serie_primario,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_persistencia_ultima_serie_primario,Medici,1969-10-30,1974-03-15,40.5877,42.0911,39.4659,3,Banco Mundial WDI(SE.PRM.PRSL.ZS)
+edu_persistencia_ultima_serie_primario,Geisel,1974-03-15,1979-03-15,45.2900,39.2515,45.8111,5,Banco Mundial WDI(SE.PRM.PRSL.ZS)
+edu_persistencia_ultima_serie_primario,Figueiredo,1979-03-15,1985-03-15,48.2520,45.9554,47.1289,5,Banco Mundial WDI(SE.PRM.PRSL.ZS)
+edu_persistencia_ultima_serie_primario,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_persistencia_ultima_serie_primario,Collor,1990-03-15,1992-10-02,71.3239,71.7324,70.9154,2,Banco Mundial WDI(SE.PRM.PRSL.ZS)
+edu_persistencia_ultima_serie_primario,Itamar Franco,1992-10-02,1995-01-01,74.0058,74.0058,74.0058,1,Banco Mundial WDI(SE.PRM.PRSL.ZS)
+edu_persistencia_ultima_serie_primario,Fernando Henrique Cardoso,1995-01-01,2003-01-01,82.8209,80.1328,83.7103,3,Banco Mundial WDI(SE.PRM.PRSL.ZS)
+edu_persistencia_ultima_serie_primario,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,80.6247,80.6247,80.6247,1,Banco Mundial WDI(SE.PRM.PRSL.ZS)
+edu_persistencia_ultima_serie_primario,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+edu_persistencia_ultima_serie_primario,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+edu_persistencia_ultima_serie_primario,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+edu_persistencia_ultima_serie_primario,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+edu_repetentes_primario_pct,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_repetentes_primario_pct,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_repetentes_primario_pct,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_repetentes_primario_pct,Medici,1969-10-30,1974-03-15,17.8746,19.2407,18.1042,4,Banco Mundial WDI(SE.PRM.REPT.ZS)
+edu_repetentes_primario_pct,Geisel,1974-03-15,1979-03-15,19.3823,17.5844,21.5818,5,Banco Mundial WDI(SE.PRM.REPT.ZS)
+edu_repetentes_primario_pct,Figueiredo,1979-03-15,1985-03-15,20.7346,17.6151,20.9128,5,Banco Mundial WDI(SE.PRM.REPT.ZS)
+edu_repetentes_primario_pct,Sarney,1985-03-15,1990-03-15,19.7089,19.5883,19.8295,2,Banco Mundial WDI(SE.PRM.REPT.ZS)
+edu_repetentes_primario_pct,Collor,1990-03-15,1992-10-02,18.1465,18.1465,18.1465,1,Banco Mundial WDI(SE.PRM.REPT.ZS)
+edu_repetentes_primario_pct,Itamar Franco,1992-10-02,1995-01-01,18.7533,18.3859,19.1207,2,Banco Mundial WDI(SE.PRM.REPT.ZS)
+edu_repetentes_primario_pct,Fernando Henrique Cardoso,1995-01-01,2003-01-01,22.7837,24.0441,20.6112,4,Banco Mundial WDI(SE.PRM.REPT.ZS)
+edu_repetentes_primario_pct,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,15.1424,19.9537,9.4472,6,Banco Mundial WDI(SE.PRM.REPT.ZS)
+edu_repetentes_primario_pct,Dilma Rousseff,2011-01-01,2016-08-31,8.7497,8.7497,8.7497,1,Banco Mundial WDI(SE.PRM.REPT.ZS)
+edu_repetentes_primario_pct,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+edu_repetentes_primario_pct,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+edu_repetentes_primario_pct,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+edu_saeb_LP_EF_5ano_4serie,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EF_5ano_4serie,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_saeb_LP_EF_5ano_4serie,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_saeb_LP_EF_5ano_4serie,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EF_5ano_4serie,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EF_5ano_4serie,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EF_5ano_4serie,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EF_5ano_4serie,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+edu_saeb_LP_EF_5ano_4serie,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_saeb_LP_EF_5ano_4serie,Fernando Henrique Cardoso,1995-01-01,2003-01-01,177.7500,188.0000,165.0000,4,INEP-Saeb(PressKit2019); desenho amostral (1995-2003)
+edu_saeb_LP_EF_5ano_4serie,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,175.2500,169.0000,184.0000,4,INEP-Saeb(PressKit2019); desenho Aneb+Anresc/Prova Brasil (2005+); INEP-Saeb(PressKit2019); desenho amostral (1995-2003)
+edu_saeb_LP_EF_5ano_4serie,Dilma Rousseff,2011-01-01,2016-08-31,198.3333,191.0000,208.0000,3,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_LP_EF_5ano_4serie,Michel Temer,2016-08-31,2019-01-01,215.0000,215.0000,215.0000,1,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_LP_EF_5ano_4serie,Jair Bolsonaro,2019-01-01,2023-01-01,211.5000,215.0000,208.0000,2,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_LP_EF_5ano_4serie,Lula (3o mandato),2023-01-01,2026-10-19,214.0000,214.0000,214.0000,1,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_LP_EF_9ano_8serie,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EF_9ano_8serie,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_saeb_LP_EF_9ano_8serie,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_saeb_LP_EF_9ano_8serie,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EF_9ano_8serie,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EF_9ano_8serie,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EF_9ano_8serie,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EF_9ano_8serie,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+edu_saeb_LP_EF_9ano_8serie,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_saeb_LP_EF_9ano_8serie,Fernando Henrique Cardoso,1995-01-01,2003-01-01,243.5000,256.0000,235.0000,4,INEP-Saeb(PressKit2019); desenho amostral (1995-2003)
+edu_saeb_LP_EF_9ano_8serie,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,235.7500,232.0000,244.0000,4,INEP-Saeb(PressKit2019); desenho Aneb+Anresc/Prova Brasil (2005+); INEP-Saeb(PressKit2019); desenho amostral (1995-2003)
+edu_saeb_LP_EF_9ano_8serie,Dilma Rousseff,2011-01-01,2016-08-31,247.6667,245.0000,252.0000,3,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_LP_EF_9ano_8serie,Michel Temer,2016-08-31,2019-01-01,258.0000,258.0000,258.0000,1,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_LP_EF_9ano_8serie,Jair Bolsonaro,2019-01-01,2023-01-01,259.0000,260.0000,258.0000,2,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_LP_EF_9ano_8serie,Lula (3o mandato),2023-01-01,2026-10-19,259.0000,259.0000,259.0000,1,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_LP_EM_3serie,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EM_3serie,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_saeb_LP_EM_3serie,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_saeb_LP_EM_3serie,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EM_3serie,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EM_3serie,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EM_3serie,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_saeb_LP_EM_3serie,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+edu_saeb_LP_EM_3serie,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_saeb_LP_EM_3serie,Fernando Henrique Cardoso,1995-01-01,2003-01-01,275.7500,290.0000,262.0000,4,INEP-Saeb(PressKit2019); desenho amostral (1995-2003)
+edu_saeb_LP_EM_3serie,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,263.7500,267.0000,269.0000,4,INEP-Saeb(PressKit2019); desenho Aneb+Anresc/Prova Brasil (2005+); INEP-Saeb(PressKit2019); desenho amostral (1995-2003)
+edu_saeb_LP_EM_3serie,Dilma Rousseff,2011-01-01,2016-08-31,266.6667,269.0000,267.0000,3,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_LP_EM_3serie,Michel Temer,2016-08-31,2019-01-01,268.0000,268.0000,268.0000,1,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_LP_EM_3serie,Jair Bolsonaro,2019-01-01,2023-01-01,276.5000,278.0000,275.0000,2,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_LP_EM_3serie,Lula (3o mandato),2023-01-01,2026-10-19,276.0000,276.0000,276.0000,1,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_MT_EF_5ano_4serie,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EF_5ano_4serie,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_saeb_MT_EF_5ano_4serie,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_saeb_MT_EF_5ano_4serie,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EF_5ano_4serie,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EF_5ano_4serie,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EF_5ano_4serie,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EF_5ano_4serie,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+edu_saeb_MT_EF_5ano_4serie,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_saeb_MT_EF_5ano_4serie,Fernando Henrique Cardoso,1995-01-01,2003-01-01,184.7500,191.0000,176.0000,4,INEP-Saeb(PressKit2019); desenho amostral (1995-2003)
+edu_saeb_MT_EF_5ano_4serie,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,189.0000,177.0000,204.0000,4,INEP-Saeb(PressKit2019); desenho Aneb+Anresc/Prova Brasil (2005+); INEP-Saeb(PressKit2019); desenho amostral (1995-2003)
+edu_saeb_MT_EF_5ano_4serie,Dilma Rousseff,2011-01-01,2016-08-31,213.3333,210.0000,219.0000,3,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_MT_EF_5ano_4serie,Michel Temer,2016-08-31,2019-01-01,224.0000,224.0000,224.0000,1,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_MT_EF_5ano_4serie,Jair Bolsonaro,2019-01-01,2023-01-01,222.5000,228.0000,217.0000,2,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_MT_EF_5ano_4serie,Lula (3o mandato),2023-01-01,2026-10-19,225.0000,225.0000,225.0000,1,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_MT_EF_9ano_8serie,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EF_9ano_8serie,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_saeb_MT_EF_9ano_8serie,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_saeb_MT_EF_9ano_8serie,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EF_9ano_8serie,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EF_9ano_8serie,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EF_9ano_8serie,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EF_9ano_8serie,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+edu_saeb_MT_EF_9ano_8serie,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_saeb_MT_EF_9ano_8serie,Fernando Henrique Cardoso,1995-01-01,2003-01-01,248.0000,253.0000,243.0000,4,INEP-Saeb(PressKit2019); desenho amostral (1995-2003)
+edu_saeb_MT_EF_9ano_8serie,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,245.2500,245.0000,249.0000,4,INEP-Saeb(PressKit2019); desenho Aneb+Anresc/Prova Brasil (2005+); INEP-Saeb(PressKit2019); desenho amostral (1995-2003)
+edu_saeb_MT_EF_9ano_8serie,Dilma Rousseff,2011-01-01,2016-08-31,253.6667,253.0000,256.0000,3,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_MT_EF_9ano_8serie,Michel Temer,2016-08-31,2019-01-01,258.0000,258.0000,258.0000,1,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_MT_EF_9ano_8serie,Jair Bolsonaro,2019-01-01,2023-01-01,259.5000,263.0000,256.0000,2,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_MT_EF_9ano_8serie,Lula (3o mandato),2023-01-01,2026-10-19,257.0000,257.0000,257.0000,1,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_MT_EM_3serie,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EM_3serie,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+edu_saeb_MT_EM_3serie,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+edu_saeb_MT_EM_3serie,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EM_3serie,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EM_3serie,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EM_3serie,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+edu_saeb_MT_EM_3serie,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+edu_saeb_MT_EM_3serie,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+edu_saeb_MT_EM_3serie,Fernando Henrique Cardoso,1995-01-01,2003-01-01,282.0000,282.0000,277.0000,4,INEP-Saeb(PressKit2019); desenho amostral (1995-2003)
+edu_saeb_MT_EM_3serie,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,274.5000,279.0000,275.0000,4,INEP-Saeb(PressKit2019); desenho Aneb+Anresc/Prova Brasil (2005+); INEP-Saeb(PressKit2019); desenho amostral (1995-2003)
+edu_saeb_MT_EM_3serie,Dilma Rousseff,2011-01-01,2016-08-31,270.6667,275.0000,267.0000,3,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_MT_EM_3serie,Michel Temer,2016-08-31,2019-01-01,270.0000,270.0000,270.0000,1,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_MT_EM_3serie,Jair Bolsonaro,2019-01-01,2023-01-01,273.5000,277.0000,270.0000,2,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+edu_saeb_MT_EM_3serie,Lula (3o mandato),2023-01-01,2026-10-19,272.0000,272.0000,272.0000,1,INEP-Saeb(Relatorio2023); desenho Aneb+Anresc/Prova Brasil (2005+)
+mat_prenatal7,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mat_prenatal7,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mat_prenatal7,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mat_prenatal7,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mat_prenatal7,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mat_prenatal7,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mat_prenatal7,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mat_prenatal7,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+mat_prenatal7,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mat_prenatal7,Fernando Henrique Cardoso,1995-01-01,2003-01-01,48.2810,50.6858,49.1379,4,MS-SINASC(TabNet)
+mat_prenatal7,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,55.8651,51.0808,61.1072,8,MS-SINASC(TabNet)
+mat_prenatal7,Dilma Rousseff,2011-01-01,2016-08-31,64.5776,61.8440,68.1467,6,MS-SINASC(TabNet)
+mat_prenatal7,Michel Temer,2016-08-31,2019-01-01,70.3895,69.6318,71.1473,2,MS-SINASC(TabNet)
+mat_prenatal7,Jair Bolsonaro,2019-01-01,2023-01-01,73.2231,72.7482,75.2422,4,MS-SINASC(TabNet)
+mat_prenatal7,Lula (3o mandato),2023-01-01,2026-10-19,78.4479,77.4967,79.3991,2,MS-SINASC(TabNet)
+mat_prenatal_ignorado,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mat_prenatal_ignorado,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mat_prenatal_ignorado,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mat_prenatal_ignorado,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mat_prenatal_ignorado,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mat_prenatal_ignorado,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mat_prenatal_ignorado,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mat_prenatal_ignorado,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+mat_prenatal_ignorado,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mat_prenatal_ignorado,Fernando Henrique Cardoso,1995-01-01,2003-01-01,17.4662,54.5484,2.6513,8,MS-SINASC(TabNet)
+mat_prenatal_ignorado,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,1.4746,2.2816,0.8758,8,MS-SINASC(TabNet)
+mat_prenatal_ignorado,Dilma Rousseff,2011-01-01,2016-08-31,0.8375,0.9112,0.5895,6,MS-SINASC(TabNet)
+mat_prenatal_ignorado,Michel Temer,2016-08-31,2019-01-01,0.4475,0.4709,0.4241,2,MS-SINASC(TabNet)
+mat_prenatal_ignorado,Jair Bolsonaro,2019-01-01,2023-01-01,0.5172,0.4358,0.6036,4,MS-SINASC(TabNet)
+mat_prenatal_ignorado,Lula (3o mandato),2023-01-01,2026-10-19,0.4155,0.4149,0.4161,2,MS-SINASC(TabNet)
+mat_prenatal_nenhuma,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mat_prenatal_nenhuma,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mat_prenatal_nenhuma,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mat_prenatal_nenhuma,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mat_prenatal_nenhuma,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mat_prenatal_nenhuma,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mat_prenatal_nenhuma,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mat_prenatal_nenhuma,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+mat_prenatal_nenhuma,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mat_prenatal_nenhuma,Fernando Henrique Cardoso,1995-01-01,2003-01-01,4.7631,5.8129,3.7714,4,MS-SINASC(TabNet)
+mat_prenatal_nenhuma,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2.2914,3.2104,1.8359,8,MS-SINASC(TabNet)
+mat_prenatal_nenhuma,Dilma Rousseff,2011-01-01,2016-08-31,2.5506,2.7201,2.0636,6,MS-SINASC(TabNet)
+mat_prenatal_nenhuma,Michel Temer,2016-08-31,2019-01-01,1.8020,1.9303,1.6738,2,MS-SINASC(TabNet)
+mat_prenatal_nenhuma,Jair Bolsonaro,2019-01-01,2023-01-01,1.6484,1.5301,1.5004,4,MS-SINASC(TabNet)
+mat_prenatal_nenhuma,Lula (3o mandato),2023-01-01,2026-10-19,1.3668,1.4064,1.3271,2,MS-SINASC(TabNet)
+mor_agua_encanada_pop,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mor_agua_encanada_pop,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mor_agua_encanada_pop,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mor_agua_encanada_pop,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mor_agua_encanada_pop,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mor_agua_encanada_pop,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mor_agua_encanada_pop,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mor_agua_encanada_pop,Collor,1990-03-15,1992-10-02,71.3100,71.3100,71.3100,1,Atlas-DH-Censo(ADH_T_AGUA)
+mor_agua_encanada_pop,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mor_agua_encanada_pop,Fernando Henrique Cardoso,1995-01-01,2003-01-01,81.7900,81.7900,81.7900,1,Atlas-DH-Censo(ADH_T_AGUA)
+mor_agua_encanada_pop,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,92.7200,92.7200,92.7200,1,Atlas-DH-Censo(ADH_T_AGUA)
+mor_agua_encanada_pop,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+mor_agua_encanada_pop,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+mor_agua_encanada_pop,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+mor_agua_encanada_pop,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+mor_agua_rede_geral,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mor_agua_rede_geral,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mor_agua_rede_geral,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral,Collor,1990-03-15,1992-10-02,70.7132,70.7132,70.7132,1,IBGE-Censo(SIDRA)
+mor_agua_rede_geral,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mor_agua_rede_geral,Fernando Henrique Cardoso,1995-01-01,2003-01-01,77.8197,77.8197,77.8197,1,IBGE-Censo(SIDRA)
+mor_agua_rede_geral,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,82.8517,82.8517,82.8517,1,IBGE-Censo(SIDRA)
+mor_agua_rede_geral,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+mor_agua_rede_geral,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+mor_agua_rede_geral,Jair Bolsonaro,2019-01-01,2023-01-01,83.8782,83.8782,83.8782,1,IBGE-Censo(SIDRA)
+mor_agua_rede_geral,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Fernando Henrique Cardoso,1995-01-01,2003-01-01,81.4964,81.0598,81.9329,2,IBGE-PNAD(SIDRA1955)
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,82.9829,82.4788,84.2860,7,IBGE-PNAD(SIDRA1955)
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Dilma Rousseff,2011-01-01,2016-08-31,85.1686,84.6338,85.4315,5,IBGE-PNAD(SIDRA1955)
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNAD_SIDRA1955,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Dilma Rousseff,2011-01-01,2016-08-31,85.8000,85.8000,85.8000,1,IBGE-PNADC(SIDRA6731)
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Michel Temer,2016-08-31,2019-01-01,85.7500,85.7000,85.8000,2,IBGE-PNADC(SIDRA6731)
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Jair Bolsonaro,2019-01-01,2023-01-01,85.5000,85.5000,85.5000,2,IBGE-PNADC(SIDRA6731)
+mor_agua_rede_geral__IBGE_PNADC_SIDRA6731,Lula (3o mandato),2023-01-01,2026-10-19,86.1000,85.9000,86.1000,3,IBGE-PNADC(SIDRA6731)
+mor_esgoto_adequado,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mor_esgoto_adequado,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mor_esgoto_adequado,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado,Collor,1990-03-15,1992-10-02,49.7804,49.7804,49.7804,1,IBGE-Censo(SIDRA)
+mor_esgoto_adequado,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mor_esgoto_adequado,Fernando Henrique Cardoso,1995-01-01,2003-01-01,62.1953,62.1953,62.1953,1,IBGE-Censo(SIDRA)
+mor_esgoto_adequado,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,67.0577,67.0577,67.0577,1,IBGE-Censo(SIDRA)
+mor_esgoto_adequado,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+mor_esgoto_adequado,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+mor_esgoto_adequado,Jair Bolsonaro,2019-01-01,2023-01-01,77.4108,77.4108,77.4108,1,IBGE-Censo(SIDRA)
+mor_esgoto_adequado,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Fernando Henrique Cardoso,1995-01-01,2003-01-01,67.4109,66.7461,68.0758,2,IBGE-PNAD(SIDRA1956)
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,70.8462,68.8542,72.2276,7,IBGE-PNAD(SIDRA1956)
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Dilma Rousseff,2011-01-01,2016-08-31,77.7024,77.1898,80.6341,5,IBGE-PNAD(SIDRA1956)
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNAD_SIDRA1956,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Jair Bolsonaro,2019-01-01,2023-01-01,86.6000,87.4000,85.8000,2,IBGE-PNADC(SIDRA7192)
+mor_esgoto_adequado__IBGE_PNADC_SIDRA7192,Lula (3o mandato),2023-01-01,2026-10-19,85.2000,84.8000,85.3000,3,IBGE-PNADC(SIDRA7192)
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Medici,1969-10-30,1974-03-15,42.2790,42.2790,42.2790,1,Ipea-PDIAE(Atlas1998<=1991;SIDRA>=2000)
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Figueiredo,1979-03-15,1985-03-15,52.8570,52.8570,52.8570,1,Ipea-PDIAE(Atlas1998<=1991;SIDRA>=2000)
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Collor,1990-03-15,1992-10-02,58.8520,58.8520,58.8520,1,Ipea-PDIAE(Atlas1998<=1991;SIDRA>=2000)
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Fernando Henrique Cardoso,1995-01-01,2003-01-01,62.2000,62.2000,62.2000,1,Ipea-PDIAE(Atlas1998<=1991;SIDRA>=2000)
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,67.0600,67.0600,67.0600,1,Ipea-PDIAE(Atlas1998<=1991;SIDRA>=2000)
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Jair Bolsonaro,2019-01-01,2023-01-01,77.4200,77.4200,77.4200,1,Ipea-PDIAE(Atlas1998<=1991;SIDRA>=2000)
+mor_esgoto_adequado__Ipea_PDIAE_Atlas1998_1991_SIDRA_2000,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+mor_esgoto_rede,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mor_esgoto_rede,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mor_esgoto_rede,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+mor_esgoto_rede,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mor_esgoto_rede,Fernando Henrique Cardoso,1995-01-01,2003-01-01,47.2400,47.2400,47.2400,1,IBGE-Censo(Ipeadata PDIEREDE)
+mor_esgoto_rede,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,55.4500,55.4500,55.4500,1,IBGE-Censo(Ipeadata PDIEREDE)
+mor_esgoto_rede,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+mor_esgoto_rede,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+mor_esgoto_rede,Jair Bolsonaro,2019-01-01,2023-01-01,60.4300,60.4300,60.4300,1,IBGE-Censo(Ipeadata PDIEREDE)
+mor_esgoto_rede,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Dilma Rousseff,2011-01-01,2016-08-31,66.8000,66.8000,66.8000,1,IBGE-PNADC(SIDRA6735)
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Michel Temer,2016-08-31,2019-01-01,66.5000,66.4000,66.6000,2,IBGE-PNADC(SIDRA6735)
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA6735,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Jair Bolsonaro,2019-01-01,2023-01-01,68.7000,68.1000,69.3000,2,IBGE-PNADC(SIDRA7192)
+mor_esgoto_rede_ou_fossa_ligada__IBGE_PNADC_SIDRA7192,Lula (3o mandato),2023-01-01,2026-10-19,70.5000,69.7000,71.4000,3,IBGE-PNADC(SIDRA7192)
+mor_luz,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+mor_luz,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+mor_luz,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+mor_luz,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+mor_luz,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+mor_luz,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+mor_luz,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+mor_luz,Collor,1990-03-15,1992-10-02,84.8400,84.8400,84.8400,1,Atlas-DH-Censo(ADH_T_LUZ)
+mor_luz,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+mor_luz,Fernando Henrique Cardoso,1995-01-01,2003-01-01,93.4600,93.4600,93.4600,1,Atlas-DH-Censo(ADH_T_LUZ)
+mor_luz,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,98.5800,98.5800,98.5800,1,Atlas-DH-Censo(ADH_T_LUZ)
+mor_luz,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+mor_luz,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+mor_luz,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+mor_luz,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+pre_rgps_arrecadacao_liquida_pib,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+pre_rgps_arrecadacao_liquida_pib,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+pre_rgps_arrecadacao_liquida_pib,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+pre_rgps_arrecadacao_liquida_pib,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+pre_rgps_arrecadacao_liquida_pib,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+pre_rgps_arrecadacao_liquida_pib,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+pre_rgps_arrecadacao_liquida_pib,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+pre_rgps_arrecadacao_liquida_pib,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+pre_rgps_arrecadacao_liquida_pib,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+pre_rgps_arrecadacao_liquida_pib,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+pre_rgps_arrecadacao_liquida_pib,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,5.1774,4.7894,5.4549,7,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_arrecadacao_liquida_pib,Dilma Rousseff,2011-01-01,2016-08-31,5.7503,5.6186,5.7125,6,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_arrecadacao_liquida_pib,Michel Temer,2016-08-31,2019-01-01,5.6380,5.6911,5.5850,2,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_arrecadacao_liquida_pib,Jair Bolsonaro,2019-01-01,2023-01-01,5.3392,5.5938,5.3148,4,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_arrecadacao_liquida_pib,Lula (3o mandato),2023-01-01,2026-10-19,5.4768,5.4158,5.5714,3,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_beneficios_pib,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+pre_rgps_beneficios_pib,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+pre_rgps_beneficios_pib,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+pre_rgps_beneficios_pib,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+pre_rgps_beneficios_pib,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+pre_rgps_beneficios_pib,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+pre_rgps_beneficios_pib,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+pre_rgps_beneficios_pib,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+pre_rgps_beneficios_pib,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+pre_rgps_beneficios_pib,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+pre_rgps_beneficios_pib,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,6.6509,6.4232,6.5586,7,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_beneficios_pib,Dilma Rousseff,2011-01-01,2016-08-31,6.9905,6.4308,8.1461,6,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_beneficios_pib,Michel Temer,2016-08-31,2019-01-01,8.4668,8.5135,8.4200,2,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_beneficios_pib,Jair Bolsonaro,2019-01-01,2023-01-01,8.2973,8.5267,7.9421,4,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_beneficios_pib,Lula (3o mandato),2023-01-01,2026-10-19,8.1243,8.2591,8.1118,3,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_resultado_pib,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+pre_rgps_resultado_pib,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+pre_rgps_resultado_pib,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+pre_rgps_resultado_pib,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+pre_rgps_resultado_pib,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+pre_rgps_resultado_pib,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+pre_rgps_resultado_pib,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+pre_rgps_resultado_pib,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+pre_rgps_resultado_pib,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+pre_rgps_resultado_pib,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+pre_rgps_resultado_pib,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,-1.4736,-1.6338,-1.1038,7,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_resultado_pib,Dilma Rousseff,2011-01-01,2016-08-31,-1.2327,-0.8122,-2.3884,6,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_resultado_pib,Michel Temer,2016-08-31,2019-01-01,-2.7787,-2.7705,-2.7869,2,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_resultado_pib,Jair Bolsonaro,2019-01-01,2023-01-01,-2.9067,-2.8850,-2.5920,4,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+pre_rgps_resultado_pib,Lula (3o mandato),2023-01-01,2026-10-19,-2.6042,-2.7981,-2.4897,3,MPS-fluxo-de-caixa(Ipeadata MPAS12_*) / IBGE-PIB(PAN_PIBPMV)
+tbl_informalidade,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+tbl_informalidade,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+tbl_informalidade,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+tbl_informalidade,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+tbl_informalidade,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+tbl_informalidade,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+tbl_informalidade,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+tbl_informalidade,Collor,1990-03-15,1992-10-02,56.3804,56.3804,56.3804,1,Ipea-PNAD(DISOC_INFI)
+tbl_informalidade,Itamar Franco,1992-10-02,1995-01-01,57.2029,57.2029,57.2029,1,Ipea-PNAD(DISOC_INFI)
+tbl_informalidade,Fernando Henrique Cardoso,1995-01-01,2003-01-01,58.3267,57.8377,58.1855,7,Ipea-PNAD(DISOC_INFI)
+tbl_informalidade,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,54.2638,57.3695,50.9022,7,Ipea-PNAD(DISOC_INFI)
+tbl_informalidade,Dilma Rousseff,2011-01-01,2016-08-31,47.0561,47.4999,47.2994,4,Ipea-PNAD(DISOC_INFI)
+tbl_informalidade,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+tbl_informalidade,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+tbl_informalidade,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+tbl_informalidade_ibge,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+tbl_informalidade_ibge,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+tbl_informalidade_ibge,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+tbl_informalidade_ibge,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+tbl_informalidade_ibge,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+tbl_informalidade_ibge,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+tbl_informalidade_ibge,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+tbl_informalidade_ibge,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+tbl_informalidade_ibge,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+tbl_informalidade_ibge,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+tbl_informalidade_ibge,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+tbl_informalidade_ibge,Dilma Rousseff,2011-01-01,2016-08-31,39.1000,39.1000,39.1000,1,IBGE-PNADC(SIDRA4708)
+tbl_informalidade_ibge,Michel Temer,2016-08-31,2019-01-01,40.7500,40.6000,40.9000,2,IBGE-PNADC(SIDRA4708)
+tbl_informalidade_ibge,Jair Bolsonaro,2019-01-01,2023-01-01,39.4500,41.0000,39.5000,4,IBGE-PNADC(SIDRA4708)
+tbl_informalidade_ibge,Lula (3o mandato),2023-01-01,2026-10-19,38.7667,39.2000,38.1000,3,IBGE-PNADC(SIDRA4708)
+tbl_renda_trabalho_real,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+tbl_renda_trabalho_real,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+tbl_renda_trabalho_real,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+tbl_renda_trabalho_real,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real,Fernando Henrique Cardoso,1995-01-01,2003-01-01,2180.6516,2191.5539,2169.7493,2,IBGE-PNAD(SIDRA1871 deflacionado)
+tbl_renda_trabalho_real,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2236.6891,2052.3553,2484.4430,7,IBGE-PNAD(SIDRA1871 deflacionado)
+tbl_renda_trabalho_real,Dilma Rousseff,2011-01-01,2016-08-31,2922.3264,2734.1603,2925.6527,5,IBGE-PNAD(SIDRA1871 deflacionado)
+tbl_renda_trabalho_real,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Dilma Rousseff,2011-01-01,2016-08-31,2991.3356,2926.0541,2942.5934,4,"IBGE-PNAD(SIDRA4027 deflacionado, 15+)"
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA4027_deflacionado_15,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Fernando Henrique Cardoso,1995-01-01,2003-01-01,797.3333,840.0000,755.0000,6,IBGE-PNAD(SIDRA427 real divulgado)
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,734.5000,700.0000,795.0000,4,IBGE-PNAD(SIDRA427 real divulgado)
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Dilma Rousseff,2011-01-01,2016-08-31,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Michel Temer,2016-08-31,2019-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Jair Bolsonaro,2019-01-01,2023-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNAD_SIDRA427_real_divulgado,Lula (3o mandato),2023-01-01,2026-10-19,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Dilma Rousseff,2011-01-01,2016-08-31,3254.5625,3213.2500,3272.6667,4,IBGE-PNADC(Ipea PAN_RRPE)
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Michel Temer,2016-08-31,2019-01-01,3324.3333,3302.5000,3346.1667,2,IBGE-PNADC(Ipea PAN_RRPE)
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Jair Bolsonaro,2019-01-01,2023-01-01,3300.3125,3362.6667,3205.0000,4,IBGE-PNADC(Ipea PAN_RRPE)
+tbl_renda_trabalho_real__IBGE_PNADC_Ipea_PAN_RRPE,Lula (3o mandato),2023-01-01,2026-10-19,3532.1111,3388.6667,3666.5833,3,IBGE-PNADC(Ipea PAN_RRPE)
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Dilma Rousseff,2011-01-01,2016-08-31,3219.1978,3129.9490,3209.7473,5,IBGE-PNADC(SIDRA4660 nominal deflacionado)
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Michel Temer,2016-08-31,2019-01-01,3229.2954,3194.4333,3264.1575,2,IBGE-PNADC(SIDRA4660 nominal deflacionado)
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Jair Bolsonaro,2019-01-01,2023-01-01,3207.4678,3251.7693,3078.2122,4,IBGE-PNADC(SIDRA4660 nominal deflacionado)
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660_nominal_deflacionado,Lula (3o mandato),2023-01-01,2026-10-19,3439.1699,3295.3417,3604.8884,3,IBGE-PNADC(SIDRA4660 nominal deflacionado)
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Castelo Branco,1964-04-15,1967-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Costa e Silva,1967-03-15,1969-08-31,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Junta Militar,1969-08-31,1969-10-30,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Medici,1969-10-30,1974-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Geisel,1974-03-15,1979-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Figueiredo,1979-03-15,1985-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Sarney,1985-03-15,1990-03-15,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Collor,1990-03-15,1992-10-02,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Itamar Franco,1992-10-02,1995-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,0,sem observacao na janela
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Dilma Rousseff,2011-01-01,2016-08-31,3172.6000,3083.0000,3164.0000,5,IBGE-PNADC(SIDRA4660)
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Michel Temer,2016-08-31,2019-01-01,3182.0000,3147.0000,3217.0000,2,IBGE-PNADC(SIDRA4660)
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Jair Bolsonaro,2019-01-01,2023-01-01,3161.7500,3204.0000,3032.0000,4,IBGE-PNADC(SIDRA4660)
+tbl_renda_trabalho_real__IBGE_PNADC_SIDRA4660,Lula (3o mandato),2023-01-01,2026-10-19,3392.3333,3249.0000,3560.0000,3,IBGE-PNADC(SIDRA4660)

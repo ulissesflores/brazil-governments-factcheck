@@ -1,0 +1,207 @@
+indicador,fonte,definicao_linha,ano,valor,unidade,nota
+gini,Bonelli&Ramos-RBE1995-T1,"PEA com rendimento nao-nulo; 1960/70/80 censos, 1979/90 PNAD",1960,0.5,0-1,"bruto/fgv_rbe_642_gini_censos.pdf, Tabela 1"
+gini,Bonelli&Ramos-RBE1995-T1,"PEA com rendimento nao-nulo; 1960/70/80 censos, 1979/90 PNAD",1970,0.568,0-1,"bruto/fgv_rbe_642_gini_censos.pdf, Tabela 1"
+gini,Bonelli&Ramos-RBE1995-T1,"PEA com rendimento nao-nulo; 1960/70/80 censos, 1979/90 PNAD",1979,0.58,0-1,"bruto/fgv_rbe_642_gini_censos.pdf, Tabela 1"
+gini,Bonelli&Ramos-RBE1995-T1,"PEA com rendimento nao-nulo; 1960/70/80 censos, 1979/90 PNAD",1980,0.59,0-1,"bruto/fgv_rbe_642_gini_censos.pdf, Tabela 1"
+gini,Bonelli&Ramos-RBE1995-T1,"PEA com rendimento nao-nulo; 1960/70/80 censos, 1979/90 PNAD",1990,0.615,0-1,"bruto/fgv_rbe_642_gini_censos.pdf, Tabela 1"
+gini,IBGE-SIS2024,renda dom. per capita (PNADC),2012,0.5395,0-1,"Tabela 2.13, edicao SIS 2024"
+gini,IBGE-SIS2024,renda dom. per capita (PNADC),2013,0.5321,0-1,"Tabela 2.13, edicao SIS 2024"
+gini,IBGE-SIS2024,renda dom. per capita (PNADC),2014,0.5258,0-1,"Tabela 2.13, edicao SIS 2024"
+gini,IBGE-SIS2024,renda dom. per capita (PNADC),2015,0.5241,0-1,"Tabela 2.13, edicao SIS 2024"
+gini,IBGE-SIS2024,renda dom. per capita (PNADC),2016,0.5374,0-1,"Tabela 2.13, edicao SIS 2024"
+gini,IBGE-SIS2024,renda dom. per capita (PNADC),2017,0.5391,0-1,"Tabela 2.13, edicao SIS 2024"
+gini,IBGE-SIS2024,renda dom. per capita (PNADC),2018,0.5454,0-1,"Tabela 2.13, edicao SIS 2024"
+gini,IBGE-SIS2024,renda dom. per capita (PNADC),2019,0.5436,0-1,"Tabela 2.13, edicao SIS 2024"
+gini,IBGE-SIS2024,renda dom. per capita (PNADC),2020,0.5237,0-1,"Tabela 2.13, edicao SIS 2024"
+gini,IBGE-SIS2024,renda dom. per capita (PNADC),2021,0.5441,0-1,"Tabela 2.13, edicao SIS 2024"
+gini,IBGE-SIS2024,renda dom. per capita (PNADC),2022,0.5182,0-1,"Tabela 2.13, edicao SIS 2024"
+gini,IBGE-SIS2024,renda dom. per capita (PNADC),2023,0.5181,0-1,"Tabela 2.13, edicao SIS 2024"
+gini,IBGE-SIS2025,renda dom. per capita (PNADC),2012,0.5398,0-1,"Tabela 2.13, edicao SIS 2025"
+gini,IBGE-SIS2025,renda dom. per capita (PNADC),2013,0.5323,0-1,"Tabela 2.13, edicao SIS 2025"
+gini,IBGE-SIS2025,renda dom. per capita (PNADC),2014,0.5259,0-1,"Tabela 2.13, edicao SIS 2025"
+gini,IBGE-SIS2025,renda dom. per capita (PNADC),2015,0.5242,0-1,"Tabela 2.13, edicao SIS 2025"
+gini,IBGE-SIS2025,renda dom. per capita (PNADC),2016,0.5374,0-1,"Tabela 2.13, edicao SIS 2025"
+gini,IBGE-SIS2025,renda dom. per capita (PNADC),2017,0.5388,0-1,"Tabela 2.13, edicao SIS 2025"
+gini,IBGE-SIS2025,renda dom. per capita (PNADC),2018,0.5454,0-1,"Tabela 2.13, edicao SIS 2025"
+gini,IBGE-SIS2025,renda dom. per capita (PNADC),2019,0.5433,0-1,"Tabela 2.13, edicao SIS 2025"
+gini,IBGE-SIS2025,renda dom. per capita (PNADC),2020,0.5231,0-1,"Tabela 2.13, edicao SIS 2025"
+gini,IBGE-SIS2025,renda dom. per capita (PNADC),2021,0.5434,0-1,"Tabela 2.13, edicao SIS 2025"
+gini,IBGE-SIS2025,renda dom. per capita (PNADC),2022,0.517,0-1,"Tabela 2.13, edicao SIS 2025"
+gini,IBGE-SIS2025,renda dom. per capita (PNADC),2023,0.5165,0-1,"Tabela 2.13, edicao SIS 2025"
+gini,IBGE-SIS2025,renda dom. per capita (PNADC),2024,0.5044,0-1,"Tabela 2.13, edicao SIS 2025"
+gini,Ipeadata-ADH_GINI,"renda dom. per capita, CENSO (Atlas DH)",1991,0.63,0-1,Censo
+gini,Ipeadata-ADH_GINI,"renda dom. per capita, CENSO (Atlas DH)",2000,0.64,0-1,Censo
+gini,Ipeadata-ADH_GINI,"renda dom. per capita, CENSO (Atlas DH)",2010,0.6,0-1,Censo
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1976,0.6227,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1977,0.6246,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1978,0.6039,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1979,0.5931,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1981,0.5842,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1982,0.5915,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1983,0.596,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1984,0.5894,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1985,0.5977,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1986,0.588,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1987,0.6006,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1988,0.6164,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1989,0.6356,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1990,0.6139,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1992,0.5825,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1993,0.6044,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1995,0.6005,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1996,0.6021,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1997,0.6021,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1998,0.6002,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",1999,0.594,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",2001,0.5958,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",2002,0.5893,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",2003,0.583,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",2004,0.5725,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",2005,0.5695,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",2006,0.563,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",2007,0.556,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",2008,0.5462,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",2009,0.5426,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",2011,0.5314,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",2012,0.5297,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",2013,0.5275,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PGINI,"renda dom. per capita (PNAD antiga, serie interrompida)",2014,0.5179,0-1,"PNAD; sem 1991, 1994, 2000, 2010"
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2012,0.54,0-1,PNADC
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2013,0.532,0-1,PNADC
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2014,0.526,0-1,PNADC
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2015,0.524,0-1,PNADC
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2016,0.537,0-1,PNADC
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2017,0.539,0-1,PNADC
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2018,0.545,0-1,PNADC
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2019,0.543,0-1,PNADC
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2020,0.523,0-1,PNADC
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2021,0.543,0-1,PNADC
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2022,0.517,0-1,PNADC
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2023,0.517,0-1,PNADC
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2024,0.504,0-1,PNADC
+gini,Ipeadata-PNADCA_GINIUF,renda dom. per capita (PNADC anual),2025,0.511,0-1,PNADC
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,1995,0.6147,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,1996,0.6164,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,1997,0.6161,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,1998,0.6141,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,1999,0.6077,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2001,0.6096,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2002,0.6029,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2003,0.5963,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2004,0.5851,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2005,0.5822,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2006,0.5752,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2007,0.5682,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2008,0.558,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2009,0.5539,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2011,0.5429,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2012,0.5398,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2013,0.5324,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2014,0.526,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2015,0.5242,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2016,0.5374,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2017,0.5388,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2018,0.5454,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2019,0.5433,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2020,0.5233,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2021,0.5435,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2022,0.5171,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2023,0.5166,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2024,0.5045,0-1,Souza&Hecksher 2025
+gini,Ipeadata-PNADS_GINI,harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012,2025,0.5113,0-1,Souza&Hecksher 2025
+gini,PIP,renda dom. per capita,1981,0.5786,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1982,0.5835,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1982,0.5836,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1983,0.589,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1984,0.583,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1985,0.5553,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1986,0.5843,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1987,0.5964,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1988,0.6137,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1989,0.6325,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1989,0.6324000000000001,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1990,0.6045,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1992,0.531,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1993,0.6007,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1995,0.5953,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1996,0.5984,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1997,0.5975,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1998,0.5957,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,1999,0.5895,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,2001,0.584,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,2002,0.5811,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,2003,0.5755,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,2004,0.5647,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,2005,0.5631,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,2006,0.5564,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,2007,0.5492,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,2008,0.5404,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,2009,0.5367999999999999,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,2011,0.5294,0-1,PNAD 1981 - 2011
+gini,PIP,renda dom. per capita,2012,0.5345,0-1,PNADC-E1 2012 - 2024
+gini,PIP,renda dom. per capita,2013,0.5271,0-1,PNADC-E1 2012 - 2024
+gini,PIP,renda dom. per capita,2014,0.5205,0-1,PNADC-E1 2012 - 2024
+gini,PIP,renda dom. per capita,2015,0.5194,0-1,PNADC-E1 2012 - 2024
+gini,PIP,renda dom. per capita,2016,0.5336,0-1,PNADC-E1 2012 - 2024
+gini,PIP,renda dom. per capita,2017,0.5329,0-1,PNADC-E1 2012 - 2024
+gini,PIP,renda dom. per capita,2018,0.5389,0-1,PNADC-E1 2012 - 2024
+gini,PIP,renda dom. per capita,2019,0.5347999999999999,0-1,PNADC-E1 2012 - 2024
+gini,PIP,renda dom. per capita,2020,0.4882,0-1,PNADC-E5 2012 - 2024
+gini,PIP,renda dom. per capita,2021,0.5285,0-1,PNADC-E5 2012 - 2024
+gini,PIP,renda dom. per capita,2022,0.5189,0-1,PNADC-E1 2012 - 2024
+gini,PIP,renda dom. per capita,2023,0.5149,0-1,PNADC-E1 2012 - 2024
+gini,PIP,renda dom. per capita,2024,0.5025999999999999,0-1,PNADC-E1 2012 - 2024
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2012,0.54,0-1,PNADC
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2013,0.532,0-1,PNADC
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2014,0.526,0-1,PNADC
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2015,0.524,0-1,PNADC
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2016,0.537,0-1,PNADC
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2017,0.539,0-1,PNADC
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2018,0.545,0-1,PNADC
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2019,0.543,0-1,PNADC
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2020,0.523,0-1,PNADC
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2021,0.543,0-1,PNADC
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2022,0.517,0-1,PNADC
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2023,0.517,0-1,PNADC
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2024,0.504,0-1,PNADC
+gini,SIDRA-7435,"renda dom. per capita, precos medios do ano (PNADC)",2025,0.511,0-1,PNADC
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1981,0.579,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1982,0.584,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1983,0.589,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1984,0.583,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1985,0.555,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1986,0.584,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1987,0.596,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1988,0.614,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1989,0.632,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1990,0.605,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1992,0.531,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1993,0.601,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1995,0.595,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1996,0.598,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1997,0.598,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1998,0.596,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),1999,0.59,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2001,0.584,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2002,0.581,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2003,0.576,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2004,0.565,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2005,0.563,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2006,0.556,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2007,0.549,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2008,0.54,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2009,0.537,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2011,0.529,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2012,0.534,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2013,0.527,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2014,0.521,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2015,0.519,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2016,0.534,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2017,0.533,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2018,0.539,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2019,0.535,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2020,0.488,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2021,0.529,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2022,0.519,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2023,0.515,0-1,
+gini,WB-WDI-SI.POV.GINI,Banco Mundial (PIP),2024,0.503,0-1,

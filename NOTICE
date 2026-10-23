@@ -1,0 +1,8 @@
+Brazil governments fact-check and X-ray (working name)
+Copyright 2026 Carlos Ulisses Flores
+
+Licences:
+- Code (code/, scripts/, run_all.py, make_provenance.py, tests/, data/raw/*/recalcula.py and similar derivation scripts): Apache-2.0 (LICENSES/Apache-2.0.txt; copy in LICENSE).
+- Documentation (README*.md, docs/, REPRODUCIBILITY.md, ROADMAP.md, CHANGELOG.md), curated data (data/curated/), derived series and figures: CC BY 4.0 (LICENSES/CC-BY-4.0.txt).
+
+Third-party material. The raw files under data/raw come from public statistical bodies (IBGE, Banco Central do Brasil, Ipea, World Bank, INPE, Ministry of Health, WHO and UNICEF, V-Dem, FAO, UN) and are redistributed only where the source licence allows it; each file is recorded with its URL, its sha256 and the date of download in the manifest of its folder, and the source remains the author of its numbers. Large documents (PDF, ZIP, spreadsheets, news pages) are not redistributed: only their URL and hash are kept (see REPRODUCIBILITY.md). The original infographic image is reproduced as evidence of what was checked; it is not an assertion of the author of this repository.

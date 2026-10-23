@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"HIST_FBKFN","SERNOME":"Capital fixo - forma\u00e7\u00e3o bruta - INATIVA","SERCOMENTARIO":"Fonte:  Morandi, Lucilene. Estimativa do estoque de capital fixo Brasil - 1950/2000. Rio de Janeiro: IPEA / Dimac, 2003. (Texto para discuss\u00e3o, no prelo).  S\u00e9rie interrompida.","SERATUALIZACAO":"2002-10-29T10:09:04-03:00","BASNOME":"Macroecon\u00f4mico","FNTSIGLA":"IPEA","FNTNOME":"Instituto de Pesquisa Econ\u00f4mica Aplicada","FNTURL":"www.ipea.gov.br","PERNOME":"Anual","UNINOME":"R$","MULNOME":"mil","SERSTATUS":"I","TEMCODIGO":8,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

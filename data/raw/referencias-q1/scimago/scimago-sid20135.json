@@ -1,0 +1,24 @@
+{
+ "categorias_ano_mais_recente_por_categoria": [
+  {
+   "ano": 2025,
+   "categoria": "Medicine (miscellaneous)",
+   "quartil": "Q2"
+  },
+  {
+   "ano": 2025,
+   "categoria": "Public Health, Environmental and Occupational Health",
+   "quartil": "Q2"
+  }
+ ],
+ "consulta_issn": [
+  "0102-311X"
+ ],
+ "data_consulta": "2026-10-19",
+ "linhas_categoria_ano": 54,
+ "metodo": "fetch() dentro do Chrome real do Ulisses na pagina do Scimago (curl/urllib recebem 403 do Cloudflare); extraida a 1a tabela (Category/Year/Quartile) e mantido o ano mais recente de cada categoria",
+ "sha256_texto_resposta_prefixo20": "117256475493425abaf0",
+ "sid": "20135",
+ "titulo_scimago": "Cadernos de Saude Publica",
+ "url": "https://www.scimagojr.com/journalsearch.php?q=20135&tip=sid&clean=0"
+}

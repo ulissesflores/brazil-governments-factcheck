@@ -1,0 +1,71 @@
+data_a,rotulo_a,data_b,rotulo_b,tipo_do_par,faixa_etaria,mensalidade_a_rs,mensalidade_b_rs,variacao_pct
+2006-05-11,AMIL 40 101 QP,2007-02-28,Amil 40 101 QP,mesmo rotulo (caixa diferente),0 a 18,175.00,180.25,3.00
+2006-05-11,AMIL 40 101 QP,2007-02-28,Amil 40 101 QP,mesmo rotulo (caixa diferente),19 a 23,227.50,234.33,3.00
+2006-05-11,AMIL 40 101 QP,2007-02-28,Amil 40 101 QP,mesmo rotulo (caixa diferente),24 a 28,250.25,257.76,3.00
+2006-05-11,AMIL 40 101 QP,2007-02-28,Amil 40 101 QP,mesmo rotulo (caixa diferente),29 a 33,272.77,280.96,3.00
+2006-05-11,AMIL 40 101 QP,2007-02-28,Amil 40 101 QP,mesmo rotulo (caixa diferente),34 a 38,300.05,309.06,3.00
+2006-05-11,AMIL 40 101 QP,2007-02-28,Amil 40 101 QP,mesmo rotulo (caixa diferente),39 a 43,330.06,339.97,3.00
+2006-05-11,AMIL 40 101 QP,2007-02-28,Amil 40 101 QP,mesmo rotulo (caixa diferente),44 a 48,428.75,441.62,3.00
+2006-05-11,AMIL 40 101 QP,2007-02-28,Amil 40 101 QP,mesmo rotulo (caixa diferente),49 a 53,493.06,507.86,3.00
+2006-05-11,AMIL 40 101 QP,2007-02-28,Amil 40 101 QP,mesmo rotulo (caixa diferente),54 a 58,616.33,634.83,3.00
+2006-05-11,AMIL 40 101 QP,2007-02-28,Amil 40 101 QP,mesmo rotulo (caixa diferente),59+,1050.00,1081.50,3.00
+2006-05-11,AMIL 40 PLUS,2007-02-28,Amil 40 PLUS QP,rotulo quase igual (+ 'QP'),0 a 18,197.00,202.91,3.00
+2006-05-11,AMIL 40 PLUS,2007-02-28,Amil 40 PLUS QP,rotulo quase igual (+ 'QP'),19 a 23,256.10,263.78,3.00
+2006-05-11,AMIL 40 PLUS,2007-02-28,Amil 40 PLUS QP,rotulo quase igual (+ 'QP'),24 a 28,281.71,290.16,3.00
+2006-05-11,AMIL 40 PLUS,2007-02-28,Amil 40 PLUS QP,rotulo quase igual (+ 'QP'),29 a 33,307.06,316.27,3.00
+2006-05-11,AMIL 40 PLUS,2007-02-28,Amil 40 PLUS QP,rotulo quase igual (+ 'QP'),34 a 38,337.77,347.90,3.00
+2006-05-11,AMIL 40 PLUS,2007-02-28,Amil 40 PLUS QP,rotulo quase igual (+ 'QP'),39 a 43,371.55,382.69,3.00
+2006-05-11,AMIL 40 PLUS,2007-02-28,Amil 40 PLUS QP,rotulo quase igual (+ 'QP'),44 a 48,482.64,497.11,3.00
+2006-05-11,AMIL 40 PLUS,2007-02-28,Amil 40 PLUS QP,rotulo quase igual (+ 'QP'),49 a 53,555.04,571.68,3.00
+2006-05-11,AMIL 40 PLUS,2007-02-28,Amil 40 PLUS QP,rotulo quase igual (+ 'QP'),54 a 58,693.80,714.60,3.00
+2006-05-11,AMIL 40 PLUS,2007-02-28,Amil 40 PLUS QP,rotulo quase igual (+ 'QP'),59+,1182.00,1217.46,3.00
+2006-05-11,AMIL 30 Especial,2007-02-28,AMIL 30 ESPECIAL,mesmo rotulo (caixa diferente),0 a 18,162.75,167.63,3.00
+2006-05-11,AMIL 30 Especial,2007-02-28,AMIL 30 ESPECIAL,mesmo rotulo (caixa diferente),19 a 23,211.58,217.92,3.00
+2006-05-11,AMIL 30 Especial,2007-02-28,AMIL 30 ESPECIAL,mesmo rotulo (caixa diferente),24 a 28,232.74,239.71,2.99
+2006-05-11,AMIL 30 Especial,2007-02-28,AMIL 30 ESPECIAL,mesmo rotulo (caixa diferente),29 a 33,253.69,261.28,2.99
+2006-05-11,AMIL 30 Especial,2007-02-28,AMIL 30 ESPECIAL,mesmo rotulo (caixa diferente),34 a 38,279.06,287.41,2.99
+2006-05-11,AMIL 30 Especial,2007-02-28,AMIL 30 ESPECIAL,mesmo rotulo (caixa diferente),39 a 43,306.97,316.15,2.99
+2006-05-11,AMIL 30 Especial,2007-02-28,AMIL 30 ESPECIAL,mesmo rotulo (caixa diferente),44 a 48,398.75,410.68,2.99
+2006-05-11,AMIL 30 Especial,2007-02-28,AMIL 30 ESPECIAL,mesmo rotulo (caixa diferente),49 a 53,458.56,472.28,2.99
+2006-05-11,AMIL 30 Especial,2007-02-28,AMIL 30 ESPECIAL,mesmo rotulo (caixa diferente),54 a 58,573.20,590.35,2.99
+2006-05-11,AMIL 30 Especial,2007-02-28,AMIL 30 ESPECIAL,mesmo rotulo (caixa diferente),59+,976.50,1005.78,3.00
+2006-05-11,AMIL 20,2007-02-28,Amil 20 QP,rotulo quase igual (+ 'QP'),0 a 18,126.79,130.59,3.00
+2006-05-11,AMIL 20,2007-02-28,Amil 20 QP,rotulo quase igual (+ 'QP'),19 a 23,164.83,169.77,3.00
+2006-05-11,AMIL 20,2007-02-28,Amil 20 QP,rotulo quase igual (+ 'QP'),24 a 28,181.31,186.75,3.00
+2006-05-11,AMIL 20,2007-02-28,Amil 20 QP,rotulo quase igual (+ 'QP'),29 a 33,197.63,203.56,3.00
+2006-05-11,AMIL 20,2007-02-28,Amil 20 QP,rotulo quase igual (+ 'QP'),34 a 38,217.39,223.92,3.00
+2006-05-11,AMIL 20,2007-02-28,Amil 20 QP,rotulo quase igual (+ 'QP'),39 a 43,239.13,246.31,3.00
+2006-05-11,AMIL 20,2007-02-28,Amil 20 QP,rotulo quase igual (+ 'QP'),44 a 48,310.63,319.96,3.00
+2006-05-11,AMIL 20,2007-02-28,Amil 20 QP,rotulo quase igual (+ 'QP'),49 a 53,357.22,367.95,3.00
+2006-05-11,AMIL 20,2007-02-28,Amil 20 QP,rotulo quase igual (+ 'QP'),54 a 58,446.53,459.94,3.00
+2006-05-11,AMIL 20,2007-02-28,Amil 20 QP,rotulo quase igual (+ 'QP'),59+,760.74,783.54,3.00
+2009-03-06,Amil 110 Nacional QP,2010-06-02,Amil Blue II Nacional QP,"SO observacao: produto renomeado; comparo valores, nao afirmo que seja o mesmo plano",0 a 18,132.50,132.50,0.00
+2009-03-06,Amil 110 Nacional QP,2010-06-02,Amil Blue II Nacional QP,"SO observacao: produto renomeado; comparo valores, nao afirmo que seja o mesmo plano",19 a 23,172.25,172.25,0.00
+2009-03-06,Amil 110 Nacional QP,2010-06-02,Amil Blue II Nacional QP,"SO observacao: produto renomeado; comparo valores, nao afirmo que seja o mesmo plano",24 a 28,189.48,189.48,0.00
+2009-03-06,Amil 110 Nacional QP,2010-06-02,Amil Blue II Nacional QP,"SO observacao: produto renomeado; comparo valores, nao afirmo que seja o mesmo plano",29 a 33,206.53,206.53,0.00
+2009-03-06,Amil 110 Nacional QP,2010-06-02,Amil Blue II Nacional QP,"SO observacao: produto renomeado; comparo valores, nao afirmo que seja o mesmo plano",34 a 38,227.18,227.18,0.00
+2009-03-06,Amil 110 Nacional QP,2010-06-02,Amil Blue II Nacional QP,"SO observacao: produto renomeado; comparo valores, nao afirmo que seja o mesmo plano",39 a 43,249.90,249.90,0.00
+2009-03-06,Amil 110 Nacional QP,2010-06-02,Amil Blue II Nacional QP,"SO observacao: produto renomeado; comparo valores, nao afirmo que seja o mesmo plano",44 a 48,324.62,324.62,0.00
+2009-03-06,Amil 110 Nacional QP,2010-06-02,Amil Blue II Nacional QP,"SO observacao: produto renomeado; comparo valores, nao afirmo que seja o mesmo plano",49 a 53,373.31,373.31,0.00
+2009-03-06,Amil 110 Nacional QP,2010-06-02,Amil Blue II Nacional QP,"SO observacao: produto renomeado; comparo valores, nao afirmo que seja o mesmo plano",54 a 58,466.64,466.64,0.00
+2009-03-06,Amil 110 Nacional QP,2010-06-02,Amil Blue II Nacional QP,"SO observacao: produto renomeado; comparo valores, nao afirmo que seja o mesmo plano",59+,795.00,795.00,0.00
+2009-03-06,Amil 120 Nacional QP,2010-06-02,Amil Blue III Nacional QP,SO observacao: idem,0 a 18,153.70,153.70,0.00
+2009-03-06,Amil 120 Nacional QP,2010-06-02,Amil Blue III Nacional QP,SO observacao: idem,19 a 23,199.81,199.81,0.00
+2009-03-06,Amil 120 Nacional QP,2010-06-02,Amil Blue III Nacional QP,SO observacao: idem,24 a 28,219.79,219.79,0.00
+2009-03-06,Amil 120 Nacional QP,2010-06-02,Amil Blue III Nacional QP,SO observacao: idem,29 a 33,239.57,239.57,0.00
+2009-03-06,Amil 120 Nacional QP,2010-06-02,Amil Blue III Nacional QP,SO observacao: idem,34 a 38,263.53,263.53,0.00
+2009-03-06,Amil 120 Nacional QP,2010-06-02,Amil Blue III Nacional QP,SO observacao: idem,39 a 43,289.88,289.88,0.00
+2009-03-06,Amil 120 Nacional QP,2010-06-02,Amil Blue III Nacional QP,SO observacao: idem,44 a 48,376.55,376.55,0.00
+2009-03-06,Amil 120 Nacional QP,2010-06-02,Amil Blue III Nacional QP,SO observacao: idem,49 a 53,433.03,433.03,0.00
+2009-03-06,Amil 120 Nacional QP,2010-06-02,Amil Blue III Nacional QP,SO observacao: idem,54 a 58,541.29,541.29,0.00
+2009-03-06,Amil 120 Nacional QP,2010-06-02,Amil Blue III Nacional QP,SO observacao: idem,59+,922.20,922.20,0.00
+2009-03-06,Amil 130 Nacional QP,2010-06-02,Amil Blue IV Nacional QP,SO observacao: idem,0 a 18,174.90,174.90,0.00
+2009-03-06,Amil 130 Nacional QP,2010-06-02,Amil Blue IV Nacional QP,SO observacao: idem,19 a 23,227.37,227.37,0.00
+2009-03-06,Amil 130 Nacional QP,2010-06-02,Amil Blue IV Nacional QP,SO observacao: idem,24 a 28,250.11,250.11,0.00
+2009-03-06,Amil 130 Nacional QP,2010-06-02,Amil Blue IV Nacional QP,SO observacao: idem,29 a 33,272.62,272.62,0.00
+2009-03-06,Amil 130 Nacional QP,2010-06-02,Amil Blue IV Nacional QP,SO observacao: idem,34 a 38,299.88,299.88,0.00
+2009-03-06,Amil 130 Nacional QP,2010-06-02,Amil Blue IV Nacional QP,SO observacao: idem,39 a 43,329.87,329.87,0.00
+2009-03-06,Amil 130 Nacional QP,2010-06-02,Amil Blue IV Nacional QP,SO observacao: idem,44 a 48,428.50,428.50,0.00
+2009-03-06,Amil 130 Nacional QP,2010-06-02,Amil Blue IV Nacional QP,SO observacao: idem,49 a 53,492.78,492.78,0.00
+2009-03-06,Amil 130 Nacional QP,2010-06-02,Amil Blue IV Nacional QP,SO observacao: idem,54 a 58,615.98,615.98,0.00
+2009-03-06,Amil 130 Nacional QP,2010-06-02,Amil Blue IV Nacional QP,SO observacao: idem,59+,1049.40,1049.40,0.00

@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"PAN_PIBPMV","SERNOME":"PIB nominal","SERCOMENTARIO":"Produto Interno Bruto (PIB) em valores correntes. As informa\u00e7\u00f5es sobre as s\u00e9ries do Sistema de Contas Nacionais - refer\u00eancia 2010 est\u00e3o em conformidade com o novo manual System of National Accounts (SNA) de 2008, da Organiza\u00e7\u00e3o das Na\u00e7\u00f5es Unidas (ONU), que inclui, entre outras mudan\u00e7as metodol\u00f3gicas, a nova classifica\u00e7\u00e3o de produtos e atividades integrada com a Classifica\u00e7\u00e3o Nacional de Atividades Econ\u00f4micas - CNAE 2.0. Para 2022 e 2023: resultados preliminares estimados a partir das Contas Nacionais Trimestrais Refer\u00eancia 2010.","SERATUALIZACAO":"2026-03-10T16:58:01.07-03:00","BASNOME":"Macroecon\u00f4mico","FNTSIGLA":"IBGE/SCN Anual","FNTNOME":"Instituto Brasileiro de Geografia e Estat\u00edstica, Sistema de Contas Nacionais (IBGE/SCN Anual)","FNTURL":"www.ibge.gov.br","PERNOME":"Anual","UNINOME":"R$","MULNOME":"milh\u00f5es","SERSTATUS":"A","TEMCODIGO":17,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

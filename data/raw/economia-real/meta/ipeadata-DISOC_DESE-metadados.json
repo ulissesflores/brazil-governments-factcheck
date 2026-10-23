@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"DISOC_DESE","SERNOME":"Taxa de desemprego - INATIVA","SERCOMENTARIO":"Percentual das pessoas que procuraram, mas n\u00e3o encontraram ocupa\u00e7\u00e3o profissional remunerada entre todas aquelas consideradas ativas no mercado de trabalho, grupo que inclui todas as pessoas com 10 anos ou mais de idade que estavam procurando ocupa\u00e7\u00e3o ou trabalhando na semana de refer\u00eancia da Pesquisa Nacional por Amostra de Domic\u00edlios (Pnad/IBGE). Elabora\u00e7\u00e3o: Disoc/Ipea a partir dos microdados da Pnad. Obs.: dados n\u00e3o calculados para os anos de Censo Demogr\u00e1fico, em que a Pnad foi interrompida pelo IBGE. S\u00e9rie interrompida.\r\n<p>Para acessar dados atualizados pela Pnad Cont\u00ednua, utilize o link a seguir:\r\n<a href=\"http://www.ipeadata.gov.br/ExibeSerie.aspx?serid=1347352645&amp;module=M\">Taxa de descocupa\u00e7\u00e3o</a> | \r\n<a href=\"http://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726928&MINDATA=2022&MAXDATA=2025&TNIVID=0&TPAID=1&module=S\">Taxa trimestral - desagrega\u00e7\u00f5es (G\u00eanero/Cor/Escolaridade/Idades)</a>.","SERATUALIZACAO":"2016-01-06T19:33:38-02:00","BASNOME":"Macroecon\u00f4mico","FNTSIGLA":"IPEA","FNTNOME":"Instituto de Pesquisa Econ\u00f4mica Aplicada","FNTURL":"www.ipea.gov.br","PERNOME":"Anual","UNINOME":"(%)","MULNOME":null,"SERSTATUS":"I","TEMCODIGO":12,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

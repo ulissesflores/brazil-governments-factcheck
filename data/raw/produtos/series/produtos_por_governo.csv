@@ -1,0 +1,289 @@
+produto,renda,governo,inicio_mandato,fim_mandato,ponto_base,ponto_final,valor_base,valor_final,variacao_pct,variacao_pct_ao_ano,unidade_do_valor,nota
+arroz,nominal_R$_atuais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,0.59,1.52,157.6,12.56,R$/kg,
+arroz,sm_mensal_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,1.85429,1.672,-9.831,-1.285,horas de trabalho ao salario minimo (220 h/mes),
+arroz,sm_anual_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994,2002,1.89188,1.29274,-31.67,-4.649,horas de trabalho ao salario minimo (media anual),; ano-base com inflacao alta (media anual de serie mensal; interpretar com cautela)
+arroz,decil10_anual_horas_ppc2017,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1993,2002,0.167057,0.140134,-16.12,-1.934,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 1994, usado 1993; ano-final pedido 2002, usado 2002 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); ano-base com inflacao alta"
+feijao,nominal_R$_atuais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,1.06,2.82,166,13.01,R$/kg,
+feijao,sm_mensal_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,3.33143,3.102,-6.887,-0.888,horas de trabalho ao salario minimo (220 h/mes),
+feijao,sm_anual_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994,2002,4.01213,2.63342,-34.36,-5.127,horas de trabalho ao salario minimo (media anual),; ano-base com inflacao alta (media anual de serie mensal; interpretar com cautela)
+feijao,decil10_anual_horas_ppc2017,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1993,2002,0.291671,0.285465,-2.128,-0.2387,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 1994, usado 1993; ano-final pedido 2002, usado 2002 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); ano-base com inflacao alta"
+pao_frances,nominal_R$_atuais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,1.7,4.88,187.1,14.09,R$/kg,
+pao_frances,sm_mensal_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,5.34286,5.368,0.4706,0.0587,horas de trabalho ao salario minimo (220 h/mes),
+pao_frances,sm_anual_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994,2002,5.28628,4.38872,-16.98,-2.299,horas de trabalho ao salario minimo (media anual),; ano-base com inflacao alta (media anual de serie mensal; interpretar com cautela)
+pao_frances,decil10_anual_horas_ppc2017,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1993,2002,0.485494,0.475742,-2.009,-0.2252,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 1994, usado 1993; ano-final pedido 2002, usado 2002 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); ano-base com inflacao alta"
+cafe_em_po,nominal_R$_atuais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,7.38,7.68,4.065,0.4993,R$/kg,
+cafe_em_po,sm_mensal_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,23.1943,8.448,-63.58,-11.86,horas de trabalho ao salario minimo (220 h/mes),
+cafe_em_po,sm_anual_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994,2002,22.6523,7.2647,-67.93,-13.25,horas de trabalho ao salario minimo (media anual),; ano-base com inflacao alta (media anual de serie mensal; interpretar com cautela)
+cafe_em_po,decil10_anual_horas_ppc2017,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1993,2002,1.4357,0.787501,-45.15,-6.455,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 1994, usado 1993; ano-final pedido 2002, usado 2002 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); ano-base com inflacao alta"
+acucar,nominal_R$_atuais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,0.63,1.38,119,10.3,R$/kg,
+acucar,sm_mensal_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,1.98,1.518,-23.33,-3.267,horas de trabalho ao salario minimo (220 h/mes),
+acucar,sm_anual_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994,2002,2.25803,1.01632,-54.99,-9.497,horas de trabalho ao salario minimo (media anual),; ano-base com inflacao alta (media anual de serie mensal; interpretar com cautela)
+acucar,decil10_anual_horas_ppc2017,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1993,2002,0.169744,0.110171,-35.1,-4.689,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 1994, usado 1993; ano-final pedido 2002, usado 2002 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); ano-base com inflacao alta"
+leite,nominal_R$_atuais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,0.52,1.17,125,10.67,R$/litro,
+leite,sm_mensal_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,1.63429,1.287,-21.25,-2.942,horas de trabalho ao salario minimo (220 h/mes),
+leite,sm_anual_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994,2002,1.723,1.25983,-26.88,-3.838,horas de trabalho ao salario minimo (media anual),; ano-base com inflacao alta (media anual de serie mensal; interpretar com cautela)
+leite,decil10_anual_horas_ppc2017,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1993,2002,0.174427,0.136567,-21.71,-2.682,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 1994, usado 1993; ano-final pedido 2002, usado 2002 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); ano-base com inflacao alta"
+oleo,nominal_R$_atuais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,0.93,2.62,181.7,13.82,"R$/embalagem de oleo (o gasto mensal do DIEESE usa 1 x preco; tamanho nao declarado, 900 mL presumido)",
+oleo,sm_mensal_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,2.92286,2.882,-1.398,-0.1758,horas de trabalho ao salario minimo (220 h/mes),
+oleo,sm_anual_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994,2002,2.91023,2.05145,-29.51,-4.277,horas de trabalho ao salario minimo (media anual),; ano-base com inflacao alta (media anual de serie mensal; interpretar com cautela)
+oleo,decil10_anual_horas_ppc2017,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1993,2002,0.26093,0.22238,-14.77,-1.761,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 1994, usado 1993; ano-final pedido 2002, usado 2002 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); ano-base com inflacao alta"
+carne_bovina,nominal_R$_atuais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,4.93,7.91,60.45,6.088,R$/kg,
+carne_bovina,sm_mensal_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,15.4943,8.701,-43.84,-6.959,horas de trabalho ao salario minimo (220 h/mes),
+carne_bovina,sm_anual_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994,2002,12.4727,7.82598,-37.26,-5.66,horas de trabalho ao salario minimo (media anual),; ano-base com inflacao alta (media anual de serie mensal; interpretar com cautela)
+carne_bovina,decil10_anual_horas_ppc2017,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1993,2002,1.05723,0.848345,-19.76,-2.416,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 1994, usado 1993; ano-final pedido 2002, usado 2002 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); ano-base com inflacao alta"
+botijao_glp_13kg,nominal_R$_atuais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,,,,R$/botijao 13 kg,mes-base ou mes-final sem dado (ver lacunas na nota da serie)
+botijao_glp_13kg,sm_mensal_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,,,,horas de trabalho ao salario minimo (220 h/mes),mes-base ou mes-final sem dado
+botijao_glp_13kg,sm_anual_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,,,,horas ao salario minimo (media anual),ano-base ou ano-final sem dado anual completo
+botijao_glp_13kg,decil10_anual_horas_ppc2017,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,,,,horas a renda do decimo mais rico,ano-base ou ano-final sem dado
+gasolina_comum,nominal_R$_atuais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,,,,R$/litro,mes-base ou mes-final sem dado (ver lacunas na nota da serie)
+gasolina_comum,sm_mensal_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,,,,horas de trabalho ao salario minimo (220 h/mes),mes-base ou mes-final sem dado
+gasolina_comum,sm_anual_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,,,,horas ao salario minimo (media anual),ano-base ou ano-final sem dado anual completo
+gasolina_comum,decil10_anual_horas_ppc2017,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,,,,horas a renda do decimo mais rico,ano-base ou ano-final sem dado
+energia_residencial,nominal_R$_atuais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,0.0704535,0.215712,206.2,15.01,R$/kWh,
+energia_residencial,sm_mensal_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,0.221425,0.237284,7.162,0.8684,horas de trabalho ao salario minimo (220 h/mes),
+energia_residencial,sm_anual_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,,,,horas ao salario minimo (media anual),ano-base ou ano-final sem dado anual completo
+energia_residencial,decil10_anual_horas_ppc2017,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,,,,horas a renda do decimo mais rico,ano-base ou ano-final sem dado
+onibus_sp_tarifa_basica,nominal_R$_atuais,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,0.5,1.4,180,13.74,R$/passagem,
+onibus_sp_tarifa_basica,sm_mensal_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,1994-12,2002-12,1.57143,1.54,-2,-0.2522,horas de trabalho ao salario minimo (220 h/mes),
+onibus_sp_tarifa_basica,sm_anual_horas,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,,,,horas ao salario minimo (media anual),ano-base ou ano-final sem dado anual completo
+onibus_sp_tarifa_basica,decil10_anual_horas_ppc2017,Fernando Henrique Cardoso,1995-01-01,2003-01-01,,,,,,,horas a renda do decimo mais rico,ano-base ou ano-final sem dado
+arroz,nominal_R$_atuais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,1.52,2,31.58,3.49,R$/kg,
+arroz,sm_mensal_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,1.672,0.862745,-48.4,-7.938,horas de trabalho ao salario minimo (220 h/mes),
+arroz,sm_anual_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2010,1.29274,0.880719,-31.87,-4.684,horas de trabalho ao salario minimo (media anual),
+arroz,decil10_anual_horas_ppc2017,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2009,0.140134,0.138828,-0.9321,-0.1337,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2002, usado 2002; ano-final pedido 2010, usado 2009 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+feijao,nominal_R$_atuais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,2.82,3.95,40.07,4.302,R$/kg,
+feijao,sm_mensal_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,3.102,1.70392,-45.07,-7.215,horas de trabalho ao salario minimo (220 h/mes),
+feijao,sm_anual_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2010,2.63342,1.60542,-39.04,-5.999,horas de trabalho ao salario minimo (media anual),
+feijao,decil10_anual_horas_ppc2017,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2009,0.285465,0.206653,-27.61,-4.511,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2002, usado 2002; ano-final pedido 2010, usado 2009 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+pao_frances,nominal_R$_atuais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,4.88,6.74,38.11,4.119,R$/kg,
+pao_frances,sm_mensal_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,5.368,2.90745,-45.84,-7.378,horas de trabalho ao salario minimo (220 h/mes),
+pao_frances,sm_anual_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2010,4.38872,2.74101,-37.54,-5.714,horas de trabalho ao salario minimo (media anual),
+pao_frances,decil10_anual_horas_ppc2017,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2009,0.475742,0.426483,-10.35,-1.549,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2002, usado 2002; ano-final pedido 2010, usado 2009 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+cafe_em_po,nominal_R$_atuais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,7.68,10.67,38.93,4.196,R$/kg,
+cafe_em_po,sm_mensal_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,8.448,4.60275,-45.52,-7.31,horas de trabalho ao salario minimo (220 h/mes),
+cafe_em_po,sm_anual_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2010,7.2647,4.49239,-38.16,-5.831,horas de trabalho ao salario minimo (media anual),
+cafe_em_po,decil10_anual_horas_ppc2017,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2009,0.787501,0.783671,-0.4864,-0.06964,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2002, usado 2002; ano-final pedido 2010, usado 2009 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+acucar,nominal_R$_atuais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,1.38,2.32,68.12,6.709,R$/kg,
+acucar,sm_mensal_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,1.518,1.00078,-34.07,-5.074,horas de trabalho ao salario minimo (220 h/mes),
+acucar,sm_anual_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2010,1.01632,0.895458,-11.89,-1.57,horas de trabalho ao salario minimo (media anual),
+acucar,decil10_anual_horas_ppc2017,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2009,0.110171,0.109415,-0.6859,-0.09827,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2002, usado 2002; ano-final pedido 2010, usado 2009 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+leite,nominal_R$_atuais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,1.17,2.24,91.45,8.457,R$/litro,
+leite,sm_mensal_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,1.287,0.966275,-24.92,-3.519,horas de trabalho ao salario minimo (220 h/mes),
+leite,sm_anual_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2010,1.25983,0.944706,-25.01,-3.534,horas de trabalho ao salario minimo (media anual),
+leite,decil10_anual_horas_ppc2017,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2009,0.136567,0.152122,11.39,1.553,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2002, usado 2002; ano-final pedido 2010, usado 2009 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+oleo,nominal_R$_atuais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,2.62,2.67,1.908,0.2366,"R$/embalagem de oleo (o gasto mensal do DIEESE usa 1 x preco; tamanho nao declarado, 900 mL presumido)",
+oleo,sm_mensal_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,2.882,1.15176,-60.04,-10.83,horas de trabalho ao salario minimo (220 h/mes),
+oleo,sm_anual_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2010,2.05145,1.00546,-50.99,-8.528,horas de trabalho ao salario minimo (media anual),
+oleo,decil10_anual_horas_ppc2017,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2009,0.22238,0.167593,-24.64,-3.96,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2002, usado 2002; ano-final pedido 2010, usado 2009 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+carne_bovina,nominal_R$_atuais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,7.91,17.05,115.5,10.08,R$/kg,
+carne_bovina,sm_mensal_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,8.701,7.3549,-15.47,-2.079,horas de trabalho ao salario minimo (220 h/mes),
+carne_bovina,sm_anual_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2010,7.82598,6.00435,-23.28,-3.258,horas de trabalho ao salario minimo (media anual),
+carne_bovina,decil10_anual_horas_ppc2017,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2009,0.848345,0.882732,4.053,0.5693,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2002, usado 2002; ano-final pedido 2010, usado 2009 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+botijao_glp_13kg,nominal_R$_atuais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,28.0459,38.169,36.09,3.927,R$/botijao 13 kg,
+botijao_glp_13kg,sm_mensal_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,30.8505,16.4651,-46.63,-7.549,horas de trabalho ao salario minimo (220 h/mes),
+botijao_glp_13kg,sm_anual_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2010,27.3732,16.4774,-39.8,-6.148,horas de trabalho ao salario minimo (media anual),
+botijao_glp_13kg,decil10_anual_horas_ppc2017,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2009,2.96728,2.5203,-15.06,-2.305,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2002, usado 2002; ano-final pedido 2010, usado 2009 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+gasolina_comum,nominal_R$_atuais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,2.0005,2.602,30.07,3.341,R$/litro,
+gasolina_comum,sm_mensal_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,2.20055,1.12243,-48.99,-8.071,horas de trabalho ao salario minimo (220 h/mes),
+gasolina_comum,sm_anual_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2010,1.95695,1.10708,-43.43,-6.873,horas de trabalho ao salario minimo (media anual),
+gasolina_comum,decil10_anual_horas_ppc2017,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2009,0.212135,0.177276,-16.43,-2.532,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2002, usado 2002; ano-final pedido 2010, usado 2009 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+energia_residencial,nominal_R$_atuais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,0.215712,0.303677,40.78,4.368,R$/kWh,
+energia_residencial,sm_mensal_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,0.237284,0.130998,-44.79,-7.157,horas de trabalho ao salario minimo (220 h/mes),
+energia_residencial,sm_anual_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2010,0.235643,0.129638,-44.99,-7.198,horas de trabalho ao salario minimo (media anual),
+energia_residencial,decil10_anual_horas_ppc2017,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002,2009,0.025544,0.0207031,-18.95,-2.957,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2002, usado 2002; ano-final pedido 2010, usado 2009 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+onibus_sp_tarifa_basica,nominal_R$_atuais,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,1.4,2.7,92.86,8.556,R$/passagem,
+onibus_sp_tarifa_basica,sm_mensal_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,2002-12,2010-12,1.54,1.16471,-24.37,-3.431,horas de trabalho ao salario minimo (220 h/mes),
+onibus_sp_tarifa_basica,sm_anual_horas,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,,,,horas ao salario minimo (media anual),ano-base ou ano-final sem dado anual completo
+onibus_sp_tarifa_basica,decil10_anual_horas_ppc2017,Lula (1o e 2o mandatos),2003-01-01,2011-01-01,,,,,,,horas a renda do decimo mais rico,ano-base ou ano-final sem dado
+arroz,nominal_R$_atuais,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,2,3.17,58.5,8.467,R$/kg,
+arroz,sm_mensal_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,0.862745,0.7925,-8.142,-1.488,horas de trabalho ao salario minimo (220 h/mes),
+arroz,sm_anual_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010,2015,0.880719,0.745199,-15.39,-3.287,horas de trabalho ao salario minimo (media anual),
+arroz,decil10_anual_horas_ppc2017,Dilma Rousseff,2011-01-01,2016-08-31,2009,2015,0.138828,0.112359,-19.07,-3.464,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2010, usado 2009; ano-final pedido 2015, usado 2015 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); atravessa a quebra PNAD -> PNAD Continua (2011/2012)"
+feijao,nominal_R$_atuais,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,3.95,12.28,210.9,22.16,R$/kg,
+feijao,sm_mensal_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,1.70392,3.07,80.17,10.95,horas de trabalho ao salario minimo (220 h/mes),
+feijao,sm_anual_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010,2015,1.60542,1.33033,-17.14,-3.689,horas de trabalho ao salario minimo (media anual),
+feijao,decil10_anual_horas_ppc2017,Dilma Rousseff,2011-01-01,2016-08-31,2009,2015,0.206653,0.200584,-2.937,-0.4956,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2010, usado 2009; ano-final pedido 2015, usado 2015 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); atravessa a quebra PNAD -> PNAD Continua (2011/2012)"
+pao_frances,nominal_R$_atuais,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,6.74,10.85,60.98,8.765,R$/kg,
+pao_frances,sm_mensal_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,2.90745,2.7125,-6.705,-1.217,horas de trabalho ao salario minimo (220 h/mes),
+pao_frances,sm_anual_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010,2015,2.74101,2.88797,5.361,1.05,horas de trabalho ao salario minimo (media anual),
+pao_frances,decil10_anual_horas_ppc2017,Dilma Rousseff,2011-01-01,2016-08-31,2009,2015,0.426483,0.435441,2.1,0.347,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2010, usado 2009; ano-final pedido 2015, usado 2015 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); atravessa a quebra PNAD -> PNAD Continua (2011/2012)"
+cafe_em_po,nominal_R$_atuais,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,10.67,18.54,73.76,10.24,R$/kg,
+cafe_em_po,sm_mensal_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,4.60275,4.635,0.7008,0.1233,horas de trabalho ao salario minimo (220 h/mes),
+cafe_em_po,sm_anual_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010,2015,4.49239,4.3316,-3.579,-0.7263,horas de trabalho ao salario minimo (media anual),
+cafe_em_po,decil10_anual_horas_ppc2017,Dilma Rousseff,2011-01-01,2016-08-31,2009,2015,0.783671,0.653108,-16.66,-2.992,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2010, usado 2009; ano-final pedido 2015, usado 2015 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); atravessa a quebra PNAD -> PNAD Continua (2011/2012)"
+acucar,nominal_R$_atuais,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,2.32,2.96,27.59,4.393,R$/kg,
+acucar,sm_mensal_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,1.00078,0.74,-26.06,-5.188,horas de trabalho ao salario minimo (220 h/mes),
+acucar,sm_anual_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010,2015,0.895458,0.537669,-39.96,-9.699,horas de trabalho ao salario minimo (media anual),
+acucar,decil10_anual_horas_ppc2017,Dilma Rousseff,2011-01-01,2016-08-31,2009,2015,0.109415,0.0810685,-25.91,-4.875,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2010, usado 2009; ano-final pedido 2015, usado 2015 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); atravessa a quebra PNAD -> PNAD Continua (2011/2012)"
+leite,nominal_R$_atuais,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,2.24,4.85,116.5,14.61,R$/litro,
+leite,sm_mensal_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,0.966275,1.2125,25.48,4.087,horas de trabalho ao salario minimo (220 h/mes),
+leite,sm_anual_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010,2015,0.944706,0.86525,-8.411,-1.742,horas de trabalho ao salario minimo (media anual),
+leite,decil10_anual_horas_ppc2017,Dilma Rousseff,2011-01-01,2016-08-31,2009,2015,0.152122,0.13046,-14.24,-2.528,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2010, usado 2009; ano-final pedido 2015, usado 2015 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); atravessa a quebra PNAD -> PNAD Continua (2011/2012)"
+oleo,nominal_R$_atuais,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,2.67,3.43,28.46,4.519,"R$/embalagem de oleo (o gasto mensal do DIEESE usa 1 x preco; tamanho nao declarado, 900 mL presumido)",
+oleo,sm_mensal_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,1.15176,0.8575,-25.55,-5.073,horas de trabalho ao salario minimo (220 h/mes),
+oleo,sm_anual_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010,2015,1.00546,0.812902,-19.15,-4.163,horas de trabalho ao salario minimo (media anual),
+oleo,decil10_anual_horas_ppc2017,Dilma Rousseff,2011-01-01,2016-08-31,2009,2015,0.167593,0.122567,-26.87,-5.081,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2010, usado 2009; ano-final pedido 2015, usado 2015 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); atravessa a quebra PNAD -> PNAD Continua (2011/2012)"
+carne_bovina,nominal_R$_atuais,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,17.05,22.81,33.78,5.27,R$/kg,
+carne_bovina,sm_mensal_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,7.3549,5.7025,-22.47,-4.391,horas de trabalho ao salario minimo (220 h/mes),
+carne_bovina,sm_anual_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010,2015,6.00435,6.42481,7.003,1.363,horas de trabalho ao salario minimo (media anual),
+carne_bovina,decil10_anual_horas_ppc2017,Dilma Rousseff,2011-01-01,2016-08-31,2009,2015,0.882732,0.968717,9.741,1.561,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2010, usado 2009; ano-final pedido 2015, usado 2015 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); atravessa a quebra PNAD -> PNAD Continua (2011/2012)"
+botijao_glp_13kg,nominal_R$_atuais,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,38.169,52.774,38.26,5.884,R$/botijao 13 kg,
+botijao_glp_13kg,sm_mensal_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,16.4651,13.1935,-19.87,-3.834,horas de trabalho ao salario minimo (220 h/mes),
+botijao_glp_13kg,sm_anual_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010,2015,16.4774,13.4816,-18.18,-3.934,horas de trabalho ao salario minimo (media anual),
+botijao_glp_13kg,decil10_anual_horas_ppc2017,Dilma Rousseff,2011-01-01,2016-08-31,2009,2015,2.5203,2.03272,-19.35,-3.52,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2010, usado 2009; ano-final pedido 2015, usado 2015 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); atravessa a quebra PNAD -> PNAD Continua (2011/2012)"
+gasolina_comum,nominal_R$_atuais,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,2.602,3.651,40.32,6.16,R$/litro,
+gasolina_comum,sm_mensal_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,1.12243,0.91275,-18.68,-3.583,horas de trabalho ao salario minimo (220 h/mes),
+gasolina_comum,sm_anual_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010,2015,1.10708,0.933441,-15.68,-3.355,horas de trabalho ao salario minimo (media anual),
+gasolina_comum,decil10_anual_horas_ppc2017,Dilma Rousseff,2011-01-01,2016-08-31,2009,2015,0.177276,0.140742,-20.61,-3.773,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2010, usado 2009; ano-final pedido 2015, usado 2015 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); atravessa a quebra PNAD -> PNAD Continua (2011/2012)"
+energia_residencial,nominal_R$_atuais,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,0.303677,0.448179,47.58,7.11,R$/kWh,
+energia_residencial,sm_mensal_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,0.130998,0.112045,-14.47,-2.72,horas de trabalho ao salario minimo (220 h/mes),
+energia_residencial,sm_anual_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010,2015,0.129638,0.119985,-7.446,-1.536,horas de trabalho ao salario minimo (media anual),
+energia_residencial,decil10_anual_horas_ppc2017,Dilma Rousseff,2011-01-01,2016-08-31,2009,2015,0.0207031,0.0180911,-12.62,-2.223,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2010, usado 2009; ano-final pedido 2015, usado 2015 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); atravessa a quebra PNAD -> PNAD Continua (2011/2012)"
+onibus_sp_tarifa_basica,nominal_R$_atuais,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,2.7,3.8,40.74,6.216,R$/passagem,
+onibus_sp_tarifa_basica,sm_mensal_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010-12,2016-08,1.16471,0.95,-18.43,-3.532,horas de trabalho ao salario minimo (220 h/mes),
+onibus_sp_tarifa_basica,sm_anual_horas,Dilma Rousseff,2011-01-01,2016-08-31,2010,2015,1.16471,0.977157,-16.1,-3.451,horas de trabalho ao salario minimo (media anual),
+onibus_sp_tarifa_basica,decil10_anual_horas_ppc2017,Dilma Rousseff,2011-01-01,2016-08-31,2009,2015,0.162358,0.147333,-9.254,-1.605,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2010, usado 2009; ano-final pedido 2015, usado 2015 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010); atravessa a quebra PNAD -> PNAD Continua (2011/2012)"
+arroz,nominal_R$_atuais,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,3.17,3.02,-4.732,-2.056,R$/kg,
+arroz,sm_mensal_horas,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,0.7925,0.696436,-12.12,-5.387,horas de trabalho ao salario minimo (220 h/mes),
+arroz,sm_anual_horas,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.745199,0.680486,-8.684,-2.983,horas de trabalho ao salario minimo (media anual),
+arroz,decil10_anual_horas_ppc2017,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.112359,0.099349,-11.58,-4.019,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+feijao,nominal_R$_atuais,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,12.28,3.94,-67.92,-38.57,R$/kg,
+feijao,sm_mensal_horas,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,3.07,0.908595,-70.4,-40.65,horas de trabalho ao salario minimo (220 h/mes),
+feijao,sm_anual_horas,Michel Temer,2016-08-31,2019-01-01,2015,2018,1.33033,0.881499,-33.74,-12.82,horas de trabalho ao salario minimo (media anual),
+feijao,decil10_anual_horas_ppc2017,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.200584,0.128696,-35.84,-13.75,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+pao_frances,nominal_R$_atuais,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,10.85,12.48,15.02,6.182,R$/kg,
+pao_frances,sm_mensal_horas,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,2.7125,2.87799,6.101,2.571,horas de trabalho ao salario minimo (220 h/mes),
+pao_frances,sm_anual_horas,Michel Temer,2016-08-31,2019-01-01,2015,2018,2.88797,2.75519,-4.598,-1.557,horas de trabalho ao salario minimo (media anual),
+pao_frances,decil10_anual_horas_ppc2017,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.435441,0.40225,-7.622,-2.608,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+cafe_em_po,nominal_R$_atuais,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,18.54,19.6,5.717,2.411,R$/kg,
+cafe_em_po,sm_mensal_horas,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,4.635,4.51992,-2.483,-1.072,horas de trabalho ao salario minimo (220 h/mes),
+cafe_em_po,sm_anual_horas,Michel Temer,2016-08-31,2019-01-01,2015,2018,4.3316,4.80087,10.83,3.488,horas de trabalho ao salario minimo (media anual),
+cafe_em_po,decil10_anual_horas_ppc2017,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.653108,0.700914,7.32,2.383,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+acucar,nominal_R$_atuais,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,2.96,2.42,-18.24,-8.27,R$/kg,
+acucar,sm_mensal_horas,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,0.74,0.558071,-24.58,-11.39,horas de trabalho ao salario minimo (220 h/mes),
+acucar,sm_anual_horas,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.537669,0.549808,2.258,0.747,horas de trabalho ao salario minimo (media anual),
+acucar,decil10_anual_horas_ppc2017,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.0810685,0.0802704,-0.9845,-0.3293,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+leite,nominal_R$_atuais,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,4.85,3.97,-18.14,-8.223,R$/litro,
+leite,sm_mensal_horas,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,1.2125,0.915514,-24.49,-11.34,horas de trabalho ao salario minimo (220 h/mes),
+leite,sm_anual_horas,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.86525,0.923777,6.764,2.206,horas de trabalho ao salario minimo (media anual),
+leite,decil10_anual_horas_ppc2017,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.13046,0.134869,3.379,1.114,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+oleo,nominal_R$_atuais,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,3.43,3.49,1.749,0.746,"R$/embalagem de oleo (o gasto mensal do DIEESE usa 1 x preco; tamanho nao declarado, 900 mL presumido)",
+oleo,sm_mensal_horas,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,0.8575,0.804822,-6.143,-2.681,horas de trabalho ao salario minimo (220 h/mes),
+oleo,sm_anual_horas,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.812902,0.790985,-2.696,-0.9069,horas de trabalho ao salario minimo (media anual),
+oleo,decil10_anual_horas_ppc2017,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.122567,0.115482,-5.781,-1.965,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+carne_bovina,nominal_R$_atuais,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,22.81,24.95,9.382,3.918,R$/kg,
+carne_bovina,sm_mensal_horas,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,5.7025,5.75367,0.8973,0.3836,horas de trabalho ao salario minimo (220 h/mes),
+carne_bovina,sm_anual_horas,Michel Temer,2016-08-31,2019-01-01,2015,2018,6.42481,5.59935,-12.85,-4.48,horas de trabalho ao salario minimo (media anual),
+carne_bovina,decil10_anual_horas_ppc2017,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.968717,0.81749,-15.61,-5.501,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+botijao_glp_13kg,nominal_R$_atuais,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,52.774,69.354,31.42,12.42,R$/botijao 13 kg,
+botijao_glp_13kg,sm_mensal_horas,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,13.1935,15.9936,21.22,8.598,horas de trabalho ao salario minimo (220 h/mes),
+botijao_glp_13kg,sm_anual_horas,Michel Temer,2016-08-31,2019-01-01,2015,2018,13.4816,15.6786,16.3,5.161,horas de trabalho ao salario minimo (media anual),
+botijao_glp_13kg,decil10_anual_horas_ppc2017,Michel Temer,2016-08-31,2019-01-01,2015,2018,2.03272,2.28903,12.61,4.038,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+gasolina_comum,nominal_R$_atuais,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,3.651,4.365,19.56,7.956,R$/litro,
+gasolina_comum,sm_mensal_horas,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,0.91275,1.0066,10.28,4.284,horas de trabalho ao salario minimo (220 h/mes),
+gasolina_comum,sm_anual_horas,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.933441,1.01685,8.935,2.894,horas de trabalho ao salario minimo (media anual),
+gasolina_comum,decil10_anual_horas_ppc2017,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.140742,0.148457,5.481,1.795,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+energia_residencial,nominal_R$_atuais,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,0.448179,0.527979,17.81,7.275,R$/kWh,
+energia_residencial,sm_mensal_horas,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,0.112045,0.121756,8.667,3.627,horas de trabalho ao salario minimo (220 h/mes),
+energia_residencial,sm_anual_horas,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.119985,0.118127,-1.549,-0.519,horas de trabalho ao salario minimo (media anual),
+energia_residencial,decil10_anual_horas_ppc2017,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.0180911,0.0172462,-4.67,-1.582,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+onibus_sp_tarifa_basica,nominal_R$_atuais,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,3.8,4,5.263,2.223,R$/passagem,
+onibus_sp_tarifa_basica,sm_mensal_horas,Michel Temer,2016-08-31,2019-01-01,2016-08,2018-12,0.95,0.922432,-2.902,-1.254,horas de trabalho ao salario minimo (220 h/mes),
+onibus_sp_tarifa_basica,sm_anual_horas,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.977157,0.922432,-5.6,-1.903,horas de trabalho ao salario minimo (media anual),
+onibus_sp_tarifa_basica,decil10_anual_horas_ppc2017,Michel Temer,2016-08-31,2019-01-01,2015,2018,0.147333,0.134672,-8.593,-2.951,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+arroz,nominal_R$_atuais,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,3.02,4.04,33.77,7.546,R$/kg,
+arroz,sm_mensal_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,0.696436,0.733333,5.298,1.299,horas de trabalho ao salario minimo (220 h/mes),
+arroz,sm_anual_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.680486,0.709433,4.254,1.047,horas de trabalho ao salario minimo (media anual),
+arroz,decil10_anual_horas_ppc2017,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.099349,0.106517,7.215,1.757,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+feijao,nominal_R$_atuais,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,3.94,8.19,107.9,20.07,R$/kg,
+feijao,sm_mensal_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,0.908595,1.48663,63.62,13.1,horas de trabalho ao salario minimo (220 h/mes),
+feijao,sm_anual_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.881499,1.41796,60.86,12.62,horas de trabalho ao salario minimo (media anual),
+feijao,decil10_anual_horas_ppc2017,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.128696,0.212898,65.43,13.41,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+pao_frances,nominal_R$_atuais,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,12.48,17.48,40.06,8.788,R$/kg,
+pao_frances,sm_mensal_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,2.87799,3.17294,10.25,2.469,horas de trabalho ao salario minimo (220 h/mes),
+pao_frances,sm_anual_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,2.75519,3.03211,10.05,2.423,horas de trabalho ao salario minimo (media anual),
+pao_frances,decil10_anual_horas_ppc2017,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.40225,0.455253,13.18,3.143,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+cafe_em_po,nominal_R$_atuais,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,19.6,41,109.2,20.26,R$/kg,
+cafe_em_po,sm_mensal_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,4.51992,7.44224,64.65,13.28,horas de trabalho ao salario minimo (220 h/mes),
+cafe_em_po,sm_anual_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,4.80087,7.30157,52.09,11.05,horas de trabalho ao salario minimo (media anual),
+cafe_em_po,decil10_anual_horas_ppc2017,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.700914,1.09629,56.41,11.83,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+acucar,nominal_R$_atuais,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,2.42,4.04,66.94,13.67,R$/kg,
+acucar,sm_mensal_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,0.558071,0.733333,31.4,7.066,horas de trabalho ao salario minimo (220 h/mes),
+acucar,sm_anual_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.549808,0.753603,37.07,8.201,horas de trabalho ao salario minimo (media anual),
+acucar,decil10_anual_horas_ppc2017,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.0802704,0.113149,40.96,8.962,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+leite,nominal_R$_atuais,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,3.97,6.58,65.74,13.46,R$/litro,
+leite,sm_mensal_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,0.915514,1.19439,30.46,6.874,horas de trabalho ao salario minimo (220 h/mes),
+leite,sm_anual_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.923777,1.17321,27,6.158,horas de trabalho ao salario minimo (media anual),
+leite,decil10_anual_horas_ppc2017,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.134869,0.176151,30.61,6.904,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+oleo,nominal_R$_atuais,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,3.49,8.87,154.2,26.26,"R$/embalagem de oleo (o gasto mensal do DIEESE usa 1 x preco; tamanho nao declarado, 900 mL presumido)",
+oleo,sm_mensal_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,0.804822,1.61007,100.1,18.93,horas de trabalho ao salario minimo (220 h/mes),
+oleo,sm_anual_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.790985,1.72578,118.2,21.54,horas de trabalho ao salario minimo (media anual),
+oleo,decil10_anual_horas_ppc2017,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.115482,0.259116,124.4,22.39,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+carne_bovina,nominal_R$_atuais,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,24.95,44.33,77.68,15.45,R$/kg,
+carne_bovina,sm_mensal_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,5.75367,8.0467,39.85,8.747,horas de trabalho ao salario minimo (220 h/mes),
+carne_bovina,sm_anual_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,5.59935,8.23593,47.09,10.13,horas de trabalho ao salario minimo (media anual),
+carne_bovina,decil10_anual_horas_ppc2017,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.81749,1.23658,51.27,10.9,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+botijao_glp_13kg,nominal_R$_atuais,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,69.354,109.18,57.42,12.01,R$/botijao 13 kg,
+botijao_glp_13kg,sm_mensal_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,15.9936,19.8182,23.91,5.507,horas de trabalho ao salario minimo (220 h/mes),
+botijao_glp_13kg,sm_anual_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,15.6786,19.9414,27.19,6.197,horas de trabalho ao salario minimo (media anual),
+botijao_glp_13kg,decil10_anual_horas_ppc2017,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,2.28903,2.99408,30.8,6.943,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+gasolina_comum,nominal_R$_atuais,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,4.365,4.97,13.86,3.298,R$/litro,
+gasolina_comum,sm_mensal_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,1.0066,0.902145,-10.38,-2.702,horas de trabalho ao salario minimo (220 h/mes),
+gasolina_comum,sm_anual_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,1.01685,1.10971,9.133,2.209,horas de trabalho ao salario minimo (media anual),
+gasolina_comum,decil10_anual_horas_ppc2017,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.148457,0.166616,12.23,2.927,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+energia_residencial,nominal_R$_atuais,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,0.527979,0.643419,21.86,5.068,R$/kWh,
+energia_residencial,sm_mensal_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,0.121756,0.116792,-4.077,-1.035,horas de trabalho ao salario minimo (220 h/mes),
+energia_residencial,sm_anual_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.118127,0.11842,0.2483,0.06201,horas de trabalho ao salario minimo (media anual),
+energia_residencial,decil10_anual_horas_ppc2017,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.0172462,0.0177801,3.096,0.7651,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+onibus_sp_tarifa_basica,nominal_R$_atuais,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,4,4.4,10,2.411,R$/passagem,
+onibus_sp_tarifa_basica,sm_mensal_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018-12,2022-12,0.922432,0.79868,-13.42,-3.537,horas de trabalho ao salario minimo (220 h/mes),
+onibus_sp_tarifa_basica,sm_anual_horas,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.922432,0.79868,-13.42,-3.537,horas de trabalho ao salario minimo (media anual),
+onibus_sp_tarifa_basica,decil10_anual_horas_ppc2017,Jair Bolsonaro,2019-01-01,2023-01-01,2018,2022,0.134672,0.119917,-10.96,-2.859,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)",
+arroz,nominal_R$_atuais,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,4.04,4.69,16.09,4.059,R$/kg,"serie termina em 2026-09, antes do fim do mandato"
+arroz,sm_mensal_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,0.733333,0.636521,-13.2,-3.705,horas de trabalho ao salario minimo (220 h/mes),"serie termina em 2026-09, antes do fim do mandato"
+arroz,sm_anual_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022,2025,0.709433,0.773913,9.089,2.942,horas de trabalho ao salario minimo (media anual),
+arroz,decil10_anual_horas_ppc2017,Lula (3o mandato),2023-01-01,2026-10-19,2022,2024,0.106517,0.140417,31.83,14.82,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2022, usado 2022; ano-final pedido 2025, usado 2024 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+feijao,nominal_R$_atuais,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,8.19,9.42,15.02,3.802,R$/kg,"serie termina em 2026-09, antes do fim do mandato"
+feijao,sm_mensal_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,1.48663,1.27847,-14,-3.943,horas de trabalho ao salario minimo (220 h/mes),"serie termina em 2026-09, antes do fim do mandato"
+feijao,sm_anual_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022,2025,1.41796,0.99843,-29.59,-11.04,horas de trabalho ao salario minimo (media anual),
+feijao,decil10_anual_horas_ppc2017,Lula (3o mandato),2023-01-01,2026-10-19,2022,2024,0.212898,0.172321,-19.06,-10.03,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2022, usado 2022; ano-final pedido 2025, usado 2024 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+pao_frances,nominal_R$_atuais,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,17.48,20.03,14.59,3.698,R$/kg,"serie termina em 2026-09, antes do fim do mandato"
+pao_frances,sm_mensal_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,3.17294,2.71845,-14.32,-4.039,horas de trabalho ao salario minimo (220 h/mes),"serie termina em 2026-09, antes do fim do mandato"
+pao_frances,sm_anual_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022,2025,3.03211,2.78056,-8.296,-2.846,horas de trabalho ao salario minimo (media anual),
+pao_frances,decil10_anual_horas_ppc2017,Lula (3o mandato),2023-01-01,2026-10-19,2022,2024,0.455253,0.436995,-4.01,-2.026,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2022, usado 2022; ano-final pedido 2025, usado 2024 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+cafe_em_po,nominal_R$_atuais,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,41,57.98,41.41,9.681,R$/kg,"serie termina em 2026-09, antes do fim do mandato"
+cafe_em_po,sm_mensal_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,7.44224,7.86897,5.734,1.498,horas de trabalho ao salario minimo (220 h/mes),"serie termina em 2026-09, antes do fim do mandato"
+cafe_em_po,sm_anual_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022,2025,7.30157,9.73092,33.27,10.05,horas de trabalho ao salario minimo (media anual),
+cafe_em_po,decil10_anual_horas_ppc2017,Lula (3o mandato),2023-01-01,2026-10-19,2022,2024,1.09629,1.03274,-5.797,-2.942,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2022, usado 2022; ano-final pedido 2025, usado 2024 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+acucar,nominal_R$_atuais,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,4.04,3.64,-9.901,-2.742,R$/kg,"serie termina em 2026-09, antes do fim do mandato"
+acucar,sm_mensal_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,0.733333,0.494016,-32.63,-9.998,horas de trabalho ao salario minimo (220 h/mes),"serie termina em 2026-09, antes do fim do mandato"
+acucar,sm_anual_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022,2025,0.753603,0.690217,-8.411,-2.886,horas de trabalho ao salario minimo (media anual),
+acucar,decil10_anual_horas_ppc2017,Lula (3o mandato),2023-01-01,2026-10-19,2022,2024,0.113149,0.107644,-4.865,-2.463,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2022, usado 2022; ano-final pedido 2025, usado 2024 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+leite,nominal_R$_atuais,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,6.58,7.28,10.64,2.733,R$/litro,"serie termina em 2026-09, antes do fim do mandato"
+leite,sm_mensal_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,1.19439,0.988032,-17.28,-4.932,horas de trabalho ao salario minimo (220 h/mes),"serie termina em 2026-09, antes do fim do mandato"
+leite,sm_anual_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022,2025,1.17321,0.986353,-15.93,-5.619,horas de trabalho ao salario minimo (media anual),
+leite,decil10_anual_horas_ppc2017,Lula (3o mandato),2023-01-01,2026-10-19,2022,2024,0.176151,0.159974,-9.183,-4.702,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2022, usado 2022; ano-final pedido 2025, usado 2024 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+oleo,nominal_R$_atuais,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,8.87,7.93,-10.6,-2.943,"R$/embalagem de oleo (o gasto mensal do DIEESE usa 1 x preco; tamanho nao declarado, 900 mL presumido)","serie termina em 2026-09, antes do fim do mandato"
+oleo,sm_mensal_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,1.61007,1.07625,-33.15,-10.18,horas de trabalho ao salario minimo (220 h/mes),"serie termina em 2026-09, antes do fim do mandato"
+oleo,sm_anual_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022,2025,1.72578,1.18611,-31.27,-11.75,horas de trabalho ao salario minimo (media anual),
+oleo,decil10_anual_horas_ppc2017,Lula (3o mandato),2023-01-01,2026-10-19,2022,2024,0.259116,0.162088,-37.45,-20.91,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2022, usado 2022; ano-final pedido 2025, usado 2024 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+carne_bovina,nominal_R$_atuais,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,44.33,56.07,26.48,6.465,R$/kg,"serie termina em 2026-09, antes do fim do mandato"
+carne_bovina,sm_mensal_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,8.0467,7.60975,-5.43,-1.478,horas de trabalho ao salario minimo (220 h/mes),"serie termina em 2026-09, antes do fim do mandato"
+carne_bovina,sm_anual_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022,2025,8.23593,7.34867,-10.77,-3.728,horas de trabalho ao salario minimo (media anual),
+carne_bovina,decil10_anual_horas_ppc2017,Lula (3o mandato),2023-01-01,2026-10-19,2022,2024,1.23658,0.991907,-19.79,-10.44,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2022, usado 2022; ano-final pedido 2025, usado 2024 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+botijao_glp_13kg,nominal_R$_atuais,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,109.18,114.33,4.717,1.237,R$/botijao 13 kg,"serie termina em 2026-09, antes do fim do mandato"
+botijao_glp_13kg,sm_mensal_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,19.8182,15.5167,-21.7,-6.316,horas de trabalho ao salario minimo (220 h/mes),"serie termina em 2026-09, antes do fim do mandato"
+botijao_glp_13kg,sm_anual_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022,2025,19.9414,15.7366,-21.09,-7.59,horas de trabalho ao salario minimo (media anual),
+botijao_glp_13kg,decil10_anual_horas_ppc2017,Lula (3o mandato),2023-01-01,2026-10-19,2022,2024,2.99408,2.45564,-17.98,-9.437,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2022, usado 2022; ano-final pedido 2025, usado 2024 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+gasolina_comum,nominal_R$_atuais,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,4.97,6.54,31.59,7.595,R$/litro,"serie termina em 2026-09, antes do fim do mandato"
+gasolina_comum,sm_mensal_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,0.902145,0.8876,-1.612,-0.4325,horas de trabalho ao salario minimo (220 h/mes),"serie termina em 2026-09, antes do fim do mandato"
+gasolina_comum,sm_anual_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022,2025,1.10971,0.904106,-18.53,-6.602,horas de trabalho ao salario minimo (media anual),
+gasolina_comum,decil10_anual_horas_ppc2017,Lula (3o mandato),2023-01-01,2026-10-19,2022,2024,0.166616,0.140516,-15.67,-8.166,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2022, usado 2022; ano-final pedido 2025, usado 2024 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+energia_residencial,nominal_R$_atuais,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-06,0.643419,0.746091,15.96,4.321,R$/kWh,"serie termina em 2026-06, antes do fim do mandato"
+energia_residencial,sm_mensal_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-06,0.116792,0.101259,-13.3,-3.996,horas de trabalho ao salario minimo (220 h/mes),"serie termina em 2026-06, antes do fim do mandato"
+energia_residencial,sm_anual_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022,2025,0.11842,0.117466,-0.806,-0.2694,horas de trabalho ao salario minimo (media anual),
+energia_residencial,decil10_anual_horas_ppc2017,Lula (3o mandato),2023-01-01,2026-10-19,2022,2024,0.0177801,0.0164786,-7.32,-3.729,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2022, usado 2022; ano-final pedido 2025, usado 2024 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"
+onibus_sp_tarifa_basica,nominal_R$_atuais,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,4.4,5.3,20.45,5.088,R$/passagem,"serie termina em 2026-09, antes do fim do mandato"
+onibus_sp_tarifa_basica,sm_mensal_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022-12,2026-09,0.79868,0.719309,-9.938,-2.753,horas de trabalho ao salario minimo (220 h/mes),"serie termina em 2026-09, antes do fim do mandato"
+onibus_sp_tarifa_basica,sm_anual_horas,Lula (3o mandato),2023-01-01,2026-10-19,2022,2025,0.79868,0.724638,-9.271,-3.191,horas de trabalho ao salario minimo (media anual),
+onibus_sp_tarifa_basica,decil10_anual_horas_ppc2017,Lula (3o mandato),2023-01-01,2026-10-19,2022,2024,0.119917,0.104305,-13.02,-6.736,"horas de trabalho a renda media do decimo mais rico (PIP, PPC 2017)","ano-base pedido 2022, usado 2022; ano-final pedido 2025, usado 2024 (anos sem pesquisa PNAD: 1991, 1994, 2000, 2010)"

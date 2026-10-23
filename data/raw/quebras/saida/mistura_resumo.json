@@ -1,0 +1,106 @@
+{
+ "Ditadura": [
+  {
+   "PIB": "favorece",
+   "IPCA": "-",
+   "desemprego": "neutro/indeterminado",
+   "salario minimo": "favorece",
+   "pobreza": "neutro/indeterminado",
+   "Gini": "neutro/indeterminado",
+   "expectativa de vida": "favorece"
+  },
+  3,
+  "consistente: favorece"
+ ],
+ "Itamar": [
+  {
+   "PIB": "prejudica",
+   "IPCA": "favorece",
+   "desemprego": "prejudica",
+   "salario minimo": "misto",
+   "pobreza": "neutro/indeterminado",
+   "Gini": "misto",
+   "expectativa de vida": "favorece"
+  },
+  4,
+  "nao ha padrao"
+ ],
+ "FHC": [
+  {
+   "PIB": "-",
+   "IPCA": "neutro/indeterminado",
+   "desemprego": "favorece",
+   "salario minimo": "prejudica",
+   "pobreza": "neutro/indeterminado",
+   "Gini": "favorece",
+   "expectativa de vida": "neutro/indeterminado"
+  },
+  3,
+  "nao ha padrao"
+ ],
+ "Lula 1-2": [
+  {
+   "PIB": "-",
+   "IPCA": "favorece",
+   "desemprego": "misto",
+   "salario minimo": "neutro/indeterminado",
+   "pobreza": "neutro/indeterminado",
+   "Gini": "favorece",
+   "expectativa de vida": "neutro/indeterminado"
+  },
+  2,
+  "nao ha padrao"
+ ],
+ "Dilma": [
+  {
+   "PIB": "-",
+   "IPCA": "favorece",
+   "desemprego": "neutro/indeterminado",
+   "salario minimo": "prejudica",
+   "pobreza": "favorece",
+   "Gini": "favorece",
+   "expectativa de vida": "neutro/indeterminado"
+  },
+  4,
+  "nao ha padrao"
+ ],
+ "Temer": [
+  {
+   "PIB": "prejudica",
+   "IPCA": "prejudica",
+   "desemprego": "misto",
+   "salario minimo": "misto",
+   "pobreza": "misto",
+   "Gini": "prejudica",
+   "expectativa de vida": "neutro/indeterminado"
+  },
+  3,
+  "consistente: prejudica"
+ ],
+ "Bolsonaro": [
+  {
+   "PIB": "-",
+   "IPCA": "favorece",
+   "desemprego": "prejudica",
+   "salario minimo": "favorece",
+   "pobreza": "favorece",
+   "Gini": "prejudica",
+   "expectativa de vida": "neutro/indeterminado"
+  },
+  5,
+  "nao ha padrao"
+ ],
+ "Lula 3": [
+  {
+   "PIB": "-",
+   "IPCA": "neutro/indeterminado",
+   "desemprego": "prejudica",
+   "salario minimo": "neutro/indeterminado",
+   "pobreza": "prejudica",
+   "Gini": "prejudica",
+   "expectativa de vida": "neutro/indeterminado"
+  },
+  3,
+  "consistente: prejudica"
+ ]
+}

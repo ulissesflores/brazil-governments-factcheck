@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"BM12_TJOVER12","SERNOME":"Taxa de juros - Over / Selic - acumulada no m\u00eas","SERCOMENTARIO":"A Taxa Selic Over \u00e9 calculada diariamente pelo Banco Central com base nas opera\u00e7\u00f5es de um dia entre institui\u00e7\u00f5es financeiras, garantidas por t\u00edtulos p\u00fablicos. Essas opera\u00e7\u00f5es s\u00e3o registradas no Sistema Selic e refletem o custo m\u00e9dio do dinheiro no mercado interbanc\u00e1rio. S\u00e3o apresentados valores mensais acumulados, resultado da aplica\u00e7\u00e3o desta taxa di\u00e1ria ao longo do m\u00eas. O m\u00eas corrente apresenta dados parciais, apurados at\u00e9 o \u00faltimo dia dispon\u00edvel.","SERATUALIZACAO":"2026-10-20T07:52:16.86-03:00","BASNOME":"Macroecon\u00f4mico","FNTSIGLA":"Bacen/Boletim/M. Finan.","FNTNOME":"Banco Central do Brasil, Boletim, Se\u00e7\u00e3o mercado financeiro e de capitais (Bacen/Boletim/M. Finan.)","FNTURL":"http://www.bcb.gov.br","PERNOME":"Mensal","UNINOME":"(% a.m.)","MULNOME":null,"SERSTATUS":"A","TEMCODIGO":39,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

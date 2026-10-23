@@ -1,0 +1,20 @@
+{
+ "categorias_ano_mais_recente_por_categoria": [
+  {
+   "ano": 2025,
+   "categoria": "Economics, Econometrics and Finance (miscellaneous)",
+   "quartil": "Q1"
+  }
+ ],
+ "consulta_issn": [
+  "1542-4766",
+  "1542-4774"
+ ],
+ "data_consulta": "2026-10-19",
+ "linhas_categoria_ano": 22,
+ "metodo": "fetch() dentro do Chrome real do Ulisses na pagina do Scimago (curl/urllib recebem 403 do Cloudflare); extraida a 1a tabela (Category/Year/Quartile) e mantido o ano mais recente de cada categoria",
+ "sha256_texto_resposta_prefixo20": "551eee716fc9d2263bd9",
+ "sid": "7500153126",
+ "titulo_scimago": "Journal of the European Economic Association",
+ "url": "https://www.scimagojr.com/journalsearch.php?q=7500153126&tip=sid&clean=0"
+}

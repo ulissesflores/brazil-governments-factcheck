@@ -1,0 +1,21 @@
+numero,episodio,mandatos,consulta_en,consulta_pt,total_openalex_en,lidos_en,total_openalex_pt,lidos_pt
+01,Plano Real e estabilização,fhc,Plano Real stabilization Brazil inflation effect,Plano Real estabilização inflação efeito,2,2,14,14
+02,Metas de inflação e câmbio flutuante (1999),fhc,Brazil inflation targeting floating exchange rate effect,metas de inflação câmbio flutuante Brasil efeito,8,8,2,2
+03,Lei de Responsabilidade Fiscal (2000),fhc,Brazil Fiscal Responsibility Law effect municipalities,Lei de Responsabilidade Fiscal efeito municípios,0,0,58,58
+04,Bolsa Escola e Bolsa Família (2001-),fhc; lula12; dilma,Bolsa Familia impact evaluation Brazil,Bolsa Família avaliação de impacto,22,22,52,52
+05,Valorização do salário mínimo (2005-),lula12; dilma,Brazil minimum wage increase inequality employment effect,salário mínimo Brasil desigualdade emprego efeito,5,5,5,5
+06,Boom de commodities e crescimento 2003-11,lula12,Brazil commodity boom growth terms of trade,boom de commodities Brasil crescimento termos de troca,15,15,2,2
+07,Crise de 2008 e resposta,lula12,Brazil 2008 financial crisis response credit public banks,crise de 2008 Brasil bancos públicos crédito resposta,10,10,1,1
+08,Minha Casa Minha Vida (2009-),lula12; dilma,Minha Casa Minha Vida housing program impact,Minha Casa Minha Vida impacto,53,53,191,100
+09,BNDES subsidiado e conteúdo local (2008-14),lula12; dilma,BNDES subsidized credit firms effect Brazil,BNDES crédito subsidiado efeito empresas,2,2,0,0
+10,Desonerações e nova matriz econômica (2011-14),dilma,Brazil payroll tax exemption employment effect,desoneração da folha emprego efeito Brasil,0,0,5,5
+11,Recessão de 2014-16 e suas causas,dilma; temer,Brazil 2014 2016 recession causes,recessão brasileira 2014 2016 causas,9,9,2,2
+12,Lava Jato e efeitos econômicos (2014-18),dilma; temer,Lava Jato corruption investigation economic effects Brazil,Lava Jato efeitos econômicos,1,1,2,2
+13,Teto de gastos (2016),temer; bolsonaro,Brazil spending cap constitutional amendment 95 effect,teto de gastos emenda constitucional 95 efeito,0,0,18,18
+14,Reforma trabalhista (2017),temer; bolsonaro,Brazil 2017 labor reform effect employment,reforma trabalhista 2017 efeito emprego,3,3,30,30
+15,Reforma da Previdência (2019),bolsonaro,Brazil 2019 pension reform effect,reforma da previdência 2019 efeito,3,3,27,27
+16,"Pandemia, Auxílio Emergencial e vacinação (2020-21)",bolsonaro,Brazil Auxilio Emergencial cash transfer pandemic effect,Auxílio Emergencial pandemia efeito,0,0,63,63
+17,Desmatamento e fiscalização (2004-24),lula12; dilma; temer; bolsonaro; lula3,Amazon deforestation enforcement policy effect Brazil,desmatamento Amazônia fiscalização política efeito,13,13,2,2
+18,Pix e autonomia do Banco Central (2020-21),bolsonaro,Pix instant payments Brazil effect,Pix pagamentos instantâneos efeito,3,3,3,3
+19,Arcabouço fiscal (2023),lula3,Brazil 2023 fiscal framework effect,arcabouço fiscal 2023 efeito,3,3,5,5
+20,Bolsa Família 2023 e transferências recentes,lula3,Brazil cash transfer 2023 Bolsa Familia effect,Bolsa Família 2023 efeito,1,1,5,5

@@ -1,0 +1,126 @@
+<div align="center">
+
+# Raio-X do Brasil por Governo
+
+**{{n_total}} números de um infográfico viral sobre oito governos brasileiros, conferidos um a um contra dados públicos sob uma regra fixada em código; depois, o raio-X do que ele deixou de fora: {{n_term_ind}} séries com cadeia de hash desde 1964, um índice pré-registrado de condições de vida e a literatura revisada por pares sobre cada episódio. Sem nota de mérito.**
+
+![license: Apache-2.0 + CC BY 4.0](https://img.shields.io/badge/license-Apache--2.0%20%2B%20CC%20BY%204.0-blue)
+![python](https://img.shields.io/badge/python-3.11%20%7C%203.12-informational)
+![tests](https://img.shields.io/badge/tests-{{n_tests}}_passing-success)
+![reproducible](https://img.shields.io/badge/reproducible-SHA--256_chain-success)
+
+[English](README.md) · [Português](README.pt-BR.md) · [Español](README.es.md) · [Italiano](README.it.md) · [עברית](README.he.md)
+
+</div>
+
+> [!IMPORTANT]
+> **Achado.** O infográfico imprime {{n_total}} números. Sob uma única regra de veredito fixada em código, {{n_reproduz}} se reproduzem exatamente a partir de dados públicos, {{n_aproxima}} se aproximam, {{n_nao}} não se reproduzem e {{n_nv}} não têm série oficial para conferir. Ele também deixa de fora {{omitido_pct}}% dos meses entre 1964 e 2026 ({{omitido_meses}} de {{total_meses}}): cinco governos.
+> Este repositório não ranqueia governos e não diz a quem as omissões favorecem. A intenção não pode ser medida a partir de dados.
+
+> [!NOTE]
+> O hebraico é uma tradução automática, sem revisão humana da renderização da direita para a esquerda.
+
+## O que isto contribui
+
+1. **Uma regra de veredito fixada em código** (`code/govfc/verdict.py`), aplicada a cada número do infográfico, com a especificação primária declarada por indicador e toda alternativa testada informada como sensibilidade.
+2. **Dados com cadeia de hash (hash chain) desde o momento do download.** Cada arquivo é registrado em um `manifest.jsonl` somente de acréscimo (append-only), em que cada linha traz o hash da anterior; o repositório inteiro é então selado com um único `chain_hash` SHA-256.
+3. **Um catálogo de quebras de método e de regra** ({{n_quebras}} entradas), com o motivo que cada fonte apresenta, o efeito medido onde dois métodos se sobrepõem e quais células do infográfico atravessam cada quebra; mais uma camada curada de {{n_obs}} observações em {{n_ind}} indicadores, com a edição da fonte (vintage) em cada linha.
+
+## Em resumo
+
+| Item | Valor |
+|---|---|
+| Números impressos no infográfico | {{n_total}} |
+| Reproduzem / aproximam / não reproduzem / não verificados | {{n_reproduz}} / {{n_aproxima}} / {{n_nao}} / {{n_nv}} |
+| Meses de 1964-2026 que o infográfico omite | {{omitido_meses}} de {{total_meses}} ({{omitido_pct}}%) |
+| Observações curadas / indicadores / quebras de método | {{n_obs}} / {{n_ind}} / {{n_quebras}} |
+| Itens do índice / indicadores do terminal / estudos Q1 na camada de literatura | {{n_itens}} / {{n_term_ind}} / {{n_estudos}} |
+| Emendas datadas ao pré-registro | {{n_emendas}} |
+| Dependências em tempo de execução | nenhuma (biblioteca padrão do Python, 3.11+) |
+
+## Início rápido
+
+```bash
+git clone <repository-url> && cd <repository>
+python3 run_all.py
+```
+
+A saída esperada termina com:
+
+```text
+run_all: OK [Track 1 (sealed series, no network)]
+```
+
+A Trilha 1 não precisa de rede: reconstrói a camada curada e os resultados a partir das séries seladas, executa os testes e verifica o selo e cada cadeia de aquisição. A Trilha 2 (`python3 run_all.py --full`) começa baixando de novo os arquivos grandes de terceiros, mantidos apenas como hash mais URL, e reexecuta os scripts de derivação. Ver `REPRODUCIBILITY.md`.
+
+## Resultados
+
+O infográfico refeito (cada número é lido de `output/results.json` e fixado por um teste):
+
+![Placar](output/figures/placar.pt-BR.svg)
+
+Cada célula mostra o número impresso acima e o número reproduzido abaixo, com uma marca de veredito que nunca depende apenas da cor.
+
+## Além do infográfico: as camadas acrescentadas
+
+Tudo abaixo foi pré-registrado e selado na cadeia de hash antes de ser calculado ({{n_emendas}} emendas datadas, nunca reescritas, em `data/raw/preregistro/`); as regras estão em `docs/pt-BR/METHODOLOGY.md`, seções 11 a 16.
+
+1. **Um índice composto de condições de vida** ({{n_itens}} itens em {{n_areas}} áreas, `output/indice.json`): cada item entra só com direção de leitura estabelecida em artigo de quartil 1, pontuado contra balizas congeladas 1995-2024, com pesos iguais declarados, cenários publicados e {{n_sorteios}} sorteios de pesos. Descreve as condições durante cada mandato; não ranqueia mérito.
+2. **Um terminal de {{n_term_ind}} indicadores em {{n_dominios}} domínios** (`output/terminal.json`, página `output/raio-x.html`), uma base homogênea por célula, duas bases desenhadas como duas linhas e nunca emendadas, e uma leitura por mandato em três camadas separadas: o índice, Brasil menos América Latina na mesma fonte e a grade "início -> fim".
+3. **Uma camada de literatura** ({{n_episodios}} episódios, {{n_lit_rodadas}} rodadas publicadas, {{n_estudos}} estudos, `output/literatura.json`): o que estudos revisados por pares de quartil 1 com desenho de identificação nomeado mediram sobre cada episódio, achados por um protocolo de busca selado antes de buscar, toda obra devolvida listada com o motivo da exclusão, sem nota e sem veredito.
+4. **Dívida externa e o custo da dívida pública** (`data/raw/externo-fase3/`): os dois conceitos de dívida externa bruta do Banco Central mostrados separados, a sua razão de dívida líquida descontinuada mostrada como publicada e nunca prolongada, e os juros nominais e o resultado nominal do setor público; nenhum valor líquido de 2026 é calculado porque o indicador oficial deixou de existir.
+
+## O que se afirma e o que não se afirma
+
+| Afirmado | Não afirmado | Congelado (não pode ser refeito) |
+|---|---|---|
+| Cada número impresso foi comparado com dados públicos sob uma regra fixada em código | Que algum governo seja melhor ou pior | A imagem original e a captura da publicação no X |
+| Fontes, edições e quebras de método são registradas e têm hash | Que o infográfico tenha sido feito para favorecer alguém | Páginas de terceiros que mudaram depois da coleta (registradas por hash) |
+| As alternativas testadas são listadas ao lado da especificação primária | Que os vereditos sejam um teste pré-registrado: as especificações foram fixadas depois de uma passada exploratória | URLs ativas que hoje servem uma versão mais nova |
+
+## Integridade
+
+```bash
+python3 make_provenance.py --verify
+```
+
+recalcula o `chain_hash` e cada cadeia de aquisição. A cadeia de hash é definida em `docs/pt-BR/METHODOLOGY.md`; a ideia de encadear registros por hashes, de modo que a história não possa ser reescrita sem detecção, é de Haber e Stornetta (1991).
+
+## Estrutura
+
+```text
+code/govfc/        verdict rule, hash chain, results, curated layer, figures
+data/raw/          downloaded files, derivation scripts, manifest.jsonl per folder
+data/curated/      observations, indicators, method breaks, terms of office
+data/infographic/  the image (hash) and its transcription
+output/            results.json, series.json, provenance.json, figures
+docs/<lang>/       methodology in five languages
+tests/             published numbers are test assertions
+```
+
+## Autor
+
+Carlos Ulisses Flores. ORCID [0000-0002-6034-7765](https://orcid.org/0000-0002-6034-7765) · [ulissesflores.com](https://ulissesflores.com) · [Lattes](http://lattes.cnpq.br/6905246706890561)
+
+## Citação
+
+Um DOI (identificador digital de objeto) será cunhado na primeira versão publicada; até lá, cite a URL do repositório e o `chain_hash` impresso por `python3 make_provenance.py`. Metadados: `CITATION.cff`, `codemeta.json`.
+
+```bibtex
+@misc{flores2026raiox,
+  author  = {Flores, Carlos Ulisses},
+  title   = {Brazil X-Ray by Government: hash-chained public data to check a viral infographic and compare what it omits},
+  year    = {2026},
+  version = {0.1.0},
+  url     = {https://github.com/ulissesflores/brazil-governments-factcheck},
+  note    = {DOI: concept DOI to be minted by Zenodo at the first release; cite the version DOI for a specific run}
+}
+```
+
+## Licença
+
+Código: Apache-2.0. Documentação, dados derivados e figuras: CC BY 4.0 (`LICENSES/`, `NOTICE`). Documentos de terceiros não são redistribuídos; cada um é registrado por hash e URL.
+
+## Referências-âncora
+
+Haber e Stornetta (1991) DOI 10.1007/bf00196791 · Peng (2011) DOI 10.1126/science.1213847 · Wilkinson et al. (2016) DOI 10.1038/sdata.2016.18 · Cysne e Coimbra-Lisboa (2004) DOI 10.1590/0101-35172004-1602. Lista completa em `docs/pt-BR/METHODOLOGY.md`.

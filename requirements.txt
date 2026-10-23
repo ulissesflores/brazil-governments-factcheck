@@ -1,0 +1,4 @@
+# runtime: standard library only (Python >= 3.11). Dev tools: ruff, interrogate, pytest.
+# pillow is used only by the figure tests (font measurement of the redone infographic).
+pytest>=8
+pillow>=10

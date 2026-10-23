@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+"""Gera ../quebras.csv (catalogo de mudancas de especificacao: DIEESE, ANP, tarifa de energia, onibus). python3 -I, sem rede."""
+import csv
+import html
+import re
+from pathlib import Path
+
+RAIZ = Path(__file__).resolve().parent.parent
+B = RAIZ / "bruto"
+
+
+def tab(f):
+    h = (B / "dieese" / f).read_text(encoding="utf-8", errors="replace")
+    cab = [re.sub(r"\s+", " ", html.unescape(c)).strip() for c in re.findall(r"<th[^>]*>(.*?)</th>", h, re.S)][1:]
+    cel = [float(c.strip().replace(".", "").replace(",", ".")) for c in re.findall(r"<td[^>]*>(.*?)</td>", h, re.S)[1:]]
+    return dict(zip(cab, cel))
+
+
+novo, velho = tab("dieese-data-dez2015-novo.html"), tab("dieese-data-dez2015-velho.html")
+sobre = "; ".join(f"{k} {velho[k]:.2f}->{novo[k]:.2f} ({(novo[k] / velho[k] - 1) * 100:+.1f}%)" for k in ("Total da Cesta", "Carne", "Leite", "Feijão", "Arroz", "Pão", "Café", "Açúcar", "Óleo"))
+DI = "DIEESE, banco de dados publico (https://www.dieese.org.br/cesta/); metodologia: poder-de-compra/bruto/dieese-metodologia-cesta-basica-2016.pdf"
+ANP1 = "bruto/anp/mensal-brasil-desde-jan2013.xlsx (notas de rodape da planilha)"
+rows = [
+    ["dieese_8_itens", "1967-01", "moeda", "Cruzeiro novo: 1000 cruzeiros antigos = 1 cruzeiro novo; serie convertida dividindo pelo divisor acumulado", "poder-de-compra/scripts/construir.py (cortes de moeda ja verificados em poder-de-compra/series/_conferencias.txt)", "sem salto de nivel na serie convertida"],
+    ["dieese_8_itens", "1986-03", "moeda", "Cruzado (divisor 1000)", "idem", "idem"],
+    ["dieese_8_itens", "1989-01", "moeda", "Cruzado novo (divisor 1000)", "idem", "idem"],
+    ["dieese_8_itens", "1993-08", "moeda", "Cruzeiro real (divisor 1000)", "idem", "idem"],
+    ["dieese_8_itens", "1994-07", "moeda", "Real (divisor 2750)", "idem", "idem"],
+    ["dieese_8_itens", "1964-03/1964-12", "dado ausente", "10 meses sem dado no banco (celula '-')", DI, "produtos.csv nao traz esses meses; media anual de 1964 indisponivel"],
+    ["dieese_8_itens", "1959-01", "inicio", "Sao Paulo e a unica cidade com serie desde jan/1959; preco medio de cada item por cidade", "https://www.dieese.org.br/cesta/ (lista de cidades com mes de inicio)", "-"],
+    ["dieese_8_itens", "2015-12/2016-01", "especificacao do item", "Metodologia 2016: leite in natura deixa de ser pesquisado (tres marcas de leite integral UHT); banana prata alem da nanica; feijao carioquinha em SP; locais de coleta ponderados pela POF 2008/2009; tres marcas por produto (duas fixas); coleta eletronica. O banco usa o metodo antigo ate dez/2015 e o novo desde jan/2016", "poder-de-compra/bruto/dieese-metodologia-cesta-basica-2016.pdf, secoes 3 e 5", f"SOBREPOSICAO MEDIDA em dez/2015 (mesmo mes, metodo antigo->novo, consulta por data com a caixa 'metodologia 2016'): {sobre}"],
+    ["dieese_8_itens", "2018-04", "acesso", "Aviso do DIEESE: a partir de abril de 2018 os preco por produto das cidades 'nao estarao mais disponiveis para consulta publica'", "https://www.dieese.org.br/analisecestabasica/notaBancoDados.html (bruto/dieese/ nao guarda a pagina; texto lido em 2026-10-20)", "NAO OBSERVADO: o banco publico devolveu precos por produto de Sao Paulo ate 09/2026 e as repeticoes de valor mes a mes depois de 2016 sao poucas (1 a 8 em 128 pares por item): sem sinal de serie congelada"],
+    ["dieese_8_itens", "2024/2025", "cobertura", "Parceria Conab-DIEESE amplia a coleta de 17 para 27 capitais; resultados nas 27 capitais divulgados desde ago/2025", "https://www.dieese.org.br/analisecestabasica/2026/202608cestabasica.pdf (texto da analise mensal)", "Sao Paulo ja era pesquisada; efeito na serie de SP nao medido aqui"],
+    ["dieese_8_itens", "1959-2026", "saltos", "Maiores variacoes mensais desde 1994-08: feijao +75% (1998-05), acucar +48% (2002-11), oleo +32% (2020-09), arroz +21% (2008-05) e +21% (2020-09). Mantidos como publicados; nao ha nota da fonte explicando", DI, "nao corrigidos"],
+    ["dieese_8_itens", "1959-2026", "unidade", "O banco nao publica a unidade do preco. Conferida item a item em dez/2015 (gasto mensal publicado do item / preco do item) e no agregado em dez datas de 1960 a 2026: arroz 3,0, feijao 4,5, pao 6,0, cafe 0,6, acucar 3,0, leite 7,5, carne 6,0 (quantidades do Decreto-Lei 399, regiao 1). O OLEO NAO bate com 0,75: o gasto usa 1,0 x preco (1960-2026), logo o preco e por embalagem/unidade (900 mL presumido, nao declarado pela fonte). Com 1,0 o agregado fecha em 0,9999-1,0000", "series/_conferencias.txt", "unidade do oleo em produtos.csv: R$/embalagem; os demais: R$/kg ou R$/litro"],
+    ["botijao_glp_13kg e gasolina_comum", "2001-07", "inicio", "Primeira observacao mensal do levantamento de precos da ANP (Brasil). Antes: sem serie ANP; a serie anual EPE/BEN via Ipeadata cobre 1973-2025 e coincide com a media anual da ANP nos anos testados de 2002 a 2025 (razao 1,000; 0,988 em 2005)", "bruto/anp/mensal-brasil-2001-a-2012.xlsx (PERIODO: 01/07/2001 A 31/12/2012); series/_conferencias.txt", "1973-1993 da serie EPE/BEN e ESTIMADO pela fonte (variacao do preco em dolar), nao observado"],
+    ["botijao_glp_13kg e gasolina_comum", "2001-07/2012-12", "amostra", "Numero de postos pesquisados varia de 1 392 a 50 336 (GLP) e de 2 350 a 61 607 (gasolina) entre 2001 e 2026; o levantamento comecou com poucos municipios", "series/_conferencias.txt (calculado da coluna NUMERO DE POSTOS PESQUISADOS)", "o nivel e a media simples da amostra de cada mes, sem ponderacao por vendas"],
+    ["botijao_glp_13kg e gasolina_comum", "2017-07-30/2017-12-30", "cobertura", "Abrangencia geografica reduzida de 501 para 459 municipios (capitais e DF semanais; outros 432 municipios quinzenais, alternando grupos)", ANP1, "efeito no preco medio nao medido"],
+    ["botijao_glp_13kg e gasolina_comum", "2018-05-27/2018-06-02", "amostra", "Quantidade de revendas pesquisadas reduzida em ~85% por causa da greve dos caminhoneiros", ANP1, "efeito nao medido"],
+    ["botijao_glp_13kg e gasolina_comum", "2020-08-18/2020-10-17", "dado ausente", "Nao houve pesquisa de precos nesse intervalo; setembro/2020 nao existe na planilha e agosto e outubro/2020 tem cobertura parcial do mes (inferido do aviso)", ANP1, "media anual de 2020 indisponivel (um mes ausente: 2020-09)"],
+    ["botijao_glp_13kg e gasolina_comum", "2020-08-17", "especificacao", "Precos de distribuicao deixaram de ser coletados pela pesquisa (coluna nao usada aqui; so preco de revenda)", ANP1, "nenhum: usamos revenda"],
+    ["botijao_glp_13kg e gasolina_comum", "2022-05", "arredondamento", "Precos por litro com duas casas decimais nos paineis e bombas (Resolucao ANP 858/2021)", ANP1, "a media mensal continua com 4 casas; o item individual coletado passa a ter 2"],
+    ["botijao_glp_13kg e gasolina_comum", "2013-01", "arquivo", "A ANP publica dois arquivos mensais (2001-2012 e desde jan/2013), com cabecalhos de coluna equivalentes (PRECO/PREÇO MEDIO REVENDA); juntados sem ajuste", "bruto/anp/ (os dois arquivos)", "sem salto observado no encontro dos arquivos (ver produtos.csv dez/2012 e jan/2013)"],
+    ["gasolina_comum", "2001-2026", "especificacao do item", "'Gasolina comum' e o produto da ANP; a mistura obrigatoria de etanol anidro na gasolina muda ao longo do tempo (nao catalogado nesta coleta)", "nao verificado", "nao medido"],
+    ["botijao_glp_13kg", "2001-2026", "especificacao do item", "Preco de revenda do botijao P13 (R$/13kg). O programa de auxilio ao gas e a diferenciacao de preco P13 aparecem na literatura (nao verificados nesta coleta)", "nao verificado", "nao medido"],
+    ["energia_residencial", "<1994-07", "moeda/unidade", "Antes de jul/1994 a serie do Ipeadata mistura moedas (ex.: 1990-01 = 0,000239 e 1993-05 = 1 727,8): nao foi possivel reproduzir o corte com divisores unicos; NAO USADA", "bruto/energia/ipeadata-ELETRO12_CEETRES12-raw.json", "serie de produtos.csv comeca em 1994-07"],
+    ["energia_residencial", "2003-01", "fonte", "Fonte de dados: Eletrobras ate 2002; ANEEL a partir de 2003 (portalrelatorios.aneel.gov.br)", "bruto/energia/ipeadata-ELETRO12_CEETRES12-metadados.json", "dez/2002 215,71 R$/MWh -> jan/2003 224,24 (+3,9%); sem salto"],
+    ["energia_residencial", "1995-12", "salto", "+24,4% mes a mes (80,27 -> 99,87 R$/MWh)", "bruto/energia/", "sem explicacao na fonte"],
+    ["energia_residencial", "2013-02", "salto", "-13,4% mes a mes (339,0 -> 293,5 R$/MWh); a serie nao informa a causa. Lei/medida provisoria do periodo nao conferidas nesta coleta", "bruto/energia/", "nao atribuido"],
+    ["energia_residencial", "2025-07 e 2025-10", "valor atipico", "+72% sobre o mes anterior (714,7 -> 1 227,2 e 759,4 -> 1 303,5) e queda de 40% no mes seguinte (740,2 em ago e 774,0 em nov)", "bruto/energia/", "mantidos como publicados; marcados em produtos.csv; afetam a media anual de 2025"],
+    ["energia_residencial", "1994-2026", "definicao", "Tarifa MEDIA do Brasil = receita de fornecimento / consumo (R$/MWh), classe residencial; nao e a tarifa de uma distribuidora nem a conta do consumidor; a fonte nao diz se inclui tributos", "metadados Ipeadata ELETRO12_CEETRES12 (SERCOMENTARIO)", "R$/kWh = R$/MWh / 1000"],
+    ["onibus_sp_tarifa_basica", "1995-07/2005-02", "dado ausente", "Nao localizei tabela aberta com as tarifas entre jun/1995 (R$ 0,65, Wikipedia pt) e mar/2005 (R$ 2,00, Prefeitura). Unico preenchimento: niveis de DEZEMBRO de 1996 a 2004 DERIVADOS das taxas anuais do ICV-DIEESE (linha seguinte)", "bruto/onibus/ (Prefeitura, Band, ANTP, Terra, CNN, Wikipedia, Ipea, Transportes, DIEESE ICV)", "meses intermediarios sem dado; media anual indisponivel de 1995 a 2004"],
+    ["onibus_sp_tarifa_basica", "1996-12/2004-12", "valor derivado", "ICV-DIEESE, Tabela 8, 'Onibus' (municipio de Sao Paulo): 1997 +12,50%, 1998 +11,11%, 1999 +15,00%, 2000 0, 2001 +21,74%, 2002 0, 2003 +21,44%, 2004 0, 2005 +17,66%, 2006 (jan-nov) 0; acumulado +150,00%. Ancorando em R$ 2,00 (mar/2005, Prefeitura): 1,70 (2004), 1,40 (2002), 1,15 (2000), 1,00 (1998), 0,90 (1997), 0,80 (dez/1996). Os degraus caem em valores redondos e o produto das taxas reproduz 150,05% (publicado 150,00%)", "bruto/onibus/dieese-icv-2006-12-transporte.pdf; series/_conferencias.txt", "derivado, nao observado; so dezembro de cada ano; mes do reajuste dentro do ano desconhecido; a taxa e a do indice do DIEESE, nao uma tarifa publicada"],
+    ["onibus_sp_tarifa_basica", "2013-05/2013-06", "valor revogado", "R$ 3,20 publicada em 23/05/2013 (Prefeitura); revogada apos protestos, com retorno a R$ 3,00 (Band). Datas de vigencia e de revogacao nao conferidas", "bruto/onibus/prefeitura-planilha-tarifaria.html; bruto/onibus/band-tarifa-onibus-sp-plano-real.html", "a serie mantem R$ 3,00 em todo 2013"],
+    ["onibus_sp_tarifa_basica", "datas de vigencia", "aproximacao", "A planilha da Prefeitura traz data de PUBLICACAO (ou 'vigente a partir de' so em 2020 e 2025). Usei o mes da publicacao como mes de vigencia, janeiro seguinte quando a publicacao e do fim de dezembro, e dezembro/2006 para o R$ 2,30 publicado em 18/11/06 (ICV-DIEESE registra 0,00% no onibus ate nov/2006)", "bruto/onibus/prefeitura-planilha-tarifaria.html", "erro possivel de +-1 mes no degrau"],
+    ["onibus_sp_tarifa_basica", "2020-01/2024-12", "congelamento", "Tarifa basica R$ 4,40 por cinco anos; reajuste de 13,6% em jan/2025 (R$ 5,00) e de 6% em jan/2026 (R$ 5,30, Band)", "bruto/onibus/", "fato do degrau; sem ajuste"],
+    ["onibus_sp_tarifa_basica", "2023-12", "gratuidade", "Domingos e feriados especificos com tarifa zero no onibus municipal para usuarios do Bilhete Unico (Band; relatorio tecnico da SMT, dez/2024)", "bruto/onibus/band-tarifa-onibus-sp-plano-real.html", "a tarifa basica de dia util nao muda; o valor medio pago por viagem sim (nao medido)"],
+    ["onibus_sp_tarifa_basica", "2026-01-06", "fonte secundaria", "R$ 5,30 vem de reportagem (Band); a pagina da Prefeitura foi capturada em 2026-01-02, antes da mudanca", "bruto/onibus/band-tarifa-onibus-sp-plano-real.html", "confirmar na portaria da SMT"],
+    ["renda_decil10_pip", "1991, 1994, 2000, 2010", "dado ausente", "PIP nao tem pesquisa nesses anos (a PNAD nao foi a campo)", "quebras/renda-por-decil.csv", "produtos_por_governo usa o ano anterior disponivel e declara"],
+    ["renda_decil10_pip", "2011/2012", "pesquisa", "PNAD (1981-2011) -> PNAD Continua (2012-2024); a propria fonte marca dois spells comparaveis", "quebras/renda-por-decil.csv (comparable_spell_segundo_a_fonte)", "variacao entre 2011 e 2012 nao e homogenea"],
+    ["renda_decil10_pip", "todos", "conversao", "US$ PPC 2017 por dia -> R$ por mes: x 365/12 x R$ 2,3273771 por US$ PPC (IBGE SIS, consumo privado) = R$ de 2017; x IPCA medio do ano / IPCA medio de 2017 = R$ nominais do ano. A renda e domiciliar per capita (media do decil 10), nao salario de trabalhador", "quebras/pobreza-linhas-em-reais-reais.csv; inflacao/ipca-sgs433-raw.json", "sensibilidade em PPC 2021 (fator 2,4498362, Ipeadata) na coluna horas_decil10_ppc2021"],
+]
+with open(RAIZ / "quebras.csv", "w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f)
+    w.writerow(["produto", "data", "tipo", "descricao", "fonte", "medida_ou_efeito"])
+    w.writerows(rows)
+print(len(rows), "linhas")

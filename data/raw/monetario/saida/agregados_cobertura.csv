@@ -1,0 +1,19 @@
+sgs,papel,nome_no_catalogo_CKAN_BCB,nome_por_inferencia_numerica,primeiro_mes,ultimo_mes,n_meses
+1788,M0 base restrita fim,BM - Base monetária restrita (saldo em final de período),,1946-02,2026-08,967
+1783,papel-moeda em circulacao media,BM - Papel moeda em circulação (média nos dias úteis do mês),,1980-02,2026-08,559
+1785,M0 base restrita media,BM - Base monetária restrita (média nos dias úteis do mês),,1980-02,2026-08,559
+1786,papel-moeda em circulacao fim,BM - Papel moeda em circulação (saldo em final de período),,1980-02,2026-08,559
+1787,reservas bancarias fim,BM - Reservas bancárias (saldo em final de período),,1980-02,2026-08,559
+1833,base ampliada fim,Base Monetária Ampliada (saldo em final de período),,1994-08,2026-08,385
+1827,M1 fim (conceito antigo),,M1 = 1825 + 1826,1946-02,2018-06,869
+1824,M1 media (antigo),,M1 media = 1822 + 1823,1980-02,2018-06,461
+1835,poupanca fim,Meios de pagamento amplos - Depósito de Poupança (saldo em final de período),,1988-08,2026-08,457
+1839,compromissadas Selic fim,Meios de pagamento amplos - Operações compromissadas/Selic (saldo em final de período),,1988-08,2026-08,457
+1837,M2 (reg. 2001),,M2 = M1 + 1835 + 1836 (+ dep. especiais remunerados 1991-2000),1988-08,2018-06,359
+1840,M3 (reg. 2001),,M3 = M2 + 1838 + 1839,1988-08,2018-06,359
+1843,M4 (reg. 2001),,M4 = M3 + 1841 + 1842,1988-08,2018-06,359
+27791,M1 fim Novo,Meios de pagamento - M1 (saldo em final de período) - Novo,,2002-01,2026-08,296
+27810,M2 fim Novo,Meios de pagamento amplos - M2 (saldo em final de período) - Novo,,2001-12,2026-08,297
+27813,M3 fim Novo,Meios de pagamento amplos - M3 (saldo em final de período) - Novo,,2001-12,2026-08,297
+27815,M4 fim Novo,Meios de pagamento amplos - M4 (saldo em final de periodo) - Novo,,2001-12,2026-08,297
+27788,M1 media Novo,,,2002-01,2026-08,296

@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"BM366_TJOVER366","SERNOME":"Taxa de juros - Selic - fixada pelo Copom","SERCOMENTARIO":"Decis\u00f5es da reuini\u00e3o do Comit\u00ea de Pol\u00edtica Monet\u00e1ria (Copom) para a taxa de juros referencial (Selic).","SERATUALIZACAO":"2026-10-20T07:44:12.923-03:00","BASNOME":"Macroecon\u00f4mico","FNTSIGLA":"Bacen/Boletim/M. Finan.","FNTNOME":"Banco Central do Brasil, Boletim, Se\u00e7\u00e3o mercado financeiro e de capitais (Bacen/Boletim/M. Finan.)","FNTURL":"http://www.bcb.gov.br","PERNOME":"Di\u00e1ria","UNINOME":"(% a.a.)","MULNOME":null,"SERSTATUS":"A","TEMCODIGO":39,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

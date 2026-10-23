@@ -1,0 +1,191 @@
+medida,descricao,alvo,estatistica,valor,n,nota
+troca_ppc_wdi_2011_2017,variacao % do nivel do PIB pc PPC: versao 202005 sobre 202004,BRA,mediana,1.702,29,min 1.70 max 2.20
+troca_ppc_wdi_2011_2017,variacao % do nivel do PIB pc PPC: versao 202005 sobre 202004,ARG,mediana,24.3745,29,min 24.37 max 24.37
+troca_ppc_wdi_2011_2017,variacao % do nivel do PIB pc PPC: versao 202005 sobre 202004,CHL,mediana,6.3999,29,min 6.40 max 6.40
+troca_ppc_wdi_2011_2017,variacao % do nivel do PIB pc PPC: versao 202005 sobre 202004,COL,mediana,8.539,29,min 8.54 max 8.54
+troca_ppc_wdi_2011_2017,variacao % do nivel do PIB pc PPC: versao 202005 sobre 202004,MEX,mediana,10.249,29,min 10.25 max 10.25
+troca_ppc_wdi_2011_2017,variacao % do nivel do PIB pc PPC: versao 202005 sobre 202004,PER,mediana,-0.0869,29,min -0.09 max -0.09
+troca_ppc_wdi_2011_2017,variacao % do nivel do PIB pc PPC: versao 202005 sobre 202004,URY,mediana,3.2257,29,min 3.23 max 3.23
+troca_ppc_wdi_2011_2017,variacao % do nivel do PIB pc PPC: versao 202005 sobre 202004,WLD,mediana,6.1266,29,min 3.81 max 7.62
+troca_ppc_wdi_2011_2017,variacao % do nivel do PIB pc PPC: versao 202005 sobre 202004,LCN,mediana,9.1331,29,min 7.99 max 10.24
+troca_ppc_wdi_2011_2017,variacao % do nivel do PIB pc PPC: versao 202005 sobre 202004,UMC,mediana,0.2124,29,min -1.30 max 1.79
+troca_ppc_wdi_2011_2017,variacao % da razao BRA/ref do PIB pc PPC: 202005 sobre 202004,BRA/ARG,mediana,-18.2292,29,min -18.23 max -17.83
+troca_ppc_wdi_2011_2017,variacao % da razao BRA/ref do PIB pc PPC: 202005 sobre 202004,BRA/CHL,mediana,-4.4153,29,min -4.42 max -3.95
+troca_ppc_wdi_2011_2017,variacao % da razao BRA/ref do PIB pc PPC: 202005 sobre 202004,BRA/COL,mediana,-6.2991,29,min -6.30 max -5.84
+troca_ppc_wdi_2011_2017,variacao % da razao BRA/ref do PIB pc PPC: 202005 sobre 202004,BRA/MEX,mediana,-7.7525,29,min -7.75 max -7.31
+troca_ppc_wdi_2011_2017,variacao % da razao BRA/ref do PIB pc PPC: 202005 sobre 202004,BRA/PER,mediana,1.7905,29,min 1.79 max 2.28
+troca_ppc_wdi_2011_2017,variacao % da razao BRA/ref do PIB pc PPC: 202005 sobre 202004,BRA/URY,mediana,-1.4761,29,min -1.48 max -1.00
+troca_ppc_wdi_2011_2017,variacao % da razao BRA/ref do PIB pc PPC: 202005 sobre 202004,BRA/WLD,mediana,-4.1692,29,min -5.50 max -1.56
+troca_ppc_wdi_2011_2017,variacao % da razao BRA/ref do PIB pc PPC: 202005 sobre 202004,BRA/LCN,mediana,-6.8092,29,min -7.75 max -5.83
+troca_ppc_wdi_2011_2017,variacao % da razao BRA/ref do PIB pc PPC: 202005 sobre 202004,BRA/UMC,mediana,1.4864,29,min -0.08 max 3.54
+troca_ppc_wdi_2017_2021,variacao % do nivel do PIB pc PPC: versao 202405 sobre 202403,BRA,mediana,18.4243,33,min 18.42 max 18.42
+troca_ppc_wdi_2017_2021,variacao % do nivel do PIB pc PPC: versao 202405 sobre 202403,ARG,mediana,20.7734,33,min 20.77 max 20.77
+troca_ppc_wdi_2017_2021,variacao % do nivel do PIB pc PPC: versao 202405 sobre 202403,CHL,mediana,14.6993,33,min 14.70 max 14.70
+troca_ppc_wdi_2017_2021,variacao % do nivel do PIB pc PPC: versao 202405 sobre 202403,COL,mediana,19.9528,33,min 19.95 max 19.95
+troca_ppc_wdi_2017_2021,variacao % do nivel do PIB pc PPC: versao 202405 sobre 202403,MEX,mediana,7.6763,33,min 7.68 max 7.68
+troca_ppc_wdi_2017_2021,variacao % do nivel do PIB pc PPC: versao 202405 sobre 202403,PER,mediana,18.5078,33,min 18.51 max 18.51
+troca_ppc_wdi_2017_2021,variacao % do nivel do PIB pc PPC: versao 202405 sobre 202403,URY,mediana,26.8437,33,min 26.84 max 26.84
+troca_ppc_wdi_2017_2021,variacao % do nivel do PIB pc PPC: versao 202405 sobre 202403,WLD,mediana,14.9243,33,min 14.50 max 15.63
+troca_ppc_wdi_2017_2021,variacao % do nivel do PIB pc PPC: versao 202405 sobre 202403,LCN,mediana,15.6576,33,min 15.38 max 15.89
+troca_ppc_wdi_2017_2021,variacao % do nivel do PIB pc PPC: versao 202405 sobre 202403,UMC,mediana,17.3866,33,min 16.51 max 20.54
+troca_ppc_wdi_2017_2021,variacao % da razao BRA/ref do PIB pc PPC: 202405 sobre 202403,BRA/ARG,mediana,-1.945,33,min -1.95 max -1.95
+troca_ppc_wdi_2017_2021,variacao % da razao BRA/ref do PIB pc PPC: 202405 sobre 202403,BRA/CHL,mediana,3.2476,33,min 3.25 max 3.25
+troca_ppc_wdi_2017_2021,variacao % da razao BRA/ref do PIB pc PPC: 202405 sobre 202403,BRA/COL,mediana,-1.2742,33,min -1.27 max -1.27
+troca_ppc_wdi_2017_2021,variacao % da razao BRA/ref do PIB pc PPC: 202405 sobre 202403,BRA/MEX,mediana,9.9818,33,min 9.98 max 9.98
+troca_ppc_wdi_2017_2021,variacao % da razao BRA/ref do PIB pc PPC: 202405 sobre 202403,BRA/PER,mediana,-0.0705,33,min -0.07 max -0.07
+troca_ppc_wdi_2017_2021,variacao % da razao BRA/ref do PIB pc PPC: 202405 sobre 202403,BRA/URY,mediana,-6.6376,33,min -6.64 max -6.64
+troca_ppc_wdi_2017_2021,variacao % da razao BRA/ref do PIB pc PPC: 202405 sobre 202403,BRA/WLD,mediana,3.0454,33,min 2.42 max 3.43
+troca_ppc_wdi_2017_2021,variacao % da razao BRA/ref do PIB pc PPC: 202405 sobre 202403,BRA/LCN,mediana,2.3921,33,min 2.19 max 2.64
+troca_ppc_wdi_2017_2021,variacao % da razao BRA/ref do PIB pc PPC: 202405 sobre 202403,BRA/UMC,mediana,0.884,33,min -1.75 max 1.64
+revisao_wdi_apos_2021,variacao % do nivel do PIB pc PPC: versao 202412 sobre 202405,BRA,mediana,2.6718,33,min 2.56 max 3.80
+revisao_wdi_apos_2021,variacao % do nivel do PIB pc PPC: versao 202412 sobre 202405,ARG,mediana,-0.3996,33,min -1.24 max 1.85
+revisao_wdi_apos_2021,variacao % do nivel do PIB pc PPC: versao 202412 sobre 202405,CHL,mediana,-0.862,33,min -0.93 max -0.15
+revisao_wdi_apos_2021,variacao % do nivel do PIB pc PPC: versao 202412 sobre 202405,COL,mediana,0.4507,33,min 0.21 max 0.79
+revisao_wdi_apos_2021,variacao % do nivel do PIB pc PPC: versao 202412 sobre 202405,MEX,mediana,-0.8657,33,min -1.43 max -0.44
+revisao_wdi_apos_2021,variacao % do nivel do PIB pc PPC: versao 202412 sobre 202405,PER,mediana,1.7396,33,min 1.46 max 2.96
+revisao_wdi_apos_2021,variacao % do nivel do PIB pc PPC: versao 202412 sobre 202405,URY,mediana,0.5526,33,min -0.45 max 0.78
+revisao_wdi_apos_2021,variacao % do nivel do PIB pc PPC: versao 202412 sobre 202405,WLD,mediana,-0.1748,33,min -0.28 max 0.27
+revisao_wdi_apos_2021,variacao % do nivel do PIB pc PPC: versao 202412 sobre 202405,LCN,mediana,0.5927,33,min 0.47 max 1.53
+revisao_wdi_apos_2021,variacao % do nivel do PIB pc PPC: versao 202412 sobre 202405,UMC,mediana,-7.3549,33,min -15.98 max -6.03
+revisao_wdi_apos_2021,variacao % da razao BRA/ref do PIB pc PPC: 202412 sobre 202405,BRA/ARG,mediana,3.0466,33,min 1.92 max 4.20
+revisao_wdi_apos_2021,variacao % da razao BRA/ref do PIB pc PPC: 202412 sobre 202405,BRA/CHL,mediana,3.6341,33,min 3.15 max 4.45
+revisao_wdi_apos_2021,variacao % da razao BRA/ref do PIB pc PPC: 202412 sobre 202405,BRA/COL,mediana,2.3461,33,min 1.89 max 3.50
+revisao_wdi_apos_2021,variacao % da razao BRA/ref do PIB pc PPC: 202412 sobre 202405,BRA/MEX,mediana,3.8567,33,min 3.12 max 4.60
+revisao_wdi_apos_2021,variacao % da razao BRA/ref do PIB pc PPC: 202412 sobre 202405,BRA/PER,mediana,1.0728,33,min 0.68 max 1.19
+revisao_wdi_apos_2021,variacao % da razao BRA/ref do PIB pc PPC: 202412 sobre 202405,BRA/URY,mediana,2.3359,33,min 1.99 max 4.17
+revisao_wdi_apos_2021,variacao % da razao BRA/ref do PIB pc PPC: 202412 sobre 202405,BRA/WLD,mediana,2.8691,33,min 2.32 max 3.64
+revisao_wdi_apos_2021,variacao % da razao BRA/ref do PIB pc PPC: 202412 sobre 202405,BRA/LCN,mediana,2.1175,33,min 2.03 max 2.46
+revisao_wdi_apos_2021,variacao % da razao BRA/ref do PIB pc PPC: 202412 sobre 202405,BRA/UMC,mediana,10.9842,33,min 9.21 max 22.06
+revisao_wdi,NY.GDP.MKTP.KD.ZG: 202403 -> 202507,BRA,valores comuns alterados / comuns,2/62,62,maior mudanca absoluta 0.2262 em BRA 2021; so na antiga 0; so na nova 2
+revisao_wdi,NY.GDP.MKTP.KD.ZG: 202403 -> 202507,demais 10 unidades,valores comuns alterados / comuns,243/612,612,maior mudanca absoluta 3.1371 em UMC 1992; so na antiga 0; so na nova 18
+revisao_wdi,NY.GDP.MKTP.KD.ZG: 202507 -> 2026-10-08,BRA,valores comuns alterados / comuns,1/64,64,maior mudanca absoluta 0.0234 em BRA 2024; so na antiga 0; so na nova 1
+revisao_wdi,NY.GDP.MKTP.KD.ZG: 202507 -> 2026-10-08,demais 10 unidades,valores comuns alterados / comuns,247/630,630,maior mudanca absoluta 5.8925 em VEN 1983; so na antiga 0; so na nova 20
+revisao_wdi,SP.DYN.LE00.IN: 202403 -> 202507,BRA,valores comuns alterados / comuns,62/62,62,maior mudanca absoluta 0.7830 em BRA 2012; so na antiga 0; so na nova 2
+revisao_wdi,SP.DYN.LE00.IN: 202403 -> 202507,demais 10 unidades,valores comuns alterados / comuns,620/620,620,maior mudanca absoluta 2.0310 em MEX 1964; so na antiga 0; so na nova 20
+revisao_wdi,SP.DYN.LE00.IN: 202507 -> 2026-10-08,BRA,valores comuns alterados / comuns,0/64,64,maior mudanca absoluta 0.0000; so na antiga 0; so na nova 1
+revisao_wdi,SP.DYN.LE00.IN: 202507 -> 2026-10-08,demais 10 unidades,valores comuns alterados / comuns,122/640,640,maior mudanca absoluta 0.9774 em UMC 1960; so na antiga 0; so na nova 10
+revisao_wdi,SP.DYN.IMRT.IN: 202403 -> 202507,BRA,valores comuns alterados / comuns,61/62,62,maior mudanca absoluta 1.3000 em BRA 1996; so na antiga 0; so na nova 2
+revisao_wdi,SP.DYN.IMRT.IN: 202403 -> 202507,demais 10 unidades,valores comuns alterados / comuns,479/521,521,maior mudanca absoluta 15.8000 em PER 1960; so na antiga 0; so na nova 20
+revisao_wdi,SP.DYN.IMRT.IN: 202507 -> 2026-10-08,BRA,valores comuns alterados / comuns,34/64,64,maior mudanca absoluta 0.8000 em BRA 1960; so na antiga 0; so na nova 1
+revisao_wdi,SP.DYN.IMRT.IN: 202507 -> 2026-10-08,demais 10 unidades,valores comuns alterados / comuns,359/541,541,maior mudanca absoluta 2.9000 em PER 1960; so na antiga 0; so na nova 10
+revisao_wdi,VC.IHR.PSRC.P5: 202403 -> 202507,BRA,valores comuns alterados / comuns,0/31,31,maior mudanca absoluta 0.0000; so na antiga 0; so na nova 0
+revisao_wdi,VC.IHR.PSRC.P5: 202403 -> 202507,demais 10 unidades,valores comuns alterados / comuns,0/218,218,maior mudanca absoluta 0.0000; so na antiga 0; so na nova 0
+revisao_wdi,VC.IHR.PSRC.P5: 202507 -> 2026-10-08,BRA,valores comuns alterados / comuns,31/31,31,maior mudanca absoluta 0.5712 em BRA 2020; so na antiga 0; so na nova 3
+revisao_wdi,VC.IHR.PSRC.P5: 202507 -> 2026-10-08,demais 10 unidades,valores comuns alterados / comuns,207/218,218,maior mudanca absoluta 2.4106 em COL 2018; so na antiga 0; so na nova 19
+revisao_wdi,SH.IMM.IDPT: 202403 -> 202507,BRA,valores comuns alterados / comuns,0/43,43,maior mudanca absoluta 0.0000; so na antiga 0; so na nova 1
+revisao_wdi,SH.IMM.IDPT: 202403 -> 202507,demais 10 unidades,valores comuns alterados / comuns,133/430,430,maior mudanca absoluta 13.0000 em VEN 2022; so na antiga 0; so na nova 10
+revisao_wdi,SH.IMM.IDPT: 202507 -> 2026-10-08,BRA,valores comuns alterados / comuns,0/44,44,maior mudanca absoluta 0.0000; so na antiga 0; so na nova 1
+revisao_wdi,SH.IMM.IDPT: 202507 -> 2026-10-08,demais 10 unidades,valores comuns alterados / comuns,112/440,440,maior mudanca absoluta 2.0165 em UMC 1984; so na antiga 0; so na nova 10
+revisao_wdi,FP.CPI.TOTL.ZG: 202403 -> 202507,BRA,valores comuns alterados / comuns,0/42,42,maior mudanca absoluta 0.0000; so na antiga 0; so na nova 2
+revisao_wdi,FP.CPI.TOTL.ZG: 202403 -> 202507,demais 10 unidades,valores comuns alterados / comuns,41/454,454,maior mudanca absoluta 3.8232 em UMC 1985; so na antiga 0; so na nova 20
+revisao_wdi,FP.CPI.TOTL.ZG: 202507 -> 2026-10-08,BRA,valores comuns alterados / comuns,0/44,44,maior mudanca absoluta 0.0000; so na antiga 0; so na nova 1
+revisao_wdi,FP.CPI.TOTL.ZG: 202507 -> 2026-10-08,demais 10 unidades,valores comuns alterados / comuns,87/474,474,maior mudanca absoluta 9.4852 em UMC 1994; so na antiga 0; so na nova 15
+revisao_wdi,SL.UEM.TOTL.ZS: 202403 -> 202507,BRA,valores comuns alterados / comuns,29/33,33,maior mudanca absoluta 0.6660 em BRA 1992; so na antiga 0; so na nova 1
+revisao_wdi,SL.UEM.TOTL.ZS: 202403 -> 202507,demais 10 unidades,valores comuns alterados / comuns,254/330,330,maior mudanca absoluta 1.3930 em PER 2023; so na antiga 0; so na nova 10
+revisao_wdi,SL.UEM.TOTL.ZS: 202507 -> 2026-10-08,BRA,valores comuns alterados / comuns,4/34,34,maior mudanca absoluta 0.8330 em BRA 2024; so na antiga 0; so na nova 1
+revisao_wdi,SL.UEM.TOTL.ZS: 202507 -> 2026-10-08,demais 10 unidades,valores comuns alterados / comuns,139/340,340,maior mudanca absoluta 0.7260 em ARG 2024; so na antiga 0; so na nova 10
+revisao_wdi,TT.PRI.MRCH.XD.WD: 202403 -> 202507,BRA,valores comuns alterados / comuns,16/42,42,maior mudanca absoluta 0.0482 em BRA 2008; so na antiga 0; so na nova 2
+revisao_wdi,TT.PRI.MRCH.XD.WD: 202403 -> 202507,demais 10 unidades,valores comuns alterados / comuns,109/291,291,maior mudanca absoluta 26.9556 em MEX 2005; so na antiga 3; so na nova 31
+revisao_wdi,TT.PRI.MRCH.XD.WD: 202507 -> 2026-10-08,BRA,valores comuns alterados / comuns,1/19,19,anos que existiam e sumiram: 1980-2004 (25 anos); maior mudanca absoluta 0.1000 em BRA 2008; so na antiga 25; so na nova 1
+revisao_wdi,TT.PRI.MRCH.XD.WD: 202507 -> 2026-10-08,demais 10 unidades,valores comuns alterados / comuns,42/147,147,maior mudanca absoluta 7.9000 em PER 2023; so na antiga 175; so na nova 7
+revisao_wdi,NE.GDI.FTOT.ZS: 202403 -> 202507,BRA,valores comuns alterados / comuns,2/53,53,maior mudanca absoluta 1.0222 em BRA 2022; so na antiga 0; so na nova 2
+revisao_wdi,NE.GDI.FTOT.ZS: 202403 -> 202507,demais 10 unidades,valores comuns alterados / comuns,207/583,583,maior mudanca absoluta 4.4020 em WLD 1970; so na antiga 0; so na nova 40
+revisao_wdi,NE.GDI.FTOT.ZS: 202507 -> 2026-10-08,BRA,valores comuns alterados / comuns,1/55,55,maior mudanca absoluta 0.1235 em BRA 2024; so na antiga 0; so na nova 1
+revisao_wdi,NE.GDI.FTOT.ZS: 202507 -> 2026-10-08,demais 10 unidades,valores comuns alterados / comuns,232/618,618,maior mudanca absoluta 28.5689 em VEN 1998; so na antiga 5; so na nova 20
+revisao_pip,"pobreza 6,85: release 20260922 vs 20260324",BRA,maior diferenca absoluta (pontos),0.0,40,"alteradas (>0,001): 0; so-na-corrente 0; so-na-antiga 0"
+revisao_pip,"pobreza 6,85: release 20260922 vs 20260324",ARG,maior diferenca absoluta (pontos),0.0,36,"alteradas (>0,001): 0; so-na-corrente 0; so-na-antiga 0"
+revisao_pip,"pobreza 6,85: release 20260922 vs 20260324",VEN,maior diferenca absoluta (pontos),0.0,13,"alteradas (>0,001): 0; so-na-corrente 0; so-na-antiga 0"
+revisao_pip,Gini: release 20260922 vs 20260324,BRA,maior diferenca absoluta (pontos),0.0,40,"alteradas (>0,001): 0; so-na-corrente 0; so-na-antiga 0"
+revisao_pip,Gini: release 20260922 vs 20260324,ARG,maior diferenca absoluta (pontos),0.0,36,"alteradas (>0,001): 0; so-na-corrente 0; so-na-antiga 0"
+revisao_pip,Gini: release 20260922 vs 20260324,VEN,maior diferenca absoluta (pontos),0.0,13,"alteradas (>0,001): 0; so-na-corrente 0; so-na-antiga 0"
+revisao_pip,"pobreza 6,85: release 20260922 vs 20250930",BRA,maior diferenca absoluta (pontos),0.0919,39,"alteradas (>0,001): 12; so-na-corrente 1; so-na-antiga 0"
+revisao_pip,"pobreza 6,85: release 20260922 vs 20250930",ARG,maior diferenca absoluta (pontos),0.0,36,"alteradas (>0,001): 0; so-na-corrente 0; so-na-antiga 0"
+revisao_pip,"pobreza 6,85: release 20260922 vs 20250930",VEN,maior diferenca absoluta (pontos),0.0,13,"alteradas (>0,001): 0; so-na-corrente 0; so-na-antiga 0"
+revisao_pip,Gini: release 20260922 vs 20250930,BRA,maior diferenca absoluta (pontos),0.1532,39,"alteradas (>0,001): 12; so-na-corrente 1; so-na-antiga 0"
+revisao_pip,Gini: release 20260922 vs 20250930,ARG,maior diferenca absoluta (pontos),0.0,36,"alteradas (>0,001): 0; so-na-corrente 0; so-na-antiga 0"
+revisao_pip,Gini: release 20260922 vs 20250930,VEN,maior diferenca absoluta (pontos),0.0,13,"alteradas (>0,001): 0; so-na-corrente 0; so-na-antiga 0"
+troca_ppc_pip,"pobreza: linha 8,30 (PPC 2021) menos linha 6,85 (PPC 2017), mesmo release 20260922, pontos percentuais",BRA,mediana das diferencas,2.1087,40,min 1.68 max 2.53
+troca_ppc_pip,"pobreza: linha 8,30 (PPC 2021) menos linha 6,85 (PPC 2017), mesmo release 20260922, pontos percentuais",ARG,mediana das diferencas,2.9363,36,min 1.21 max 4.68
+troca_ppc_pip,"pobreza: linha 8,30 (PPC 2021) menos linha 6,85 (PPC 2017), mesmo release 20260922, pontos percentuais",CHL,mediana das diferencas,2.547,17,min 0.70 max 3.27
+troca_ppc_pip,"pobreza: linha 8,30 (PPC 2021) menos linha 6,85 (PPC 2017), mesmo release 20260922, pontos percentuais",COL,mediana das diferencas,5.201,26,min 4.42 max 6.12
+troca_ppc_pip,"pobreza: linha 8,30 (PPC 2021) menos linha 6,85 (PPC 2017), mesmo release 20260922, pontos percentuais",MEX,mediana das diferencas,5.8262,20,min 4.71 max 6.72
+troca_ppc_pip,"pobreza: linha 8,30 (PPC 2021) menos linha 6,85 (PPC 2017), mesmo release 20260922, pontos percentuais",PER,mediana das diferencas,4.7009,30,min 3.75 max 6.04
+troca_ppc_pip,"pobreza: linha 8,30 (PPC 2021) menos linha 6,85 (PPC 2017), mesmo release 20260922, pontos percentuais",URY,mediana das diferencas,-0.1095,19,min -0.26 max -0.04
+troca_ppc_pip,"pobreza: linha 8,30 (PPC 2021) menos linha 6,85 (PPC 2017), mesmo release 20260922, pontos percentuais",VEN,mediana das diferencas,4.1559,13,min 3.41 max 4.95
+troca_ppc_pip,"efeito da troca de PPC sobre (Brasil menos referencia) na pobreza, pontos percentuais: (BRA-ref em 8,30/2021) menos (BRA-ref em 6,85/2017)",BRA-ARG,mediana,-0.8647,31,min -2.19 max 0.97
+troca_ppc_pip,"efeito da troca de PPC sobre (Brasil menos referencia) na pobreza, pontos percentuais: (BRA-ref em 8,30/2021) menos (BRA-ref em 6,85/2017)",BRA-CHL,mediana,-0.1518,15,min -0.99 max 1.00
+troca_ppc_pip,"efeito da troca de PPC sobre (Brasil menos referencia) na pobreza, pontos percentuais: (BRA-ref em 8,30/2021) menos (BRA-ref em 6,85/2017)",BRA-COL,mediana,-3.1051,24,min -3.65 max -2.15
+troca_ppc_pip,"efeito da troca de PPC sobre (Brasil menos referencia) na pobreza, pontos percentuais: (BRA-ref em 8,30/2021) menos (BRA-ref em 6,85/2017)",BRA-MEX,mediana,-3.7616,17,min -4.70 max -2.89
+troca_ppc_pip,"efeito da troca de PPC sobre (Brasil menos referencia) na pobreza, pontos percentuais: (BRA-ref em 8,30/2021) menos (BRA-ref em 6,85/2017)",BRA-PER,mediana,-2.5474,27,min -3.91 max -1.65
+troca_ppc_pip,"efeito da troca de PPC sobre (Brasil menos referencia) na pobreza, pontos percentuais: (BRA-ref em 8,30/2021) menos (BRA-ref em 6,85/2017)",BRA-URY,mediana,2.1846,18,min 1.74 max 2.66
+troca_ppc_pip,"efeito da troca de PPC sobre (Brasil menos referencia) na pobreza, pontos percentuais: (BRA-ref em 8,30/2021) menos (BRA-ref em 6,85/2017)",BRA-VEN,mediana,-1.9694,13,min -2.94 max -1.37
+versao_pwt,"PIB pc (rgdpo/pop): PWT 11.0 (PPC 2021) sobre PWT 10.01 (PPC 2017), variacao % do nivel, 1950-2019",BRA,mediana,10.9781,70,min 1.77 max 17.50
+versao_pwt,"PIB pc (rgdpo/pop): PWT 11.0 (PPC 2021) sobre PWT 10.01 (PPC 2017), variacao % do nivel, 1950-2019",ARG,mediana,11.2322,70,min 9.99 max 14.31
+versao_pwt,"PIB pc (rgdpo/pop): PWT 11.0 (PPC 2021) sobre PWT 10.01 (PPC 2017), variacao % do nivel, 1950-2019",CHL,mediana,11.2887,69,min 1.18 max 14.26
+versao_pwt,"PIB pc (rgdpo/pop): PWT 11.0 (PPC 2021) sobre PWT 10.01 (PPC 2017), variacao % do nivel, 1950-2019",COL,mediana,13.9827,70,min 10.07 max 15.12
+versao_pwt,"PIB pc (rgdpo/pop): PWT 11.0 (PPC 2021) sobre PWT 10.01 (PPC 2017), variacao % do nivel, 1950-2019",MEX,mediana,17.7292,70,min 11.04 max 19.42
+versao_pwt,"PIB pc (rgdpo/pop): PWT 11.0 (PPC 2021) sobre PWT 10.01 (PPC 2017), variacao % do nivel, 1950-2019",PER,mediana,11.4293,70,min 10.16 max 14.73
+versao_pwt,"PIB pc (rgdpo/pop): PWT 11.0 (PPC 2021) sobre PWT 10.01 (PPC 2017), variacao % do nivel, 1950-2019",URY,mediana,12.1151,70,min 8.82 max 27.98
+versao_pwt,"PIB pc (rgdpo/pop): PWT 11.0 (PPC 2021) sobre PWT 10.01 (PPC 2017), variacao % do nivel, 1950-2019",VEN,mediana,10.7398,70,min 8.88 max 140.59
+versao_pwt,"razao BRA/ref do PIB pc: PWT 11.0 sobre 10.01, variacao %",BRA/ARG,mediana,-0.3641,70,min -8.53 max 2.86
+versao_pwt,"razao BRA/ref do PIB pc: PWT 11.0 sobre 10.01, variacao %",BRA/CHL,mediana,-0.1592,69,min -8.74 max 9.00
+versao_pwt,"razao BRA/ref do PIB pc: PWT 11.0 sobre 10.01, variacao %",BRA/COL,mediana,-3.0268,70,min -11.26 max 2.34
+versao_pwt,"razao BRA/ref do PIB pc: PWT 11.0 sobre 10.01, variacao %",BRA/MEX,mediana,-5.5953,70,min -13.04 max 5.82
+versao_pwt,"razao BRA/ref do PIB pc: PWT 11.0 sobre 10.01, variacao %",BRA/PER,mediana,-0.3138,70,min -9.56 max 2.59
+versao_pwt,"razao BRA/ref do PIB pc: PWT 11.0 sobre 10.01, variacao %",BRA/URY,mediana,-0.9408,70,min -8.19 max 1.91
+versao_pwt,"razao BRA/ref do PIB pc: PWT 11.0 sobre 10.01, variacao %",BRA/VEN,mediana,0.2062,70,min -52.50 max 3.46
+versao_pwt,"crescimento medio anual do PIB pc de BRA medido por rgdpo/pop (lado da producao, PPC encadeada), Lula1-2 (2003-2010): PWT 10.01 / 11.0 / diferenca (pp/ano)",BRA,10.01 / 11.0 / diferenca,6.385 / 6.327 / -0.058,8/8,
+versao_pwt,"crescimento medio anual do PIB pc de BRA medido por rgdpo/pop (lado da producao, PPC encadeada), Dilma (2011-2016; PWT 10.01 so ate 2019): PWT 10.01 / 11.0 / diferenca (pp/ano)",BRA,10.01 / 11.0 / diferenca,-0.739 / -0.614 / +0.125,6/6,
+versao_pwt,"rnna: variacao % acumulada 2002->2010 do Brasil, PWT 10.01 / 11.0",BRA,10.01 / 11.0,23.73 / 26.03,8,
+versao_pwt,"rtfpna: variacao % acumulada 2002->2010 do Brasil, PWT 10.01 / 11.0",BRA,10.01 / 11.0,3.27 / 2.57,8,
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 1970",Maddison 2023 (PPC 2011),razao,0.622,6,BRA=4635
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 1970",PWT 10.01 (PPC 2017),razao,0.6391,6,BRA=3726
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 1970",PWT 11.0 (PPC 2021),razao,0.629,6,BRA=4143
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 1980",Maddison 2023 (PPC 2011),razao,0.8705,6,BRA=8249
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 1980",PWT 10.01 (PPC 2017),razao,0.778,6,BRA=5877
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 1980",PWT 11.0 (PPC 2021),razao,0.6997,6,BRA=5981
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 1990",Maddison 2023 (PPC 2011),razao,0.7881,6,BRA=7842
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 1990",PWT 10.01 (PPC 2017),razao,0.8194,6,BRA=6406
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 1990",PWT 11.0 (PPC 2021),razao,0.8327,6,BRA=7049
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 1990",WDI corrente (PPC 2021),razao,1.01,6,BRA=12633
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2002",Maddison 2023 (PPC 2011),razao,0.8721,6,BRA=10245
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2002",PWT 10.01 (PPC 2017),razao,0.8534,6,BRA=9232
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2002",PWT 11.0 (PPC 2021),razao,0.8575,6,BRA=10349
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2002",WDI corrente (PPC 2021),razao,0.8195,6,BRA=14266
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2010",Maddison 2023 (PPC 2011),razao,0.9138,6,BRA=14216
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2010",PWT 10.01 (PPC 2017),razao,0.8682,6,BRA=15013
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2010",PWT 11.0 (PPC 2021),razao,0.8558,6,BRA=16789
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2010",WDI corrente (PPC 2021),razao,0.8176,6,BRA=18062
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2016",Maddison 2023 (PPC 2011),razao,0.7877,6,BRA=13991
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2016",PWT 10.01 (PPC 2017),razao,0.7227,6,BRA=14219
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2016",PWT 11.0 (PPC 2021),razao,0.7141,6,BRA=16018
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2016",WDI corrente (PPC 2021),razao,0.7137,6,BRA=17621
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2019",Maddison 2023 (PPC 2011),razao,0.8214,6,BRA=14258
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2019",PWT 10.01 (PPC 2017),razao,0.743,6,BRA=14594
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2019",PWT 11.0 (PPC 2021),razao,0.7496,6,BRA=17147
+fontes_cruzadas,"PIB pc: Brasil / mediana de ARG,CHL,COL,MEX,PER,URY em 2019",WDI corrente (PPC 2021),razao,0.7456,6,BRA=18019
+revisao_fgv,investimento do setor publico (% do PIB): vintage 2023 -> 2024,BRA,anos alterados / comuns,1/77,77,maior mudanca +0.025 pp em 2023; mediana das mudancas absolutas entre os alterados 0.025 pp; anos novos 1
+revisao_fgv,investimento do setor publico (% do PIB): vintage 2024 -> 2025,BRA,anos alterados / comuns,2/78,78,maior mudanca +0.011 pp em 2024; mediana das mudancas absolutas entre os alterados 0.006 pp; anos novos 1
+revisao_fgv,FBCF (% do PIB): vintage 2023 -> 2024,BRA,anos alterados / comuns,1/77,77,maior mudanca -0.128 pp em 2023; mediana das mudancas absolutas entre os alterados 0.128 pp; anos novos 1
+revisao_fgv,FBCF (% do PIB): vintage 2024 -> 2025,BRA,anos alterados / comuns,1/78,78,maior mudanca -0.124 pp em 2024; mediana das mudancas absolutas entre os alterados 0.124 pp; anos novos 1
+conceito_invpub,"ICSD (FBCF governo geral) menos FGV (governo geral) em pp do PIB, anos comuns 1960-2019",BRA,mediana / min / max,+2.88 / +0.91 / +5.50,60,conceitos e deflatores diferentes (ICSD: PIB e FBCF em US$ PPC de 2017); nao e revisao
+encadeamento_tt,"FUNCEX_TTR / HIST_TROCA: razao mediana 1901-1973 (mesma fonte IBGE, bases diferentes)",BRA,mediana,1.0361,73,"desvio maximo absoluto em relacao a mediana, 1901-1973: 0.00%"
+encadeamento_tt,desvio % da razao FUNCEX_TTR/HIST_TROCA em 1972 em relacao a mediana 1901-1973,BRA,desvio %,0.0,1,FUNCEX=110.59 HIST=106.74
+encadeamento_tt,desvio % da razao FUNCEX_TTR/HIST_TROCA em 1973 em relacao a mediana 1901-1973,BRA,desvio %,-0.0,1,FUNCEX=123.70 HIST=119.40
+encadeamento_tt,desvio % da razao FUNCEX_TTR/HIST_TROCA em 1974 em relacao a mediana 1901-1973,BRA,desvio %,-8.4902,1,FUNCEX=94.31 HIST=99.47
+encadeamento_tt,desvio % da razao FUNCEX_TTR/HIST_TROCA em 1975 em relacao a mediana 1901-1973,BRA,desvio %,-8.6073,1,FUNCEX=89.97 HIST=95.01
+encadeamento_tt,variacao % do indice em 1974 sobre 1973: FUNCEX_TTR / HIST_TROCA,BRA,FUNCEX / HIST,-23.76 / -16.69,1,
+encadeamento_tt,variacao % do indice em 1975 sobre 1974: FUNCEX_TTR / HIST_TROCA,BRA,FUNCEX / HIST,-4.60 / -4.48,1,
+fbcf_fontes,"Ipeadata PAN_FBKFPIBV menos FGV/IBGE, FBCF % do PIB, anos comuns 1996-2025 (pp)",BRA,mediana / min / max,+0.00 / +0.00 / +0.00,30,"anos com |dif|>0,5 pp: 0"
+fbcf_fontes,"WDI NE.GDI.FTOT.ZS menos FGV/IBGE, FBCF % do PIB, anos comuns 1970-2025 (pp)",BRA,mediana / min / max,+0.00 / -0.89 / +0.04,56,"anos com |dif|>0,5 pp: 4"
+fbcf_fontes,"Ipeadata SCN10 (FBKFN10/PIBN10 nominais) menos FGV, anos comuns 1947-2025 (pp)",BRA,mediana / min / max,-0.00 / -0.00 / +0.00,79,"anos de |dif|>0,5 pp: []"
+classe_renda,mudancas de classe de renda do Banco Mundial FY89-FY25 (Brazil),BRA,n. de mudancas,4,37,FY89->FY90: UM -> LM; FY90->FY91: LM -> UM; FY03->FY04: UM -> LM; FY07->FY08: LM -> UM
+classe_renda,mudancas de classe de renda do Banco Mundial FY89-FY25 (Argentina),ARG,n. de mudancas,6,37,FY90->FY91: UM -> LM; FY92->FY93: LM -> UM; FY15->FY16: UM -> H; FY16->FY17: H -> UM; FY18->FY19: UM -> H; FY19->FY20: H -> UM
+classe_renda,mudancas de classe de renda do Banco Mundial FY89-FY25 (Chile),CHL,n. de mudancas,2,37,FY94->FY95: LM -> UM; FY13->FY14: UM -> H
+classe_renda,mudancas de classe de renda do Banco Mundial FY89-FY25 (Colombia),COL,n. de mudancas,1,37,FY09->FY10: LM -> UM
+classe_renda,mudancas de classe de renda do Banco Mundial FY89-FY25 (Mexico),MEX,n. de mudancas,1,37,FY91->FY92: LM -> UM
+classe_renda,mudancas de classe de renda do Banco Mundial FY89-FY25 (Peru),PER,n. de mudancas,1,37,FY09->FY10: LM -> UM
+classe_renda,mudancas de classe de renda do Banco Mundial FY89-FY25 (Uruguay),URY,n. de mudancas,1,37,FY13->FY14: UM -> H
+classe_renda,"mudancas de classe de renda do Banco Mundial FY89-FY25 (Venezuela, RB)",VEN,n. de mudancas,5,37,FY95->FY96: UM -> LM; FY98->FY99: LM -> UM; FY15->FY16: UM -> H; FY16->FY17: H -> UM; FY21->FY22: UM -> (vazio)
+classe_renda,"numero de economias na classe UM (renda media alta) por ano fiscal, FY89..FY25 ",UMC (membros),contagem,primeiro FY89=29; menor FY91=23; maior FY20=60; ultimo FY25=54,37,"lista completa: FY89=29, FY90=27, FY91=23, FY92=32, FY93=39, FY94=39, FY95=38, FY96=31, FY97=29, FY98=31, FY99=36, FY00=36, FY01=38, FY02=38, FY03=38, FY04=34, FY05=37, FY06=40, FY07=40, FY08=41, FY09=41, FY10=46, FY11=48, FY12=54, FY13=54, FY14=55, FY15=55, FY16=53, FY17=56, FY18=56, FY19=56, FY20=60, FY21=56, FY22=55, FY23=54, FY24=54, FY25=54"
+classe_renda,"entradas e saidas de economias na classe UM, FY89..FY25 (soma de todas as transicoes)",UMC (membros),entradas / saidas,130 / 101,37,

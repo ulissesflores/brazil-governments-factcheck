@@ -1,0 +1,511 @@
+indicador,fonte,definicao_linha,ano,mes_ou_trimestre,valor,unidade,nota,vintage
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,1994,,1683977,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,1994,,0.3452,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,1995,,1930852,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,1995,,0.3164,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,1996,,2036542,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,1996,,0.3086,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,1997,,2123142,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,1997,,0.2985,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,1998,,2216142,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,1998,,0.296,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,1999,,2317775,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,1999,,0.2882,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2000,,2260075,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2000,,0.2952,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2001,,2153982,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2001,,0.3086,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2002,,2076595,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2002,,0.3212,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2003,,2035911,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2003,,0.3299,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2004,,2002475,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2004,,0.3384,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2005,,2028269,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2005,,0.3317,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2006,,1913237,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2006,,0.3503,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2007,,1843504,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2007,,0.3624,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2008,,1857821,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2008,,0.367,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2009,,1778493,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2009,,0.3828,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2010,,1724921,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2010,,0.3973,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2011,,1742662,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2011,,0.4018,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2012,,1724623,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2012,,0.4065,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2013,,1693553,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2013,,0.4168,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2014,,1752220,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2014,,0.4119,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2015,,1753493,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2015,,0.4189,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2016,,1548026,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2016,,0.4583,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2017,,1610872,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2017,,0.449,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2018,,1628213,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2018,,0.4471,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2019,,1499345,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2019,,0.4738,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2020,,1173321,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2020,,0.5702,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2021,,844452,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2021,,0.6846,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2022,,1017656,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2022,,0.6028,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2023,,1071966,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2023,,0.5776,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2024,,857310,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2024,,0.6412,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),nascimentos - obitos,2025,,922100,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,DATASUS (SIM obitos por ocorrencia x SINASC nascidos por ocorrencia),obitos / nascimentos,2025,,0.6247,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1984,,3037433,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1984,,0.2192,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1985,,3221486,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1985,,0.2041,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1986,,4481718,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1986,,0.1598,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1987,,3240508,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1987,,0.2042,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1988,,4134411,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1988,,0.1721,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1989,,2786664,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1989,,0.2338,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1990,,2788513,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1990,,0.2363,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1991,,2414203,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1991,,0.2581,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1992,,3276508,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1992,,0.2074,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1993,,2479241,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1993,,0.2693,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1994,,2797212,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1994,,0.2494,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1995,,2419020,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1995,,0.2766,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1996,,3299585,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1996,,0.2231,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1997,,2644032,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1997,,0.2608,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1998,,3264374,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1998,,0.2278,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,1999,,3253552,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,1999,,0.2289,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2000,,3171356,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2000,,0.2304,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2001,,2795298,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2001,,0.2551,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2002,,2873727,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2002,,0.2566,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2003,,2420845,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2003,,0.2935,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2004,,2303229,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2004,,0.3082,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2005,,2319379,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2005,,0.3034,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2006,,2134496,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2006,,0.3271,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2007,,2029858,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2007,,0.341,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2008,,2033038,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2008,,0.3459,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2009,,1947312,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2009,,0.3606,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2010,,1852705,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2010,,0.3794,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2011,,1880854,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2011,,0.3822,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2012,,1857921,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2012,,0.3869,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2013,,1794068,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2013,,0.4,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2014,,1832981,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2014,,0.3974,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2015,,1814225,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2015,,0.4069,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2016,,1615077,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2016,,0.4438,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2017,,1670518,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2017,,0.4362,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2018,,1684988,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2018,,0.4352,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2019,,1555752,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2019,,0.4613,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2020,,1203324,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2020,,0.5589,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2021,,906397,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2021,,0.6654,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2022,,1096284,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2022,,0.5817,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2023,,1147868,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2023,,0.5582,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",nascimentos - obitos,2024,,926345,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, registrados no ano (nasc. registrados x obitos registrados, lugar do registro/ residencia)",obitos / nascimentos,2024,,0.6208,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1984,,1765614,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1984,,0.31,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1985,,1855409,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1985,,0.2917,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1986,,1991865,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1986,,0.2833,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1987,,1892534,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1987,,0.2888,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1988,,2013932,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1988,,0.2832,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1989,,1798704,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1989,,0.3031,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1990,,1626314,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1990,,0.3279,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1991,,1563180,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1991,,0.33,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1992,,1628907,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1992,,0.3262,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1993,,1577280,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1993,,0.3478,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1994,,1621329,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1994,,0.3442,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1995,,1519689,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1995,,0.3553,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1996,,1555736,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1996,,0.3552,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1997,,1508050,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1997,,0.3569,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1998,,1596329,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1998,,0.3515,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,1999,,1716276,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,1999,,0.3547,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2000,,1685280,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2000,,0.3552,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2001,,1579926,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2001,,0.3708,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2002,,1622500,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2002,,0.3722,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2003,,1824559,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2003,,0.3518,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2004,,1804141,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2004,,0.3588,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2005,,1881106,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2005,,0.3456,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2006,,1778917,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2006,,0.3645,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2007,,1718198,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2007,,0.3754,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2008,,1733430,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2008,,0.3787,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2009,,1673173,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2009,,0.3921,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2010,,1635146,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2010,,0.4048,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2011,,1666561,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2011,,0.4067,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2012,,1661172,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2012,,0.4094,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2013,,1644330,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2013,,0.4172,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2014,,1714946,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2014,,0.4097,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2015,,1718851,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2015,,0.4164,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2016,,1525349,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2016,,0.4541,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2017,,1594948,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2017,,0.4439,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2018,,1615898,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2018,,0.4419,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2019,,1492915,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2019,,0.468,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2020,,1163827,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2020,,0.5647,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2021,,849333,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2021,,0.6771,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2022,,1035845,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2022,,0.5917,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2023,,1092119,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2023,,0.5663,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",nascimentos - obitos,2024,,880088,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"IBGE Registro Civil, ocorridos no ano (nascidos ocorridos x obitos ocorridos; 1984-2002 obitos = ocorridos E registrados)",obitos / nascimentos,2024,,0.6288,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1960,,2190392,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1960,,0.3099,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1961,,2240178,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1961,,0.3064,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1962,,2286667,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1962,,0.3033,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1963,,2326399,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1963,,0.3005,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1964,,2338478,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1964,,0.3001,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1965,,2336415,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1965,,0.3004,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1966,,2325332,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1966,,0.3013,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1967,,2307559,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1967,,0.3026,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1968,,2301560,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1968,,0.3021,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1969,,2324191,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1969,,0.3,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1970,,2362074,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1970,,0.297,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1971,,2407318,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1971,,0.2938,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1972,,2454699,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1972,,0.2904,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1973,,2501309,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1973,,0.2876,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1974,,2524254,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1974,,0.2869,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1975,,2585130,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1975,,0.2826,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1976,,2648647,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1976,,0.2788,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1977,,2715328,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1977,,0.2748,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1978,,2778815,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1978,,0.2711,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1979,,2836760,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1979,,0.2679,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1980,,2887767,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1980,,0.265,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1981,,2928262,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1981,,0.2628,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1982,,2948552,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1982,,0.2616,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1983,,2952335,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1983,,0.2615,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1984,,2931495,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1984,,0.2626,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1985,,2912908,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1985,,0.2635,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1986,,2880440,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1986,,0.2654,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1987,,2825486,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1987,,0.2687,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1988,,2768082,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1988,,0.2726,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1989,,2717923,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1989,,0.2766,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1990,,2652960,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1990,,0.2817,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1991,,2606168,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1991,,0.286,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1992,,2547699,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1992,,0.2913,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1993,,2545874,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1993,,0.2925,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1994,,2532950,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1994,,0.2939,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1995,,2546196,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1995,,0.2935,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1996,,2530690,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1996,,0.2954,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1997,,2531757,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1997,,0.2962,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1998,,2514727,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1998,,0.2995,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,1999,,2450870,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,1999,,0.3062,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2000,,2372043,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2000,,0.3143,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2001,,2291211,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2001,,0.3226,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2002,,2207017,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2002,,0.3313,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2003,,2128819,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2003,,0.3386,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2004,,2108071,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2004,,0.3406,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2005,,2083282,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2005,,0.3433,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2006,,2026119,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2006,,0.3496,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2007,,1970371,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2007,,0.3566,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2008,,1908052,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2008,,0.3657,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2009,,1878542,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2009,,0.3716,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2010,,1847335,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2010,,0.3782,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2011,,1815757,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2011,,0.3859,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2012,,1782517,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2012,,0.3938,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2013,,1758717,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2013,,0.4007,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2014,,1757948,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2014,,0.4057,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2015,,1742275,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2015,,0.4117,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2016,,1609487,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2016,,0.4401,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2017,,1610402,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2017,,0.443,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2018,,1583934,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2018,,0.4519,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2019,,1472104,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2019,,0.4762,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2020,,1146174,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2020,,0.5773,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2021,,919506,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2021,,0.656,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2022,,1054897,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2022,,0.6005,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2023,,1107433,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2023,,0.5743,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,"Banco Mundial WDI (derivado, estimativa)",nascimentos - obitos,2024,,1073773,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,"Banco Mundial WDI (derivado, estimativa)",obitos / nascimentos,2024,,0.5825,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1950,,1566640,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1950,,0.3675,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1951,,1634340,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1951,,0.3593,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1952,,1698624,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1952,,0.3522,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1953,,1760797,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1953,,0.3462,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1954,,1823535,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1954,,0.3403,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1955,,1887276,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1955,,0.3345,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1956,,1951044,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1956,,0.3289,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1957,,2015048,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1957,,0.3235,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1958,,2077611,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1958,,0.3186,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1959,,2138213,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1959,,0.3139,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1960,,2190329,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1960,,0.31,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1961,,2240172,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1961,,0.3064,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1962,,2286678,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1962,,0.3033,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1963,,2326455,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1963,,0.3005,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1964,,2338547,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1964,,0.3001,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1965,,2336395,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1965,,0.3004,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1966,,2325293,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1966,,0.3013,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1967,,2307585,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1967,,0.3026,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1968,,2301544,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1968,,0.3021,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1969,,2324156,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1969,,0.3,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1970,,2362136,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1970,,0.297,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1971,,2407301,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1971,,0.2938,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1972,,2454749,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1972,,0.2904,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1973,,2501270,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1973,,0.2876,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1974,,2524289,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1974,,0.2869,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1975,,2585081,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1975,,0.2826,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1976,,2648604,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1976,,0.2788,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1977,,2715367,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1977,,0.2748,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1978,,2778821,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1978,,0.2711,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1979,,2836850,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1979,,0.2679,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1980,,2887850,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1980,,0.265,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1981,,2928342,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1981,,0.2628,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1982,,2948486,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1982,,0.2617,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1983,,2952445,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1983,,0.2614,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1984,,2931477,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1984,,0.2626,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1985,,2912896,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1985,,0.2635,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1986,,2880513,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1986,,0.2653,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1987,,2825412,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1987,,0.2688,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1988,,2768041,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1988,,0.2726,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1989,,2718029,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1989,,0.2765,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1990,,2653047,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1990,,0.2817,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1991,,2606189,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1991,,0.2859,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1992,,2547673,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1992,,0.2913,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1993,,2545985,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1993,,0.2925,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1994,,2532894,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1994,,0.294,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1995,,2546170,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1995,,0.2935,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1996,,2530685,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1996,,0.2954,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1997,,2531877,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1997,,0.2962,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1998,,2514838,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1998,,0.2994,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,1999,,2450774,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,1999,,0.3062,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2000,,2372011,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2000,,0.3143,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2001,,2291217,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2001,,0.3226,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2002,,2206955,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2002,,0.3313,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2003,,2128817,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2003,,0.3386,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2004,,2108098,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2004,,0.3406,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2005,,2083346,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2005,,0.3433,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2006,,2026167,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2006,,0.3496,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2007,,1970381,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2007,,0.3567,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2008,,1908112,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2008,,0.3657,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2009,,1878449,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2009,,0.3717,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2010,,1847261,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2010,,0.3782,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2011,,1815740,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2011,,0.3859,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2012,,1782566,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2012,,0.3938,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2013,,1758745,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2013,,0.4007,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2014,,1757877,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2014,,0.4057,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2015,,1742280,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2015,,0.4117,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2016,,1609483,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2016,,0.4401,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2017,,1610462,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2017,,0.4429,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2018,,1583797,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2018,,0.452,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2019,,1472156,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2019,,0.4762,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2020,,1146264,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2020,,0.5773,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2021,,919657,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2021,,0.6559,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2022,,1054810,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2022,,0.6005,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2023,,1107516,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2023,,0.5743,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2024,,1073737,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2024,,0.5825,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+saldo_nascimentos_menos_obitos,ONU WPP 2024 (estimativa),nascimentos - obitos,2025,,996722,pessoas,calculado no ano; bases nunca emendadas,baixado 2026-10-21
+razao_obitos_por_nascimento,ONU WPP 2024 (estimativa),obitos / nascimentos,2025,,0.6058,razao,calculado no ano; bases nunca emendadas,baixado 2026-10-21

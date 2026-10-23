@@ -1,0 +1,19 @@
+{
+ "categorias_ano_mais_recente_por_categoria": [
+  {
+   "ano": 2025,
+   "categoria": "Economics and Econometrics",
+   "quartil": "Q1"
+  }
+ ],
+ "consulta_issn": [
+  "0002-8282"
+ ],
+ "data_consulta": "2026-10-19",
+ "linhas_categoria_ano": 27,
+ "metodo": "fetch() dentro do Chrome real do Ulisses na pagina do Scimago (curl/urllib recebem 403 do Cloudflare); extraida a 1a tabela (Category/Year/Quartile) e mantido o ano mais recente de cada categoria",
+ "sha256_texto_resposta_prefixo20": "c18d15d8896c240ff70180a631b7cabe9adfd091244cf2f6f25c3771c9df55c8",
+ "sid": "22697",
+ "titulo_scimago": "American Economic Review",
+ "url": "https://www.scimagojr.com/journalsearch.php?q=22697&tip=sid&clean=0"
+}

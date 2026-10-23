@@ -1,0 +1,29 @@
+{
+ "categorias_ano_mais_recente_por_categoria": [
+  {
+   "ano": 2025,
+   "categoria": "Applied Mathematics",
+   "quartil": "Q1"
+  },
+  {
+   "ano": 2025,
+   "categoria": "Economics and Econometrics",
+   "quartil": "Q1"
+  },
+  {
+   "ano": 2022,
+   "categoria": "History and Philosophy of Science",
+   "quartil": "Q1"
+  }
+ ],
+ "consulta_issn": [
+  "0304-4076"
+ ],
+ "data_consulta": "2026-10-19",
+ "linhas_categoria_ano": 77,
+ "metodo": "fetch() dentro do Chrome real do Ulisses na pagina do Scimago (curl/urllib recebem 403 do Cloudflare); extraida a 1a tabela (Category/Year/Quartile) e mantido o ano mais recente de cada categoria",
+ "sha256_texto_resposta_prefixo20": "9c14cd11353382f6116c",
+ "sid": "28973",
+ "titulo_scimago": "Journal of Econometrics",
+ "url": "https://www.scimagojr.com/journalsearch.php?q=28973&tip=sid&clean=0"
+}

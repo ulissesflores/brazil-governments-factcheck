@@ -1,0 +1,30 @@
+{
+ "categorias_ano_mais_recente_por_categoria": [
+  {
+   "ano": 2025,
+   "categoria": "Economics, Econometrics and Finance (miscellaneous)",
+   "quartil": "Q2"
+  },
+  {
+   "ano": 2025,
+   "categoria": "Political Science and International Relations",
+   "quartil": "Q2"
+  },
+  {
+   "ano": 2025,
+   "categoria": "Sociology and Political Science",
+   "quartil": "Q2"
+  }
+ ],
+ "consulta_issn": [
+  "0101-3157",
+  "1809-4538"
+ ],
+ "data_consulta": "2026-10-19",
+ "linhas_categoria_ano": 54,
+ "metodo": "fetch() dentro do Chrome real do Ulisses na pagina do Scimago (curl/urllib recebem 403 do Cloudflare); extraida a 1a tabela (Category/Year/Quartile) e mantido o ano mais recente de cada categoria",
+ "sha256_texto_resposta_prefixo20": "3b683c54bff3eef31dbd",
+ "sid": "5800169372",
+ "titulo_scimago": "Brazilian Journal of Political Economy",
+ "url": "https://www.scimagojr.com/journalsearch.php?q=5800169372&tip=sid&clean=0"
+}

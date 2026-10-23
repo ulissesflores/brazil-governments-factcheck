@@ -1,0 +1,481 @@
+indicador,fonte,definicao_linha,ano,mes_ou_trimestre,valor,unidade,nota,vintage
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2000,,1.04752,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2001,,1.06197,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2002,,1.00967,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2003,,0.99939,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2004,,0.96343,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2005,,1.00247,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2006,,0.98807,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2007,,1.08138,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2008,,1.12904,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2009,,1.11866,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2010,,1.15992,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2011,,1.13966,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2012,,1.12684,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2013,,1.19567,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2014,,1.26971,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2015,,1.28464,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2016,,1.19584,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2017,,1.1175,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2018,,1.15016,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2019,,1.15115,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2020,,1.21907,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2021,,1.13371,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2022,,1.18873,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pd_pib,Banco Mundial WDI GB.XPD.RSDV.GD.ZS,P&D (GERD) % PIB; origem UNESCO UIS,2023,,1.1938,% do PIB,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2000,,298.53981,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2001,,341.27926,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2002,,403.16475,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2003,,428.48507,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2004,,489.27106,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2005,,515.766,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2006,,550.49741,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2007,,562.55469,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2008,,598.65285,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2009,,634.14103,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2010,,696.09998,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2011,,749.17174,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2012,,801.40894,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2013,,852.71699,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_pesquisadores_por_milhao,Banco Mundial WDI SP.POP.SCIE.RD.P6,pesquisadores em P&D (FTE) por milhao; origem UNESCO UIS,2014,,903.20079,por milhao de habitantes,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1980,,2149,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1981,,2171,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1982,,2116,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1983,,2302,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1984,,2062,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1985,,1954,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1986,,1855,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1987,,2451,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1988,,2338,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1989,,2323,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1990,,2389,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1991,,2319,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1992,,2100,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1993,,2429,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1994,,2269,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1995,,2707,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1996,,2611,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1997,,2756,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1998,,2491,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",1999,,2816,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2000,,3179,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2001,,3439,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2002,,3481,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2003,,3866,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2004,,4044,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2005,,4054,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2006,,3956,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2007,,4194,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2008,,4280,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2009,,4271,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2010,,4228,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2011,,4695,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2012,,4798,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2013,,4959,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2014,,4659,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2015,,4641,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2016,,5200,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2017,,5480,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2018,,4980,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2019,,5464,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2020,,5280,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2021,,4666,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2022,,4398,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2023,,4973,pedidos,,WDI lastupdated 2026-10-08
+wdi_patentes_residentes,Banco Mundial WDI IP.PAT.RESD,"pedidos de patente de residentes (escritorio nacional, direto + entrada PCT); origem WIPO",2024,,5752,pedidos,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1960,,17030465539.3906,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1961,,17275940449.3837,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1962,,19231747851.5332,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1963,,23287712878.2002,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1964,,20963733694.9749,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1965,,22465522884.0988,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1966,,28283323733.1114,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1967,,31086389194.961,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1968,,33930457425.2613,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1969,,37171640818.5863,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1970,,42327664793.6934,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1971,,48869830901.7878,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1972,,58434858374.8696,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1973,,83592275862.9982,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1974,,109794519727.538,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1975,,129203555238.827,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1976,,153168949208.207,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1977,,176344101401.941,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1978,,200278646123.581,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1979,,221338204480.222,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1980,,237393489892.637,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1981,,258015174748.648,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1982,,271314113768.417,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1983,,189656506321.431,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1984,,188339974086.58,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1985,,210879844638.877,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1986,,256480852471.129,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1987,,283056836893.838,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1988,,307881930752.268,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1989,,412990820287.42,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1990,,384959818181.817,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1991,,342534090909.091,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1992,,328191909882.232,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1993,,368292034380.96,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1994,,525369467295.737,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1995,,769333050986.905,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1996,,850426432991.742,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1997,,883206179730.462,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1998,,863710759256.435,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,1999,,599642024319.531,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2000,,655448231983.527,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2001,,559983634798.981,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2002,,509795273806.715,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2003,,558233745651.874,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2004,,669289424806.307,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2005,,891633839894.183,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2006,,1107626541434.92,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2007,,1397114486368.67,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2008,,1695855083497.52,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2009,,1666996438581.43,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2010,,2208837745100.55,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2011,,2616156223917.69,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2012,,2465227802806.76,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2013,,2472819535557.21,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2014,,2456043727198.85,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2015,,1802212206814.5,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2016,,1795693482853.01,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2017,,2063514977365.65,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2018,,1916933898010.99,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2019,,1873288205059.69,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2020,,1476107231310.49,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2021,,1670647398904.9,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2022,,1951923942083.32,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2023,,2191131765684.63,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2024,,2185821610689.31,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_pib_usd_correntes,Banco Mundial WDI NY.GDP.MKTP.CD,PIB em US$ correntes,2025,,2279920092492.13,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1960,,72388126,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1961,,74605447,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1962,,76865323,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1963,,79164235,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1964,,81488595,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1965,,83817583,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1966,,86139359,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1967,,88446124,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1968,,90741240,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1969,,93045777,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1970,,95375651,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1971,,97739273,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1972,,100146797,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1973,,102600976,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1974,,105089675,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1975,,107619565,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1976,,110213349,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1977,,112875292,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1978,,115600942,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1979,,118380821,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1980,,121207461,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1981,,124063109,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1982,,126923155,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1983,,129790077,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1984,,132658864,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1985,,135515595,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1986,,138336370,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1987,,141104944,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1988,,143826357,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1989,,146502972,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1990,,149143223,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1991,,151724256,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1992,,154275079,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1993,,156794577,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1994,,159265006,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1995,,161735073,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1996,,164202549,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1997,,166661659,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1998,,169159655,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),1999,,171641543,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2000,,174018282,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2001,,176301203,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2002,,178503484,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2003,,180622688,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2004,,182675143,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2005,,184688101,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2006,,186653106,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2007,,188552320,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2008,,190367302,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2009,,192079951,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2010,,193701929,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2011,,195284734,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2012,,196876111,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2013,,198478299,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2014,,200085127,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2015,,201675532,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2016,,203218114,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2017,,204703445,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2018,,206107261,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2019,,207455459,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2020,,208660842,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2021,,209550294,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2022,,210306415,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2023,,211140729,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2024,,211998573,habitantes,,WDI lastupdated 2026-10-08
+wdi_populacao,Banco Mundial WDI SP.POP.TOTL,populacao total (meio do ano),2025,,212812405,habitantes,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1960,,12.6154715278744,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1961,,12.8933967789278,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1962,,9.38485014285999,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1963,,17.9399844236981,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1964,,12.2058053601836,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1965,,12.8920351041091,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1966,,12.2632941076674,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1967,,11.3543843508467,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1968,,12.5906263621837,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1969,,13.2759246918131,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1970,,14.4791733661385,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1971,,14.6509169793049,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1972,,16.1319526216382,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1973,,16.8561891361338,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1974,,20.9677780688456,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1975,,18.2343303683349,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1976,,16.4155479824129,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1977,,15.1552494051265,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1978,,14.5778875985257,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1979,,16.5668826070039,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1980,,20.1554074919697,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1981,,19.6329239927092,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1982,,16.4911703717319,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1983,,21.9003525232033,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1984,,23.8300746657723,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1985,,20.4497665840761,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1986,,15.8606541452464,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1987,,16.2623973390749,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1988,,17.7672447097778,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1989,,14.3908776472134,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1990,,15.1555990810218,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1991,,16.5920777626646,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1992,,19.2533747878959,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1993,,19.5993205474635,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1994,,18.6747597961023,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1995,,16.9844599991956,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1996,,15.6355914758682,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1997,,16.5762092613247,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1998,,16.4385849312059,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,1999,,20.9821664782285,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2000,,22.6397613567941,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2001,,26.936285022064,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2002,,27.6183574022309,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2003,,28.1403847231593,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2004,,29.6782524787535,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2005,,27.0867952043315,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2006,,26.04169989179,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2007,,25.2926113755394,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2008,,27.257569417356,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2009,,22.1059756060333,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2010,,22.772178113177,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2011,,23.9344051758721,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2012,,25.1142736107398,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2013,,25.7859573274674,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2014,,24.6854058131291,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2015,,26.95362593736,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2016,,24.5336820777006,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2017,,24.3197343743057,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2018,,28.8762033763866,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2019,,28.8902578698964,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2020,,32.3020785437939,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2021,,37.6563307598082,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2022,,38.8160659763397,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2023,,33.6662298301438,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2024,,35.5845239386244,% do PIB,,WDI lastupdated 2026-10-08
+wdi_comercio_pib,Banco Mundial WDI NE.TRD.GNFS.ZS,comercio (X+M de bens e servicos) % PIB; conferencia com IBGE,2025,,35.2914822615074,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1960,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1961,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1962,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1963,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1964,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1965,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1966,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1967,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1968,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1969,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1970,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1971,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1972,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1973,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1974,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1975,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1976,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1977,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1978,,0.0,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1979,,46.1313726538209,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1980,,21.9862700141455,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1981,,34.3524018449148,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1982,,33.8943234157422,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1983,,32.682327574828,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1984,,33.9910185811989,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1985,,32.3846425995985,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1986,,30.6983539256546,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1987,,29.892473267253,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1988,,29.9772291651391,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1989,,29.2608957285905,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1990,,22.8281314523658,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1991,,21.839067113426,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1992,,23.3085964339674,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1993,,26.0497364772714,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1994,,23.7212337008806,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1995,,14.5422791502638,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1996,,13.0671912422053,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1997,,13.0186253775094,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1998,,12.1551371990664,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,1999,,12.3085333278888,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2000,,13.1346595913847,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2001,,13.0895379357967,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2002,,12.3569626659174,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2003,,14.4507645634139,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2004,,15.0995301566951,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2005,,14.7382811396728,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2006,,14.1089458704485,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2007,,14.1542648057288,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2008,,13.9551769000753,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2009,,13.0594621488915,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2010,,12.7218596106703,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2011,,11.7837976692113,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2012,,10.6759423074609,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2013,,10.4796122911618,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2014,,10.3370973963623,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2015,,10.5209374571105,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2016,,10.7864511144495,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2017,,10.7214980093214,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2018,,10.5284573770078,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2019,,10.3325005328998,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2020,,10.692931568332,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2021,,11.9043730112478,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2022,,13.0740816282273,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2023,,13.2531636224002,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2024,,12.1108065153855,% do PIB,,WDI lastupdated 2026-10-08
+wdi_industria_transformacao_pib,Banco Mundial WDI NV.IND.MANF.ZS,valor adicionado da industria de transformacao % PIB; conferencia,2025,,11.7722632755736,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1960,,12.5596955904002,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1961,,12.9162169083743,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1962,,12.0964094901385,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1963,,12.7368474442453,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1964,,11.851968516625,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1965,,10.5456847151613,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1966,,10.6690658167339,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1967,,11.3543843508467,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1968,,11.1149937580771,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1969,,10.8982828674882,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1970,,11.3246354178855,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1971,,11.0981152345092,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1972,,10.7720913280882,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1973,,9.90642975311758,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1974,,9.32983875373664,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1975,,10.1851800259585,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1976,,10.4870945451757,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1977,,9.42630744535613,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1978,,9.68052852137433,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1979,,9.90043859063946,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1980,,9.1063174474986,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1981,,9.51874160060973,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1982,,10.3881016194293,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1983,,10.3559481952446,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1984,,9.19464987548048,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1985,,10.4338900725915,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1986,,11.1592046131695,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1987,,12.6374579272704,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1988,,13.4929526900474,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1989,,15.4991373147458,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1990,,19.2909224528275,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1991,,17.8998440765684,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1992,,17.0630155947621,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1993,,17.6640230381336,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1994,,17.8657165129222,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1995,,20.9279248587451,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1996,,19.7508265161778,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1997,,19.5352947982055,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1998,,20.0705315848897,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,1999,,19.782690769704,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2000,,18.7678457444131,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2001,,19.3432950140464,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2002,,19.8096623456372,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2003,,19.0774784933715,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2004,,18.4675839197143,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2005,,18.8900014184589,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2006,,19.0389169455913,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2007,,18.9429876162865,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2008,,18.8393928731749,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2009,,19.6506384023989,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2010,,19.0168578366064,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2011,,18.669256936864,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2012,,18.5301032652535,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2013,,18.8924789951339,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2014,,19.1535387102127,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2015,,19.7768199564016,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2016,,20.3792974264123,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2017,,20.1619046963757,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2018,,19.8950877833541,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2019,,19.9835812871624,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2020,,20.135153015057,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2021,,18.5475883605677,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2022,,18.4022127200534,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2023,,19.042610794419,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2024,,18.7696027831652,% do PIB,,WDI lastupdated 2026-10-08
+wdi_consumo_governo_pib,Banco Mundial WDI NE.CON.GOVT.ZS,despesa de consumo final do governo geral % PIB; conferencia,2025,,19.1341362432545,% do PIB,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1960,,432848800.0,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1961,,471156150.0,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1962,,336000900.0,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1963,,355042320.0,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1964,,245487600.0,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1965,,484251120.0,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1966,,425796620.0,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1967,,200149600.0,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1968,,266422900.0,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1969,,656773200.0,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1970,,1189904670.0,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1971,,1753865277.94276,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1972,,4218805676.74583,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1973,,6508867084.0128,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1974,,5463238279.69263,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1975,,4166486431.37877,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1976,,6666854181.77381,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1977,,7441920872.37624,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1978,,12190033177.1807,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1979,,9838705354.82902,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1980,,6875231542.03419,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1981,,7479607844.25765,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1982,,3997356017.94855,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1983,,4561475256.47812,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1984,,11960814096.9955,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1985,,11617955161.6871,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1986,,8184181031.96702,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1987,,8134599725.93879,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1988,,9114472122.65344,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1989,,9678276000.0,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1990,,9997591007.59699,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1991,,9391631540.11071,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1992,,23750647504.125,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1993,,32247610989.3312,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1994,,38810777748.0861,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1995,,51842389630.8017,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1996,,60152476087.5829,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1997,,52208520617.4321,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1998,,44487193726.0979,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,1999,,36342324443.4703,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2000,,33015297295.6899,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2001,,35866445530.2453,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2002,,37832146718.419,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2003,,49297286966.3088,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2004,,52934865185.6721,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2005,,53799284976.6774,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2006,,85842861115.1295,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2007,,180333622535.832,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2008,,193783363540.648,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2009,,238539464848.441,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2010,,288574623536.621,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2011,,352010222755.829,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2012,,373160977539.731,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2013,,358816422466.117,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2014,,363570226084.66,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2015,,356464980327.488,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2016,,364984039092.456,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2017,,373955518686.487,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2018,,374709673447.827,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2019,,356886386911.978,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2020,,355614251456.139,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2021,,362210079181.317,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2022,,324673449781.4,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2023,,355021395541.562,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2024,,329732443813.377,US$ correntes,,WDI lastupdated 2026-10-08
+wdi_reservas_usd,Banco Mundial WDI FI.RES.TOTL.CD,reservas totais incluindo ouro; conferencia com BCB,2025,,358513128727.455,US$ correntes,,WDI lastupdated 2026-10-08

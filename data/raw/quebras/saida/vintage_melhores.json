@@ -1,0 +1,241 @@
+[
+ {
+  "indicador": "pobreza",
+  "governo": "Ditadura (Costa e Silva e Medici)",
+  "melhor": null
+ },
+ {
+  "indicador": "pobreza",
+  "governo": "Itamar Franco",
+  "melhor": null
+ },
+ {
+  "indicador": "pobreza",
+  "governo": "FHC",
+  "melhor": null
+ },
+ {
+  "indicador": "pobreza",
+  "governo": "Lula 1-2",
+  "melhor": [
+   1,
+   10,
+   2009,
+   "Ipeadata-DISOC_PPY",
+   "linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",
+   21.41
+  ]
+ },
+ {
+  "indicador": "pobreza",
+  "governo": "Dilma",
+  "melhor": null
+ },
+ {
+  "indicador": "pobreza",
+  "governo": "Temer",
+  "melhor": [
+   1,
+   0,
+   2017,
+   "IBGE-SIS2018-PPC2011",
+   "US$ 5,5 PPC2011",
+   26.47
+  ]
+ },
+ {
+  "indicador": "pobreza",
+  "governo": "Bolsonaro",
+  "melhor": [
+   1,
+   3,
+   2022,
+   "IBGE-SIS2024",
+   "US$ 6,85 PPC2017",
+   31.62
+  ]
+ },
+ {
+  "indicador": "pobreza",
+  "governo": "Lula 3 (em andamento)",
+  "melhor": [
+   1,
+   3,
+   2023,
+   "IBGE-SIS2024",
+   "US$ 6,85 PPC2017",
+   27.37
+  ]
+ },
+ {
+  "indicador": "gini",
+  "governo": "Ditadura (Costa e Silva e Medici)",
+  "melhor": [
+   0,
+   11,
+   1979,
+   "Ipeadata-PGINI",
+   "renda dom. per capita (PNAD antiga, serie interrompida)",
+   0.5931
+  ]
+ },
+ {
+  "indicador": "gini",
+  "governo": "Itamar Franco",
+  "melhor": [
+   1,
+   11,
+   1993,
+   "Ipeadata-PGINI",
+   "renda dom. per capita (PNAD antiga, serie interrompida)",
+   0.6044
+  ]
+ },
+ {
+  "indicador": "gini",
+  "governo": "FHC",
+  "melhor": [
+   0,
+   11,
+   2002,
+   "Ipeadata-PGINI",
+   "renda dom. per capita (PNAD antiga, serie interrompida)",
+   0.5893
+  ]
+ },
+ {
+  "indicador": "gini",
+  "governo": "Lula 1-2",
+  "melhor": [
+   1,
+   11,
+   2011,
+   "Ipeadata-PGINI",
+   "renda dom. per capita (PNAD antiga, serie interrompida)",
+   0.5314
+  ]
+ },
+ {
+  "indicador": "gini",
+  "governo": "Dilma",
+  "melhor": [
+   0,
+   11,
+   2014,
+   "Ipeadata-PGINI",
+   "renda dom. per capita (PNAD antiga, serie interrompida)",
+   0.5179
+  ]
+ },
+ {
+  "indicador": "gini",
+  "governo": "Temer",
+  "melhor": [
+   0,
+   12,
+   2018,
+   "PIP",
+   "renda dom. per capita",
+   0.5389
+  ]
+ },
+ {
+  "indicador": "gini",
+  "governo": "Bolsonaro",
+  "melhor": null
+ },
+ {
+  "indicador": "gini",
+  "governo": "Lula 3 (em andamento)",
+  "melhor": [
+   1,
+   7,
+   2025,
+   "SIDRA-7435",
+   "renda dom. per capita, precos medios do ano (PNADC)",
+   0.511
+  ]
+ },
+ {
+  "indicador": "expectativa de vida",
+  "governo": "Ditadura (Costa e Silva e Medici)",
+  "melhor": null
+ },
+ {
+  "indicador": "expectativa de vida",
+  "governo": "Itamar Franco",
+  "melhor": null
+ },
+ {
+  "indicador": "expectativa de vida",
+  "governo": "FHC",
+  "melhor": [
+   2,
+   13,
+   2002,
+   "WB-WDI-SP.DYN.LE00.IN",
+   "UN WPP via Banco Mundial",
+   70.4
+  ]
+ },
+ {
+  "indicador": "expectativa de vida",
+  "governo": "Lula 1-2",
+  "melhor": [
+   0,
+   7,
+   2010,
+   "SIDRA-1174",
+   "IBGE Projecao (rev. 2013), serie IDS ate 2014",
+   73.9
+  ]
+ },
+ {
+  "indicador": "expectativa de vida",
+  "governo": "Dilma",
+  "melhor": [
+   1,
+   6,
+   2014,
+   "IBGE-Tabua-como-publicada",
+   "Tabua Completa de Mortalidade 2014 (publicada no ano seguinte)",
+   75.2
+  ]
+ },
+ {
+  "indicador": "expectativa de vida",
+  "governo": "Temer",
+  "melhor": [
+   2,
+   9,
+   2016,
+   "Ipeadata-DEPIS_ESVIDA",
+   "IBGE Projecao (rev. 2018)",
+   75.72
+  ]
+ },
+ {
+  "indicador": "expectativa de vida",
+  "governo": "Bolsonaro",
+  "melhor": [
+   0,
+   5,
+   2021,
+   "IBGE-Tabuas2024-serie-vigente",
+   "Agencia IBGE 28/11/2025 (reconstrucao 1940-2024)",
+   72.8
+  ]
+ },
+ {
+  "indicador": "expectativa de vida",
+  "governo": "Lula 3 (em andamento)",
+  "melhor": [
+   0,
+   5,
+   2023,
+   "IBGE-Tabuas2024-serie-vigente",
+   "Agencia IBGE 28/11/2025 (reconstrucao 1940-2024)",
+   76.4
+  ]
+ }
+]

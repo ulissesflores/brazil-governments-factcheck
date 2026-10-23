@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"DISOC_INFI","SERNOME":"Grau de informalidade - defini\u00e7\u00e3o I - INATIVA","SERCOMENTARIO":"Uma das tr\u00eas diferentes defini\u00e7\u00f5es do grau de informalidade oferecidas no Ipeadata com base nos microdados da Pesquisa Nacional por Amostra de Domic\u00edlios (Pnad) do IBGE, esta taxa corresponde ao resultado da seguinte divis\u00e3o: (empregados sem carteira + trabalhadores por conta pr\u00f3pria) / (trabalhadores protegidos + empregados sem carteira + trabalhadores por conta pr\u00f3pria). Elabora\u00e7\u00e3o: Disoc/Ipea. Obs.: dados n\u00e3o calculados para os anos de Censo Demogr\u00e1fico, em que a Pnad foi interrompida pelo IBGE. S\u00e9rie interrompida.","SERATUALIZACAO":"2016-01-06T19:33:38-02:00","BASNOME":"Macroecon\u00f4mico","FNTSIGLA":"IPEA","FNTNOME":"Instituto de Pesquisa Econ\u00f4mica Aplicada","FNTURL":"www.ipea.gov.br","PERNOME":"Anual","UNINOME":"(%)","MULNOME":null,"SERSTATUS":"I","TEMCODIGO":12,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

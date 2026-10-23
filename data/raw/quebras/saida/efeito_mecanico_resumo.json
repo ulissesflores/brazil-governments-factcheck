@@ -1,0 +1,38 @@
+{
+ "US$ 2.15 (PPC 2017) -> US$ 3.00 (PPC 2021)": {
+  "media_pp": 3.764,
+  "min_pp": 0.82,
+  "max_pp": 7.15,
+  "n_anos": 40
+ },
+ "US$ 3.65 (PPC 2017) -> US$ 4.20 (PPC 2021)": {
+  "media_pp": 0.203,
+  "min_pp": 0.06,
+  "max_pp": 0.55,
+  "n_anos": 40
+ },
+ "US$ 6.85 (PPC 2017) -> US$ 8.30 (PPC 2021)": {
+  "media_pp": 2.087,
+  "min_pp": 1.68,
+  "max_pp": 2.53,
+  "n_anos": 40
+ },
+ "US$ 1,90 (PPC 2011) -> US$ 2,15 (PPC 2017)": {
+  "media_pp": 0.81,
+  "min_pp": 0.7,
+  "max_pp": 0.9,
+  "n_anos": 8
+ },
+ "US$ 3,20 (PPC 2011) -> US$ 3,65 (PPC 2017)": {
+  "media_pp": 2.163,
+  "min_pp": 1.9,
+  "max_pp": 2.48,
+  "n_anos": 8
+ },
+ "US$ 5,50 (PPC 2011) -> US$ 6,85 (PPC 2017)": {
+  "media_pp": 8.008,
+  "min_pp": 7.59,
+  "max_pp": 8.27,
+  "n_anos": 8
+ }
+}

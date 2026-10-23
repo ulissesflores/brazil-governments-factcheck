@@ -1,0 +1,29 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -r requirements.txt
+      # 1. integrity of the committed seal and of every acquisition hash chain
+      - run: python make_provenance.py --verify
+      # 2. full replication of Track 1: results -> tests -> provenance
+      - run: python run_all.py
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install ruff interrogate
+      - run: ruff format --check .
+      - run: ruff check .
+      - run: interrogate -f 100 code scripts make_provenance.py run_all.py

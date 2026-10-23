@@ -1,0 +1,3323 @@
+{
+ "schema": 1,
+ "infografico": "data/infographic/infografico-original-whatsapp-2026-10-19.jpeg",
+ "regra_veredito": "src: code/govfc/verdict.py; tolerance 0.3 pp (pct) or 5 % relative",
+ "linhas": [
+  {
+   "id": "ditadura.pib",
+   "coluna": "Ditadura (Costa e Silva e Medici)",
+   "indicador": "pib",
+   "impresso": "11.1",
+   "janela": "1968-1973",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipeadata SCN10_PIBG10 (IBGE national accounts): arithmetic mean of the annual real growth rates over the printed calendar-year window.",
+   "valor_reproduzido": 11.1586,
+   "veredito": "APROXIMADO",
+   "nota": "",
+   "n_alternativas": 3,
+   "melhor_alternativa": {
+    "rotulo": "geometric mean of the same annual rates",
+    "valor": 11.1484,
+    "veredito": "REPRODUZ"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "geometric mean of the same annual rates",
+     "valor": 11.1484,
+     "veredito": "REPRODUZ"
+    },
+    {
+     "rotulo": "arithmetic mean, window 1969-1973 (without first year)",
+     "valor": 11.4304,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "arithmetic mean, window 1968-1972 (without last year)",
+     "valor": 10.5966,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "ditadura.inflacao",
+   "coluna": "Ditadura (Costa e Silva e Medici)",
+   "indicador": "inflacao",
+   "impresso": "20.3",
+   "janela": "1967-1973",
+   "unidade": "pct",
+   "especificacao_primaria": "BCB SGS 433 (IPCA): monthly rates compounded per calendar year, arithmetic mean of the annual rates over the printed window. IPCA does not exist before 1980.",
+   "valor_reproduzido": null,
+   "veredito": "NAO_VERIFICADO",
+   "nota": "IPCA does not exist for this window (starts in 1980)",
+   "n_alternativas": 7,
+   "melhor_alternativa": {
+    "rotulo": "IGP-DI December/December (Ipeadata), arithmetic mean",
+    "valor": 19.972,
+    "veredito": "APROXIMADO"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "IPCA, geometric mean",
+     "valor": null,
+     "veredito": "NAO_VERIFICADO"
+    },
+    {
+     "rotulo": "INPC, arithmetic mean of calendar years",
+     "valor": null,
+     "veredito": "NAO_VERIFICADO"
+    },
+    {
+     "rotulo": "IGP-M, arithmetic mean of calendar years",
+     "valor": null,
+     "veredito": "NAO_VERIFICADO"
+    },
+    {
+     "rotulo": "IGP-DI (BCB), arithmetic mean of calendar years",
+     "valor": null,
+     "veredito": "NAO_VERIFICADO"
+    },
+    {
+     "rotulo": "IGP-DI December/December (Ipeadata), arithmetic mean",
+     "valor": 19.972,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 1968-1973 (without first year)",
+     "valor": null,
+     "veredito": "NAO_VERIFICADO"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 1967-1972 (without last year)",
+     "valor": null,
+     "veredito": "NAO_VERIFICADO"
+    }
+   ]
+  },
+  {
+   "id": "ditadura.desemprego",
+   "coluna": "Ditadura (Costa e Silva e Medici)",
+   "indicador": "desemprego",
+   "impresso": "3.7",
+   "janela": "1968-1973",
+   "unidade": "pct",
+   "especificacao_primaria": "Series whose coverage includes the whole printed window, never spliced: PME antiga (<=2002), PME nova (2003-2015), PNAD Continua annual (>=2012). No series -> not verified. The row label says 'regioes metro.', which is the PME universe.",
+   "valor_reproduzido": null,
+   "veredito": "NAO_VERIFICADO",
+   "nota": "no official series covers the whole printed window",
+   "n_alternativas": 0,
+   "melhor_alternativa": null,
+   "sensibilidade": []
+  },
+  {
+   "id": "ditadura.salmin",
+   "coluna": "Ditadura (Costa e Silva e Medici)",
+   "indicador": "salmin",
+   "impresso": "42.8",
+   "janela": "1968-1973",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipea GAC12_SALMINRE12 (real minimum wage): December of the last window year over December of the year before the window.",
+   "valor_reproduzido": 0.2917,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 2,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "annual average over annual average",
+     "valor": -3.3291,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "mean of the yearly changes of the annual average",
+     "valor": -0.5435,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "ditadura.pobreza",
+   "coluna": "Ditadura (Costa e Silva e Medici)",
+   "indicador": "pobreza",
+   "impresso": "42.6",
+   "janela": "1990 (referencia)",
+   "unidade": "pct",
+   "especificacao_primaria": "World Bank PIP, US$ 6.85/day (2017 PPP), the single series that covers 1981-2024 with one method; compared at the printed year. IBGE SIS vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 63.73,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "PIP / US$ 6.85/dia PPC2017",
+   "n_alternativas": 6,
+   "melhor_alternativa": {
+    "rotulo": "Ipeadata-DISOC_PPY / linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",
+    "valor": 41.92,
+    "veredito": "APROXIMADO"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "Ipeadata-DISOC_PPY / linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",
+     "valor": 41.92,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "PIP / US$ 2.15/dia PPC2017",
+     "valor": 23.99,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 3.00/dia PPC2021",
+     "valor": 30.34,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 3.65/dia PPC2017",
+     "valor": 41.59,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "PIP / US$ 4.20/dia PPC2021",
+     "valor": 41.83,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "PIP / US$ 8.30/dia PPC2021",
+     "valor": 65.8,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "ditadura.gini",
+   "coluna": "Ditadura (Costa e Silva e Medici)",
+   "indicador": "gini",
+   "impresso": "0.59",
+   "janela": "anos 1970",
+   "unidade": "indice",
+   "especificacao_primaria": "World Bank PIP, Gini of household per-capita income, one series for 1981-2024, at the printed year. IBGE (PNADC) and Ipea (PNAD) enter as sensitivity. No year -> not verified.",
+   "valor_reproduzido": null,
+   "veredito": "NAO_VERIFICADO",
+   "nota": "no printed year",
+   "n_alternativas": 0,
+   "melhor_alternativa": null,
+   "sensibilidade": []
+  },
+  {
+   "id": "ditadura.expvida",
+   "coluna": "Ditadura (Costa e Silva e Medici)",
+   "indicador": "expvida",
+   "impresso": "62.6",
+   "janela": "1970",
+   "unidade": "anos",
+   "especificacao_primaria": "World Bank WDI SP.DYN.LE00.IN (UN WPP), one vintage for 1960-2024, at the printed year. IBGE vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 57.34,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "WB-WDI-SP.DYN.LE00.IN / UN WPP via Banco Mundial",
+   "n_alternativas": 2,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-Tabuas2024-serie-vigente / Agencia IBGE 28/11/2025 (reconstrucao 1940-2024)",
+     "valor": 57.6,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-EVNNEW / Atlas DH (PNUD) 1998/2000 - INATIVA",
+     "valor": 51.43,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "itamar.pib",
+   "coluna": "Itamar Franco",
+   "indicador": "pib",
+   "impresso": "2.5",
+   "janela": "1992-1994",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipeadata SCN10_PIBG10 (IBGE national accounts): arithmetic mean of the annual real growth rates over the printed calendar-year window.",
+   "valor_reproduzido": 3.4112,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 3,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "geometric mean of the same annual rates",
+     "valor": 3.3722,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "arithmetic mean, window 1993-1994 (without first year)",
+     "valor": 5.3888,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "arithmetic mean, window 1992-1993 (without last year)",
+     "valor": 2.1903,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "itamar.inflacao",
+   "coluna": "Itamar Franco",
+   "indicador": "inflacao",
+   "impresso": "1088",
+   "janela": "1992-1994",
+   "unidade": "pct",
+   "especificacao_primaria": "BCB SGS 433 (IPCA): monthly rates compounded per calendar year, arithmetic mean of the annual rates over the printed window. IPCA does not exist before 1980.",
+   "valor_reproduzido": 1504.2245,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 8,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "IPCA, geometric mean",
+     "valor": 1372.6004,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "INPC, arithmetic mean of calendar years",
+     "valor": 1522.4948,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-M, arithmetic mean of calendar years",
+     "valor": 1537.2503,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI (BCB), arithmetic mean of calendar years",
+     "valor": 1591.9646,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI December/December (Ipeadata), arithmetic mean",
+     "valor": 1653.2998,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 1993-1994 (without first year)",
+     "valor": 1696.7904,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 1992-1993 (without last year)",
+     "valor": 1798.1202,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA annualised over the mandate months",
+     "valor": 1487.8232,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "itamar.desemprego",
+   "coluna": "Itamar Franco",
+   "indicador": "desemprego",
+   "impresso": "6.8",
+   "janela": "1992-1994",
+   "unidade": "pct",
+   "especificacao_primaria": "Series whose coverage includes the whole printed window, never spliced: PME antiga (<=2002), PME nova (2003-2015), PNAD Continua annual (>=2012). No series -> not verified. The row label says 'regioes metro.', which is the PME universe.",
+   "valor_reproduzido": 5.7757,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "series PME_antiga_15mais_30d_6RMs",
+   "n_alternativas": 0,
+   "melhor_alternativa": null,
+   "sensibilidade": []
+  },
+  {
+   "id": "itamar.salmin",
+   "coluna": "Itamar Franco",
+   "indicador": "salmin",
+   "impresso": "-13.9",
+   "janela": "1992-1994",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipea GAC12_SALMINRE12 (real minimum wage): December of the last window year over December of the year before the window.",
+   "valor_reproduzido": 37.69,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 2,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "annual average over annual average",
+     "valor": 6.123,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "mean of the yearly changes of the annual average",
+     "valor": 2.4663,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "itamar.pobreza",
+   "coluna": "Itamar Franco",
+   "indicador": "pobreza",
+   "impresso": "~34",
+   "janela": "1994",
+   "unidade": "pct",
+   "especificacao_primaria": "World Bank PIP, US$ 6.85/day (2017 PPP), the single series that covers 1981-2024 with one method; compared at the printed year. IBGE SIS vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": null,
+   "veredito": "NAO_VERIFICADO",
+   "nota": "no source has this year",
+   "n_alternativas": 0,
+   "melhor_alternativa": null,
+   "sensibilidade": []
+  },
+  {
+   "id": "itamar.gini",
+   "coluna": "Itamar Franco",
+   "indicador": "gini",
+   "impresso": "0.60",
+   "janela": "1992",
+   "unidade": "indice",
+   "especificacao_primaria": "World Bank PIP, Gini of household per-capita income, one series for 1981-2024, at the printed year. IBGE (PNADC) and Ipea (PNAD) enter as sensitivity. No year -> not verified.",
+   "valor_reproduzido": 0.531,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "PIP / renda dom. per capita",
+   "n_alternativas": 2,
+   "melhor_alternativa": {
+    "rotulo": "Ipeadata-PGINI / renda dom. per capita (PNAD antiga, serie interrompida)",
+    "valor": 0.5825,
+    "veredito": "APROXIMADO"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "Ipeadata-PGINI / renda dom. per capita (PNAD antiga, serie interrompida)",
+     "valor": 0.5825,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "WB-WDI-SI.POV.GINI / Banco Mundial (PIP)",
+     "valor": 0.531,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "itamar.expvida",
+   "coluna": "Itamar Franco",
+   "indicador": "expvida",
+   "impresso": "67.1",
+   "janela": "1990",
+   "unidade": "anos",
+   "especificacao_primaria": "World Bank WDI SP.DYN.LE00.IN (UN WPP), one vintage for 1960-2024, at the printed year. IBGE vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 65.86,
+   "veredito": "APROXIMADO",
+   "nota": "WB-WDI-SP.DYN.LE00.IN / UN WPP via Banco Mundial",
+   "n_alternativas": 0,
+   "melhor_alternativa": null,
+   "sensibilidade": []
+  },
+  {
+   "id": "fhc.pib",
+   "coluna": "FHC",
+   "indicador": "pib",
+   "impresso": "2.3",
+   "janela": "1995-2002",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipeadata SCN10_PIBG10 (IBGE national accounts): arithmetic mean of the annual real growth rates over the printed calendar-year window.",
+   "valor_reproduzido": 2.4334,
+   "veredito": "APROXIMADO",
+   "nota": "",
+   "n_alternativas": 3,
+   "melhor_alternativa": {
+    "rotulo": "arithmetic mean, window 1995-2001 (without last year)",
+    "valor": 2.3448,
+    "veredito": "REPRODUZ"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "geometric mean of the same annual rates",
+     "valor": 2.4225,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "arithmetic mean, window 1996-2002 (without first year)",
+     "valor": 2.1776,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "arithmetic mean, window 1995-2001 (without last year)",
+     "valor": 2.3448,
+     "veredito": "REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "fhc.inflacao",
+   "coluna": "FHC",
+   "indicador": "inflacao",
+   "impresso": "7.6",
+   "janela": "1995-2002",
+   "unidade": "pct",
+   "especificacao_primaria": "BCB SGS 433 (IPCA): monthly rates compounded per calendar year, arithmetic mean of the annual rates over the printed window. IPCA does not exist before 1980.",
+   "valor_reproduzido": 9.2464,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 8,
+   "melhor_alternativa": {
+    "rotulo": "IPCA arithmetic mean, window 1996-2002 (without first year)",
+    "valor": 7.366,
+    "veredito": "APROXIMADO"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "IPCA, geometric mean",
+     "valor": 9.0968,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "INPC, arithmetic mean of calendar years",
+     "valor": 9.4762,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-M, arithmetic mean of calendar years",
+     "valor": 12.4604,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI (BCB), arithmetic mean of calendar years",
+     "valor": 12.4877,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI December/December (Ipeadata), arithmetic mean",
+     "valor": 12.4868,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 1996-2002 (without first year)",
+     "valor": 7.366,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 1995-2001 (without last year)",
+     "valor": 8.7772,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA annualised over the mandate months",
+     "valor": 9.0968,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "fhc.desemprego",
+   "coluna": "FHC",
+   "indicador": "desemprego",
+   "impresso": "7.7",
+   "janela": "1995-2002",
+   "unidade": "pct",
+   "especificacao_primaria": "Series whose coverage includes the whole printed window, never spliced: PME antiga (<=2002), PME nova (2003-2015), PNAD Continua annual (>=2012). No series -> not verified. The row label says 'regioes metro.', which is the PME universe.",
+   "valor_reproduzido": 7.009,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "series PME_antiga_15mais_30d_6RMs",
+   "n_alternativas": 0,
+   "melhor_alternativa": null,
+   "sensibilidade": []
+  },
+  {
+   "id": "fhc.salmin",
+   "coluna": "FHC",
+   "indicador": "salmin",
+   "impresso": "4.8",
+   "janela": "1995-2002",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipea GAC12_SALMINRE12 (real minimum wage): December of the last window year over December of the year before the window.",
+   "valor_reproduzido": 40.0456,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 2,
+   "melhor_alternativa": {
+    "rotulo": "mean of the yearly changes of the annual average",
+    "valor": 5.0035,
+    "veredito": "APROXIMADO"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "annual average over annual average",
+     "valor": 47.0311,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "mean of the yearly changes of the annual average",
+     "valor": 5.0035,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "fhc.pobreza",
+   "coluna": "FHC",
+   "indicador": "pobreza",
+   "impresso": "28.9",
+   "janela": "2002",
+   "unidade": "pct",
+   "especificacao_primaria": "World Bank PIP, US$ 6.85/day (2017 PPP), the single series that covers 1981-2024 with one method; compared at the printed year. IBGE SIS vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 47.32,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "PIP / US$ 6.85/dia PPC2017",
+   "n_alternativas": 9,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "Ipeadata-DISOC_PPY / linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",
+     "valor": 34.38,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE300 / PPC$3,00 (2021)",
+     "valor": 23.68,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE420 / PPC$4,20 (2021)",
+     "valor": 35.34,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE830 / PPC$8,30 (2021)",
+     "valor": 60.8,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 2.15/dia PPC2017",
+     "valor": 11.74,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 3.00/dia PPC2021",
+     "valor": 16.19,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 3.65/dia PPC2017",
+     "valor": 25.33,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 4.20/dia PPC2021",
+     "valor": 25.54,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 8.30/dia PPC2021",
+     "valor": 49.81,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "fhc.gini",
+   "coluna": "FHC",
+   "indicador": "gini",
+   "impresso": "0.59",
+   "janela": "2002",
+   "unidade": "indice",
+   "especificacao_primaria": "World Bank PIP, Gini of household per-capita income, one series for 1981-2024, at the printed year. IBGE (PNADC) and Ipea (PNAD) enter as sensitivity. No year -> not verified.",
+   "valor_reproduzido": 0.5811,
+   "veredito": "APROXIMADO",
+   "nota": "PIP / renda dom. per capita",
+   "n_alternativas": 3,
+   "melhor_alternativa": {
+    "rotulo": "Ipeadata-PGINI / renda dom. per capita (PNAD antiga, serie interrompida)",
+    "valor": 0.5893,
+    "veredito": "REPRODUZ"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "Ipeadata-PGINI / renda dom. per capita (PNAD antiga, serie interrompida)",
+     "valor": 0.5893,
+     "veredito": "REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_GINI / harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012",
+     "valor": 0.6029,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "WB-WDI-SI.POV.GINI / Banco Mundial (PIP)",
+     "valor": 0.581,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "fhc.expvida",
+   "coluna": "FHC",
+   "indicador": "expvida",
+   "impresso": "70.4",
+   "janela": "2000",
+   "unidade": "anos",
+   "especificacao_primaria": "World Bank WDI SP.DYN.LE00.IN (UN WPP), one vintage for 1960-2024, at the printed year. IBGE vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 69.58,
+   "veredito": "APROXIMADO",
+   "nota": "WB-WDI-SP.DYN.LE00.IN / UN WPP via Banco Mundial",
+   "n_alternativas": 6,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-Projecao-rev2008 / IBGE 'Observacoes sobre a evolucao da mortalidade' (2010), Tabela 2",
+     "valor": 70.46,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IBGE-Tabua-como-publicada / Tabua Completa de Mortalidade 2000 (publicada no ano seguinte)",
+     "valor": 68.62,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IBGE-Tabuas2024-serie-vigente / Agencia IBGE 28/11/2025 (reconstrucao 1940-2024)",
+     "valor": 71.1,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "Ipeadata-DEPIS_ESVIDA / IBGE Projecao (rev. 2018)",
+     "valor": 69.83,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "Ipeadata-EVNNEW / Atlas DH (PNUD) 1998/2000 - INATIVA",
+     "valor": 68.61,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "SIDRA-1174 / IBGE Projecao (rev. 2013), serie IDS ate 2014",
+     "valor": 69.8,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "lula12.pib",
+   "coluna": "Lula 1-2",
+   "indicador": "pib",
+   "impresso": "4.0",
+   "janela": "2003-2010",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipeadata SCN10_PIBG10 (IBGE national accounts): arithmetic mean of the annual real growth rates over the printed calendar-year window.",
+   "valor_reproduzido": 4.0789,
+   "veredito": "APROXIMADO",
+   "nota": "",
+   "n_alternativas": 3,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "geometric mean of the same annual rates",
+     "valor": 4.0506,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "arithmetic mean, window 2004-2010 (without first year)",
+     "valor": 4.4987,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "arithmetic mean, window 2003-2009 (without last year)",
+     "valor": 3.5862,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "lula12.inflacao",
+   "coluna": "Lula 1-2",
+   "indicador": "inflacao",
+   "impresso": "5.6",
+   "janela": "2003-2010",
+   "unidade": "pct",
+   "especificacao_primaria": "BCB SGS 433 (IPCA): monthly rates compounded per calendar year, arithmetic mean of the annual rates over the printed window. IPCA does not exist before 1980.",
+   "valor_reproduzido": 5.7891,
+   "veredito": "APROXIMADO",
+   "nota": "",
+   "n_alternativas": 8,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "IPCA, geometric mean",
+     "valor": 5.7735,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "INPC, arithmetic mean of calendar years",
+     "valor": 5.8243,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IGP-M, arithmetic mean of calendar years",
+     "valor": 6.6651,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI (BCB), arithmetic mean of calendar years",
+     "valor": 6.4622,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI December/December (Ipeadata), arithmetic mean",
+     "valor": 6.4607,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 2004-2010 (without first year)",
+     "valor": 5.2876,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 2003-2009 (without last year)",
+     "valor": 5.772,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IPCA annualised over the mandate months",
+     "valor": 5.7735,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "lula12.desemprego.inicio",
+   "coluna": "Lula 1-2",
+   "indicador": "desemprego",
+   "impresso": "8.4",
+   "janela": "2003-2010",
+   "unidade": "pct",
+   "especificacao_primaria": "Series whose coverage includes the whole printed window, never spliced: PME antiga (<=2002), PME nova (2003-2015), PNAD Continua annual (>=2012). No series -> not verified. The row label says 'regioes metro.', which is the PME universe.",
+   "valor_reproduzido": 12.333,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "series PME_nova_10mais_semana_6RMs",
+   "n_alternativas": 2,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "PNAD_Dese_Pnad_Brasil, arithmetic mean",
+     "valor": 10.466,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PNAD_DISOC_DESE_Brasil, arithmetic mean",
+     "valor": 10.484,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "lula12.desemprego.fim",
+   "coluna": "Lula 1-2",
+   "indicador": "desemprego",
+   "impresso": "6.5",
+   "janela": "2003-2010",
+   "unidade": "pct",
+   "especificacao_primaria": "Series whose coverage includes the whole printed window, never spliced: PME antiga (<=2002), PME nova (2003-2015), PNAD Continua annual (>=2012). No series -> not verified. The row label says 'regioes metro.', which is the PME universe.",
+   "valor_reproduzido": 6.725,
+   "veredito": "APROXIMADO",
+   "nota": "series PME_nova_10mais_semana_6RMs",
+   "n_alternativas": 0,
+   "melhor_alternativa": null,
+   "sensibilidade": []
+  },
+  {
+   "id": "lula12.salmin",
+   "coluna": "Lula 1-2",
+   "indicador": "salmin",
+   "impresso": "58.5",
+   "janela": "2003-2010",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipea GAC12_SALMINRE12 (real minimum wage): December of the last window year over December of the year before the window.",
+   "valor_reproduzido": 62.3805,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 2,
+   "melhor_alternativa": {
+    "rotulo": "annual average over annual average",
+    "valor": 57.2684,
+    "veredito": "APROXIMADO"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "annual average over annual average",
+     "valor": 57.2684,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "mean of the yearly changes of the annual average",
+     "valor": 5.8864,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "lula12.pobreza",
+   "coluna": "Lula 1-2",
+   "indicador": "pobreza",
+   "impresso": "21.4",
+   "janela": "2010",
+   "unidade": "pct",
+   "especificacao_primaria": "World Bank PIP, US$ 6.85/day (2017 PPP), the single series that covers 1981-2024 with one method; compared at the printed year. IBGE SIS vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": null,
+   "veredito": "NAO_VERIFICADO",
+   "nota": "no source has this year",
+   "n_alternativas": 2,
+   "melhor_alternativa": {
+    "rotulo": "Ipeadata-ADH_PIND / renda dom. per capita <= R$70 (ago/2010)",
+    "valor": 6.62,
+    "veredito": "NAO_REPRODUZ"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "Ipeadata-ADH_PIND / renda dom. per capita <= R$70 (ago/2010)",
+     "valor": 6.62,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-ADH_PMPOB / renda dom. per capita <= R$140 (ago/2010)",
+     "valor": 15.2,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "lula12.gini",
+   "coluna": "Lula 1-2",
+   "indicador": "gini",
+   "impresso": "0.53",
+   "janela": "2010",
+   "unidade": "indice",
+   "especificacao_primaria": "World Bank PIP, Gini of household per-capita income, one series for 1981-2024, at the printed year. IBGE (PNADC) and Ipea (PNAD) enter as sensitivity. No year -> not verified.",
+   "valor_reproduzido": null,
+   "veredito": "NAO_VERIFICADO",
+   "nota": "no source has this year",
+   "n_alternativas": 1,
+   "melhor_alternativa": {
+    "rotulo": "Ipeadata-ADH_GINI / renda dom. per capita, CENSO (Atlas DH)",
+    "valor": 0.6,
+    "veredito": "NAO_REPRODUZ"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "Ipeadata-ADH_GINI / renda dom. per capita, CENSO (Atlas DH)",
+     "valor": 0.6,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "lula12.expvida",
+   "coluna": "Lula 1-2",
+   "indicador": "expvida",
+   "impresso": "73.9",
+   "janela": "2010",
+   "unidade": "anos",
+   "especificacao_primaria": "World Bank WDI SP.DYN.LE00.IN (UN WPP), one vintage for 1960-2024, at the printed year. IBGE vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 73.78,
+   "veredito": "APROXIMADO",
+   "nota": "WB-WDI-SP.DYN.LE00.IN / UN WPP via Banco Mundial",
+   "n_alternativas": 5,
+   "melhor_alternativa": {
+    "rotulo": "Ipeadata-DEPIS_ESVIDA / IBGE Projecao (rev. 2018)",
+    "valor": 73.86,
+    "veredito": "REPRODUZ"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-Tabua-como-publicada / Tabua Completa de Mortalidade 2010 (publicada no ano seguinte)",
+     "valor": 73.48,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IBGE-Tabuas2024-serie-vigente / Agencia IBGE 28/11/2025 (reconstrucao 1940-2024)",
+     "valor": 74.4,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "Ipeadata-DEPIS_ESVIDA / IBGE Projecao (rev. 2018)",
+     "valor": 73.86,
+     "veredito": "REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-EVNNEW / Atlas DH (PNUD) 1998/2000 - INATIVA",
+     "valor": 73.94,
+     "veredito": "REPRODUZ"
+    },
+    {
+     "rotulo": "SIDRA-1174 / IBGE Projecao (rev. 2013), serie IDS ate 2014",
+     "valor": 73.9,
+     "veredito": "REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "dilma.pib",
+   "coluna": "Dilma",
+   "indicador": "pib",
+   "impresso": "1.4",
+   "janela": "2011-2016",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipeadata SCN10_PIBG10 (IBGE national accounts): arithmetic mean of the annual real growth rates over the printed calendar-year window.",
+   "valor_reproduzido": 0.4304,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 3,
+   "melhor_alternativa": {
+    "rotulo": "arithmetic mean, window 2011-2015 (without last year)",
+    "valor": 1.1717,
+    "veredito": "APROXIMADO"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "geometric mean of the same annual rates",
+     "valor": 0.3879,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "arithmetic mean, window 2012-2016 (without first year)",
+     "valor": -0.2783,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "arithmetic mean, window 2011-2015 (without last year)",
+     "valor": 1.1717,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "dilma.inflacao",
+   "coluna": "Dilma",
+   "indicador": "inflacao",
+   "impresso": "8.7",
+   "janela": "2011-2016",
+   "unidade": "pct",
+   "especificacao_primaria": "BCB SGS 433 (IPCA): monthly rates compounded per calendar year, arithmetic mean of the annual rates over the printed window. IPCA does not exist before 1980.",
+   "valor_reproduzido": 6.9369,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 8,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "IPCA, geometric mean",
+     "valor": 6.9238,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "INPC, arithmetic mean of calendar years",
+     "valor": 6.9875,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-M, arithmetic mean of calendar years",
+     "valor": 6.6409,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI (BCB), arithmetic mean of calendar years",
+     "valor": 6.7107,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI December/December (Ipeadata), arithmetic mean",
+     "valor": 6.7133,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 2012-2016 (without first year)",
+     "valor": 7.0237,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 2011-2015 (without last year)",
+     "valor": 7.0667,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA annualised over the mandate months",
+     "valor": 7.1907,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "dilma.desemprego",
+   "coluna": "Dilma",
+   "indicador": "desemprego",
+   "impresso": "6.7",
+   "janela": "2011-2016",
+   "unidade": "pct",
+   "especificacao_primaria": "Series whose coverage includes the whole printed window, never spliced: PME antiga (<=2002), PME nova (2003-2015), PNAD Continua annual (>=2012). No series -> not verified. The row label says 'regioes metro.', which is the PME universe.",
+   "valor_reproduzido": null,
+   "veredito": "NAO_VERIFICADO",
+   "nota": "no official series covers the whole printed window",
+   "n_alternativas": 0,
+   "melhor_alternativa": null,
+   "sensibilidade": []
+  },
+  {
+   "id": "dilma.salmin",
+   "coluna": "Dilma",
+   "indicador": "salmin",
+   "impresso": "8.0",
+   "janela": "2011-2016",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipea GAC12_SALMINRE12 (real minimum wage): December of the last window year over December of the year before the window.",
+   "valor_reproduzido": 15.1691,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 2,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "annual average over annual average",
+     "valor": 13.8785,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "mean of the yearly changes of the annual average",
+     "valor": 2.2313,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "dilma.pobreza",
+   "coluna": "Dilma",
+   "indicador": "pobreza",
+   "impresso": "22.1",
+   "janela": "2014",
+   "unidade": "pct",
+   "especificacao_primaria": "World Bank PIP, US$ 6.85/day (2017 PPP), the single series that covers 1981-2024 with one method; compared at the printed year. IBGE SIS vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 24.36,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "PIP / US$ 6.85/dia PPC2017",
+   "n_alternativas": 25,
+   "melhor_alternativa": {
+    "rotulo": "IBGE-SIS2019-PPC2011 / US$ 5,5 PPC2011",
+    "valor": 22.8,
+    "veredito": "APROXIMADO"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-SIS2019-PPC2011 / US$ 1,9 PPC2011",
+     "valor": 4.49,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2019-PPC2011 / US$ 3,2 PPC2011",
+     "valor": 9.87,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2019-PPC2011 / US$ 5,5 PPC2011",
+     "valor": 22.8,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IBGE-SIS2020-PPC2011 / US$ 1,9 PPC2011",
+     "valor": 4.49,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2020-PPC2011 / US$ 3,2 PPC2011",
+     "valor": 9.87,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2020-PPC2011 / US$ 5,5 PPC2011",
+     "valor": 22.8,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IBGE-SIS2024 / 50% da mediana",
+     "valor": 22.51,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IBGE-SIS2024 / US$ 2,15 PPC2017",
+     "valor": 5.18,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2024 / US$ 3,65 PPC2017",
+     "valor": 12.06,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2024 / US$ 6,85 PPC2017",
+     "valor": 30.82,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / 50% da mediana",
+     "valor": 22.53,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / US$ 2,15 PPC2017",
+     "valor": 5.19,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / US$ 3,65 PPC2017",
+     "valor": 12.09,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / US$ 6,85 PPC2017",
+     "valor": 30.88,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-DISOC_PPY / linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",
+     "valor": 13.29,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE300 / PPC$3,00 (2021)",
+     "valor": 7.02,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE420 / PPC$4,20 (2021)",
+     "valor": 12.25,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE830 / PPC$8,30 (2021)",
+     "valor": 33.22,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 2.15/dia PPC2017",
+     "valor": 3.31,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 3.00/dia PPC2021",
+     "valor": 4.77,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 3.65/dia PPC2017",
+     "valor": 8.6,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 4.20/dia PPC2021",
+     "valor": 8.72,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 8.30/dia PPC2021",
+     "valor": 26.42,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "SIDRA-5817 / linha internacional ODS US$ 3,00 PPC2021",
+     "valor": 7.0,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "SIDRA-5877 / linha nacional ODS US$ 8,30 PPC2021",
+     "valor": 33.2,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "dilma.gini",
+   "coluna": "Dilma",
+   "indicador": "gini",
+   "impresso": "0.52",
+   "janela": "2014",
+   "unidade": "indice",
+   "especificacao_primaria": "World Bank PIP, Gini of household per-capita income, one series for 1981-2024, at the printed year. IBGE (PNADC) and Ipea (PNAD) enter as sensitivity. No year -> not verified.",
+   "valor_reproduzido": 0.5205,
+   "veredito": "REPRODUZ",
+   "nota": "PIP / renda dom. per capita",
+   "n_alternativas": 7,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-SIS2024 / renda dom. per capita (PNADC)",
+     "valor": 0.5258,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / renda dom. per capita (PNADC)",
+     "valor": 0.5259,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "Ipeadata-PGINI / renda dom. per capita (PNAD antiga, serie interrompida)",
+     "valor": 0.5179,
+     "veredito": "REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADCA_GINIUF / renda dom. per capita (PNADC anual)",
+     "valor": 0.526,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_GINI / harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012",
+     "valor": 0.526,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "SIDRA-7435 / renda dom. per capita, precos medios do ano (PNADC)",
+     "valor": 0.526,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "WB-WDI-SI.POV.GINI / Banco Mundial (PIP)",
+     "valor": 0.521,
+     "veredito": "REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "dilma.expvida",
+   "coluna": "Dilma",
+   "indicador": "expvida",
+   "impresso": "75.2",
+   "janela": "2015",
+   "unidade": "anos",
+   "especificacao_primaria": "World Bank WDI SP.DYN.LE00.IN (UN WPP), one vintage for 1960-2024, at the printed year. IBGE vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 75.11,
+   "veredito": "APROXIMADO",
+   "nota": "WB-WDI-SP.DYN.LE00.IN / UN WPP via Banco Mundial",
+   "n_alternativas": 2,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-Tabua-como-publicada / Tabua Completa de Mortalidade 2015 (publicada no ano seguinte)",
+     "valor": 75.49,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "Ipeadata-DEPIS_ESVIDA / IBGE Projecao (rev. 2018)",
+     "valor": 75.44,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "temer.pib",
+   "coluna": "Temer",
+   "indicador": "pib",
+   "impresso": "0.7",
+   "janela": "2016-2018",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipeadata SCN10_PIBG10 (IBGE national accounts): arithmetic mean of the annual real growth rates over the printed calendar-year window.",
+   "valor_reproduzido": -0.0564,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 3,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "geometric mean of the same annual rates",
+     "valor": -0.0828,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "arithmetic mean, window 2017-2018 (without first year)",
+     "valor": 1.5533,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "arithmetic mean, window 2016-2017 (without last year)",
+     "valor": -0.9765,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "temer.inflacao",
+   "coluna": "Temer",
+   "indicador": "inflacao",
+   "impresso": "3.4",
+   "janela": "2016-2018",
+   "unidade": "pct",
+   "especificacao_primaria": "BCB SGS 433 (IPCA): monthly rates compounded per calendar year, arithmetic mean of the annual rates over the printed window. IPCA does not exist before 1980.",
+   "valor_reproduzido": 4.327,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 8,
+   "melhor_alternativa": {
+    "rotulo": "IPCA arithmetic mean, window 2017-2018 (without first year)",
+    "valor": 3.3464,
+    "veredito": "APROXIMADO"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "IPCA, geometric mean",
+     "valor": 4.3173,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "INPC, arithmetic mean of calendar years",
+     "valor": 4.0269,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-M, arithmetic mean of calendar years",
+     "valor": 4.7368,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI (BCB), arithmetic mean of calendar years",
+     "valor": 4.6108,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI December/December (Ipeadata), arithmetic mean",
+     "valor": 4.6211,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 2017-2018 (without first year)",
+     "valor": 3.3464,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 2016-2017 (without last year)",
+     "valor": 4.6177,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA annualised over the mandate months",
+     "valor": 3.2226,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "temer.desemprego",
+   "coluna": "Temer",
+   "indicador": "desemprego",
+   "impresso": "12.3",
+   "janela": "2016-2018",
+   "unidade": "pct",
+   "especificacao_primaria": "Series whose coverage includes the whole printed window, never spliced: PME antiga (<=2002), PME nova (2003-2015), PNAD Continua annual (>=2012). No series -> not verified. The row label says 'regioes metro.', which is the PME universe.",
+   "valor_reproduzido": 12.1,
+   "veredito": "APROXIMADO",
+   "nota": "series PNADC_SIDRA_4562",
+   "n_alternativas": 1,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "PNADC_media_Ipeadata_PAN_TDESOC, arithmetic mean",
+     "valor": 12.203,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "temer.salmin",
+   "coluna": "Temer",
+   "indicador": "salmin",
+   "impresso": "1.1",
+   "janela": "2016-2018",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipea GAC12_SALMINRE12 (real minimum wage): December of the last window year over December of the year before the window.",
+   "valor_reproduzido": 7.5967,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 2,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "annual average over annual average",
+     "valor": 4.4874,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "mean of the yearly changes of the annual average",
+     "valor": 1.491,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "temer.pobreza",
+   "coluna": "Temer",
+   "indicador": "pobreza",
+   "impresso": "26.5",
+   "janela": "2018",
+   "unidade": "pct",
+   "especificacao_primaria": "World Bank PIP, US$ 6.85/day (2017 PPP), the single series that covers 1981-2024 with one method; compared at the printed year. IBGE SIS vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 26.78,
+   "veredito": "APROXIMADO",
+   "nota": "PIP / US$ 6.85/dia PPC2017",
+   "n_alternativas": 24,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-SIS2019-PPC2011 / US$ 1,9 PPC2011",
+     "valor": 6.52,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2019-PPC2011 / US$ 3,2 PPC2011",
+     "valor": 12.38,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2019-PPC2011 / US$ 5,5 PPC2011",
+     "valor": 25.28,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IBGE-SIS2020-PPC2011 / US$ 1,9 PPC2011",
+     "valor": 6.52,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2020-PPC2011 / US$ 3,2 PPC2011",
+     "valor": 12.38,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2020-PPC2011 / US$ 5,5 PPC2011",
+     "valor": 25.28,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IBGE-SIS2024 / 50% da mediana",
+     "valor": 24.02,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2024 / US$ 2,15 PPC2017",
+     "valor": 7.35,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2024 / US$ 3,65 PPC2017",
+     "valor": 14.47,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2024 / US$ 6,85 PPC2017",
+     "valor": 33.34,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / 50% da mediana",
+     "valor": 23.99,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / US$ 2,15 PPC2017",
+     "valor": 7.38,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / US$ 3,65 PPC2017",
+     "valor": 14.53,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / US$ 6,85 PPC2017",
+     "valor": 33.44,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE300 / PPC$3,00 (2021)",
+     "valor": 9.41,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE420 / PPC$4,20 (2021)",
+     "valor": 14.78,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE830 / PPC$8,30 (2021)",
+     "valor": 35.56,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 2.15/dia PPC2017",
+     "valor": 5.32,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 3.00/dia PPC2021",
+     "valor": 6.91,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 3.65/dia PPC2017",
+     "valor": 10.93,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 4.20/dia PPC2021",
+     "valor": 11.07,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 8.30/dia PPC2021",
+     "valor": 28.66,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "SIDRA-5817 / linha internacional ODS US$ 3,00 PPC2021",
+     "valor": 9.3,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "SIDRA-5877 / linha nacional ODS US$ 8,30 PPC2021",
+     "valor": 35.5,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "temer.gini",
+   "coluna": "Temer",
+   "indicador": "gini",
+   "impresso": "0.54",
+   "janela": "2018",
+   "unidade": "indice",
+   "especificacao_primaria": "World Bank PIP, Gini of household per-capita income, one series for 1981-2024, at the printed year. IBGE (PNADC) and Ipea (PNAD) enter as sensitivity. No year -> not verified.",
+   "valor_reproduzido": 0.5389,
+   "veredito": "REPRODUZ",
+   "nota": "PIP / renda dom. per capita",
+   "n_alternativas": 6,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-SIS2024 / renda dom. per capita (PNADC)",
+     "valor": 0.5454,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / renda dom. per capita (PNADC)",
+     "valor": 0.5454,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "Ipeadata-PNADCA_GINIUF / renda dom. per capita (PNADC anual)",
+     "valor": 0.545,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_GINI / harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012",
+     "valor": 0.5454,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "SIDRA-7435 / renda dom. per capita, precos medios do ano (PNADC)",
+     "valor": 0.545,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "WB-WDI-SI.POV.GINI / Banco Mundial (PIP)",
+     "valor": 0.539,
+     "veredito": "REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "temer.expvida",
+   "coluna": "Temer",
+   "indicador": "expvida",
+   "impresso": "75.7",
+   "janela": "2018",
+   "unidade": "anos",
+   "especificacao_primaria": "World Bank WDI SP.DYN.LE00.IN (UN WPP), one vintage for 1960-2024, at the printed year. IBGE vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 75.63,
+   "veredito": "APROXIMADO",
+   "nota": "WB-WDI-SP.DYN.LE00.IN / UN WPP via Banco Mundial",
+   "n_alternativas": 2,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-Tabua-como-publicada / Tabua Completa de Mortalidade 2018 (publicada no ano seguinte)",
+     "valor": 76.31,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "Ipeadata-DEPIS_ESVIDA / IBGE Projecao (rev. 2018)",
+     "valor": 76.25,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "bolsonaro.pib",
+   "coluna": "Bolsonaro",
+   "indicador": "pib",
+   "impresso": "1.8",
+   "janela": "2019-2022",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipeadata SCN10_PIBG10 (IBGE national accounts): arithmetic mean of the annual real growth rates over the printed calendar-year window.",
+   "valor_reproduzido": 1.4308,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 3,
+   "melhor_alternativa": {
+    "rotulo": "arithmetic mean, window 2020-2022 (without first year)",
+    "valor": 1.5008,
+    "veredito": "APROXIMADO"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "geometric mean of the same annual rates",
+     "valor": 1.3861,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "arithmetic mean, window 2020-2022 (without first year)",
+     "valor": 1.5008,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "arithmetic mean, window 2019-2021 (without last year)",
+     "valor": 0.9022,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "bolsonaro.inflacao",
+   "coluna": "Bolsonaro",
+   "indicador": "inflacao",
+   "impresso": "6.4",
+   "janela": "2019-2022",
+   "unidade": "pct",
+   "especificacao_primaria": "BCB SGS 433 (IPCA): monthly rates compounded per calendar year, arithmetic mean of the annual rates over the printed window. IPCA does not exist before 1980.",
+   "valor_reproduzido": 6.1673,
+   "veredito": "APROXIMADO",
+   "nota": "",
+   "n_alternativas": 8,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "IPCA, geometric mean",
+     "valor": 6.1424,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "INPC, arithmetic mean of calendar years",
+     "valor": 6.5054,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IGP-M, arithmetic mean of calendar years",
+     "valor": 13.427,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI (BCB), arithmetic mean of calendar years",
+     "valor": 13.3752,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI December/December (Ipeadata), arithmetic mean",
+     "valor": 13.3864,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 2020-2022 (without first year)",
+     "valor": 6.7877,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 2019-2021 (without last year)",
+     "valor": 6.2948,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IPCA annualised over the mandate months",
+     "valor": 6.1424,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "bolsonaro.desemprego",
+   "coluna": "Bolsonaro",
+   "indicador": "desemprego",
+   "impresso": "13.2 (2019-2020 pico)",
+   "janela": "2019-2020",
+   "unidade": "pct",
+   "especificacao_primaria": "Series whose coverage includes the whole printed window, never spliced: PME antiga (<=2002), PME nova (2003-2015), PNAD Continua annual (>=2012). No series -> not verified. The row label says 'regioes metro.', which is the PME universe.",
+   "valor_reproduzido": 12.75,
+   "veredito": "APROXIMADO",
+   "nota": "series PNADC_SIDRA_4562",
+   "n_alternativas": 1,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "PNADC_media_Ipeadata_PAN_TDESOC, arithmetic mean",
+     "valor": 12.754,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "bolsonaro.salmin",
+   "coluna": "Bolsonaro",
+   "indicador": "salmin",
+   "impresso": "~0.9",
+   "janela": "2019-2022",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipea GAC12_SALMINRE12 (real minimum wage): December of the last window year over December of the year before the window.",
+   "valor_reproduzido": -1.1846,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 2,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "annual average over annual average",
+     "valor": -0.9076,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "mean of the yearly changes of the annual average",
+     "valor": -0.2115,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "bolsonaro.pobreza",
+   "coluna": "Bolsonaro",
+   "indicador": "pobreza",
+   "impresso": "31.6",
+   "janela": "2021",
+   "unidade": "pct",
+   "especificacao_primaria": "World Bank PIP, US$ 6.85/day (2017 PPP), the single series that covers 1981-2024 with one method; compared at the printed year. IBGE SIS vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 28.45,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "PIP / US$ 6.85/dia PPC2017",
+   "n_alternativas": 18,
+   "melhor_alternativa": {
+    "rotulo": "PIP / US$ 8.30/dia PPC2021",
+    "valor": 30.58,
+    "veredito": "APROXIMADO"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-SIS2024 / 50% da mediana",
+     "valor": 24.05,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2024 / US$ 2,15 PPC2017",
+     "valor": 9.0,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2024 / US$ 3,65 PPC2017",
+     "valor": 16.9,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2024 / US$ 6,85 PPC2017",
+     "valor": 36.69,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / 50% da mediana",
+     "valor": 24.01,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / US$ 2,15 PPC2017",
+     "valor": 9.02,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / US$ 3,65 PPC2017",
+     "valor": 16.95,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / US$ 6,85 PPC2017",
+     "valor": 36.77,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE300 / PPC$3,00 (2021)",
+     "valor": 11.17,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE420 / PPC$4,20 (2021)",
+     "valor": 17.33,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE830 / PPC$8,30 (2021)",
+     "valor": 38.9,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 2.15/dia PPC2017",
+     "valor": 5.84,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 3.00/dia PPC2021",
+     "valor": 7.46,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 3.65/dia PPC2017",
+     "valor": 11.24,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 4.20/dia PPC2021",
+     "valor": 11.48,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 8.30/dia PPC2021",
+     "valor": 30.58,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "SIDRA-5817 / linha internacional ODS US$ 3,00 PPC2021",
+     "valor": 11.2,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "SIDRA-5877 / linha nacional ODS US$ 8,30 PPC2021",
+     "valor": 38.9,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "bolsonaro.gini",
+   "coluna": "Bolsonaro",
+   "indicador": "gini",
+   "impresso": "0.58",
+   "janela": "2021",
+   "unidade": "indice",
+   "especificacao_primaria": "World Bank PIP, Gini of household per-capita income, one series for 1981-2024, at the printed year. IBGE (PNADC) and Ipea (PNAD) enter as sensitivity. No year -> not verified.",
+   "valor_reproduzido": 0.5285,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "PIP / renda dom. per capita",
+   "n_alternativas": 6,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-SIS2024 / renda dom. per capita (PNADC)",
+     "valor": 0.5441,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / renda dom. per capita (PNADC)",
+     "valor": 0.5434,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADCA_GINIUF / renda dom. per capita (PNADC anual)",
+     "valor": 0.543,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_GINI / harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012",
+     "valor": 0.5435,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "SIDRA-7435 / renda dom. per capita, precos medios do ano (PNADC)",
+     "valor": 0.543,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "WB-WDI-SI.POV.GINI / Banco Mundial (PIP)",
+     "valor": 0.529,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "bolsonaro.expvida",
+   "coluna": "Bolsonaro",
+   "indicador": "expvida",
+   "impresso": "72.8",
+   "janela": "2021",
+   "unidade": "anos",
+   "especificacao_primaria": "World Bank WDI SP.DYN.LE00.IN (UN WPP), one vintage for 1960-2024, at the printed year. IBGE vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 73.04,
+   "veredito": "APROXIMADO",
+   "nota": "WB-WDI-SP.DYN.LE00.IN / UN WPP via Banco Mundial",
+   "n_alternativas": 3,
+   "melhor_alternativa": {
+    "rotulo": "IBGE-Tabuas2024-serie-vigente / Agencia IBGE 28/11/2025 (reconstrucao 1940-2024)",
+    "valor": 72.8,
+    "veredito": "REPRODUZ"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-Tabua-como-publicada / Tabua Completa de Mortalidade 2021 (publicada no ano seguinte)",
+     "valor": 77.03,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-Tabuas2024-serie-vigente / Agencia IBGE 28/11/2025 (reconstrucao 1940-2024)",
+     "valor": 72.8,
+     "veredito": "REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-DEPIS_ESVIDA / IBGE Projecao (rev. 2018)",
+     "valor": 76.97,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "lula3.pib",
+   "coluna": "Lula 3 (em andamento)",
+   "indicador": "pib",
+   "impresso": "2.9*",
+   "janela": "2023-2025*",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipeadata SCN10_PIBG10 (IBGE national accounts): arithmetic mean of the annual real growth rates over the printed calendar-year window.",
+   "valor_reproduzido": 2.9822,
+   "veredito": "APROXIMADO",
+   "nota": "",
+   "n_alternativas": 3,
+   "melhor_alternativa": {
+    "rotulo": "arithmetic mean, window 2024-2025 (without first year)",
+    "valor": 2.8525,
+    "veredito": "REPRODUZ"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "geometric mean of the same annual rates",
+     "valor": 2.981,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "arithmetic mean, window 2024-2025 (without first year)",
+     "valor": 2.8525,
+     "veredito": "REPRODUZ"
+    },
+    {
+     "rotulo": "arithmetic mean, window 2023-2024 (without last year)",
+     "valor": 3.3305,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "lula3.inflacao",
+   "coluna": "Lula 3 (em andamento)",
+   "indicador": "inflacao",
+   "impresso": "4.9*",
+   "janela": "2023-2025*",
+   "unidade": "pct",
+   "especificacao_primaria": "BCB SGS 433 (IPCA): monthly rates compounded per calendar year, arithmetic mean of the annual rates over the printed window. IPCA does not exist before 1980.",
+   "valor_reproduzido": 4.5723,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 8,
+   "melhor_alternativa": {
+    "rotulo": "IPCA arithmetic mean, window 2023-2024 (without last year)",
+    "valor": 4.7262,
+    "veredito": "APROXIMADO"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "IPCA, geometric mean",
+     "valor": 4.572,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "INPC, arithmetic mean of calendar years",
+     "valor": 4.1243,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-M, arithmetic mean of calendar years",
+     "valor": 0.7719,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI (BCB), arithmetic mean of calendar years",
+     "valor": 0.7996,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IGP-DI December/December (Ipeadata), arithmetic mean",
+     "valor": 0.7889,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 2024-2025 (without first year)",
+     "valor": 4.5478,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IPCA arithmetic mean, window 2023-2024 (without last year)",
+     "valor": 4.7262,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "IPCA annualised over the mandate months",
+     "valor": 4.572,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "lula3.desemprego",
+   "coluna": "Lula 3 (em andamento)",
+   "indicador": "desemprego",
+   "impresso": "9.3*",
+   "janela": "2023-2025*",
+   "unidade": "pct",
+   "especificacao_primaria": "Series whose coverage includes the whole printed window, never spliced: PME antiga (<=2002), PME nova (2003-2015), PNAD Continua annual (>=2012). No series -> not verified. The row label says 'regioes metro.', which is the PME universe.",
+   "valor_reproduzido": 6.6333,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "series PNADC_SIDRA_4562",
+   "n_alternativas": 1,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "PNADC_media_Ipeadata_PAN_TDESOC, arithmetic mean",
+     "valor": 6.9723,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "lula3.salmin",
+   "coluna": "Lula 3 (em andamento)",
+   "indicador": "salmin",
+   "impresso": "12.6*",
+   "janela": "2023-2025*",
+   "unidade": "pct",
+   "especificacao_primaria": "Ipea GAC12_SALMINRE12 (real minimum wage): December of the last window year over December of the year before the window.",
+   "valor_reproduzido": 10.9494,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "",
+   "n_alternativas": 2,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "annual average over annual average",
+     "valor": 10.3609,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "mean of the yearly changes of the annual average",
+     "valor": 3.3427,
+     "veredito": "NAO_REPRODUZ"
+    }
+   ]
+  },
+  {
+   "id": "lula3.pobreza",
+   "coluna": "Lula 3 (em andamento)",
+   "indicador": "pobreza",
+   "impresso": "27.4",
+   "janela": "2024",
+   "unidade": "pct",
+   "especificacao_primaria": "World Bank PIP, US$ 6.85/day (2017 PPP), the single series that covers 1981-2024 with one method; compared at the printed year. IBGE SIS vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 18.94,
+   "veredito": "NAO_REPRODUZ",
+   "nota": "PIP / US$ 6.85/dia PPC2017",
+   "n_alternativas": 14,
+   "melhor_alternativa": {
+    "rotulo": "Ipeadata-PNADS_PERCPOBRE830 / PPC$8,30 (2021)",
+    "valor": 26.58,
+    "veredito": "APROXIMADO"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-SIS2025 / 50% da mediana",
+     "valor": 21.43,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / US$ 2,15 PPC2017",
+     "valor": 3.47,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / US$ 3,65 PPC2017",
+     "valor": 8.6,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-SIS2025 / US$ 6,85 PPC2017",
+     "valor": 23.11,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE300 / PPC$3,00 (2021)",
+     "valor": 4.77,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE420 / PPC$4,20 (2021)",
+     "valor": 8.76,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_PERCPOBRE830 / PPC$8,30 (2021)",
+     "valor": 26.58,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "PIP / US$ 2.15/dia PPC2017",
+     "valor": 1.96,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 3.00/dia PPC2021",
+     "valor": 3.01,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 3.65/dia PPC2017",
+     "valor": 6.11,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 4.20/dia PPC2021",
+     "valor": 6.19,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "PIP / US$ 8.30/dia PPC2021",
+     "valor": 20.65,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "SIDRA-5817 / linha internacional ODS US$ 3,00 PPC2021",
+     "valor": 4.7,
+     "veredito": "NAO_REPRODUZ"
+    },
+    {
+     "rotulo": "SIDRA-5877 / linha nacional ODS US$ 8,30 PPC2021",
+     "valor": 26.5,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "lula3.gini",
+   "coluna": "Lula 3 (em andamento)",
+   "indicador": "gini",
+   "impresso": "0.51",
+   "janela": "2024",
+   "unidade": "indice",
+   "especificacao_primaria": "World Bank PIP, Gini of household per-capita income, one series for 1981-2024, at the printed year. IBGE (PNADC) and Ipea (PNAD) enter as sensitivity. No year -> not verified.",
+   "valor_reproduzido": 0.5026,
+   "veredito": "APROXIMADO",
+   "nota": "PIP / renda dom. per capita",
+   "n_alternativas": 5,
+   "melhor_alternativa": null,
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-SIS2025 / renda dom. per capita (PNADC)",
+     "valor": 0.5044,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "Ipeadata-PNADCA_GINIUF / renda dom. per capita (PNADC anual)",
+     "valor": 0.504,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "Ipeadata-PNADS_GINI / harmonizada: PNAD<=2011 multiplicada por fator que iguala 2012",
+     "valor": 0.5045,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "SIDRA-7435 / renda dom. per capita, precos medios do ano (PNADC)",
+     "valor": 0.504,
+     "veredito": "APROXIMADO"
+    },
+    {
+     "rotulo": "WB-WDI-SI.POV.GINI / Banco Mundial (PIP)",
+     "valor": 0.503,
+     "veredito": "APROXIMADO"
+    }
+   ]
+  },
+  {
+   "id": "lula3.expvida",
+   "coluna": "Lula 3 (em andamento)",
+   "indicador": "expvida",
+   "impresso": "76.4",
+   "janela": "2023",
+   "unidade": "anos",
+   "especificacao_primaria": "World Bank WDI SP.DYN.LE00.IN (UN WPP), one vintage for 1960-2024, at the printed year. IBGE vintages enter as sensitivity. No printed year -> not verified.",
+   "valor_reproduzido": 75.85,
+   "veredito": "APROXIMADO",
+   "nota": "WB-WDI-SP.DYN.LE00.IN / UN WPP via Banco Mundial",
+   "n_alternativas": 2,
+   "melhor_alternativa": {
+    "rotulo": "IBGE-Tabua-como-publicada / Tabua Completa de Mortalidade 2023 (publicada no ano seguinte)",
+    "valor": 76.39,
+    "veredito": "REPRODUZ"
+   },
+   "sensibilidade": [
+    {
+     "rotulo": "IBGE-Tabua-como-publicada / Tabua Completa de Mortalidade 2023 (publicada no ano seguinte)",
+     "valor": 76.39,
+     "veredito": "REPRODUZ"
+    },
+    {
+     "rotulo": "IBGE-Tabuas2024-serie-vigente / Agencia IBGE 28/11/2025 (reconstrucao 1940-2024)",
+     "valor": 76.4,
+     "veredito": "REPRODUZ"
+    }
+   ]
+  }
+ ],
+ "resumo": {
+  "total": {
+   "APROXIMADO": 19,
+   "NAO_REPRODUZ": 29,
+   "NAO_VERIFICADO": 7,
+   "REPRODUZ": 2
+  },
+  "por_indicador": {
+   "pib": {
+    "APROXIMADO": 4,
+    "NAO_REPRODUZ": 4
+   },
+   "inflacao": {
+    "APROXIMADO": 2,
+    "NAO_REPRODUZ": 5,
+    "NAO_VERIFICADO": 1
+   },
+   "desemprego": {
+    "APROXIMADO": 3,
+    "NAO_REPRODUZ": 4,
+    "NAO_VERIFICADO": 2
+   },
+   "salmin": {
+    "NAO_REPRODUZ": 8
+   },
+   "pobreza": {
+    "APROXIMADO": 1,
+    "NAO_REPRODUZ": 5,
+    "NAO_VERIFICADO": 2
+   },
+   "gini": {
+    "APROXIMADO": 2,
+    "NAO_REPRODUZ": 2,
+    "NAO_VERIFICADO": 2,
+    "REPRODUZ": 2
+   },
+   "expvida": {
+    "APROXIMADO": 7,
+    "NAO_REPRODUZ": 1
+   }
+  }
+ },
+ "monetario": {
+  "senhoriagem": [
+   {
+    "janela": "Dutra",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 60.0,
+    "primeiro_ano_dados": 1946.0,
+    "a_dM0_pib": 1.267,
+    "b_anual_igpdi_pib": 0.971,
+    "c_II_mensal_pib": 1.016,
+    "c_TIT_mensal_pib": 1.995,
+    "c2_II_ipca_pib": null,
+    "c2_TIT_ipca_pib": null,
+    "d1_ayres_seigniorage": 1.826,
+    "infl_igpdi_pct": 8.92
+   },
+   {
+    "janela": "Vargas+Cafe Filho+Carlos Luz+Nereu Ramos",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 60.0,
+    "primeiro_ano_dados": 1951.0,
+    "a_dM0_pib": 1.759,
+    "b_anual_igpdi_pib": 1.479,
+    "c_II_mensal_pib": 1.578,
+    "c_TIT_mensal_pib": 3.331,
+    "c2_II_ipca_pib": null,
+    "c2_TIT_ipca_pib": null,
+    "d1_ayres_seigniorage": 2.372,
+    "infl_igpdi_pct": 16.919
+   },
+   {
+    "janela": "JK",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 60.0,
+    "primeiro_ano_dados": 1956.0,
+    "a_dM0_pib": 2.212,
+    "b_anual_igpdi_pib": 1.624,
+    "c_II_mensal_pib": 1.847,
+    "c_TIT_mensal_pib": 4.2,
+    "c2_II_ipca_pib": null,
+    "c2_TIT_ipca_pib": null,
+    "d1_ayres_seigniorage": 2.455,
+    "infl_igpdi_pct": 25.547
+   },
+   {
+    "janela": "Janio+Jango",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 38.0,
+    "primeiro_ano_dados": 1961.0,
+    "a_dM0_pib": 3.987,
+    "b_anual_igpdi_pib": 2.727,
+    "c_II_mensal_pib": 3.725,
+    "c_TIT_mensal_pib": 8.277,
+    "c2_II_ipca_pib": null,
+    "c2_TIT_ipca_pib": null,
+    "d1_ayres_seigniorage": 3.866,
+    "infl_igpdi_pct": 62.64
+   },
+   {
+    "janela": "Castelo Branco",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 35.0,
+    "primeiro_ano_dados": 1964.0,
+    "a_dM0_pib": 2.75,
+    "b_anual_igpdi_pib": 2.106,
+    "c_II_mensal_pib": 2.451,
+    "c_TIT_mensal_pib": 5.539,
+    "c2_II_ipca_pib": null,
+    "c2_TIT_ipca_pib": null,
+    "d1_ayres_seigniorage": 3.55,
+    "infl_igpdi_pct": 50.271
+   },
+   {
+    "janela": "Costa e Silva+Junta",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 32.0,
+    "primeiro_ano_dados": 1967.0,
+    "a_dM0_pib": 1.742,
+    "b_anual_igpdi_pib": 1.152,
+    "c_II_mensal_pib": 1.194,
+    "c_TIT_mensal_pib": 3.053,
+    "c2_II_ipca_pib": null,
+    "c2_TIT_ipca_pib": null,
+    "d1_ayres_seigniorage": 1.908,
+    "infl_igpdi_pct": 23.408
+   },
+   {
+    "janela": "Medici",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 52.0,
+    "primeiro_ano_dados": 1969.0,
+    "a_dM0_pib": 1.277,
+    "b_anual_igpdi_pib": 0.749,
+    "c_II_mensal_pib": 0.826,
+    "c_TIT_mensal_pib": 2.557,
+    "c2_II_ipca_pib": null,
+    "c2_TIT_ipca_pib": null,
+    "d1_ayres_seigniorage": 1.665,
+    "infl_igpdi_pct": 18.224
+   },
+   {
+    "janela": "Geisel",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 60.0,
+    "primeiro_ano_dados": 1974.0,
+    "a_dM0_pib": 1.658,
+    "b_anual_igpdi_pib": 1.048,
+    "c_II_mensal_pib": 1.218,
+    "c_TIT_mensal_pib": 3.895,
+    "c2_II_ipca_pib": null,
+    "c2_TIT_ipca_pib": null,
+    "d1_ayres_seigniorage": 1.645,
+    "infl_igpdi_pct": 39.372
+   },
+   {
+    "janela": "Figueiredo",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 72.0,
+    "primeiro_ano_dados": 1979.0,
+    "a_dM0_pib": 2.04,
+    "b_anual_igpdi_pib": 1.562,
+    "c_II_mensal_pib": 2.295,
+    "c_TIT_mensal_pib": 5.283,
+    "c2_II_ipca_pib": 2.191,
+    "c2_TIT_ipca_pib": 4.997,
+    "d1_ayres_seigniorage": 2.349,
+    "infl_igpdi_pct": 140.586
+   },
+   {
+    "janela": "Sarney",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 60.0,
+    "primeiro_ano_dados": 1985.0,
+    "a_dM0_pib": 3.793,
+    "b_anual_igpdi_pib": 1.383,
+    "c_II_mensal_pib": 3.121,
+    "c_TIT_mensal_pib": 5.883,
+    "c2_II_ipca_pib": 3.183,
+    "c2_TIT_ipca_pib": 6.063,
+    "d1_ayres_seigniorage": 3.388,
+    "infl_igpdi_pct": 748.672
+   },
+   {
+    "janela": "Collor",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 31.0,
+    "primeiro_ano_dados": 1990.0,
+    "a_dM0_pib": 3.716,
+    "b_anual_igpdi_pib": 1.503,
+    "c_II_mensal_pib": 3.128,
+    "c_TIT_mensal_pib": 5.153,
+    "c2_II_ipca_pib": 3.158,
+    "c2_TIT_ipca_pib": 5.198,
+    "d1_ayres_seigniorage": 4.394,
+    "infl_igpdi_pct": 998.398
+   },
+   {
+    "janela": "Itamar",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 27.0,
+    "primeiro_ano_dados": 1992.0,
+    "a_dM0_pib": 4.131,
+    "b_anual_igpdi_pib": 1.273,
+    "c_II_mensal_pib": 2.042,
+    "c_TIT_mensal_pib": 3.394,
+    "c2_II_ipca_pib": 1.995,
+    "c2_TIT_ipca_pib": 3.299,
+    "d1_ayres_seigniorage": 3.614,
+    "infl_igpdi_pct": 1818.454
+   },
+   {
+    "janela": "FHC",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 96.0,
+    "primeiro_ano_dados": 1995.0,
+    "a_dM0_pib": 0.613,
+    "b_anual_igpdi_pib": 0.337,
+    "c_II_mensal_pib": 0.37,
+    "c_TIT_mensal_pib": 0.522,
+    "c2_II_ipca_pib": 0.259,
+    "c2_TIT_ipca_pib": 0.361,
+    "d1_ayres_seigniorage": 0.63,
+    "infl_igpdi_pct": 12.487
+   },
+   {
+    "janela": "Lula 1-2",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 96.0,
+    "primeiro_ano_dados": 2003.0,
+    "a_dM0_pib": 0.595,
+    "b_anual_igpdi_pib": 0.241,
+    "c_II_mensal_pib": 0.248,
+    "c_TIT_mensal_pib": 0.365,
+    "c2_II_ipca_pib": 0.223,
+    "c2_TIT_ipca_pib": 0.327,
+    "d1_ayres_seigniorage": 0.545,
+    "infl_igpdi_pct": 6.461
+   },
+   {
+    "janela": "Dilma (ate afastamento 12/05/2016)",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 64.0,
+    "primeiro_ano_dados": 2011.0,
+    "a_dM0_pib": 0.198,
+    "b_anual_igpdi_pib": 0.251,
+    "c_II_mensal_pib": 0.26,
+    "c_TIT_mensal_pib": 0.363,
+    "c2_II_ipca_pib": 0.278,
+    "c2_TIT_ipca_pib": 0.387,
+    "d1_ayres_seigniorage": 0.394,
+    "infl_igpdi_pct": 6.655
+   },
+   {
+    "janela": "Temer (de 12/05/2016, interino)",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 32.0,
+    "primeiro_ano_dados": 2016.0,
+    "a_dM0_pib": 0.239,
+    "b_anual_igpdi_pib": 0.155,
+    "c_II_mensal_pib": 0.143,
+    "c_TIT_mensal_pib": 0.192,
+    "c2_II_ipca_pib": 0.145,
+    "c2_TIT_ipca_pib": 0.193,
+    "d1_ayres_seigniorage": 0.225,
+    "infl_igpdi_pct": 4.301
+   },
+   {
+    "janela": "Bolsonaro",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 48.0,
+    "primeiro_ano_dados": 2019.0,
+    "a_dM0_pib": 0.391,
+    "b_anual_igpdi_pib": 0.513,
+    "c_II_mensal_pib": 0.571,
+    "c_TIT_mensal_pib": 0.8,
+    "c2_II_ipca_pib": 0.266,
+    "c2_TIT_ipca_pib": 0.383,
+    "d1_ayres_seigniorage": 0.428,
+    "infl_igpdi_pct": 13.386
+   },
+   {
+    "janela": "Lula 3",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 36.0,
+    "primeiro_ano_dados": 2023.0,
+    "a_dM0_pib": 0.079,
+    "b_anual_igpdi_pib": 0.022,
+    "c_II_mensal_pib": 0.027,
+    "c_TIT_mensal_pib": 0.045,
+    "c2_II_ipca_pib": 0.159,
+    "c2_TIT_ipca_pib": 0.233,
+    "d1_ayres_seigniorage": 0.297,
+    "infl_igpdi_pct": 0.789
+   },
+   {
+    "janela": "Dilma (ate 31/08/2016)",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 68.0,
+    "primeiro_ano_dados": 2011.0,
+    "a_dM0_pib": 0.2,
+    "b_anual_igpdi_pib": 0.252,
+    "c_II_mensal_pib": 0.258,
+    "c_TIT_mensal_pib": 0.359,
+    "c2_II_ipca_pib": 0.273,
+    "c2_TIT_ipca_pib": 0.38,
+    "d1_ayres_seigniorage": 0.382,
+    "infl_igpdi_pct": 6.686
+   },
+   {
+    "janela": "Temer (de 31/08/2016)",
+    "tipo": "mandato posse-saida (media de anos ponderada por meses)",
+    "meses": 28.0,
+    "primeiro_ano_dados": 2016.0,
+    "a_dM0_pib": 0.239,
+    "b_anual_igpdi_pib": 0.14,
+    "c_II_mensal_pib": 0.131,
+    "c_TIT_mensal_pib": 0.177,
+    "c2_II_ipca_pib": 0.137,
+    "c2_TIT_ipca_pib": 0.183,
+    "d1_ayres_seigniorage": 0.231,
+    "infl_igpdi_pct": 3.889
+   },
+   {
+    "janela": "Ditadura 1967-1974 (info)",
+    "tipo": "anos civis",
+    "meses": 96.0,
+    "primeiro_ano_dados": 1967.0,
+    "a_dM0_pib": 1.427,
+    "b_anual_igpdi_pib": 0.921,
+    "c_II_mensal_pib": 0.989,
+    "c_TIT_mensal_pib": 2.88,
+    "c2_II_ipca_pib": null,
+    "c2_TIT_ipca_pib": null,
+    "d1_ayres_seigniorage": 1.756,
+    "infl_igpdi_pct": 21.794
+   },
+   {
+    "janela": "Itamar 1992-1994 (info)",
+    "tipo": "anos civis",
+    "meses": 36.0,
+    "primeiro_ano_dados": 1992.0,
+    "a_dM0_pib": 3.99,
+    "b_anual_igpdi_pib": 1.22,
+    "c_II_mensal_pib": 2.223,
+    "c_TIT_mensal_pib": 3.733,
+    "c2_II_ipca_pib": 2.188,
+    "c2_TIT_ipca_pib": 3.663,
+    "d1_ayres_seigniorage": 3.577,
+    "infl_igpdi_pct": 1653.3
+   },
+   {
+    "janela": "FHC 1995-2002 (info)",
+    "tipo": "anos civis",
+    "meses": 96.0,
+    "primeiro_ano_dados": 1995.0,
+    "a_dM0_pib": 0.613,
+    "b_anual_igpdi_pib": 0.337,
+    "c_II_mensal_pib": 0.37,
+    "c_TIT_mensal_pib": 0.522,
+    "c2_II_ipca_pib": 0.259,
+    "c2_TIT_ipca_pib": 0.361,
+    "d1_ayres_seigniorage": 0.63,
+    "infl_igpdi_pct": 12.487
+   },
+   {
+    "janela": "Lula 2003-2010 (info)",
+    "tipo": "anos civis",
+    "meses": 96.0,
+    "primeiro_ano_dados": 2003.0,
+    "a_dM0_pib": 0.595,
+    "b_anual_igpdi_pib": 0.241,
+    "c_II_mensal_pib": 0.248,
+    "c_TIT_mensal_pib": 0.365,
+    "c2_II_ipca_pib": 0.223,
+    "c2_TIT_ipca_pib": 0.327,
+    "d1_ayres_seigniorage": 0.545,
+    "infl_igpdi_pct": 6.461
+   },
+   {
+    "janela": "Dilma 2011-2016 (info)",
+    "tipo": "anos civis",
+    "meses": 72.0,
+    "primeiro_ano_dados": 2011.0,
+    "a_dM0_pib": 0.202,
+    "b_anual_igpdi_pib": 0.252,
+    "c_II_mensal_pib": 0.257,
+    "c_TIT_mensal_pib": 0.356,
+    "c2_II_ipca_pib": 0.269,
+    "c2_TIT_ipca_pib": 0.374,
+    "d1_ayres_seigniorage": 0.371,
+    "infl_igpdi_pct": 6.713
+   },
+   {
+    "janela": "Temer 2016-2018 (info)",
+    "tipo": "anos civis",
+    "meses": 36.0,
+    "primeiro_ano_dados": 2016.0,
+    "a_dM0_pib": 0.239,
+    "b_anual_igpdi_pib": 0.167,
+    "c_II_mensal_pib": 0.152,
+    "c_TIT_mensal_pib": 0.204,
+    "c2_II_ipca_pib": 0.151,
+    "c2_TIT_ipca_pib": 0.202,
+    "d1_ayres_seigniorage": 0.221,
+    "infl_igpdi_pct": 4.621
+   },
+   {
+    "janela": "Bolsonaro 2019-2022 (info)",
+    "tipo": "anos civis",
+    "meses": 48.0,
+    "primeiro_ano_dados": 2019.0,
+    "a_dM0_pib": 0.391,
+    "b_anual_igpdi_pib": 0.513,
+    "c_II_mensal_pib": 0.571,
+    "c_TIT_mensal_pib": 0.8,
+    "c2_II_ipca_pib": 0.266,
+    "c2_TIT_ipca_pib": 0.383,
+    "d1_ayres_seigniorage": 0.428,
+    "infl_igpdi_pct": 13.386
+   },
+   {
+    "janela": "Lula 3 2023-2025 (info)",
+    "tipo": "anos civis",
+    "meses": 36.0,
+    "primeiro_ano_dados": 2023.0,
+    "a_dM0_pib": 0.079,
+    "b_anual_igpdi_pib": 0.022,
+    "c_II_mensal_pib": 0.027,
+    "c_TIT_mensal_pib": 0.045,
+    "c2_II_ipca_pib": 0.159,
+    "c2_TIT_ipca_pib": 0.233,
+    "d1_ayres_seigniorage": 0.297,
+    "infl_igpdi_pct": 0.789
+   },
+   {
+    "janela": "Pico 1980-1994",
+    "tipo": "anos civis",
+    "meses": 180.0,
+    "primeiro_ano_dados": 1980.0,
+    "a_dM0_pib": 3.179,
+    "b_anual_igpdi_pib": 1.439,
+    "c_II_mensal_pib": 2.67,
+    "c_TIT_mensal_pib": 5.144,
+    "c2_II_ipca_pib": 2.659,
+    "c2_TIT_ipca_pib": 5.132,
+    "d1_ayres_seigniorage": 3.251,
+    "infl_igpdi_pct": 746.215
+   },
+   {
+    "janela": "Pos-Real 1995-2003",
+    "tipo": "anos civis",
+    "meses": 108.0,
+    "primeiro_ano_dados": 1995.0,
+    "a_dM0_pib": 0.544,
+    "b_anual_igpdi_pib": 0.33,
+    "c_II_mensal_pib": 0.354,
+    "c_TIT_mensal_pib": 0.502,
+    "c2_II_ipca_pib": 0.262,
+    "c2_TIT_ipca_pib": 0.366,
+    "d1_ayres_seigniorage": 0.633,
+    "infl_igpdi_pct": 11.952
+   }
+  ],
+  "agregados": [
+   {
+    "janela": "Ditadura 1967-1974 (info)",
+    "M0_media_pct_PIB": 5.21,
+    "M0_anos": 8.0,
+    "M1_media_pct_PIB": 15.23,
+    "M1_anos": 8.0,
+    "M1novo_media_pct_PIB": null,
+    "M1novo_anos": 0.0,
+    "M2_2001_media_pct_PIB": null,
+    "M2_2001_anos": 0.0,
+    "M3_2001_media_pct_PIB": null,
+    "M3_2001_anos": 0.0,
+    "M4_2001_media_pct_PIB": null,
+    "M4_2001_anos": 0.0,
+    "M2_novo_media_pct_PIB": null,
+    "M2_novo_anos": 0.0,
+    "M3_novo_media_pct_PIB": null,
+    "M3_novo_anos": 0.0,
+    "M4_novo_media_pct_PIB": null,
+    "M4_novo_anos": 0.0
+   },
+   {
+    "janela": "Geisel 1974-1978",
+    "M0_media_pct_PIB": 3.73,
+    "M0_anos": 5.0,
+    "M1_media_pct_PIB": 12.27,
+    "M1_anos": 5.0,
+    "M1novo_media_pct_PIB": null,
+    "M1novo_anos": 0.0,
+    "M2_2001_media_pct_PIB": null,
+    "M2_2001_anos": 0.0,
+    "M3_2001_media_pct_PIB": null,
+    "M3_2001_anos": 0.0,
+    "M4_2001_media_pct_PIB": null,
+    "M4_2001_anos": 0.0,
+    "M2_novo_media_pct_PIB": null,
+    "M2_novo_anos": 0.0,
+    "M3_novo_media_pct_PIB": null,
+    "M3_novo_anos": 0.0,
+    "M4_novo_media_pct_PIB": null,
+    "M4_novo_anos": 0.0
+   },
+   {
+    "janela": "Figueiredo 1979-1984",
+    "M0_media_pct_PIB": 2.85,
+    "M0_anos": 6.0,
+    "M1_media_pct_PIB": 7.11,
+    "M1_anos": 6.0,
+    "M1novo_media_pct_PIB": null,
+    "M1novo_anos": 0.0,
+    "M2_2001_media_pct_PIB": null,
+    "M2_2001_anos": 0.0,
+    "M3_2001_media_pct_PIB": null,
+    "M3_2001_anos": 0.0,
+    "M4_2001_media_pct_PIB": null,
+    "M4_2001_anos": 0.0,
+    "M2_novo_media_pct_PIB": null,
+    "M2_novo_anos": 0.0,
+    "M3_novo_media_pct_PIB": null,
+    "M3_novo_anos": 0.0,
+    "M4_novo_media_pct_PIB": null,
+    "M4_novo_anos": 0.0
+   },
+   {
+    "janela": "Sarney 1985-1989",
+    "M0_media_pct_PIB": 2.1,
+    "M0_anos": 5.0,
+    "M1_media_pct_PIB": 4.63,
+    "M1_anos": 5.0,
+    "M1novo_media_pct_PIB": null,
+    "M1novo_anos": 0.0,
+    "M2_2001_media_pct_PIB": 16.7,
+    "M2_2001_anos": 1.0,
+    "M3_2001_media_pct_PIB": 16.7,
+    "M3_2001_anos": 1.0,
+    "M4_2001_media_pct_PIB": 34.02,
+    "M4_2001_anos": 1.0,
+    "M2_novo_media_pct_PIB": null,
+    "M2_novo_anos": 0.0,
+    "M3_novo_media_pct_PIB": null,
+    "M3_novo_anos": 0.0,
+    "M4_novo_media_pct_PIB": null,
+    "M4_novo_anos": 0.0
+   },
+   {
+    "janela": "Collor 1990-1992",
+    "M0_media_pct_PIB": 1.78,
+    "M0_anos": 3.0,
+    "M1_media_pct_PIB": 2.98,
+    "M1_anos": 3.0,
+    "M1novo_media_pct_PIB": null,
+    "M1novo_anos": 0.0,
+    "M2_2001_media_pct_PIB": 14.81,
+    "M2_2001_anos": 3.0,
+    "M3_2001_media_pct_PIB": 16.43,
+    "M3_2001_anos": 3.0,
+    "M4_2001_media_pct_PIB": 20.42,
+    "M4_2001_anos": 3.0,
+    "M2_novo_media_pct_PIB": null,
+    "M2_novo_anos": 0.0,
+    "M3_novo_media_pct_PIB": null,
+    "M3_novo_anos": 0.0,
+    "M4_novo_media_pct_PIB": null,
+    "M4_novo_anos": 0.0
+   },
+   {
+    "janela": "Itamar 1992-1994 (info)",
+    "M0_media_pct_PIB": 1.39,
+    "M0_anos": 3.0,
+    "M1_media_pct_PIB": 2.2,
+    "M1_anos": 3.0,
+    "M1novo_media_pct_PIB": null,
+    "M1novo_anos": 0.0,
+    "M2_2001_media_pct_PIB": 20.95,
+    "M2_2001_anos": 3.0,
+    "M3_2001_media_pct_PIB": 24.59,
+    "M3_2001_anos": 3.0,
+    "M4_2001_media_pct_PIB": 29.01,
+    "M4_2001_anos": 3.0,
+    "M2_novo_media_pct_PIB": null,
+    "M2_novo_anos": 0.0,
+    "M3_novo_media_pct_PIB": null,
+    "M3_novo_anos": 0.0,
+    "M4_novo_media_pct_PIB": null,
+    "M4_novo_anos": 0.0
+   },
+   {
+    "janela": "FHC 1995-2002 (info)",
+    "M0_media_pct_PIB": 2.99,
+    "M0_anos": 8.0,
+    "M1_media_pct_PIB": 4.25,
+    "M1_anos": 8.0,
+    "M1novo_media_pct_PIB": 5.72,
+    "M1novo_anos": 1.0,
+    "M2_2001_media_pct_PIB": 22.63,
+    "M2_2001_anos": 8.0,
+    "M3_2001_media_pct_PIB": 36.91,
+    "M3_2001_anos": 8.0,
+    "M4_2001_media_pct_PIB": 43.9,
+    "M4_2001_anos": 8.0,
+    "M2_novo_media_pct_PIB": 23.77,
+    "M2_novo_anos": 1.0,
+    "M3_novo_media_pct_PIB": 43.8,
+    "M3_novo_anos": 1.0,
+    "M4_novo_media_pct_PIB": 51.68,
+    "M4_novo_anos": 1.0
+   },
+   {
+    "janela": "Lula 2003-2010 (info)",
+    "M0_media_pct_PIB": 4.05,
+    "M0_anos": 8.0,
+    "M1_media_pct_PIB": 5.83,
+    "M1_anos": 8.0,
+    "M1novo_media_pct_PIB": 5.96,
+    "M1novo_anos": 8.0,
+    "M2_2001_media_pct_PIB": 26.57,
+    "M2_2001_anos": 8.0,
+    "M3_2001_media_pct_PIB": 53.03,
+    "M3_2001_anos": 8.0,
+    "M4_2001_media_pct_PIB": 61.47,
+    "M4_2001_anos": 8.0,
+    "M2_novo_media_pct_PIB": 26.76,
+    "M2_novo_anos": 8.0,
+    "M3_novo_media_pct_PIB": 53.41,
+    "M3_novo_anos": 8.0,
+    "M4_novo_media_pct_PIB": 60.29,
+    "M4_novo_anos": 8.0
+   },
+   {
+    "janela": "Dilma 2011-2016 (info)",
+    "M0_media_pct_PIB": 4.06,
+    "M0_anos": 6.0,
+    "M1_media_pct_PIB": 5.44,
+    "M1_anos": 6.0,
+    "M1novo_media_pct_PIB": 5.63,
+    "M1novo_anos": 6.0,
+    "M2_2001_media_pct_PIB": 34.97,
+    "M2_2001_anos": 6.0,
+    "M3_2001_media_pct_PIB": 71.09,
+    "M3_2001_anos": 6.0,
+    "M4_2001_media_pct_PIB": 83.03,
+    "M4_2001_anos": 6.0,
+    "M2_novo_media_pct_PIB": 35.7,
+    "M2_novo_anos": 6.0,
+    "M3_novo_media_pct_PIB": 73.0,
+    "M3_novo_anos": 6.0,
+    "M4_novo_media_pct_PIB": 79.23,
+    "M4_novo_anos": 6.0
+   },
+   {
+    "janela": "Temer 2016-2018 (info)",
+    "M0_media_pct_PIB": 3.93,
+    "M0_anos": 3.0,
+    "M1_media_pct_PIB": 4.88,
+    "M1_anos": 2.0,
+    "M1novo_media_pct_PIB": 5.15,
+    "M1novo_anos": 3.0,
+    "M2_2001_media_pct_PIB": 36.31,
+    "M2_2001_anos": 2.0,
+    "M3_2001_media_pct_PIB": 82.06,
+    "M3_2001_anos": 2.0,
+    "M4_2001_media_pct_PIB": 95.17,
+    "M4_2001_anos": 2.0,
+    "M2_novo_media_pct_PIB": 37.76,
+    "M2_novo_anos": 3.0,
+    "M3_novo_media_pct_PIB": 83.73,
+    "M3_novo_anos": 3.0,
+    "M4_novo_media_pct_PIB": 90.66,
+    "M4_novo_anos": 3.0
+   },
+   {
+    "janela": "Bolsonaro 2019-2022 (info)",
+    "M0_media_pct_PIB": 4.34,
+    "M0_anos": 4.0,
+    "M1_media_pct_PIB": null,
+    "M1_anos": 0.0,
+    "M1novo_media_pct_PIB": 6.25,
+    "M1novo_anos": 4.0,
+    "M2_2001_media_pct_PIB": null,
+    "M2_2001_anos": 0.0,
+    "M3_2001_media_pct_PIB": null,
+    "M3_2001_anos": 0.0,
+    "M4_2001_media_pct_PIB": null,
+    "M4_2001_anos": 0.0,
+    "M2_novo_media_pct_PIB": 44.38,
+    "M2_novo_anos": 4.0,
+    "M3_novo_media_pct_PIB": 92.45,
+    "M3_novo_anos": 4.0,
+    "M4_novo_media_pct_PIB": 99.35,
+    "M4_novo_anos": 4.0
+   },
+   {
+    "janela": "Lula 3 2023-2025 (info)",
+    "M0_media_pct_PIB": 3.6,
+    "M0_anos": 3.0,
+    "M1_media_pct_PIB": null,
+    "M1_anos": 0.0,
+    "M1novo_media_pct_PIB": 5.27,
+    "M1novo_anos": 3.0,
+    "M2_2001_media_pct_PIB": null,
+    "M2_2001_anos": 0.0,
+    "M3_2001_media_pct_PIB": null,
+    "M3_2001_anos": 0.0,
+    "M4_2001_media_pct_PIB": null,
+    "M4_2001_anos": 0.0,
+    "M2_novo_media_pct_PIB": 52.44,
+    "M2_novo_anos": 3.0,
+    "M3_novo_media_pct_PIB": 97.29,
+    "M3_novo_anos": 3.0,
+    "M4_novo_media_pct_PIB": 107.54,
+    "M4_novo_anos": 3.0
+   }
+  ],
+  "extras": [
+   {
+    "janela": "Medici 1970-1973",
+    "cambio_ini": 0.0,
+    "cambio_fim": 0.0,
+    "cambio_fator": 1.4299,
+    "selic_media": null,
+    "selic_media_n_anos": 0.0,
+    "juro_real_ipca_medio": null,
+    "juro_real_ipca_medio_n_anos": 0.0,
+    "juro_real_igpdi_medio": null,
+    "juro_real_igpdi_medio_n_anos": 0.0,
+    "primario_gfbc_medio": null,
+    "primario_gfbc_medio_n_anos": 0.0,
+    "primario_cons_medio": null,
+    "primario_cons_medio_n_anos": 0.0,
+    "dlsp_gfbc_pib_ini": null,
+    "dlsp_gfbc_pib_fim": null,
+    "dlsp_cons_pib_ini": null,
+    "dlsp_cons_pib_fim": null,
+    "reservas_USDmi_ini": null,
+    "reservas_USDmi_fim": 6416.0,
+    "dbgg_ate2007_ini": null,
+    "dbgg_ate2007_fim": null,
+    "dbgg_desde2008_ini": null,
+    "dbgg_desde2008_fim": null
+   },
+   {
+    "janela": "Geisel 1974-1978",
+    "cambio_ini": 0.0,
+    "cambio_fim": 0.0,
+    "cambio_fator": 3.3633,
+    "selic_media": 33.7226,
+    "selic_media_n_anos": 5.0,
+    "juro_real_ipca_medio": null,
+    "juro_real_ipca_medio_n_anos": 0.0,
+    "juro_real_igpdi_medio": -3.1761,
+    "juro_real_igpdi_medio_n_anos": 5.0,
+    "primario_gfbc_medio": null,
+    "primario_gfbc_medio_n_anos": 0.0,
+    "primario_cons_medio": null,
+    "primario_cons_medio_n_anos": 0.0,
+    "dlsp_gfbc_pib_ini": null,
+    "dlsp_gfbc_pib_fim": null,
+    "dlsp_cons_pib_ini": null,
+    "dlsp_cons_pib_fim": null,
+    "reservas_USDmi_ini": 6416.0,
+    "reservas_USDmi_fim": 11895.0,
+    "dbgg_ate2007_ini": null,
+    "dbgg_ate2007_fim": null,
+    "dbgg_desde2008_ini": null,
+    "dbgg_desde2008_fim": null
+   },
+   {
+    "janela": "Figueiredo 1979-1984",
+    "cambio_ini": 0.0,
+    "cambio_fim": 0.0,
+    "cambio_fator": 152.199,
+    "selic_media": 125.464,
+    "selic_media_n_anos": 6.0,
+    "juro_real_ipca_medio": 0.7151,
+    "juro_real_ipca_medio_n_anos": 5.0,
+    "juro_real_igpdi_medio": -6.1653,
+    "juro_real_igpdi_medio_n_anos": 6.0,
+    "primario_gfbc_medio": null,
+    "primario_gfbc_medio_n_anos": 0.0,
+    "primario_cons_medio": null,
+    "primario_cons_medio_n_anos": 0.0,
+    "dlsp_gfbc_pib_ini": null,
+    "dlsp_gfbc_pib_fim": 27.4693,
+    "dlsp_cons_pib_ini": null,
+    "dlsp_cons_pib_fim": null,
+    "reservas_USDmi_ini": 11895.0,
+    "reservas_USDmi_fim": 11995.0,
+    "dbgg_ate2007_ini": null,
+    "dbgg_ate2007_fim": null,
+    "dbgg_desde2008_ini": null,
+    "dbgg_desde2008_fim": null
+   },
+   {
+    "janela": "Sarney 1985-1989",
+    "cambio_ini": 0.0,
+    "cambio_fim": 0.0,
+    "cambio_fator": 3567.21,
+    "selic_media": 1023.57,
+    "selic_media_n_anos": 4.0,
+    "juro_real_ipca_medio": 8.9713,
+    "juro_real_ipca_medio_n_anos": 4.0,
+    "juro_real_igpdi_medio": 8.775,
+    "juro_real_igpdi_medio_n_anos": 4.0,
+    "primario_gfbc_medio": null,
+    "primario_gfbc_medio_n_anos": 0.0,
+    "primario_cons_medio": null,
+    "primario_cons_medio_n_anos": 0.0,
+    "dlsp_gfbc_pib_ini": 27.4693,
+    "dlsp_gfbc_pib_fim": 73.2278,
+    "dlsp_cons_pib_ini": null,
+    "dlsp_cons_pib_fim": null,
+    "reservas_USDmi_ini": 11995.0,
+    "reservas_USDmi_fim": 9679.0,
+    "dbgg_ate2007_ini": null,
+    "dbgg_ate2007_fim": null,
+    "dbgg_desde2008_ini": null,
+    "dbgg_desde2008_fim": null
+   },
+   {
+    "janela": "Collor 1990-1992",
+    "cambio_ini": 0.0,
+    "cambio_fim": 0.0045,
+    "cambio_fator": 1090.64,
+    "selic_media": 1079.83,
+    "selic_media_n_anos": 3.0,
+    "juro_real_ipca_medio": 6.4422,
+    "juro_real_ipca_medio_n_anos": 3.0,
+    "juro_real_igpdi_medio": 6.7922,
+    "juro_real_igpdi_medio_n_anos": 3.0,
+    "primario_gfbc_medio": 1.04,
+    "primario_gfbc_medio_n_anos": 2.0,
+    "primario_cons_medio": null,
+    "primario_cons_medio_n_anos": 0.0,
+    "dlsp_gfbc_pib_ini": 73.2278,
+    "dlsp_gfbc_pib_fim": 34.6075,
+    "dlsp_cons_pib_ini": null,
+    "dlsp_cons_pib_fim": null,
+    "reservas_USDmi_ini": 9679.0,
+    "reservas_USDmi_fim": 23754.0,
+    "dbgg_ate2007_ini": null,
+    "dbgg_ate2007_fim": null,
+    "dbgg_desde2008_ini": null,
+    "dbgg_desde2008_fim": null
+   },
+   {
+    "janela": "Itamar 1992-1994 (info)",
+    "cambio_ini": 0.0004,
+    "cambio_fim": 0.846,
+    "cambio_fator": 2176.74,
+    "selic_media": 1920.99,
+    "selic_media_n_anos": 3.0,
+    "juro_real_ipca_medio": 27.0815,
+    "juro_real_ipca_medio_n_anos": 3.0,
+    "juro_real_igpdi_medio": 16.2191,
+    "juro_real_igpdi_medio_n_anos": 3.0,
+    "primario_gfbc_medio": 1.72,
+    "primario_gfbc_medio_n_anos": 3.0,
+    "primario_cons_medio": null,
+    "primario_cons_medio_n_anos": 0.0,
+    "dlsp_gfbc_pib_ini": 31.1515,
+    "dlsp_gfbc_pib_fim": 18.8532,
+    "dlsp_cons_pib_ini": null,
+    "dlsp_cons_pib_fim": null,
+    "reservas_USDmi_ini": 9406.0,
+    "reservas_USDmi_fim": 38806.0,
+    "dbgg_ate2007_ini": null,
+    "dbgg_ate2007_fim": null,
+    "dbgg_desde2008_ini": null,
+    "dbgg_desde2008_fim": null
+   },
+   {
+    "janela": "FHC 1995-2002",
+    "cambio_ini": 0.846,
+    "cambio_fim": 3.5333,
+    "cambio_fator": 4.1765,
+    "selic_media": 26.6944,
+    "selic_media_n_anos": 8.0,
+    "juro_real_ipca_medio": 15.9452,
+    "juro_real_ipca_medio_n_anos": 8.0,
+    "juro_real_igpdi_medio": 13.097,
+    "juro_real_igpdi_medio_n_anos": 8.0,
+    "primario_gfbc_medio": 1.0813,
+    "primario_gfbc_medio_n_anos": 8.0,
+    "primario_cons_medio": 3.19,
+    "primario_cons_medio_n_anos": 1.0,
+    "dlsp_gfbc_pib_ini": 18.8532,
+    "dlsp_gfbc_pib_fim": 37.6702,
+    "dlsp_cons_pib_ini": null,
+    "dlsp_cons_pib_fim": 59.93,
+    "reservas_USDmi_ini": 38806.0,
+    "reservas_USDmi_fim": 37823.0,
+    "dbgg_ate2007_ini": null,
+    "dbgg_ate2007_fim": 76.1,
+    "dbgg_desde2008_ini": null,
+    "dbgg_desde2008_fim": null
+   },
+   {
+    "janela": "Lula 2003-2010",
+    "cambio_ini": 3.5333,
+    "cambio_fim": 1.6662,
+    "cambio_fator": 0.4716,
+    "selic_media": 14.7162,
+    "selic_media_n_anos": 8.0,
+    "juro_real_ipca_medio": 8.425,
+    "juro_real_ipca_medio_n_anos": 8.0,
+    "juro_real_igpdi_medio": 7.9505,
+    "juro_real_igpdi_medio_n_anos": 8.0,
+    "primario_gfbc_medio": 2.1775,
+    "primario_gfbc_medio_n_anos": 8.0,
+    "primario_cons_medio": 3.1187,
+    "primario_cons_medio_n_anos": 8.0,
+    "dlsp_gfbc_pib_ini": 37.6702,
+    "dlsp_gfbc_pib_fim": 25.7632,
+    "dlsp_cons_pib_ini": 59.93,
+    "dlsp_cons_pib_fim": 37.98,
+    "reservas_USDmi_ini": 37823.0,
+    "reservas_USDmi_fim": 288575.0,
+    "dbgg_ate2007_ini": 76.1,
+    "dbgg_ate2007_fim": 62.43,
+    "dbgg_desde2008_ini": null,
+    "dbgg_desde2008_fim": 51.77
+   },
+   {
+    "janela": "Dilma 2011-2016 (info)",
+    "cambio_ini": 1.6662,
+    "cambio_fim": 3.2591,
+    "cambio_fator": 1.956,
+    "selic_media": 11.0893,
+    "selic_media_n_anos": 6.0,
+    "juro_real_ipca_medio": 3.8911,
+    "juro_real_ipca_medio_n_anos": 6.0,
+    "juro_real_igpdi_medio": 4.1338,
+    "juro_real_igpdi_medio_n_anos": 6.0,
+    "primario_gfbc_medio": 0.0817,
+    "primario_gfbc_medio_n_anos": 6.0,
+    "primario_cons_medio": 0.3217,
+    "primario_cons_medio_n_anos": 6.0,
+    "dlsp_gfbc_pib_ini": 25.7632,
+    "dlsp_gfbc_pib_fim": 33.339,
+    "dlsp_cons_pib_ini": 37.98,
+    "dlsp_cons_pib_fim": 46.14,
+    "reservas_USDmi_ini": 288575.0,
+    "reservas_USDmi_fim": 365016.0,
+    "dbgg_ate2007_ini": 62.43,
+    "dbgg_ate2007_fim": 77.42,
+    "dbgg_desde2008_ini": 51.77,
+    "dbgg_desde2008_fim": 69.84
+   },
+   {
+    "janela": "Temer 2016-2018 (info)",
+    "cambio_ini": 3.9048,
+    "cambio_fim": 3.8748,
+    "cambio_fator": 0.9923,
+    "selic_media": 10.1352,
+    "selic_media_n_anos": 3.0,
+    "juro_real_ipca_medio": 5.5565,
+    "juro_real_ipca_medio_n_anos": 3.0,
+    "juro_real_igpdi_medio": 5.3906,
+    "juro_real_igpdi_medio_n_anos": 3.0,
+    "primario_gfbc_medio": -2.0,
+    "primario_gfbc_medio_n_anos": 3.0,
+    "primario_cons_medio": -1.9033,
+    "primario_cons_medio_n_anos": 3.0,
+    "dlsp_gfbc_pib_ini": 21.8981,
+    "dlsp_gfbc_pib_fim": 39.4581,
+    "dlsp_cons_pib_ini": 35.64,
+    "dlsp_cons_pib_fim": 52.77,
+    "reservas_USDmi_ini": 356464.0,
+    "reservas_USDmi_fim": 374715.0,
+    "dbgg_ate2007_ini": 71.73,
+    "dbgg_ate2007_fim": 84.78,
+    "dbgg_desde2008_ini": 65.5,
+    "dbgg_desde2008_fim": 75.27
+   },
+   {
+    "janela": "Bolsonaro 2019-2022",
+    "cambio_ini": 3.8748,
+    "cambio_fim": 5.2177,
+    "cambio_fator": 1.3466,
+    "selic_media": 6.379,
+    "selic_media_n_anos": 4.0,
+    "juro_real_ipca_medio": 0.2522,
+    "juro_real_ipca_medio_n_anos": 4.0,
+    "juro_real_igpdi_medio": -5.61,
+    "juro_real_igpdi_medio_n_anos": 4.0,
+    "primario_gfbc_medio": -2.71,
+    "primario_gfbc_medio_n_anos": 4.0,
+    "primario_cons_medio": -2.0275,
+    "primario_cons_medio_n_anos": 4.0,
+    "dlsp_gfbc_pib_ini": 39.4581,
+    "dlsp_gfbc_pib_fim": 47.0092,
+    "dlsp_cons_pib_ini": 52.77,
+    "dlsp_cons_pib_fim": 56.13,
+    "reservas_USDmi_ini": 374715.0,
+    "reservas_USDmi_fim": 324703.0,
+    "dbgg_ate2007_ini": 84.78,
+    "dbgg_ate2007_fim": 83.94,
+    "dbgg_desde2008_ini": 75.27,
+    "dbgg_desde2008_fim": 71.68
+   },
+   {
+    "janela": "Lula 3 2023-2025",
+    "cambio_ini": 5.2177,
+    "cambio_fim": 5.5024,
+    "cambio_fator": 1.0546,
+    "selic_media": 12.7497,
+    "selic_media_n_anos": 3.0,
+    "juro_real_ipca_medio": 7.8233,
+    "juro_real_ipca_medio_n_anos": 3.0,
+    "juro_real_igpdi_medio": 12.1229,
+    "juro_real_igpdi_medio_n_anos": 3.0,
+    "primario_gfbc_medio": -1.09,
+    "primario_gfbc_medio_n_anos": 3.0,
+    "primario_cons_medio": -1.0367,
+    "primario_cons_medio_n_anos": 3.0,
+    "dlsp_gfbc_pib_ini": 47.0092,
+    "dlsp_gfbc_pib_fim": 56.4807,
+    "dlsp_cons_pib_ini": 56.13,
+    "dlsp_cons_pib_fim": 65.24,
+    "reservas_USDmi_ini": 324703.0,
+    "reservas_USDmi_fim": 358234.0,
+    "dbgg_ate2007_ini": 83.94,
+    "dbgg_ate2007_fim": 93.33,
+    "dbgg_desde2008_ini": 71.68,
+    "dbgg_desde2008_fim": 78.64
+   }
+  ]
+ }
+}

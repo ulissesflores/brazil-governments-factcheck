@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Collection(Ipeadata.OData4.Models.Valor)","value":[
+    {
+      "SERCODIGO":"CE_PIBN","VALDATA":"1939-01-01T00:00:00-02:00","VALVALOR":1.43871636363636E-08,"NIVNOME":"","TERCODIGO":""
+    }
+  ]
+}

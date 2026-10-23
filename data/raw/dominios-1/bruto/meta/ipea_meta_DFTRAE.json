@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"DFTRAE","SERNOME":"Despesa por fun\u00e7\u00e3o - transporte - empenhada - estadual","SERCOMENTARIO":"A fun\u00e7\u00e3o expressa o maior n\u00edvel de agrega\u00e7\u00e3o das a\u00e7\u00f5es da administra\u00e7\u00e3o p\u00fablica, nas diversas \u00e1reas de despesa que competem ao setor p\u00fablico. Neste caso, refere-se a despesa com a fun\u00e7\u00e3o Transporte. Corresponde \u00e0s despesas empenhadas, n\u00e3o considerando as intra-or\u00e7ament\u00e1rias. Mais informa\u00e7\u00f5es: Manual de Contabilidade Aplicado ao Setor P\u00fablico, 8\u00aa edi\u00e7\u00e3o; Gloss\u00e1rio do Tesouro Nacional e Manual de Demonstrativos Financeiros, 9\u00aa edi\u00e7\u00e3o.","SERATUALIZACAO":"2026-07-07T09:46:15.183-03:00","BASNOME":"Regional","FNTSIGLA":"Min. Fazenda/STN","FNTNOME":"Minist\u00e9rio da Fazenda - Secretaria do Tesouro Nacional","FNTURL":"www.stn.fazenda.gov.br","PERNOME":"Anual","UNINOME":"R$","MULNOME":null,"SERSTATUS":null,"TEMCODIGO":6,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

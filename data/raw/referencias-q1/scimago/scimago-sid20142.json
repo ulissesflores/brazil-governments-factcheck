@@ -1,0 +1,20 @@
+{
+ "categorias_ano_mais_recente_por_categoria": [
+  {
+   "ano": 2025,
+   "categoria": "Economics and Econometrics",
+   "quartil": "Q1"
+  }
+ ],
+ "consulta_issn": [
+  "0034-6586",
+  "1475-4991"
+ ],
+ "data_consulta": "2026-10-19",
+ "linhas_categoria_ano": 27,
+ "metodo": "fetch() dentro do Chrome real do Ulisses na pagina do Scimago (curl/urllib recebem 403 do Cloudflare); extraida a 1a tabela (Category/Year/Quartile) e mantido o ano mais recente de cada categoria",
+ "sha256_texto_resposta_prefixo20": "a06747f9586e475db29c",
+ "sid": "20142",
+ "titulo_scimago": "Review of Income and Wealth",
+ "url": "https://www.scimagojr.com/journalsearch.php?q=20142&tip=sid&clean=0"
+}

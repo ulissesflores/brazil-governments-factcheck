@@ -1,0 +1,55 @@
+[project]
+name = "brazil-governments-factcheck"
+version = "0.1.0"
+description = "Reproducible fact-check of a viral infographic that compares Brazilian governments (1967-2026): hash-chained public data, sourced formulas, one verdict rule, and sealed results."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Carlos Ulisses Flores" }]
+keywords = ["brazil", "fact-checking", "inflation", "seigniorage", "monetary-aggregates", "reproducibility", "hash-chain"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = []
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["code"]
+# data/**/*.py are the sealed derivation scripts that produced the published series; they stay
+# byte-identical to what the seal covers, so they are outside the lint (same rule as the
+# eleicao-2026 companion).
+extend-exclude = ["data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "D"]
+ignore = ["D203", "D213", "D401"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D100", "D103"]
+"code/govfc/i18n.py" = ["E501"]  # string catalogue: one sentence per line, five languages
+"code/govfc/curate.py" = ["E501"]  # indicator catalogue: names are data, not code
+"code/govfc/terminal.py" = ["E501"]
+"code/govfc/indice.py" = ["E501"]
+"code/govfc/explica.py" = ["E501"]
+"code/govfc/auditoria.py" = ["E501"]  # indicator catalogue for the terminal: labels are data
+"code/govfc/literatura.py" = ["E501"]  # declared rule text is data
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["code"]
+addopts = "-q"
+
+[tool.interrogate]
+fail-under = 100
+exclude = ["tests", "data"]
+ignore-init-module = true
+verbose = 1

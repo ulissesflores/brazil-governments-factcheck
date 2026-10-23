@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"HIST_FBKFGN","SERNOME":"Capital fixo - forma\u00e7\u00e3o bruta - adm. p\u00fablica - INATIVA","SERCOMENTARIO":"Fonte: Centro de Estudos de Economia e Governo (CEEG) do Instituto Brasileiro de Economia (IBRE / FGV-RJ).  Tabula\u00e7\u00f5es especiais (mimeo).  Para 1890-1945: dados referentes ao total do governo federal.  Para 1947-1969: dados referentes aos totais do governo federal , estadual e municipal. Obs.: S\u00e9rie interrompida.","SERATUALIZACAO":"2002-10-29T10:09:04-03:00","BASNOME":"Macroecon\u00f4mico","FNTSIGLA":"IPEA","FNTNOME":"Instituto de Pesquisa Econ\u00f4mica Aplicada","FNTURL":"www.ipea.gov.br","PERNOME":"Anual","UNINOME":"R$","MULNOME":"mil","SERSTATUS":"I","TEMCODIGO":8,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

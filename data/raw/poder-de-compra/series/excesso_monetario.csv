@@ -1,0 +1,79 @@
+ano,M0_cresc_pct,M1_cresc_pct,M1_conceito,M1_novo_cresc_pct,pib_real_cresc_pct,excesso_M0_pp,excesso_M1_pp,igpdi_dez_dez_pct,ipca_dez_dez_pct,nota
+1948,7.874,7.527,antigo (SGS 1827),,9.7,-1.826,-2.173,7.965,,
+1949,6.934,16.6,antigo (SGS 1827),,7.7,-0.766,8.9,12.295,,
+1950,33.447,34.477,antigo (SGS 1827),,6.8,26.647,27.677,12.409,,
+1951,11.765,15.689,antigo (SGS 1827),,4.9,6.865,10.789,12.338,,
+1952,17.62,14.774,antigo (SGS 1827),,7.3,10.32,7.474,12.717,,
+1953,18.482,19.212,antigo (SGS 1827),,4.7,13.782,14.512,20.513,,
+1954,21.511,22.079,antigo (SGS 1827),,7.8,13.711,14.279,25.865,,
+1955,18.649,17.426,antigo (SGS 1827),,8.8,9.849,8.626,12.146,,
+1956,17.312,22.147,antigo (SGS 1827),,2.9,14.412,19.247,24.549,,
+1957,33.592,33.87,antigo (SGS 1827),,7.7,25.892,26.17,6.957,,
+1958,17.66,21.382,antigo (SGS 1827),,10.8,6.86,10.582,24.39,,
+1959,37.678,41.773,antigo (SGS 1827),,9.8,27.878,31.973,39.434,,
+1960,35.262,38.234,antigo (SGS 1827),,9.4,25.862,28.834,30.469,,
+1961,50.614,50.578,antigo (SGS 1827),,8.6,42.014,41.978,47.785,,
+1962,69.698,62.284,antigo (SGS 1827),,6.6,63.098,55.684,51.603,,
+1963,77.615,64.281,antigo (SGS 1827),,0.6,77.015,63.681,79.924,,
+1964,68.971,84.593,antigo (SGS 1827),,3.4,65.571,81.193,92.121,,
+1965,66.213,76.502,antigo (SGS 1827),,2.4,63.813,74.102,34.242,,
+1966,23.858,15.81,antigo (SGS 1827),,6.7,17.158,9.11,39.122,,
+1967,28.025,43.141,antigo (SGS 1827),,4.2,23.825,38.941,25.011,,
+1968,41.403,42.522,antigo (SGS 1827),,9.8,31.603,32.722,25.489,,
+1969,23.437,32.566,antigo (SGS 1827),,9.5,13.937,23.066,19.309,,
+1970,16.184,25.071,antigo (SGS 1827),,10.4,5.784,14.671,19.26,,
+1971,34.318,30.557,antigo (SGS 1827),,11.343,22.975,19.214,19.469,,
+1972,20.599,37.94,antigo (SGS 1827),,11.94,8.658,26.0,15.722,,
+1973,40.923,47.042,antigo (SGS 1827),,13.969,26.954,33.074,15.544,,
+1974,30.801,33.505,antigo (SGS 1827),,8.154,22.647,25.351,34.546,,
+1975,35.35,43.541,antigo (SGS 1827),,5.167,30.183,38.375,29.352,,
+1976,59.111,38.23,antigo (SGS 1827),,10.257,48.854,27.973,46.256,,
+1977,63.357,38.004,antigo (SGS 1827),,4.934,58.423,33.069,38.78,,
+1978,49.156,41.194,antigo (SGS 1827),,4.97,44.186,36.224,40.809,,
+1979,89.11,72.97,antigo (SGS 1827),,6.76,82.35,66.21,77.246,,
+1980,58.459,77.398,antigo (SGS 1827),,9.2,49.259,68.198,110.239,,
+1981,67.232,87.626,antigo (SGS 1827),,-4.25,71.482,91.876,95.196,95.655,
+1982,100.302,66.452,antigo (SGS 1827),,0.83,99.472,65.622,99.721,104.804,"crescimento nominal em hiperinflacao: o excesso e quase todo inflacao, nao informa sobre 'liquidez' sem outro deflator"
+1983,79.784,97.61,antigo (SGS 1827),,-2.93,82.714,100.54,210.992,164.0,
+1984,264.092,201.82,antigo (SGS 1827),,5.4,258.692,196.42,223.812,215.279,"crescimento nominal em hiperinflacao: o excesso e quase todo inflacao, nao informa sobre 'liquidez' sem outro deflator"
+1985,257.312,304.275,antigo (SGS 1827),,7.85,249.462,296.425,235.106,242.248,"crescimento nominal em hiperinflacao: o excesso e quase todo inflacao, nao informa sobre 'liquidez' sem outro deflator"
+1986,293.453,306.762,antigo (SGS 1827),,7.49,285.963,299.272,65.033,79.656,"crescimento nominal em hiperinflacao: o excesso e quase todo inflacao, nao informa sobre 'liquidez' sem outro deflator"
+1987,181.467,127.437,antigo (SGS 1827),,3.53,177.937,123.907,415.835,363.414,"crescimento nominal em hiperinflacao: o excesso e quase todo inflacao, nao informa sobre 'liquidez' sem outro deflator"
+1988,622.329,570.322,antigo (SGS 1827),,-0.06,622.389,570.382,1037.559,980.221,"crescimento nominal em hiperinflacao: o excesso e quase todo inflacao, nao informa sobre 'liquidez' sem outro deflator"
+1989,1754.088,1384.159,antigo (SGS 1827),,3.16,1750.928,1380.999,1782.895,1972.912,"crescimento nominal em hiperinflacao: o excesso e quase todo inflacao, nao informa sobre 'liquidez' sem outro deflator"
+1990,2304.162,2335.714,antigo (SGS 1827),,-4.35,2308.512,2340.064,1476.709,1620.966,"crescimento nominal em hiperinflacao: o excesso e quase todo inflacao, nao informa sobre 'liquidez' sem outro deflator"
+1991,291.185,330.697,antigo (SGS 1827),,1.032,290.153,329.665,480.226,472.685,"crescimento nominal em hiperinflacao: o excesso e quase todo inflacao, nao informa sobre 'liquidez' sem outro deflator"
+1992,991.271,867.252,antigo (SGS 1827),,-0.544,991.815,867.796,1157.837,1119.092,"crescimento nominal em hiperinflacao: o excesso e quase todo inflacao, nao informa sobre 'liquidez' sem outro deflator"
+1993,1953.172,2129.4,antigo (SGS 1827),,4.925,1948.247,2124.475,2708.169,2477.148,"crescimento nominal em hiperinflacao: o excesso e quase todo inflacao, nao informa sobre 'liquidez' sem outro deflator"
+1994,3322.403,2586.153,antigo (SGS 1827),,5.853,3316.55,2580.3,1093.894,916.433,"crescimento nominal em hiperinflacao: o excesso e quase todo inflacao, nao informa sobre 'liquidez' sem outro deflator"
+1995,22.602,25.119,antigo (SGS 1827),,4.224,18.378,20.895,14.779,22.409,
+1996,-8.698,4.614,antigo (SGS 1827),,2.209,-10.907,2.405,9.337,9.564,
+1997,60.784,58.895,antigo (SGS 1827),,3.395,57.389,55.501,7.481,5.225,
+1998,23.112,7.062,antigo (SGS 1827),,0.338,22.774,6.723,1.703,1.656,
+1999,23.596,23.739,antigo (SGS 1827),,0.468,23.128,23.271,19.979,8.94,
+2000,-1.536,18.5,antigo (SGS 1827),,4.39,-5.926,14.11,9.807,5.974,
+2001,11.68,12.581,antigo (SGS 1827),,1.39,10.29,11.191,10.397,7.673,
+2002,37.641,28.838,antigo (SGS 1827),,3.054,34.588,25.784,26.411,12.53,
+2003,-0.113,1.671,antigo (SGS 1827),2.204,1.141,-1.254,0.531,7.673,9.3,M1 novo comeca em dez/2002; crescimento 2003 e o primeiro com a serie nova
+2004,21.188,16.688,antigo (SGS 1827),14.981,5.76,15.428,10.928,12.136,7.601,
+2005,14.104,13.155,antigo (SGS 1827),13.177,3.202,10.902,9.953,1.224,5.69,
+2006,19.61,20.422,antigo (SGS 1827),20.542,3.962,15.648,16.46,3.793,3.142,
+2007,21.069,32.742,antigo (SGS 1827),32.894,6.07,14.999,26.672,7.892,4.457,
+2008,0.636,-3.452,antigo (SGS 1827),-3.364,5.094,-4.458,-8.547,9.096,5.902,
+2009,12.554,11.992,antigo (SGS 1827),12.126,-0.126,12.68,12.118,-1.43,4.312,
+2010,24.556,12.645,antigo (SGS 1827),12.966,7.528,17.028,5.117,11.3,5.909,
+2011,3.569,1.242,antigo (SGS 1827),1.539,3.974,-0.406,-2.732,4.997,6.503,
+2012,8.932,13.9,antigo (SGS 1827),14.142,1.921,7.011,11.979,8.097,5.839,
+2013,6.915,5.988,antigo (SGS 1827),6.347,3.005,3.91,2.983,5.518,5.911,
+2014,5.619,2.059,antigo (SGS 1827),2.456,0.504,5.115,1.555,3.784,6.408,
+2015,-3.127,-4.888,antigo (SGS 1827),-4.442,-3.546,0.419,-1.342,10.701,10.673,
+2016,5.875,4.005,antigo (SGS 1827),4.553,-3.276,9.151,7.281,7.183,6.288,
+2017,9.793,4.866,antigo (SGS 1827),5.733,1.323,8.47,3.543,-0.419,2.947,
+2018,1.784,6.874,Novo (SGS 27791),6.874,1.784,0.0,5.091,7.099,3.745,"M1: 2018 usa a serie 'Novo' (descontinuacao do conceito antigo em jun/2018; em dez/2017 o M1 sobe 5,2% so pela mudanca de conceito, ver monetario/RESULTADO.md)"
+2019,4.813,9.14,Novo (SGS 27791),9.14,1.221,3.592,7.919,7.696,4.306,
+2020,36.309,43.193,Novo (SGS 27791),43.193,-3.277,39.586,46.47,23.083,4.517,
+2021,-5.18,1.921,Novo (SGS 27791),1.921,4.763,-9.942,-2.842,17.738,10.061,
+2022,2.56,-1.166,Novo (SGS 27791),-1.166,3.017,-0.456,-4.183,5.029,5.785,
+2023,0.729,-0.223,Novo (SGS 27791),-0.223,3.242,-2.513,-3.465,-3.296,4.621,
+2024,6.741,5.108,Novo (SGS 27791),5.108,3.419,3.322,1.689,6.862,4.831,
+2025,-0.912,-1.724,Novo (SGS 27791),-1.724,2.286,-3.198,-4.01,-1.199,4.264,

@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"PAN_RRPE","SERNOME":"Rendimento real m\u00e9dio do trabalho principal efetivo","SERCOMENTARIO":"M\u00e9dia anual da s\u00e9rie mensal.","SERATUALIZACAO":"2026-09-29T16:38:01.69-03:00","BASNOME":"Macroecon\u00f4mico","FNTSIGLA":"IBGE/PNAD Cont\u00ednua","FNTNOME":"Instituto Brasileiro de Geografia e Estat\u00edstica, Pesquisa Nacional por Amostra de Domic\u00edlios Cont\u00ednua (IBGE/PNAD Cont\u00ednua)","FNTURL":"http://www.ibge.gov.br/home/estatistica/indicadores/trabalhoerendimento/pnad_continua/","PERNOME":"Anual","UNINOME":"R$ Pen\u00faltimo m\u00eas da s\u00e9rie","MULNOME":null,"SERSTATUS":"A","TEMCODIGO":17,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

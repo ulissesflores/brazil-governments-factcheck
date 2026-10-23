@@ -1,0 +1,3 @@
+par,meses_em_comum,primeiro,ultimo,meses_diferentes_gt_0_005_pp,maior_diferenca_pp,exemplos
+SGS 433 vs Ipeadata (IPCA),561,1980-01,2026-09,0,0,
+SGS 190 vs Ipeadata (IGP-DI),992,1944-02,2026-09,12,19.240000000000002,1994-07:5.47|24.71;1948-01:2.66|2.65;1963-07:3.73|3.74;1952-08:0.54|0.53;1952-10:0.54|0.53

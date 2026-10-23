@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"ELETRO12_CEETRES12","SERNOME":"Energia el\u00e9trica - consumo - resid\u00eancia - tarifa m\u00e9dia por MWh","SERCOMENTARIO":"O valor da tarifa m\u00e9dia \u00e9 obtida pelo total de receita de fornecimento dividido por consumo Megawatts-hora (MWh),  e a soma das classes de consumo industrial, comercial e residencial. Mais informa\u00e7\u00f5es: <a href=\"../doc/NT.EPE.DEA.SEE.005.2021 - BEN _ Manual 2020_vf.pdf\">Balan\u00e7o Energ\u00e9tico Nacional - Manual Metodol\u00f3gico 1\u00aa edi\u00e7\u00e3o</a> e <a href=\"../doc/Anu\u00e1rio Estat\u00edstico de Energia El\u00e9trica 2020.pdf\">Anu\u00e1rio Estat\u00edstico de Energia El\u00e9trica 2020</a>. Fonte de dados at\u00e9 2002, Eletrobr\u00e1s, fonte de dados a partir de 2003, ANEEL, https://portalrelatorios.aneel.gov.br.","SERATUALIZACAO":"2026-09-21T17:44:27.353-03:00","BASNOME":"Macroecon\u00f4mico","FNTSIGLA":"Outras fontes","FNTNOME":"Outras fontes, inclusive compila\u00e7\u00e3o de v\u00e1rios autores","FNTURL":null,"PERNOME":"Mensal","UNINOME":"R$","MULNOME":null,"SERSTATUS":"A","TEMCODIGO":2,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

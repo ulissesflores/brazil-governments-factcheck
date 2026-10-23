@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"FUNCEX_TTR","SERNOME":"Termos de troca - \u00edndice (m\u00e9dia 2018 = 100)","SERCOMENTARIO":"O \u00edndice de termos de troca do com\u00e9rcio \u00e9 obtido pela simples divis\u00e3o do \u00edndice de pre\u00e7os de exporta\u00e7\u00e3o pelo \u00edndice de pre\u00e7os de importa\u00e7\u00e3o do pa\u00eds. Fonte: Para 1879-1973, Estat\u00edsticas hist\u00f3ricas do Brasil: s\u00e9ries econ\u00f4micas, demogr\u00e1ficas e sociais de 1550 a 1988. 2. ed. rev. e atual. do v. 3 de S\u00e9ries estat\u00edsticas retrospectivas. Rio de Janeiro: IBGE, 1990. Dados originais do per\u00edodo 1901-1973 ajustados conforme Estat\u00edsticas do S\u00e9culo XX. Rio de Janeiro: IBGE, 2003. A partir de 1974, dados da Funcex. Nota: At\u00e9 1973, s\u00e9rie encadeada e convertida para a base 2006=100. Mais informa\u00e7\u00e3o: <a href= \"../doc/nv2_indicettroca.pdf \">\u00cdndices de termos de troca</a>.","SERATUALIZACAO":"2026-03-26T14:48:57.793-03:00","BASNOME":"Macroecon\u00f4mico","FNTSIGLA":"Funcex","FNTNOME":"Funda\u00e7\u00e3o Centro de Estudos do Com\u00e9rcio Exterior (Funcex)","FNTURL":"www.funcex.com.br","PERNOME":"Anual","UNINOME":"-","MULNOME":null,"SERSTATUS":"A","TEMCODIGO":5,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

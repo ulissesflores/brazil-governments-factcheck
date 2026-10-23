@@ -1,0 +1,13 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "brazil-governments-factcheck",
+  "description": "Reproducible check of a viral infographic about eight Brazilian governments, with a hash-chained curated layer of public series, a catalogue of method and rule breaks, a pre-registered composite index of living conditions, a terminal of indicators with one homogeneous base per cell, a literature layer under a sealed search protocol, and the Central Bank's external-debt series as published.",
+  "version": "0.1.0",
+  "license": ["https://spdx.org/licenses/Apache-2.0", "https://spdx.org/licenses/CC-BY-4.0"],
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python >= 3.11",
+  "author": [{"@type": "Person", "@id": "https://orcid.org/0000-0002-6034-7765", "givenName": "Carlos Ulisses", "familyName": "Flores", "url": "https://ulissesflores.com"}],
+  "keywords": ["brazil", "fact-checking", "reproducibility", "hash-chain", "method-breaks"],
+  "relatedLink": ["https://ulissesflores.com"]
+}

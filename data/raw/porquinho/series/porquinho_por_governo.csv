@@ -1,0 +1,133 @@
+linha,governo_id,governo,inicio_usado,fim_usado,valor_inicio,valor_fim,variacao_abs,variacao_pct,variacao_anualizada_pct_aa,n_meses,unidade,nota
+caixa_real_ipca,fhc,Fernando Henrique Cardoso,1994-12,2002-12,100000.000000,49831.656046,-50168.343954,-50.1683,-8.3382,96,R$ de dez/1994,
+caixa_real_ipca,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,49831.656046,31804.690779,-18026.965267,-36.1757,-5.4583,96,R$ de dez/1994,
+caixa_real_ipca,dilma,Dilma Rousseff,2010-12,2016-08,31804.690779,21458.568888,-10346.121891,-32.5302,-6.7083,68,R$ de dez/1994,
+caixa_real_ipca,temer,Michel Temer,2016-08,2018-12,21458.568888,19927.803524,-1530.765363,-7.1336,-3.1220,28,R$ de dez/1994,
+caixa_real_ipca,bolsonaro,Jair Bolsonaro,2018-12,2022-12,19927.803524,15700.175533,-4227.627991,-21.2147,-5.7869,48,R$ de dez/1994,
+caixa_real_ipca,lula3,Lula (3o mandato),2022-12,2026-09,15700.175533,13207.731585,-2492.443948,-15.8753,-4.5052,45,R$ de dez/1994,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+caixa_real_inpc,fhc,Fernando Henrique Cardoso,1994-12,2002-12,100000.000000,49015.216862,-50984.783138,-50.9848,-8.5273,96,R$ de dez/1994,
+caixa_real_inpc,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,49015.216862,31211.616325,-17803.600538,-36.3226,-5.4856,96,R$ de dez/1994,
+caixa_real_inpc,dilma,Dilma Rousseff,2010-12,2016-08,31211.616325,20928.399330,-10283.216994,-32.9468,-6.8102,68,R$ de dez/1994,
+caixa_real_inpc,temer,Michel Temer,2016-08,2018-12,20928.399330,19732.920832,-1195.478498,-5.7122,-2.4893,28,R$ de dez/1994,
+caixa_real_inpc,bolsonaro,Jair Bolsonaro,2018-12,2022-12,19732.920832,15348.388291,-4384.532541,-22.2194,-6.0887,48,R$ de dez/1994,
+caixa_real_inpc,lula3,Lula (3o mandato),2022-12,2026-09,15348.388291,13071.744041,-2276.644250,-14.8331,-4.1912,45,R$ de dez/1994,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+caixa_real_igpdi,fhc,Fernando Henrique Cardoso,1994-12,2002-12,100000.000000,39645.897789,-60354.102211,-60.3541,-10.9211,96,R$ de dez/1994,
+caixa_real_igpdi,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,39645.897789,24199.206656,-15446.691133,-38.9616,-5.9843,96,R$ de dez/1994,
+caixa_real_igpdi,dilma,Dilma Rousseff,2010-12,2016-08,24199.206656,16582.021818,-7617.184837,-31.4770,-6.4530,68,R$ de dez/1994,
+caixa_real_igpdi,temer,Michel Temer,2016-08,2018-12,16582.021818,15387.907799,-1194.114019,-7.2013,-3.1523,28,R$ de dez/1994,
+caixa_real_igpdi,bolsonaro,Jair Bolsonaro,2018-12,2022-12,15387.907799,9391.566386,-5996.341413,-38.9679,-11.6128,48,R$ de dez/1994,
+caixa_real_igpdi,lula3,Lula (3o mandato),2022-12,2026-09,9391.566386,8867.581166,-523.985220,-5.5793,-1.5193,45,R$ de dez/1994,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+caixa_real_ipcfipe,fhc,Fernando Henrique Cardoso,1994-12,2002-12,100000.000000,53686.959020,-46313.040980,-46.3130,-7.4804,96,R$ de dez/1994,
+caixa_real_ipcfipe,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,53686.959020,35549.464982,-18137.494038,-33.7838,-5.0225,96,R$ de dez/1994,
+caixa_real_ipcfipe,dilma,Dilma Rousseff,2010-12,2016-08,35549.464982,24958.410272,-10591.054711,-29.7924,-6.0512,68,R$ de dez/1994,
+caixa_real_ipcfipe,temer,Michel Temer,2016-08,2018-12,24958.410272,23453.879455,-1504.530817,-6.0282,-2.6295,28,R$ de dez/1994,
+caixa_real_ipcfipe,bolsonaro,Jair Bolsonaro,2018-12,2022-12,23453.879455,18063.164900,-5390.714554,-22.9843,-6.3205,48,R$ de dez/1994,
+caixa_real_ipcfipe,lula3,Lula (3o mandato),2022-12,2026-09,18063.164900,15700.912458,-2362.252442,-13.0777,-3.6685,45,R$ de dez/1994,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+caixa_real_ipea_renda_muito_baixa,fhc,Fernando Henrique Cardoso,,,,,,,,,R$ de dez/1994,sem observacao no limite de inicio (linha anual/parcial); emenda: ate dez/2006 a linha e o IPCA; deflator Ipea INF1 de jan/2007 em diante (linha so emitida de dez/2006)
+caixa_real_ipea_renda_muito_baixa,lula12,Lula (1o e 2o mandatos),,,,,,,,,R$ de dez/1994,sem observacao no limite de inicio (linha anual/parcial); emenda: ate dez/2006 a linha e o IPCA; deflator Ipea INF1 de jan/2007 em diante (linha so emitida de dez/2006)
+caixa_real_ipea_renda_muito_baixa,dilma,Dilma Rousseff,2010-12,2016-08,30500.347606,20055.415819,-10444.931786,-34.2453,-7.1313,68,R$ de dez/1994,emenda: ate dez/2006 a linha e o IPCA; deflator Ipea INF1 de jan/2007 em diante (linha so emitida de dez/2006)
+caixa_real_ipea_renda_muito_baixa,temer,Michel Temer,2016-08,2018-12,20055.415819,18915.249310,-1140.166510,-5.6851,-2.4773,28,R$ de dez/1994,emenda: ate dez/2006 a linha e o IPCA; deflator Ipea INF1 de jan/2007 em diante (linha so emitida de dez/2006)
+caixa_real_ipea_renda_muito_baixa,bolsonaro,Jair Bolsonaro,2018-12,2022-12,18915.249310,14568.008842,-4347.240467,-22.9827,-6.3200,48,R$ de dez/1994,emenda: ate dez/2006 a linha e o IPCA; deflator Ipea INF1 de jan/2007 em diante (linha so emitida de dez/2006)
+caixa_real_ipea_renda_muito_baixa,lula3,Lula (3o mandato),2022-12,2026-07,14568.008842,12510.070996,-2057.937846,-14.1264,-4.1610,43,R$ de dez/1994,emenda: ate dez/2006 a linha e o IPCA; deflator Ipea INF1 de jan/2007 em diante (linha so emitida de dez/2006); mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+caixa_real_icv_dieese,fhc,Fernando Henrique Cardoso,,,,,,,,,R$ de dez/1994,"sem observacao no limite de inicio (linha anual/parcial); so pontos de dezembro 1996-2019; ate dez/1996 igual ao IPCA; sem interpolar (ICV anual, pesquisa suspensa em 2020-03)"
+caixa_real_icv_dieese,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,48186.115526,30776.185964,-17409.929562,-36.1306,-5.4500,96,R$ de dez/1994,"so pontos de dezembro 1996-2019; ate dez/1996 igual ao IPCA; sem interpolar (ICV anual, pesquisa suspensa em 2020-03)"
+caixa_real_icv_dieese,dilma,Dilma Rousseff,,,,,,,,,R$ de dez/1994,"sem observacao no limite de fim (linha anual/parcial); so pontos de dezembro 1996-2019; ate dez/1996 igual ao IPCA; sem interpolar (ICV anual, pesquisa suspensa em 2020-03)"
+caixa_real_icv_dieese,temer,Michel Temer,,,,,,,,,R$ de dez/1994,"sem observacao no limite de inicio (linha anual/parcial); so pontos de dezembro 1996-2019; ate dez/1996 igual ao IPCA; sem interpolar (ICV anual, pesquisa suspensa em 2020-03)"
+caixa_real_icv_dieese,bolsonaro,Jair Bolsonaro,,,,,,,,,R$ de dez/1994,"sem observacao no limite de fim (linha anual/parcial); so pontos de dezembro 1996-2019; ate dez/1996 igual ao IPCA; sem interpolar (ICV anual, pesquisa suspensa em 2020-03)"
+caixa_real_icv_dieese,lula3,Lula (3o mandato),,,,,,,,,R$ de dez/1994,"sem observacao no limite de inicio (linha anual/parcial); so pontos de dezembro 1996-2019; ate dez/1996 igual ao IPCA; sem interpolar (ICV anual, pesquisa suspensa em 2020-03); mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)"
+poupanca_nominal,fhc,Fernando Henrique Cardoso,1994-12,2002-12,100000.000000,312741.976976,212741.976976,212.7420,15.3183,96,R$ correntes,"SGS 25 (regra de deposito ate 03/05/2012, que segue publicada); SGS 195 so em _conferencias.txt"
+poupanca_nominal,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,312741.976976,590075.683530,277333.706553,88.6781,8.2593,96,R$ correntes,"SGS 25 (regra de deposito ate 03/05/2012, que segue publicada); SGS 195 so em _conferencias.txt"
+poupanca_nominal,dilma,Dilma Rousseff,2010-12,2016-08,590075.683530,876591.485460,286515.801931,48.5558,7.2342,68,R$ correntes,"SGS 25 (regra de deposito ate 03/05/2012, que segue publicada); SGS 195 so em _conferencias.txt"
+poupanca_nominal,temer,Michel Temer,2016-08,2018-12,876591.485460,1020543.448404,143951.962943,16.4218,6.7334,28,R$ correntes,"SGS 25 (regra de deposito ate 03/05/2012, que segue publicada); SGS 195 so em _conferencias.txt"
+poupanca_nominal,bolsonaro,Jair Bolsonaro,2018-12,2022-12,1020543.448404,1318383.290303,297839.841899,29.1844,6.6111,48,R$ correntes,"SGS 25 (regra de deposito ate 03/05/2012, que segue publicada); SGS 195 so em _conferencias.txt"
+poupanca_nominal,lula3,Lula (3o mandato),2022-12,2026-09,1318383.290303,1752040.390703,433657.100400,32.8931,7.8783,45,R$ correntes,"SGS 25 (regra de deposito ate 03/05/2012, que segue publicada); SGS 195 so em _conferencias.txt; mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)"
+poupanca_real_ipca,fhc,Fernando Henrique Cardoso,1994-12,2002-12,100000.000000,155844.506280,55844.506280,55.8445,5.7028,96,R$ de dez/1994,
+poupanca_real_ipca,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,155844.506280,187671.746509,31827.240229,20.4224,2.3501,96,R$ de dez/1994,
+poupanca_real_ipca,dilma,Dilma Rousseff,2010-12,2016-08,187671.746509,188103.987770,432.241261,0.2303,0.0406,68,R$ de dez/1994,
+poupanca_real_ipca,temer,Michel Temer,2016-08,2018-12,188103.987770,203371.893277,15267.905507,8.1167,3.4012,28,R$ de dez/1994,
+poupanca_real_ipca,bolsonaro,Jair Bolsonaro,2018-12,2022-12,203371.893277,206988.490780,3616.597504,1.7783,0.4416,48,R$ de dez/1994,
+poupanca_real_ipca,lula3,Lula (3o mandato),2022-12,2026-09,206988.490780,231404.792064,24416.301283,11.7960,3.0181,45,R$ de dez/1994,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+caixa_menos_poupanca_real_ipca,fhc,Fernando Henrique Cardoso,1994-12,2002-12,0.000000,-106012.850233,-106012.850233,,,96,R$ de dez/1994,
+caixa_menos_poupanca_real_ipca,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,-106012.850233,-155867.055730,-49854.205497,,,96,R$ de dez/1994,
+caixa_menos_poupanca_real_ipca,dilma,Dilma Rousseff,2010-12,2016-08,-155867.055730,-166645.418882,-10778.363153,,,68,R$ de dez/1994,
+caixa_menos_poupanca_real_ipca,temer,Michel Temer,2016-08,2018-12,-166645.418882,-183444.089752,-16798.670870,,,28,R$ de dez/1994,
+caixa_menos_poupanca_real_ipca,bolsonaro,Jair Bolsonaro,2018-12,2022-12,-183444.089752,-191288.315247,-7844.225494,,,48,R$ de dez/1994,
+caixa_menos_poupanca_real_ipca,lula3,Lula (3o mandato),2022-12,2026-09,-191288.315247,-218197.060479,-26908.745232,,,45,R$ de dez/1994,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+selic_nominal,fhc,Fernando Henrique Cardoso,1994-12,2002-12,100000.000000,646211.104943,546211.104943,546.2111,26.2690,96,R$ correntes,
+selic_nominal,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,646211.104943,1926809.180109,1280598.075166,198.1702,14.6326,96,R$ correntes,
+selic_nominal,dilma,Dilma Rousseff,2010-12,2016-08,1926809.180109,3464995.993190,1538186.813081,79.8308,10.9114,68,R$ correntes,
+selic_nominal,temer,Michel Temer,2016-08,2018-12,3464995.993190,4232632.339159,767636.345969,22.1540,8.9548,28,R$ correntes,
+selic_nominal,bolsonaro,Jair Bolsonaro,2018-12,2022-12,4232632.339159,5407949.952428,1175317.613269,27.7680,6.3177,48,R$ correntes,
+selic_nominal,lula3,Lula (3o mandato),2022-12,2026-09,5407949.952428,8563202.589665,3155252.637237,58.3447,13.0388,45,R$ correntes,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+selic_real_ipca,fhc,Fernando Henrique Cardoso,1994-12,2002-12,100000.000000,322017.695149,222017.695149,222.0177,15.7404,96,R$ de dez/1994,
+selic_real_ipca,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,322017.695149,612815.701635,290798.006487,90.3050,8.3755,96,R$ de dez/1994,
+selic_real_ipca,dilma,Dilma Rousseff,2010-12,2016-08,612815.701635,743538.552149,130722.850514,21.3315,3.4711,68,R$ de dez/1994,
+selic_real_ipca,temer,Michel Temer,2016-08,2018-12,743538.552149,843470.656448,99932.104298,13.4401,5.5532,28,R$ de dez/1994,
+selic_real_ipca,bolsonaro,Jair Bolsonaro,2018-12,2022-12,843470.656448,849057.635288,5586.978841,0.6624,0.1652,48,R$ de dez/1994,
+selic_real_ipca,lula3,Lula (3o mandato),2022-12,2026-09,849057.635288,1131004.813117,281947.177829,33.2071,7.9462,45,R$ de dez/1994,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+caixa_em_anos_pib_per_capita_nominal,fhc,Fernando Henrique Cardoso,1994,2002,43.634096,11.735729,-31.898367,-73.1042,-15.1385,96,anos de PIB per capita nominal,linha anual: ano completo mais recente antes da fronteira (1994 = ano do inicio de 1995); n_meses = 12 x anos entre os anos usados
+caixa_em_anos_pib_per_capita_nominal,lula12,Lula (1o e 2o mandatos),2002,2010,11.735729,4.908989,-6.826740,-58.1706,-10.3221,96,anos de PIB per capita nominal,linha anual: ano completo mais recente antes da fronteira (1994 = ano do inicio de 1995); n_meses = 12 x anos entre os anos usados
+caixa_em_anos_pib_per_capita_nominal,dilma,Dilma Rousseff,2010,2015,4.908989,3.342368,-1.566621,-31.9133,-7.3997,60,anos de PIB per capita nominal,linha anual: ano completo mais recente antes da fronteira (1994 = ano do inicio de 1995); n_meses = 12 x anos entre os anos usados
+caixa_em_anos_pib_per_capita_nominal,temer,Michel Temer,2015,2018,3.342368,2.906196,-0.436172,-13.0498,-4.5542,36,anos de PIB per capita nominal,linha anual: ano completo mais recente antes da fronteira (1994 = ano do inicio de 1995); n_meses = 12 x anos entre os anos usados
+caixa_em_anos_pib_per_capita_nominal,bolsonaro,Jair Bolsonaro,2018,2022,2.906196,2.014755,-0.891441,-30.6738,-8.7518,48,anos de PIB per capita nominal,linha anual: ano completo mais recente antes da fronteira (1994 = ano do inicio de 1995); n_meses = 12 x anos entre os anos usados
+caixa_em_anos_pib_per_capita_nominal,lula3,Lula (3o mandato),2022,2024,2.014755,1.744288,-0.270467,-13.4243,-6.9539,24,anos de PIB per capita nominal,linha anual: ano completo mais recente antes da fronteira (1994 = ano do inicio de 1995); n_meses = 12 x anos entre os anos usados; mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+caixa_em_salarios_minimos,fhc,Fernando Henrique Cardoso,1994-12,2002-12,1428.571429,500.000000,-928.571429,-65.0000,-12.2982,96,salarios minimos,
+caixa_em_salarios_minimos,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,500.000000,196.078431,-303.921569,-60.7843,-11.0425,96,salarios minimos,
+caixa_em_salarios_minimos,dilma,Dilma Rousseff,2010-12,2016-08,196.078431,113.636364,-82.442068,-42.0455,-9.1778,68,salarios minimos,
+caixa_em_salarios_minimos,temer,Michel Temer,2016-08,2018-12,113.636364,104.821803,-8.814561,-7.7568,-3.4012,28,salarios minimos,
+caixa_em_salarios_minimos,bolsonaro,Jair Bolsonaro,2018-12,2022-12,104.821803,82.508251,-22.313552,-21.2871,-5.8086,48,salarios minimos,
+caixa_em_salarios_minimos,lula3,Lula (3o mandato),2022-12,2026-09,82.508251,61.690315,-20.817936,-25.2313,-7.4609,45,salarios minimos,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+caixa_em_cestas_dieese_sp,fhc,Fernando Henrique Cardoso,1994-12,2002-12,1143.902997,630.000630,-513.902367,-44.9253,-7.1848,96,cestas DIEESE Sao Paulo,
+caixa_em_cestas_dieese_sp,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,630.000630,377.145012,-252.855618,-40.1358,-6.2123,96,cestas DIEESE Sao Paulo,
+caixa_em_cestas_dieese_sp,dilma,Dilma Rousseff,2010-12,2016-08,377.145012,210.477574,-166.667439,-44.1919,-9.7807,68,cestas DIEESE Sao Paulo,
+caixa_em_cestas_dieese_sp,temer,Michel Temer,2016-08,2018-12,210.477574,212.116070,1.638496,0.7785,0.3329,28,cestas DIEESE Sao Paulo,
+caixa_em_cestas_dieese_sp,bolsonaro,Jair Bolsonaro,2018-12,2022-12,212.116070,126.375918,-85.740152,-40.4213,-12.1437,48,cestas DIEESE Sao Paulo,
+caixa_em_cestas_dieese_sp,lula3,Lula (3o mandato),2022-12,2026-08,126.375918,111.038319,-15.337598,-12.1365,-3.4672,44,cestas DIEESE Sao Paulo,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+usd_nominal,fhc,Fernando Henrique Cardoso,1994-12,2002-12,117633.219621,27579.359607,-90053.860014,-76.5548,-16.5826,96,US$ correntes,
+usd_nominal,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,27579.359607,59052.793197,31473.433590,114.1195,9.9846,96,US$ correntes,
+usd_nominal,dilma,Dilma Rousseff,2010-12,2016-08,59052.793197,31155.559710,-27897.233487,-47.2412,-10.6708,68,US$ correntes,
+usd_nominal,temer,Michel Temer,2016-08,2018-12,31155.559710,25739.363208,-5416.196501,-17.3844,-7.8585,28,US$ correntes,
+usd_nominal,bolsonaro,Jair Bolsonaro,2018-12,2022-12,25739.363208,19075.232718,-6664.130490,-25.8908,-7.2171,48,US$ correntes,
+usd_nominal,lula3,Lula (3o mandato),2022-12,2026-09,19075.232718,19437.479348,362.246630,1.8990,0.5029,45,US$ correntes,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+usd_poder_compra_ref,fhc,Fernando Henrique Cardoso,1994-12,2002-12,117633.219621,22770.417366,-94862.802256,-80.6429,-18.5567,96,US$ de dez/1994,
+usd_poder_compra_ref,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,22770.417366,40203.854725,17433.437359,76.5618,7.3648,96,US$ de dez/1994,
+usd_poder_compra_ref,dilma,Dilma Rousseff,2010-12,2016-08,40203.854725,19441.058897,-20762.795828,-51.6438,-12.0339,68,US$ de dez/1994,
+usd_poder_compra_ref,temer,Michel Temer,2016-08,2018-12,19441.058897,15284.742144,-4156.316753,-21.3791,-9.7950,28,US$ de dez/1994,
+usd_poder_compra_ref,bolsonaro,Jair Bolsonaro,2018-12,2022-12,15284.742144,9581.277878,-5703.464266,-37.3148,-11.0202,48,US$ de dez/1994,
+usd_poder_compra_ref,lula3,Lula (3o mandato),2022-12,2026-09,9581.277878,8675.536727,-905.741152,-9.4532,-2.6133,45,US$ de dez/1994,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+chf_nominal,fhc,Fernando Henrique Cardoso,1994-12,2002-12,156322.785555,39681.182603,-116641.602952,-74.6159,-15.7499,96,CHF correntes,
+chf_nominal,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,39681.182603,57216.251329,17535.068726,44.1899,4.6808,96,CHF correntes,
+chf_nominal,dilma,Dilma Rousseff,2010-12,2016-08,57216.251329,30255.164034,-26961.087295,-47.1214,-10.6351,68,CHF correntes,
+chf_nominal,temer,Michel Temer,2016-08,2018-12,30255.164034,25530.874366,-4724.289668,-15.6148,-7.0178,28,CHF correntes,
+chf_nominal,bolsonaro,Jair Bolsonaro,2018-12,2022-12,25530.874366,17770.486800,-7760.387566,-30.3961,-8.6605,48,CHF correntes,
+chf_nominal,lula3,Lula (3o mandato),2022-12,2026-09,17770.486800,15936.789317,-1833.697483,-10.3188,-2.8625,45,CHF correntes,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+chf_poder_compra_ref,fhc,Fernando Henrique Cardoso,1994-12,2002-12,156322.785555,36897.680140,-119425.105415,-76.3965,-16.5124,96,CHF de dez/1994,
+chf_poder_compra_ref,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,36897.680140,49596.601351,12698.921211,34.4166,3.7664,96,CHF de dez/1994,
+chf_poder_compra_ref,dilma,Dilma Rousseff,2010-12,2016-08,49596.601351,26909.653776,-22686.947575,-45.7429,-10.2283,68,CHF de dez/1994,
+chf_poder_compra_ref,temer,Michel Temer,2016-08,2018-12,26909.653776,22401.153828,-4508.499948,-16.7542,-7.5580,28,CHF de dez/1994,
+chf_poder_compra_ref,bolsonaro,Jair Bolsonaro,2018-12,2022-12,22401.153828,15031.906571,-7369.247257,-32.8967,-9.4922,48,CHF de dez/1994,
+chf_poder_compra_ref,lula3,Lula (3o mandato),2022-12,2026-08,15031.906571,12749.315826,-2282.590745,-15.1850,-4.3924,44,CHF de dez/1994,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+sdr_nominal,fhc,Fernando Henrique Cardoso,1994-12,2002-12,81014.219365,20581.223367,-60432.995998,-74.5955,-15.7415,96,DES correntes,
+sdr_nominal,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,20581.223367,38455.649660,17874.426293,86.8482,8.1275,96,DES correntes,
+sdr_nominal,dilma,Dilma Rousseff,2010-12,2016-08,38455.649660,22265.773746,-16189.875914,-42.1001,-9.1929,68,DES correntes,
+sdr_nominal,temer,Michel Temer,2016-08,2018-12,22265.773746,18581.111312,-3684.662434,-16.5485,-7.4601,28,DES correntes,
+sdr_nominal,bolsonaro,Jair Bolsonaro,2018-12,2022-12,18581.111312,14355.061007,-4226.050304,-22.7438,-6.2474,48,DES correntes,
+sdr_nominal,lula3,Lula (3o mandato),2022-12,2026-08,14355.061007,14177.448238,-177.612769,-1.2373,-0.3390,44,DES correntes,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+sdr_poder_compra_ref,fhc,Fernando Henrique Cardoso,1994-12,2002-12,81014.219365,16992.528203,-64021.691162,-79.0253,-17.7356,96,DES de dez/1994,
+sdr_poder_compra_ref,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,16992.528203,26181.070676,9188.542472,54.0740,5.5519,96,DES de dez/1994,
+sdr_poder_compra_ref,dilma,Dilma Rousseff,2010-12,2016-08,26181.070676,13893.835412,-12287.235263,-46.9318,-10.5786,68,DES de dez/1994,
+sdr_poder_compra_ref,temer,Michel Temer,2016-08,2018-12,13893.835412,11033.975194,-2859.860218,-20.5837,-9.4050,28,DES de dez/1994,
+sdr_poder_compra_ref,bolsonaro,Jair Bolsonaro,2018-12,2022-12,11033.975194,7210.387968,-3823.587226,-34.6529,-10.0903,48,DES de dez/1994,
+sdr_poder_compra_ref,lula3,Lula (3o mandato),2022-12,2026-08,7210.387968,6368.864249,-841.523718,-11.6710,-3.3280,44,DES de dez/1994,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+ouro_oncas,fhc,Fernando Henrique Cardoso,1994-12,2002-12,310.377888,83.070360,-227.307528,-73.2357,-15.1905,96,onças troy,quantidade fisica; nao se deflaciona
+ouro_oncas,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,83.070360,42.453482,-40.616878,-48.8945,-8.0486,96,onças troy,quantidade fisica; nao se deflaciona
+ouro_oncas,dilma,Dilma Rousseff,2010-12,2016-08,42.453482,23.250418,-19.203064,-45.2332,-10.0801,68,onças troy,quantidade fisica; nao se deflaciona
+ouro_oncas,temer,Michel Temer,2016-08,2018-12,23.250418,20.591491,-2.658927,-11.4360,-5.0717,28,onças troy,quantidade fisica; nao se deflaciona
+ouro_oncas,bolsonaro,Jair Bolsonaro,2018-12,2022-12,20.591491,10.609139,-9.982351,-48.4780,-15.2776,48,onças troy,quantidade fisica; nao se deflaciona
+ouro_oncas,lula3,Lula (3o mandato),2022-12,2026-09,10.609139,4.500458,-6.108681,-57.5794,-20.4414,45,onças troy,quantidade fisica; nao se deflaciona; mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)
+ouro_preco_real_usd_oz,fhc,Fernando Henrique Cardoso,1994-12,2002-12,379.000000,274.110011,-104.889989,-27.6755,-3.9692,96,US$ de dez/1994 por onça,
+ouro_preco_real_usd_oz,lula12,Lula (1o e 2o mandatos),2002-12,2010-12,274.110011,947.009598,672.899587,245.4852,16.7626,96,US$ de dez/1994 por onça,
+ouro_preco_real_usd_oz,dilma,Dilma Rousseff,2010-12,2016-08,947.009598,836.159554,-110.850043,-11.7053,-2.1729,68,US$ de dez/1994 por onça,
+ouro_preco_real_usd_oz,temer,Michel Temer,2016-08,2018-12,836.159554,742.284396,-93.875158,-11.2269,-4.9757,28,US$ de dez/1994 por onça,
+ouro_preco_real_usd_oz,bolsonaro,Jair Bolsonaro,2018-12,2022-12,742.284396,903.115463,160.831067,21.6670,5.0251,48,US$ de dez/1994 por onça,
+ouro_preco_real_usd_oz,lula3,Lula (3o mandato),2022-12,2026-09,903.115463,1927.700730,1024.585267,113.4501,22.4087,45,US$ de dez/1994 por onça,mandato em curso: fim = ultimo mes da linha (mandato registrado ate 2026-10-19)

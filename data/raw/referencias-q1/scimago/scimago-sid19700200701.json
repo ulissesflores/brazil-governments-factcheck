@@ -1,0 +1,20 @@
+{
+ "categorias_ano_mais_recente_por_categoria": [
+  {
+   "ano": 2025,
+   "categoria": "Economics and Econometrics",
+   "quartil": "Q1"
+  }
+ ],
+ "consulta_issn": [
+  "1941-1383",
+  "1941-1391"
+ ],
+ "data_consulta": "2026-10-19",
+ "linhas_categoria_ano": 15,
+ "metodo": "fetch() dentro do Chrome real do Ulisses na pagina do Scimago (curl/urllib recebem 403 do Cloudflare); extraida a 1a tabela (Category/Year/Quartile) e mantido o ano mais recente de cada categoria",
+ "sha256_texto_resposta_prefixo20": "1fb2c7ea647d516c4139",
+ "sid": "19700200701",
+ "titulo_scimago": "Annual Review of Economics",
+ "url": "https://www.scimagojr.com/journalsearch.php?q=19700200701&tip=sid&clean=0"
+}

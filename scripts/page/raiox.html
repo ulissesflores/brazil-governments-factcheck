@@ -1,0 +1,524 @@
+<title>Raio-X do Brasil</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Fahkwang:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script src="https://unpkg.com/lightweight-charts@4.1.3/dist/lightweight-charts.standalone.production.js"></script>
+<style>
+/* v13: terminal. Um gráfico na tela (lightweight-charts: crosshair, eixo à direita, OHLC no canto, zoom e arrasto),
+   lista lateral com o índice e os 28 indicadores, abas "Gráfico" e "Por governo". Dado e regras: pré-registro + emendas 01-06. */
+:root {
+  --bg: #0b1118; --panel: #111a24; --panel2: #16222e; --line: #223446; --grid: #1a2937;
+  --ink: #f3efe6; --ink2: #a9b8c6; --muted: #7a8ea1;
+  --gold: #c4ad7f; --gold-d: #a48f65; --blue: #6fb1ff; --blue2: #b7c5d3;
+  --up: #26a69a; --down: #ef5350; --mark: #e2b93b; --c3: #c58cff; --c4: #5fd3c8;
+  --band: rgba(255,255,255,.045); --sel: rgba(111,177,255,.12);
+  --f-display: "Cinzel", "Times New Roman", serif;
+  --f-body: "Fahkwang", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --f-data: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) { --bg: #eef1f4; --panel: #ffffff; --panel2: #f4f7fa; --line: #d2dbe5; --grid: #e6ebf1; --ink: #101d2a; --ink2: #44566a; --muted: #66788b; --gold: #7b643f; --gold-d: #7b643f; --blue: #1d4ed8; --blue2: #5b6b7c; --up: #089981; --down: #f23645; --mark: #a86f00; --c3: #7c3aed; --c4: #0f766e; --band: rgba(0,0,0,.045); --sel: rgba(29,78,216,.1); color-scheme: light; }
+}
+:root[data-theme="light"] { --bg: #eef1f4; --panel: #ffffff; --panel2: #f4f7fa; --line: #d2dbe5; --grid: #e6ebf1; --ink: #101d2a; --ink2: #44566a; --muted: #66788b; --gold: #7b643f; --gold-d: #7b643f; --blue: #1d4ed8; --blue2: #5b6b7c; --up: #089981; --down: #f23645; --mark: #a86f00; --c3: #7c3aed; --c4: #0f766e; --band: rgba(0,0,0,.045); --sel: rgba(29,78,216,.1); color-scheme: light; }
+:root[data-theme="dark"] { --bg: #0b1118; --panel: #111a24; --panel2: #16222e; --line: #223446; --grid: #1a2937; --ink: #f3efe6; --ink2: #a9b8c6; --muted: #7a8ea1; --gold: #c4ad7f; --gold-d: #a48f65; --blue: #6fb1ff; --blue2: #b7c5d3; --up: #26a69a; --down: #ef5350; --mark: #e2b93b; --c3: #c58cff; --c4: #5fd3c8; --band: rgba(255,255,255,.045); --sel: rgba(111,177,255,.12); color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 14px; line-height: 1.45; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 32px; }
+.wrap { max-width: 1600px; margin-inline: auto; display: flex; flex-direction: column; gap: 12px; }
+h1, h2, h3, h4 { font-family: var(--f-display); font-weight: 700; letter-spacing: .02em; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(20px, 2.6vw, 26px); line-height: 1.1; }
+h2 { font-size: 17px; } h3 { font-size: 13px; color: var(--gold); letter-spacing: .06em; text-transform: uppercase; font-family: var(--f-data); font-weight: 500; }
+p { margin: 0; }
+.top { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding-block: 10px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.top .l { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.eyebrow { font-family: var(--f-data); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--gold); }
+.tabs { display: flex; gap: 4px; }
+.tab { font: inherit; font-size: 13px; color: var(--ink2); background: transparent; border: 1px solid transparent; border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+.tab.on { color: var(--ink); background: var(--panel2); border-color: var(--line); }
+.btn { font: inherit; font-size: 12px; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 5px; padding: 5px 10px; cursor: pointer; }
+.btn.on { background: var(--blue); border-color: var(--blue); color: #0b1622; font-weight: 600; }
+:root[data-theme="light"] .btn.on, :root:not([data-theme="dark"]) .btn.on { color: #fff; }
+.btn:focus-visible, .it:focus-visible, .tab:focus-visible, tr.ind:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+/* terminal */
+.term { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 12px; align-items: start; }
+.side { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 8px; max-height: calc(100vh - 110px); overflow: auto; position: sticky; top: 8px; }
+.side h3 { padding: 10px 8px 4px; }
+.side h3.grp { cursor: pointer; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; user-select: none; }
+.side h3.grp small { color: var(--muted); font-size: 10px; letter-spacing: 0; }
+.side h3.grp.off { color: var(--muted); }
+.side h3.grp::before { content: "▾"; font-size: 10px; margin-right: 6px; color: var(--muted); } .side h3.grp.off::before { content: "▸"; }
+.filtro { width: 100%; font: inherit; font-size: 12.5px; color: var(--ink); background: var(--panel2); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; margin: 2px 0 4px; }
+/* leitura por governo */
+.gcards { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 12px; margin-bottom: 12px; }
+.gcard { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; min-width: 0; }
+.gcard h2 { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.gcard h2 small { font-family: var(--f-data); font-weight: 400; color: var(--muted); font-size: 11px; letter-spacing: 0; }
+.gcard .ix { font-family: var(--f-data); font-size: 12px; color: var(--ink2); margin-top: 6px; }
+.gcard .ix b { color: var(--ink); font-weight: 500; } .gcard .up { color: var(--up); } .gcard .down { color: var(--down); }
+.gcard .cols { display: grid; gap: 10px; margin-top: 10px; }
+.gcard .cols h3 { margin-bottom: 3px; }
+.gcard .lit { font-size: 12px; color: var(--ink2); margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
+.gcard .lit a { color: var(--blue); }
+/* estudos */
+.episodio { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; margin-bottom: 12px; min-width: 0; }
+.episodio h2 { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.episodio h2 small { font-family: var(--f-data); font-weight: 400; color: var(--muted); font-size: 11px; letter-spacing: 0; }
+.study { border-left: 3px solid var(--gold-d); padding: 4px 0 4px 12px; margin-top: 10px; max-width: 95ch; }
+.study h4 { font-family: var(--f-body); font-weight: 600; font-size: 14px; letter-spacing: 0; text-transform: none; }
+.study h4 a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); } .study h4 a:hover { color: var(--blue); }
+.study .meta { font-family: var(--f-data); font-size: 11px; color: var(--muted); margin-top: 3px; }
+.study blockquote { margin: 6px 0 0; padding: 0; color: var(--ink2); font-size: 12.5px; } .study blockquote p { margin-top: 3px; }
+.it { display: block; width: 100%; text-align: left; font: inherit; font-size: 12.5px; color: var(--ink2); background: transparent; border: 0; border-radius: 6px; padding: 6px 8px; cursor: pointer; line-height: 1.3; }
+.it:hover { background: var(--band); color: var(--ink); }
+.it.on { background: var(--sel); color: var(--ink); box-shadow: inset 3px 0 0 var(--blue); }
+.it small { display: block; color: var(--muted); font-family: var(--f-data); font-size: 10.5px; }
+.sel-mob { display: none; width: 100%; font: inherit; font-size: 13px; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 8px; }
+@media (max-width: 900px) { .term { grid-template-columns: 1fr; } .side { display: none; } .sel-mob { display: block; } }
+.main { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; min-width: 0; }
+.head { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: flex-start; }
+.head small { display: block; color: var(--muted); font-family: var(--f-data); font-size: 11px; margin-top: 2px; }
+.pol { font-family: var(--f-data); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--gold); border: 1px solid var(--gold-d); border-radius: 4px; padding: 1px 7px; white-space: nowrap; align-self: center; }
+.controls { display: flex; gap: 14px; flex-wrap: wrap; margin: 8px 0; align-items: center; }
+.controls .g { display: flex; gap: 4px; align-items: center; }
+.controls .g span { font-family: var(--f-data); font-size: 10.5px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; margin-right: 4px; }
+#fita { position: relative; height: 20px; margin-right: 60px; border-bottom: 1px solid var(--line); overflow: hidden; }
+#fita div { position: absolute; top: 0; bottom: 0; border-left: 1px solid var(--line); display: flex; align-items: center; justify-content: center; font-family: var(--f-data); font-size: 10.5px; color: var(--ink2); white-space: nowrap; overflow: hidden; }
+#fita div:nth-child(odd) { background: var(--band); }
+#chart { position: relative; height: 480px; }
+#bands { position: absolute; inset: 0 60px 26px 0; pointer-events: none; z-index: 1; }
+#bands div { position: absolute; top: 0; bottom: 0; }
+#bands div:nth-child(odd) { background: var(--band); }
+#ohlc { position: absolute; left: 8px; top: 6px; z-index: 2; font-family: var(--f-data); font-size: 12px; color: var(--ink2); background: color-mix(in srgb, var(--panel) 80%, transparent); padding: 4px 8px; border-radius: 4px; pointer-events: none; max-width: calc(100% - 80px); line-height: 1.5; }
+#ohlc b { color: var(--ink); font-weight: 500; } #ohlc .up { color: var(--up); } #ohlc .down { color: var(--down); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 11.5px; color: var(--ink2); margin-top: 6px; }
+.legend i { display: inline-block; width: 20px; height: 0; border-top: 2px solid; vertical-align: middle; margin-right: 5px; }
+.legend .cd { display: inline-block; width: 8px; height: 12px; vertical-align: middle; margin-right: 5px; background: linear-gradient(90deg, var(--up) 50%, var(--down) 50%); border-radius: 1px; }
+.legend .fx { display: inline-block; width: 20px; height: 8px; vertical-align: middle; margin-right: 5px; background: linear-gradient(90deg, var(--up) 50%, var(--down) 50%); opacity: .6; }
+.note { font-size: 12px; color: var(--ink2); }
+.aviso { border-left: 3px solid var(--gold-d); padding: 3px 0 3px 10px; color: var(--ink2); font-size: 12.5px; margin-top: 8px; }
+.info { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px 20px; margin-top: 10px; }
+.kv { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; font-family: var(--f-data); font-size: 11.5px; }
+.kv span:nth-child(even) { text-align: right; }
+.kv .k { color: var(--ink2); } .kv .up { color: var(--up); } .kv .down { color: var(--down); }
+.ev { border-left: 3px solid var(--mark); padding: 2px 0 2px 8px; font-size: 12px; color: var(--ink2); margin-top: 6px; }
+.ev b { color: var(--ink); font-weight: 500; }
+.qb { border-left: 3px solid var(--gold-d); padding: 2px 0 2px 8px; font-size: 12px; color: var(--ink2); margin-top: 6px; }
+details { margin-top: 8px; } details summary { cursor: pointer; color: var(--ink2); font-size: 12.5px; }
+details.como summary { color: var(--gold); font-family: var(--f-data); font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; }
+details.como div { color: var(--ink2); font-size: 13px; margin-top: 6px; display: grid; gap: 5px; max-width: 95ch; }
+table.t, table.rob { border-collapse: collapse; font-family: var(--f-data); font-size: 11.5px; width: 100%; }
+.t th, .t td, .rob th, .rob td { padding: 4px 8px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+.t th:first-child, .t td:first-child, .rob th:first-child, .rob td:first-child { text-align: left; }
+.rob th { color: var(--gold); font-weight: 500; font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; }
+.rob td:last-child { white-space: normal; min-width: 200px; text-align: left; }
+.scroll { overflow-x: auto; }
+/* grade por governo */
+.gradewrap { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
+table.grade { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 1100px; font-size: 13px; }
+.grade th, .grade td { padding: 8px 9px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+.grade thead th { position: sticky; top: 0; background: var(--panel2); z-index: 2; font-family: var(--f-display); font-weight: 700; font-size: 14px; }
+.grade thead th small { display: block; font-family: var(--f-data); font-weight: 400; font-size: 11px; color: var(--muted); letter-spacing: .04em; }
+.grade th:first-child, .grade td:first-child { position: sticky; left: 0; background: var(--panel); z-index: 1; min-width: 210px; max-width: 250px; }
+@media (max-width: 600px) { .grade th:first-child, .grade td:first-child { min-width: 150px; max-width: 170px; } }
+.grade thead th:first-child { z-index: 3; background: var(--panel2); }
+.grade tr.dom th { background: var(--panel2); color: var(--gold); font-family: var(--f-data); font-weight: 500; font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; padding-block: 6px; }
+.grade tr.ind { cursor: pointer; } .grade tr.ind:hover td { background: var(--sel); }
+.nm { font-weight: 600; line-height: 1.25; }
+.un { display: block; color: var(--muted); font-family: var(--f-data); font-size: 11px; margin-top: 2px; }
+.frase { display: block; color: var(--ink2); font-size: 12px; margin-top: 5px; line-height: 1.35; }
+td.cel { font-family: var(--f-data); max-width: 172px; } td.cel .main { white-space: nowrap; }
+.cel .main { font-size: 14px; font-weight: 500; display: flex; align-items: center; gap: 6px; }
+.cel .main .arr { font-size: 12px; } .cel .main.up .arr { color: var(--up); } .cel .main.down .arr { color: var(--down); } .cel .main.flat .arr { color: var(--muted); }
+.cel .dt, .cel .mm, .cel .bs, .cel .sb { font-size: 10.5px; color: var(--muted); line-height: 1.5; }
+.cel .bs { color: var(--gold); } .cel .sb { color: var(--ink2); } .cel .none { color: var(--muted); font-size: 12px; }
+.cel .row { display: flex; gap: 8px; align-items: flex-start; } .cel svg { flex: none; }
+.luz { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--mark); margin-left: 6px; vertical-align: middle; }
+.explica { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px 20px; margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--line); }
+.explica p { font-size: 12.5px; color: var(--ink2); margin-top: 3px; }
+footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line); padding-top: 10px; }
+[hidden] { display: none !important; }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="l"><h1>Raio-X do Brasil por governo</h1><span class="eyebrow">dado público · hash em cadeia · pré-registro com emendas datadas</span></div>
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <nav class="tabs" aria-label="Seções"><button class="tab on" data-tab="grafico" type="button">Gráfico</button><button class="tab" data-tab="governo" type="button">Por governo</button><button class="tab" data-tab="estudos" type="button">Estudos</button><button class="tab" data-tab="auditoria" type="button">Auditoria</button><button class="tab" data-tab="como" type="button">Como ler</button></nav>
+      <button class="btn" id="tema" type="button">Tema</button>
+    </div>
+  </header>
+
+  <section id="tab-grafico" class="term">
+    <aside class="side" id="side" aria-label="Séries"></aside>
+    <div class="main">
+      <select class="sel-mob" id="selmob" aria-label="Série"></select>
+      <div class="head"><div><h2 id="titulo"></h2><small id="un"></small></div><span class="pol" id="pol"></span></div>
+      <div class="controls">
+        <div class="g" id="g-int"><span>intervalo</span><button class="btn on" data-int="ano" type="button">Ano</button><button class="btn" data-int="mes" type="button">Mês</button></div>
+        <div class="g"><span>período</span><button class="btn on" data-per="real" type="button">Desde o Real</button><button class="btn" data-per="dez" type="button">10 anos</button><button class="btn" data-per="tudo" type="button">Tudo</button></div>
+        <div class="g"><span>escala</span><button class="btn" id="b-log" type="button">Log</button></div>
+        <div class="g" id="g-cen"><span>camadas</span><button class="btn" id="b-cen" type="button">Cenários</button><button class="btn" id="b-cf" type="button">Último valor carregado</button></div>
+      </div>
+      <div id="fita" aria-hidden="true"></div>
+      <div id="chart"><div id="bands"></div><div id="ohlc"></div></div>
+      <div class="legend" id="legend"></div>
+      <p class="note" id="sobe" style="margin-top:6px"></p>
+      <p class="aviso" id="aviso" hidden></p>
+      <div class="info" id="info"></div>
+      <div class="explica" id="explica"></div>
+      <details id="d-rob"><summary>Robustez: fechamento de cada mandato sob 10.000 sorteios de pesos</summary><div class="scroll" id="rob"></div></details>
+      <details id="d-areas"><summary>Áreas, pesos e importância efetiva</summary><div class="scroll" id="areas"></div></details>
+      <details id="d-itens"><summary>Itens, direção, balizas e encadeamentos</summary><div class="scroll" id="itens"></div></details>
+      <details id="d-tab"><summary>Tabela do que está no gráfico</summary><div class="scroll" id="tabela"></div></details>
+    </div>
+  </section>
+
+  <section id="tab-governo" hidden>
+    <p class="note" style="margin:4px 0 10px">Leitura por mandato, em três camadas que não se misturam: o índice e os itens que mais o moveram (nota de 0 a 100, 0 = pior valor do Brasil em 1995-2024, 100 = melhor, direção já virada); o Brasil contra a América Latina na mesma fonte (a diferença Brasil menos referência no ano anterior à posse e no último ano do mandato); e, abaixo, cada indicador na sua unidade. Descrição, não nota de governo: tendências seculares e choques mundiais entram em tudo.</p>
+    <div class="gcards" id="leitura-gov"></div>
+    <p class="note" style="margin:4px 0 10px">O que cada governo recebeu e deixou, indicador por indicador, na unidade de cada um: à esquerda o último valor publicado antes da posse, à direita o último do mandato. Clique numa linha para abrir o gráfico.</p>
+    <div class="gradewrap"><table class="grade" id="grade" aria-label="Início e fim de cada indicador por governo"></table></div>
+    <div id="eventos"></div>
+  </section>
+
+
+  <section id="tab-estudos" hidden>
+    <p class="note" style="margin:4px 0 8px" id="lit-intro"></p>
+    <div class="controls"><div class="g" id="lit-filtro"><span>mandato</span></div></div>
+    <div id="lit"></div>
+  </section>
+  <section id="tab-auditoria" hidden>
+    <p class="note" style="margin:4px 0 8px">Para cada série, item do índice e régua de produto: a variação desde 1995, nos últimos 20 anos, nos últimos 10 anos e no mandato corrente, lida com a direção declarada. A bandeira marca quando a leitura de ponta a ponta e a de uma janela recente discordam: é exatamente o caso em que "melhorou" esconde "piorou". Estável = variação abaixo de 1% do valor inicial.</p>
+    <div class="controls"><div class="g"><span>mostrar</span><button class="btn on" data-aud="bandeiras" type="button">Só bandeiras</button><button class="btn" data-aud="indicador" type="button">Séries</button><button class="btn" data-aud="produto" type="button">Produtos (3 réguas)</button><button class="btn" data-aud="item do índice" type="button">Itens do índice</button><button class="btn" data-aud="todos" type="button">Tudo</button></div></div>
+    <div class="scroll" id="aud"></div>
+  </section>
+  <section id="tab-como" hidden>
+    <details class="como" open><summary>O índice</summary><div>
+      <p>Cada item recebe uma nota de 0 a 100: 0 é o pior valor do Brasil entre 1995 e 2024, 100 é o melhor, com o sinal já virado para que "mais alto é sempre melhor" (homicídio, inflação e dívida entram invertidos). As áreas são a média dos seus itens e o índice é a média das áreas. Duas versões: o núcleo consensual (itens com direção estabelecida na literatura) e o núcleo mais o bloco de premissas econômicas declaradas pelo autor (indústria no PIB, consumo do governo, abertura comercial, propriedade estatal).</p>
+      <p>O índice é calculado mês a mês: os itens mensais (inflação, salário mínimo, desemprego, dívida bruta, endividamento das famílias) movem o índice dentro do ano; os anuais entram como degrau. Cada candle anual abre no índice de dezembro anterior, fecha no de dezembro, e o pavio vai do pior ao melhor mês. No intervalo mensal, o candle abre no mês anterior e fecha no mês.</p>
+      <p>Sem imputação: um ano com menos de 70% dos itens publicados fica sem índice. A camada "último valor carregado" é o cenário pré-registrado em que o item sem dado toma o último valor publicado; serve para ver 2025 e 2026, e é cenário, não o índice.</p>
+      <p>Pesos: cada área importa igual; o ajuste por importância efetiva não convergeu e vale o peso nominal igual, declarado. A robustez sorteia 10.000 vetores de pesos e diz em que faixa o fechamento de cada mandato cai e com que frequência a posição se mantém. Dez dos itens são tendências seculares (expectativa de vida, mortalidade infantil, PIB per capita), e um índice de "distância ao melhor já visto" sobe com o tempo por construção: o fechamento dos mandatos recentes carrega isso. Não é mérito; é o que a regra mede.</p>
+    </div></details>
+    <details class="como" open><summary>Os indicadores</summary><div>
+      <p>O candle é um ano numa taxa que sobe e desce de verdade: abre no valor de dezembro anterior, fecha no de dezembro, pavio do menor ao maior mês. Níveis que só sobem (preços, dinheiro em caixa) não ganham candle. Linhas de método antigo e novo correm juntas e o vão entre elas é a mudança de método. Marcos amarelos são datas com fonte primária. Faixas de fundo são os governos.</p>
+      <p>Na aba "Por governo", cada célula mostra o último valor antes da posse e o último do mandato, com as datas, máxima e mínima. Quando a forma de medir mudou dentro do mandato, a célula mostra os valores por base e fica sem "início -> fim". O ponto amarelo avisa que houve mudança de método, de regra ou de edição no mandato: aviso sobre o dado, nunca sobre o governo.</p>
+      <p>Os 39 itens do índice têm gráfico próprio, cada base de método como sua linha (a nota do índice usa a série encadeada pela sobreposição medida; o gráfico nunca emenda). "Brasil e o mundo" desenha o Brasil ao lado do mundo, da América Latina e Caribe e dos países de renda média-alta, lidos da mesma série da mesma fonte; a leitura é a diferença Brasil menos referência.</p>
+      <p>Na leitura por governo, três camadas separadas: o índice e os itens que mais o moveram (pontos de 0 a 100, janela do candle de mandato: ano anterior à posse até o último ano do mandato; 2016 é ano partido e conta para Dilma e para Temer); o Brasil contra a América Latina; e a grade de cada indicador na sua unidade. Nenhuma delas é nota de governo: tendências seculares e choques mundiais entram em todas.</p>
+      <p>A aba "Estudos" é a única camada que fala de causa, e fala pela boca dos autores: artigos revisados por pares, em periódico Q1, sobre o Brasil, com desenho de identificação nomeado no resumo, achados por um protocolo de busca selado antes de buscar (emendas 07 a 10, quatro rodadas publicadas com seus números). Tudo que a busca devolveu está listado com o motivo da exclusão. Não há nota, soma nem veredito.</p>
+      <p>Regras escritas antes de olhar os resultados (pré-registro e emendas 01 a 09, com hash em cadeia). Nenhum número é estimado.</p>
+    </div></details>
+  </section>
+  <footer>Fontes primárias no painel de cada série (IBGE, Banco Central, Ipeadata, Tesouro, INEP, DIEESE, ANP, Banco Mundial, V-Dem, WIPO, Painel de Pessoal). Dados CC BY 4.0; código Apache-2.0. Escala de log = simétrica (sinal x log10(1+|x|)) onde há valores negativos; o eixo mostra sempre o valor real.</footer>
+</div>
+
+<script>
+const DATA = __DATA__;
+const IDX = __INDICE__;
+const AUD = __AUDIT__;
+const MUNDO = __MUNDO__;
+const LIT = __LIT__;
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt = (v, d = 1) => v == null || isNaN(v) ? "—" : v.toLocaleString("pt-BR", { minimumFractionDigits: d, maximumFractionDigits: d });
+const sgn = (v, d = 1) => v == null ? "—" : (v > 0 ? "+" : v < 0 ? "−" : "") + fmt(Math.abs(v), d);
+const symlog = (x) => Math.sign(x) * Math.log10(1 + Math.abs(x));
+const unsymlog = (v) => Math.sign(v) * (Math.pow(10, Math.abs(v)) - 1);
+const fmtAxis = (v, log) => { const a = Math.abs(v); if (log && a >= 100) { const p = Math.pow(10, Math.floor(Math.log10(a)) - 1); return (v < 0 ? "−" : "") + fmt(Math.round(a / p) * p, 0); } const d = a >= 100 ? 0 : a >= 10 ? 1 : 2; return (v < 0 ? "−" : "") + fmt(a, d); };
+const MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+const anoDe = (t) => +t.slice(0, 4);
+function quando(t, freq) { const a = t.slice(0, 4), m = +t.slice(5, 7); if (freq === "anual" || freq === "ano") return a; if (freq === "trimestral") return `${Math.floor((m - 1) / 3) + 1}º tri/${a.slice(2)}`; return `${MESES[m - 1]}/${a.slice(2)}`; }
+const GOVS = [...DATA.agregados, ...DATA.governos];
+const gov = (id) => GOVS.find(g => g.id === id);
+const COLS = DATA.colunas.map(gov);
+const polTexto = (p) => p === "mais" ? "maior é melhor" : p === "menos" ? "menor é melhor" : "sem leitura de melhor";
+const LW = window.LightweightCharts;
+try { const s = localStorage.getItem("rx-tema"); if (s) document.documentElement.dataset.theme = s; } catch (e) {}
+
+/* ---------- estado ---------- */
+let sel = "idx:N", intervalo = "ano", periodo = "real", escLog = false, cenarios = false, carry = false, tab = "grafico";
+let chart = null, main = null, eixo = [], y0 = 0, modoTempo = "ano", ultimaSerie = null;
+const isIdx = () => sel.startsWith("idx:");
+const VER = () => IDX.versoes[sel.slice(4)] || IDX.versoes["N"];
+
+/* ---------- lista lateral ---------- */
+const fechados = new Set(); let filtro = "";
+function grupos() {
+  return [{ nome: "O índice", itens: [{ id: "idx:N", nome: "Índice composto · núcleo consensual", sub: `${IDX.versoes["N"].itens.length} itens, ${IDX.versoes["N"].areas.length} áreas` }, ...(IDX.versoes["N+P"] ? [{ id: "idx:N+P", nome: "Índice · núcleo + premissas econômicas", sub: `${IDX.versoes["N+P"].itens.length} itens, ${IDX.versoes["N+P"].areas.length} áreas` }] : [])] },
+    ...DATA.dominios.map(d => ({ nome: d.nome, itens: d.ids.map(id => { const i = DATA.indicadores.find(x => x.id === id); return { id, nome: i.nome, sub: i.un.split(" (")[0] }; }) }))];
+}
+/* lista lateral: grupos que fecham e abrem no clique do título, e um filtro por texto (o filtro abre tudo) */
+function lista() {
+  const G = grupos(), q = filtro.trim().toLowerCase();
+  const html = G.map(g => { const its = g.itens.filter(i => !q || (i.nome + " " + i.sub).toLowerCase().includes(q)); if (!its.length) return ""; const off = fechados.has(g.nome) && !q; return `<h3 class="grp ${off ? "off" : ""}" data-g="${g.nome}" title="${off ? "abrir" : "fechar"} o grupo">${g.nome}<small>${its.length}</small></h3>${off ? "" : its.map(i => `<button class="it ${i.id === sel ? "on" : ""}" data-id="${i.id}" type="button">${i.nome}<small>${i.sub}</small></button>`).join("")}`; }).join("");
+  $("#side").innerHTML = `<input class="filtro" id="filtro" type="search" placeholder="filtrar as ${G.reduce((n, g) => n + g.itens.length, 0)} séries" value="${filtro.replace(/"/g, "&quot;")}" aria-label="Filtrar séries">` + (html || `<p class="note" style="padding:8px">nada com "${q}"</p>`);
+  $$("#side .it").forEach(b => b.onclick = () => escolher(b.dataset.id));
+  $$("#side .grp").forEach(h => h.onclick = () => { const n = h.dataset.g; if (fechados.has(n)) fechados.delete(n); else fechados.add(n); lista(); });
+  const f = $("#filtro"); f.oninput = () => { filtro = f.value; const p = f.selectionStart; lista(); const f2 = $("#filtro"); f2.focus(); f2.setSelectionRange(p, p); };
+  $("#selmob").innerHTML = G.map(g => `<optgroup label="${g.nome}">${g.itens.map(i => `<option value="${i.id}" ${i.id === sel ? "selected" : ""}>${i.nome}</option>`).join("")}</optgroup>`).join("");
+  $("#selmob").onchange = (e) => escolher(e.target.value);
+}
+function escolher(id) { sel = id; const g = grupos().find(g => g.itens.some(i => i.id === id)); if (g && fechados.has(g.nome)) { fechados.delete(g.nome); lista(); } $$("#side .it").forEach(b => b.classList.toggle("on", b.dataset.id === sel)); $("#selmob").value = sel; const on = $("#side .it.on"); if (on) on.scrollIntoView({ block: "nearest" }); desenhar(); }
+addEventListener("keydown", (e) => { if (tab !== "grafico" || !["ArrowDown", "ArrowUp"].includes(e.key) || /INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)) return; const ids = $$("#side .it").map(b => b.dataset.id); const k = ids.indexOf(sel); const n = e.key === "ArrowDown" ? Math.min(ids.length - 1, k + 1) : Math.max(0, k - 1); if (n !== k) { e.preventDefault(); escolher(ids[n]); } });
+
+/* ---------- série a desenhar ---------- */
+function candlesMensais(mensal) { const ks = Object.keys(mensal).sort(); const out = []; for (let i = 0; i < ks.length; i++) { const o = i ? mensal[ks[i - 1]] : mensal[ks[i]], c = mensal[ks[i]]; out.push({ t: ks[i] + "-01", o, c, h: Math.max(o, c), l: Math.min(o, c), n: 1 }); } return out; }
+function serieAtual() {
+  if (!isIdx()) {
+    const i = DATA.indicadores.find(x => x.id === sel);
+    const subanual = i.candles.length && i.freq !== "anual";
+    if (!subanual || intervalo !== "mes") return { ...i, idx: false, modo: "ano", subanual };
+    /* mês a mês: o candle abre no valor do mês anterior e fecha no do mês (uma observação por mês, sem pavio); as linhas ficam mensais */
+    const base = i.linhas[0].pontos;
+    const candles = base.map((p, k) => { const o = k ? base[k - 1][1] : p[1], c = p[1]; return { t: p[0], o, c, h: Math.max(o, c), l: Math.min(o, c), n: 1 }; });
+    const sobe = (i.sobe || "").replace(/dezembro anterior/g, "mês anterior").replace(/de dezembro/g, "do mês").replace(/em dezembro/g, "no mês");
+    return { ...i, idx: false, modo: "mes", subanual, candles, sobe, base_candle: (i.base_candle || i.linhas[0].rotulo) + " (mês a mês)" };
+  }
+  const V = VER(), CF = V.cenario_carry_forward, mes = intervalo === "mes";
+  const candles = mes ? candlesMensais(V.mensal) : V.candles_ano;
+  const linhas = [];
+  if (carry && CF) { const pts = mes ? Object.entries(CF.mensal).map(([k, v]) => [k + "-01", v]) : CF.candles_ano.map(c => [c.t, c.c]); linhas.push({ rotulo: "cenário: último valor carregado (não é o índice)", pontos: pts, estilo: "dashed", cor: "--gold" }); }
+  if (cenarios && !mes) { const CS = { S1_pesos_nominais_iguais: ["S1: pesos nominais iguais", "--blue2"], geometrica: ["média geométrica", "--c3"], nao_compensatoria_ampi: ["não compensatória (AMPI)", "--c4"] }; Object.entries(V.cenarios).forEach(([k, c]) => linhas.push({ rotulo: CS[k][0], pontos: Object.entries(c).map(([a, v]) => [a + "-01-01", v]), estilo: "dotted", cor: CS[k][1] })); }
+  return { idx: true, modo: mes ? "mes" : "ano", id: sel, nome: sel === "idx:N" ? "Índice composto · núcleo consensual" : "Índice composto · núcleo + premissas econômicas", un: `0 a 100 (0 = pior valor do Brasil em 1995-2024, 100 = melhor) · ${V.itens.length} itens em ${V.areas.length} áreas`, pol: "mais", freq: mes ? "mensal" : "anual", escala: "linear", forma: "linha", candles, linhas, faixa: null, eventos: DATA.eventos.map(e => e.t), quebras: [], sobe: mes ? "verde = o índice fechou o mês acima do mês anterior; vermelho = abaixo. Pavio só no intervalo anual" : "verde = o índice fechou dezembro acima do dezembro anterior; vermelho = abaixo. Pavio = pior e melhor mês do ano", base_candle: "índice mensal (itens mensais pelo mês, anuais como degrau)", nota: "" };
+}
+
+/* ---------- gráfico ---------- */
+function tempoIdx(iso) { const y = anoDe(iso), m = +iso.slice(5, 7), d = +iso.slice(8, 10) || 1; return modoTempo === "mes" ? (y - y0) * 12 + (m - 1) + (d - 1) / 30 - 0.5 : y - y0 + ((m - 1) * 30.4 + d) / 365 - 0.5; }
+function xDe(iso) { const lg = tempoIdx(iso); const k = Math.floor(lg); const ts = chart.timeScale(); const xk = ts.logicalToCoordinate(k); if (xk == null) return null; return xk + (lg - k) * ts.options().barSpacing; }
+function decimais(i) { if (i.idx) return 1; const vals = i.linhas.flatMap(l => l.pontos.filter(p => p[0] >= "1996").map(p => Math.abs(p[1]))); const all = vals.length ? vals : i.linhas.flatMap(l => l.pontos.map(p => Math.abs(p[1]))); if (all.length && all.every(v => Number.isInteger(v))) return 0; const s = all.slice().sort((a, b) => a - b); const m = s[Math.floor(s.length / 2)] || 1; return m >= 100 ? 0 : m >= 1.5 ? 1 : 2; }
+function anualizar(pontos) { const por = new Map(); pontos.forEach(p => por.set(p[0].slice(0, 4), p[1])); return [...por.entries()].map(([a, v]) => [`${a}-01-01`, v]); }
+function desenhar() {
+  const i = serieAtual(); ultimaSerie = i; modoTempo = i.modo;
+  const log = isIdx() ? escLog : (i.escala === "log" || (escLog && i.escala === "symlog") || (periodo === "tudo" && i.escala === "symlog"));
+  const esc = log ? "symlog" : "linear";
+  const dec = decimais(i), T = esc === "symlog" ? symlog : (v) => v, Tinv = esc === "symlog" ? unsymlog : (v) => v;
+  $("#titulo").textContent = i.nome; $("#un").textContent = i.un + (esc === "symlog" ? " · escala de log" : "") + (i.candles.length ? " · candle: " + (i.base_candle || i.linhas[0].rotulo) : (i.freq === "anual" ? " · série anual em linha · no canto do gráfico: valor e diferença sobre o ano anterior" : " · nível que só anda numa direção não ganha candle"));
+  $("#pol").textContent = polTexto(i.pol);
+  $("#sobe").innerHTML = i.sobe ? i.sobe.replace(/^verde/, "<b style='color:var(--up)'>verde</b>").replace(/; vermelho/, "; <b style='color:var(--down)'>vermelho</b>") : "";
+  $("#g-int").hidden = !(isIdx() || i.subanual); $("#g-cen").hidden = !isIdx(); $("#b-log").classList.toggle("on", log);
+  $("#d-rob").hidden = $("#d-areas").hidden = $("#d-itens").hidden = !isIdx();
+  if (chart) { chart.remove(); chart = null; }
+  const todos = [...i.candles.map(c => c.t), ...i.linhas.flatMap(l => l.pontos.map(p => p[0])), ...(i.faixa ? i.faixa.pontos.map(p => p[0]) : [])];
+  y0 = Math.min(...todos.map(anoDe)); const y1 = Math.max(...todos.map(anoDe));
+  if (modoTempo === "mes") { const last = todos.sort().pop(); eixo = []; for (let y = y0; y <= y1; y++) for (let m = 1; m <= 12; m++) { const t = `${y}-${String(m).padStart(2, "0")}-01`; if (t <= last) eixo.push(t); } }
+  else { eixo = []; for (let y = y0; y <= y1; y++) eixo.push(`${y}-01-01`); }
+  chart = LW.createChart($("#chart"), { height: 480, layout: { background: { type: "solid", color: "transparent" }, textColor: css("--ink2"), fontFamily: "IBM Plex Mono, monospace", fontSize: 11 }, grid: { vertLines: { color: css("--grid") }, horzLines: { color: css("--grid") } }, rightPriceScale: { borderColor: css("--line"), scaleMargins: { top: 0.1, bottom: i.faixa ? 0.3 : 0.08 } }, timeScale: { borderColor: css("--line"), timeVisible: false, fixLeftEdge: true, fixRightEdge: true, lockVisibleTimeRangeOnResize: true, minBarSpacing: 3 }, crosshair: { mode: LW.CrosshairMode.Magnet, vertLine: { color: css("--muted"), labelBackgroundColor: css("--panel2") }, horzLine: { color: css("--muted"), labelBackgroundColor: css("--panel2") } }, handleScroll: true, handleScale: true, localization: { priceFormatter: (v) => fmtAxis(Tinv(v), esc === "symlog"), timeFormatter: (t) => { const s = typeof t === "string" ? t : `${t.year}-${String(t.month).padStart(2, "0")}-01`; return modoTempo === "mes" ? quando(s, "mensal") : s.slice(0, 4); } } });
+  const ws = chart.addLineSeries({ color: "transparent", lastValueVisible: false, priceLineVisible: false, crosshairMarkerVisible: false });
+  ws.setData(eixo.map(t => ({ time: t })));
+  const PF = { type: "custom", minMove: 0.0001, formatter: (v) => fmtAxis(Tinv(v), esc === "symlog") };
+  const legend = []; main = null;
+  if (i.candles.length) {
+    main = chart.addCandlestickSeries({ upColor: css("--up"), downColor: css("--down"), borderUpColor: css("--up"), borderDownColor: css("--down"), wickUpColor: css("--up"), wickDownColor: css("--down"), priceFormat: PF, lastValueVisible: true, priceLineVisible: true, priceLineColor: css("--muted") });
+    main.setData(i.candles.map(c => ({ time: modoTempo === "mes" ? c.t.slice(0, 7) + "-01" : c.t.slice(0, 4) + "-01-01", open: T(c.o), high: T(c.h), low: T(c.l), close: T(c.c) })));
+    legend.push(`<span><span class="cd"></span>candle ${modoTempo === "mes" ? "mensal" : "anual"} = ${i.base_candle || i.linhas[0].rotulo}</span>`);
+  }
+  const CORES = ["--blue", "--gold", "--c3", "--c4", "--blue2", "--muted"], ESTILO = { solid: LW.LineStyle.Solid, dashed: LW.LineStyle.Dashed, dotted: LW.LineStyle.Dotted };
+  const TRACO = ["solid", "dashed", "solid", "dashed", "dotted", "dashed"];
+  i.linhas.forEach((l, k) => {
+    if (!i.idx && i.candles.length && k === 0) return;
+    const kk = (!i.idx && i.candles.length) ? k - 1 : k;
+    const cor = css(l.cor || CORES[kk % 6]), estilo = l.estilo || TRACO[kk % 6];
+    const mensalizar = (pts) => { const por = new Map(); pts.forEach(p => por.set(p[0].slice(0, 7), p[1])); return [...por.entries()].map(([m, v]) => [m + "-01", v]); };
+    const brutos = modoTempo === "mes" ? mensalizar(l.pontos) : ((!i.idx && i.candles.length) ? anualizar(l.pontos) : l.pontos);
+    const pontos = brutos.map(p => ({ time: modoTempo === "mes" ? p[0] : p[0].slice(0, 4) + "-01-01", value: T(p[1]) }));
+    let s;
+    if (i.forma === "coluna") s = chart.addHistogramSeries({ color: cor, priceFormat: PF, lastValueVisible: false, priceLineVisible: false });
+    else s = chart.addLineSeries({ color: cor, lineWidth: 2, lineStyle: ESTILO[estilo], priceFormat: PF, lastValueVisible: false, priceLineVisible: false, pointMarkersVisible: i.forma === "pontos" || (!i.candles.length && modoTempo === "ano"), pointMarkersRadius: i.forma === "pontos" ? 4 : 2.5 });
+    s.setData(pontos);
+    if (!main) main = s;
+    legend.push(`<span><i style="border-color:${cor};border-top-style:${estilo}"></i>${l.rotulo}</span>`);
+  });
+  if (i.faixa && modoTempo !== "mes") { const h = chart.addHistogramSeries({ priceScaleId: "", priceFormat: { type: "custom", minMove: 0.01, formatter: (v) => sgn(v, 1) + " p.p." }, lastValueVisible: false, priceLineVisible: false }); h.priceScale().applyOptions({ scaleMargins: { top: 0.76, bottom: 0 } }); h.setData(anualizar(i.faixa.pontos).map(p => ({ time: p[0], value: p[1], color: p[1] >= 0 ? css("--up") : css("--down") }))); legend.push(`<span><span class="fx"></span>${i.faixa.rotulo} (faixa de baixo, em pontos percentuais)</span>`); }
+  if (!i.idx && (esc === "symlog" || i.pol !== "neutro")) main.createPriceLine({ price: T(0), color: css("--line"), lineWidth: 1, lineStyle: LW.LineStyle.Solid, axisLabelVisible: false, title: "" });
+  /* marcos datados */
+  const temT = new Set((i.candles.length ? i.candles.map(c => c.t) : i.linhas[0].pontos.map(p => p[0])).map(t => modoTempo === "mes" ? t.slice(0, 7) : t.slice(0, 4)));
+  const marks = DATA.eventos.filter(e => i.eventos.includes(e.t) && temT.has(modoTempo === "mes" ? e.t.slice(0, 7) : e.t.slice(0, 4))).map(e => ({ time: modoTempo === "mes" ? e.t.slice(0, 7) + "-01" : e.t.slice(0, 4) + "-01-01", position: "aboveBar", color: css("--mark"), shape: "arrowDown", text: e.rotulo, size: 1 }));
+  marks.sort((a, b) => a.time < b.time ? -1 : 1).forEach((m, k) => { if (k && tempoIdx(m.time) - tempoIdx(marks[k - 1].time) <= (modoTempo === "mes" ? 36 : 5) && marks[k - 1].position === "aboveBar") { m.position = "belowBar"; m.shape = "arrowUp"; } });
+  main.setMarkers(marks);
+  legend.push(`<span><i style="border-color:var(--mark);border-top-style:solid"></i>marco datado</span>`);
+  $("#legend").innerHTML = legend.join("");
+  chart.subscribeCrosshairMove(p => { if (!p || !p.time) return; const t = typeof p.time === "string" ? p.time : `${p.time.year}-${String(p.time.month).padStart(2, "0")}-01`; leitura(t); });
+  chart.timeScale().subscribeVisibleLogicalRangeChange(() => fita());
+  explicar(i); aviso(i); extras(i, dec); tabela(i, dec); aplicarPeriodo();
+  leitura(i.candles.length ? i.candles[i.candles.length - 1].t : i.linhas[0].pontos[i.linhas[0].pontos.length - 1][0]);
+}
+function fita() {
+  const el = $("#fita"), bd = $("#bands"); el.innerHTML = ""; bd.innerHTML = "";
+  const w = $("#chart").clientWidth - 60;
+  DATA.governos.forEach(g => { let a = xDe(g.posse), b = xDe(g.saida); if (a == null && b == null) return; if (a == null) a = -1e4; if (b == null) b = 1e4; const L = Math.max(0, a), R = Math.min(w, b); if (R - L <= 0) return; const dv = document.createElement("div"); dv.style.left = L + "px"; dv.style.width = (R - L) + "px"; if (R - L > 6.6 * g.curto.length + 8) dv.textContent = g.curto; dv.title = g.nome; el.appendChild(dv); const db = document.createElement("div"); db.style.left = L + "px"; db.style.width = (R - L) + "px"; bd.appendChild(db); });
+}
+function aplicarPeriodo() {
+  if (!chart) return;
+  const n = eixo.length, ts = chart.timeScale();
+  const porAno = modoTempo === "mes" ? 12 : 1;
+  const de = periodo === "tudo" ? 0 : periodo === "dez" ? Math.max(0, n - 10 * porAno - 1) : Math.max(0, (1996 - y0) * porAno);
+  ts.setVisibleLogicalRange({ from: de, to: n - 1 });
+  setTimeout(fita, 0);
+}
+function govDe(t) { return DATA.governos.find(g => t >= g.posse && t < g.saida); }
+/* leitura OHLC no canto do gráfico + bloco de informação do período sob o cursor */
+function leitura(t) {
+  const i = ultimaSerie; if (!i) return; const dec = decimais(i), F = (v) => fmt(v, dec);
+  const chave = modoTempo === "mes" ? t.slice(0, 7) : t.slice(0, 4);
+  const c = i.candles.find(c => (modoTempo === "mes" ? c.t.slice(0, 7) : c.t.slice(0, 4)) === chave);
+  const g = govDe(modoTempo === "mes" ? t.slice(0, 7) + "-15" : chave + "-12-31") || govDe(chave + "-01-01");
+  let h = `<b>${modoTempo === "mes" ? quando(t, "mensal") : chave}</b> · ${g ? g.curto : "—"}`;
+  if (c) { const d = c.c - c.o, up = d >= 0; h += ` · A <b>${F(c.o)}</b> M <b>${F(c.h)}</b> m <b>${F(c.l)}</b> F <b class="${up ? "up" : "down"}">${F(c.c)}</b> <span class="${up ? "up" : "down"}">${sgn(d, dec)}${c.o ? " (" + sgn(100 * d / Math.abs(c.o), 1) + "%)" : ""}</span>`; if (c.nota) h += ` · ${c.nota}`; }
+  i.linhas.forEach((l, k) => {
+    if (!i.idx && i.candles.length && k === 0) return;
+    const p = l.pontos.filter(p => (modoTempo === "mes" ? p[0].slice(0, 7) : p[0].slice(0, 4)) === chave); if (!p.length) return;
+    const v = p[p.length - 1][1]; let d = "";
+    if (modoTempo === "ano" && !i.candles.length) { /* série anual em linha: diferença sobre o ano anterior, na unidade e em % */ const q = l.pontos.filter(q => q[0].slice(0, 4) === String(+chave - 1)); if (q.length) { const v0 = q[q.length - 1][1], dv = v - v0; d = ` <span class="${dv >= 0 ? "up" : "down"}" title="diferença sobre ${+chave - 1}">${sgn(dv, dec)}${v0 ? " (" + sgn(100 * dv / Math.abs(v0), 1) + "%)" : ""}</span>`; } }
+    h += ` · ${l.rotulo.split(" (")[0].split(":")[0].slice(0, 28)} <b>${F(v)}</b>${d}`;
+  });
+  $("#ohlc").innerHTML = h;
+  info(i, chave, dec);
+}
+function info(i, chave, dec) {
+  const F = (v) => fmt(v, dec); let blocos = [];
+  if (i.idx) {
+    const V = VER(), a = chave.slice(0, 4), sc = V.scores_areas[a];
+    if (sc) blocos.push(`<div><h3>Áreas em ${a}</h3><div class="kv">${Object.entries(sc).sort((x, y) => y[1] - x[1]).map(([ar, v]) => `<span class="k">${ar}</span><span>${fmt(v, 0)}</span>`).join("")}</div></div>`);
+    const itens = IDX.itens.filter(x => V.itens.includes(x.id) && x.pontos[a] != null && x.pontos[String(+a - 1)] != null).map(x => ({ n: x.nome, d: x.pontos[a] - x.pontos[String(+a - 1)] })).sort((x, y) => Math.abs(y.d) - Math.abs(x.d)).slice(0, 5);
+    if (itens.length) blocos.push(`<div><h3>Itens que mais mexeram em ${a}</h3><div class="kv">${itens.map(x => `<span class="k">${x.n}</span><span class="${x.d >= 0 ? "up" : "down"}">${sgn(x.d, 0)}</span>`).join("")}</div></div>`);
+    const rb = V.robustez.find(r => { const c = V.candles_mandato.find(m => m.gov === r.gov); return c && String(c.anos[1]) === a; });
+    if (rb) blocos.push(`<div><h3>Fim de mandato: ${gov(rb.gov).curto}</h3><div class="kv"><span class="k">fechamento do mandato</span><span>${fmt(rb.fechamento, 1)}</span><span class="k">faixa em 90% dos sorteios</span><span>${fmt(rb.p5, 1)} a ${fmt(rb.p95, 1)}</span><span class="k">posição entre os 6</span><span>${rb.posicao}º (mantida em ${fmt(100 * rb.fracao_mantem_posicao, 0)}%)</span></div></div>`);
+  } else {
+    const a = chave.slice(0, 4);
+    const ev = DATA.eventos.filter(e => i.eventos.includes(e.t) && e.t.slice(0, 4) === a).map(e => `<div class="ev"><b>${e.rotulo}</b> · ${e.t.slice(8, 10)}/${e.t.slice(5, 7)}<br>${e.fonte}</div>`).join("");
+    const qb = i.quebras.filter(q => q.ano === a).map(q => `<div class="qb"><b>${{ metodo_estatistico: "mudança de método", mudanca_de_regra: "mudança de regra", revisao_de_vintage: "revisão de edição", mudanca_de_unidade: "troca de moeda" }[q.tipo] || q.tipo}</b>: ${q.razao || "razão não declarada pela fonte"}${q.efeito ? ` · efeito: ${q.efeito}` : ""}</div>`).join("");
+    if (ev || qb) blocos.push(`<div><h3>${a}</h3>${ev}${qb}</div>`);
+    if (i.frase) blocos.push(`<div><h3>Leitura</h3><p class="note">${i.frase}</p>${i.nota ? `<p class="note" style="margin-top:4px">${i.nota}</p>` : ""}</div>`);
+  }
+  $("#info").innerHTML = blocos.join("");
+}
+function explicar(i) {
+  const e = i.idx ? IDX.explica : (i.explica || null);
+  if (!e) { $("#explica").innerHTML = ""; return; }
+  const T = { o_que: "O que é", como: "Como é calculado", porque: "Por que importa", cuidado: "Cuidado ao ler" };
+  $("#explica").innerHTML = Object.keys(T).map(k => `<div><h3>${T[k]}</h3><p>${e[k] || ""}</p></div>`).join("");
+}
+function aviso(i) {
+  const el = $("#aviso");
+  if (!i.idx) { el.hidden = true; return; }
+  const V = VER(); const semAno = []; for (let y = 1995; y <= 2024; y++) if (!(y in V.serie)) semAno.push(y);
+  el.hidden = false;
+  el.innerHTML = `${V.pesos.convergiu ? "Pesos ajustados por importância efetiva." : "O ajuste por importância efetiva não convergiu dentro das restrições; valem os pesos nominais iguais, como o pré-registro manda declarar."} ${semAno.length ? `Sem índice em ${semAno.join(", ")} (menos de 70% dos itens com dado: o Saeb é bienal e a PNAD pulou 2000).` : ""} 2025 e 2026 só existem na camada "último valor carregado", que é cenário. Dez dos itens são tendências seculares e um índice de "distância ao melhor já visto" sobe com o tempo por construção: não é mérito, é o que a regra mede.`;
+}
+function extras(i, dec) {
+  if (!i.idx) return;
+  const V = VER();
+  $("#rob").innerHTML = `<table class="rob"><thead><tr><th>Mandato</th><th>Fechamento</th><th>Posição</th><th>Faixa (5%-95%)</th><th>Mantém a posição</th></tr></thead><tbody>${V.robustez.slice().sort((a, b) => a.posicao - b.posicao).map(r => `<tr><td>${gov(r.gov).curto}</td><td>${fmt(r.fechamento, 1)}</td><td>${r.posicao}º</td><td>${fmt(r.p5, 1)} a ${fmt(r.p95, 1)}</td><td>${fmt(100 * r.fracao_mantem_posicao, 0)}%</td></tr>`).join("")}</tbody></table>`;
+  $("#areas").innerHTML = `<table class="rob"><thead><tr><th>Área</th><th>Itens</th><th>Peso nominal</th><th>Peso em uso</th><th>Importância efetiva (r²)</th></tr></thead><tbody>${V.areas.map(a => `<tr><td>${a}</td><td>${IDX.itens.filter(x => x.area === a && V.itens.includes(x.id)).length}</td><td>${fmt(100 * V.pesos.nominal[a], 1)}%</td><td>${fmt(100 * V.pesos.ajustados[a], 1)}%</td><td>${fmt(V.importancia_efetiva[a], 2)}</td></tr>`).join("")}</tbody></table>`;
+  $("#itens").innerHTML = `<table class="rob"><thead><tr><th>Item</th><th>Área</th><th>Direção</th><th>Pior (0)</th><th>Melhor (100)</th><th>Nota 2024</th><th>Encadeamento</th></tr></thead><tbody>${IDX.itens.filter(x => V.itens.includes(x.id)).map(x => `<tr><td>${x.nome}</td><td>${x.area}</td><td>${x.direcao === "maior" ? "maior é melhor" : "menor é melhor"}</td><td>${fmt(x.balizas.pior, 2)}</td><td>${fmt(x.balizas.melhor, 2)}</td><td>${x.pontos["2024"] != null ? fmt(x.pontos["2024"], 0) : "—"}</td><td>${x.encadeamento.map(e => e.sobreposicao ? `${e.de} -> ${e.para}: ${e.sobreposicao} ${e.sobreposicao > 1 ? "anos" : "ano"}, ${e.efeito.diferenca != null ? "diferença " + fmt(e.efeito.diferenca, 2) + (e.efeito.desvio_padrao != null ? " ± " + fmt(e.efeito.desvio_padrao, 2) : "") : "fator " + fmt(e.efeito.fator, 3)}` : `${e.de} / ${e.para}: sem sobreposição, fica ${e.mantida}`).join("; ") || "—"}</td></tr>`).join("")}</tbody></table>`;
+}
+function tabela(i, dec) {
+  const F = (v) => fmt(v, dec);
+  if (i.candles.length) { $("#tabela").innerHTML = `<table class="t"><thead><tr><th>${modoTempo === "mes" ? "Mês" : "Ano"}</th><th>Abertura</th><th>Máxima</th><th>Mínima</th><th>Fechamento</th><th>Fech. − abert.</th></tr></thead><tbody>${i.candles.slice().reverse().map(c => `<tr><td>${modoTempo === "mes" ? quando(c.t, "mensal") : c.t.slice(0, 4)}</td><td>${F(c.o)}</td><td>${F(c.h)}</td><td>${F(c.l)}</td><td>${F(c.c)}</td><td style="color:${c.c >= c.o ? "var(--up)" : "var(--down)"}">${sgn(c.c - c.o, dec)}</td></tr>`).join("")}</tbody></table>`; return; }
+  const anosT = [...new Set(i.linhas.flatMap(l => l.pontos.map(p => p[0].slice(0, 4))))].sort().reverse();
+  $("#tabela").innerHTML = `<table class="t"><thead><tr><th>Ano</th>${i.linhas.map(l => `<th>${l.rotulo}</th>`).join("")}</tr></thead><tbody>${anosT.map(a => `<tr><td>${a}</td>${i.linhas.map(l => { const p = l.pontos.find(p => p[0].slice(0, 4) === a); return `<td>${p ? F(p[1]) : "—"}</td>`; }).join("")}</tr>`).join("")}</tbody></table>`;
+}
+
+/* ---------- leitura por governo: índice, itens que mais mexeram, Brasil contra a América Latina ---------- */
+function leituraGov() {
+  const L = IDX.versoes["N"].leitura_mandatos || [];
+  const refDe = (m) => m.referencias.find(r => r.codigo === "LCN" && r.pontos.length) || m.referencias.find(r => r.codigo === "WLD" && r.pontos.length) || m.referencias.find(r => r.pontos.length);
+  $("#leitura-gov").innerHTML = L.map(r => {
+    const g = gov(r.gov), d = r.fechamento - r.abertura, [a0, a1] = r.anos;
+    const mundo = MUNDO.indicadores.map(m => { const rf = refDe(m); if (!rf) return null; const bra = Object.fromEntries(m.bra), rp = Object.fromEntries(rf.pontos); if (!(a0 in bra && a0 in rp && a1 in bra && a1 in rp)) return null; const g0 = bra[a0] - rp[a0], g1 = bra[a1] - rp[a1], dec = Math.min(+m.dec, 2); const igual = Math.abs(g1 - g0) < Math.pow(10, -dec); return { nome: m.nome, ref: rf.nome, g0, g1, dec, igual, melhor: m.pol === "mais" ? g1 > g0 : g1 < g0 }; }).filter(Boolean);
+    const ganhou = mundo.filter(x => !x.igual && x.melhor).length, perdeu = mundo.filter(x => !x.igual && !x.melhor).length;
+    const kv = (xs, cls) => `<div class="kv">${xs.map(m => `<span class="k">${m.nome}</span><span class="${cls}">${sgn(m.pontos, 0)}</span>`).join("")}</div>`;
+    return `<article class="gcard"><h2>${g.curto}<small>${a0} -> ${a1}${r.nota ? " · " + r.nota : ""}</small></h2>
+      <p class="ix">índice <b>${fmt(r.abertura, 1)}</b> -> <b class="${d >= 0 ? "up" : "down"}">${fmt(r.fechamento, 1)}</b> (${sgn(d, 1)}) · de ${r.n_itens} itens, <span class="up">${r.subiram} subiram</span> e <span class="down">${r.cairam} caíram</span> mais de 1 ponto</p>
+      <div class="cols"><div><h3>Mais subiram (pontos de 0 a 100)</h3>${kv(r.mais_subiram.filter(m => m.pontos > 0), "up")}</div><div><h3>Mais caíram</h3>${r.mais_cairam.some(m => m.pontos < 0) ? kv(r.mais_cairam.filter(m => m.pontos < 0), "down") : `<p class="note">nenhum item caiu</p>`}</div>
+      <div><h3>Brasil menos América Latina</h3><p class="note">${ganhou} séries em que o Brasil ganhou terreno, ${perdeu} em que perdeu, de ${mundo.length} (${a0} -> ${a1}, mesma fonte)</p><div class="kv">${mundo.map(x => `<span class="k">${x.nome}${x.ref !== "América Latina e Caribe" ? ` (contra ${x.ref})` : ""}</span><span class="${x.igual ? "" : x.melhor ? "up" : "down"}">${sgn(x.g0, x.dec)} -> ${sgn(x.g1, x.dec)}</span>`).join("")}</div></div></div>
+      <p class="lit"><a href="#" data-litgov="${r.gov}">${LIT.por_mandato[r.gov] || 0} estudo${(LIT.por_mandato[r.gov] || 0) === 1 ? "" : "s"} revisado${(LIT.por_mandato[r.gov] || 0) === 1 ? "" : "s"} por pares</a> sobre episódios deste mandato (aba Estudos). O número reflete os anos decorridos e os episódios declarados, nunca a qualidade do governo nem o sentido dos resultados.</p></article>`;
+  }).join("");
+  $$("[data-litgov]").forEach(a => a.onclick = (ev) => { ev.preventDefault(); litGov = a.dataset.litgov; estudos(); mudarTab("estudos"); scrollTo({ top: 0, behavior: "smooth" }); });
+}
+
+/* ---------- grade por governo ---------- */
+const curto = (r) => r.split(" (")[0].split(":")[0].slice(0, 42).replace(/[,;\s]+$/, "");
+function glifo(b, lo, hi, T) { const H = 40, W = 12, y = (v) => hi === lo ? H / 2 : H - 2 - (T(v) - lo) / (hi - lo) * (H - 4); const o = b.inicio[1], c = b.fim[1], h = b.max[1], l = b.min[1], up = c >= o; const col = Math.abs(c - o) < 1e-12 ? css("--muted") : up ? css("--up") : css("--down"); const yo = y(o), yc = y(c), top = Math.min(yo, yc), hgt = Math.max(2, Math.abs(yo - yc)); return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true"><line x1="${W / 2}" x2="${W / 2}" y1="${y(h)}" y2="${y(l)}" stroke="${col}" stroke-width="1.2"/><rect x="2" width="${W - 4}" y="${top}" height="${hgt}" fill="${col}" rx="1"/></svg>`; }
+function celula(i, m, g, dec, lo, hi, T) {
+  const F = (v) => fmt(v, dec), fr = i.freq;
+  const qs = i.quebras.filter(q => +q.ano >= anoDe(g.posse) && +q.ano <= anoDe(g.saida) - (g.id === "pre_real" || g.corrente ? 0 : 1) + (anoDe(g.saida) > anoDe(g.posse) && g.saida.slice(5) !== "01-01" ? 1 : 0));
+  const luz = qs.length ? `<span class="luz" title="${qs.map(q => `${q.ano}: ${({ metodo_estatistico: "mudança de método", mudanca_de_regra: "mudança de regra", revisao_de_vintage: "revisão de edição", mudanca_de_unidade: "troca de moeda" }[q.tipo] || q.tipo)}`).join(" · ").replace(/"/g, "'")}"></span>` : "";
+  if (m.principal == null) { const partes = m.bases.filter(b => (b.inicio || b.fim) && b.n >= 2).map(b => `<div class="sb">${curto(i.linhas[b.k].rotulo)}: ${b.inicio ? F(b.inicio[1]) : "·"} → ${b.fim ? F(b.fim[1]) : "·"}</div>`); return `<td class="cel">${partes.length ? `<div class="none">sem base única${luz}</div>${partes.join("")}` : `<div class="none">sem dado</div>`}</td>`; }
+  const b = m.bases.find(x => x.k === m.principal); const o = b.inicio[1], c = b.fim[1], diff = c - o, flat = Math.abs(diff) < Math.pow(10, -dec) / 2; const cls = flat ? "flat" : diff > 0 ? "up" : "down";
+  const base = m.principal > 0 ? `<div class="bs">${curto(i.linhas[m.principal].rotulo)}</div>` : ""; const svg = g.id === "pre_real" ? "" : glifo(b, lo, hi, T);
+  return `<td class="cel"><div class="row">${svg}<div><div class="main ${cls}">${F(o)} <span class="arr">→</span> ${F(c)}${luz}</div><div class="dt">${quando(b.inicio[0], fr)} → ${quando(b.fim[0], fr)}</div><div class="mm">máx ${F(b.max[1])} · mín ${F(b.min[1])}</div>${base}</div></div></td>`;
+}
+function grade() {
+  let h = `<thead><tr><th>Indicador</th>${COLS.map(g => { const a = anoDe(g.posse), b = anoDe(g.saida); const anos = g.id === "pre_real" ? "só números" : `${a}-${String(b).slice(2)}${g.corrente ? " · até " + quando(g.saida, "mensal") : ""}`; return `<th>${g.curto}<small>${anos}</small></th>`; }).join("")}</tr></thead><tbody>`;
+  DATA.dominios.forEach(d => {
+    h += `<tr class="dom"><th colspan="${COLS.length + 1}">${d.nome}</th></tr>`;
+    d.ids.forEach(id => {
+      const i = DATA.indicadores.find(x => x.id === id), dec = decimais({ ...i, idx: false });
+      const ms = DATA.colunas.map(c => i.mandatos.find(m => m.gov === c));
+      const pr = ms.filter((m, k) => k > 0 && m.principal != null).map(m => m.bases.find(x => x.k === m.principal));
+      const mn = pr.length ? Math.min(...pr.map(b => b.min[1])) : 0, mx = pr.length ? Math.max(...pr.map(b => b.max[1])) : 1;
+      const T = (i.escala !== "linear" || (mn > 0 && mx / mn > 20) || (mn < 0 && mx - mn > 200)) ? symlog : (v) => v;
+      h += `<tr class="ind" data-id="${id}" tabindex="0"><td><div class="nm">${i.nome}</div><span class="un">${i.un.split(" (")[0]}</span><span class="pol">${polTexto(i.pol)}</span><span class="frase">${i.frase.startsWith(i.nome + ": ") ? i.frase.slice(i.nome.length + 2) : i.frase}</span></td>${ms.map((m, k) => celula(i, m, COLS[k], dec, T(mn), T(mx), T)).join("")}</tr>`;
+    });
+  });
+  $("#grade").innerHTML = h + "</tbody>";
+  $$("#grade tr.ind").forEach(tr => { const abre = () => { mudarTab("grafico"); escolher(tr.dataset.id); scrollTo({ top: 0, behavior: "smooth" }); }; tr.onclick = abre; tr.onkeydown = (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); abre(); } }; });
+}
+
+/* ---------- abas e controles ---------- */
+function mudarTab(t) { tab = t; $$(".tab").forEach(b => b.classList.toggle("on", b.dataset.tab === t)); ["grafico", "governo", "estudos", "auditoria", "como"].forEach(k => $("#tab-" + k).hidden = k !== t); if (t === "grafico") setTimeout(desenhar, 0); }
+$$(".tab").forEach(b => b.onclick = () => mudarTab(b.dataset.tab));
+$$("#g-int .btn").forEach(b => b.onclick = () => { intervalo = b.dataset.int; $$("#g-int .btn").forEach(x => x.classList.toggle("on", x === b)); desenhar(); });
+$$("[data-per]").forEach(b => b.onclick = () => { periodo = b.dataset.per; $$("[data-per]").forEach(x => x.classList.toggle("on", x === b)); aplicarPeriodo(); });
+$("#b-log").onclick = () => { escLog = !escLog; desenhar(); };
+$("#b-cen").onclick = () => { cenarios = !cenarios; $("#b-cen").classList.toggle("on", cenarios); desenhar(); };
+$("#b-cf").onclick = () => { carry = !carry; $("#b-cf").classList.toggle("on", carry); desenhar(); };
+$("#tema").onclick = () => { const atual = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark"); const novo = atual === "light" ? "dark" : "light"; document.documentElement.dataset.theme = novo; try { localStorage.setItem("rx-tema", novo); } catch (e) {} grade(); desenhar(); };
+/* marcos tributários e de burocracia: atos do Planalto lidos pela coleta (emenda 03 §C e §D), listados por governo, sem contagem comparativa */
+function eventos() {
+  const E = DATA.atos || [];
+  if (!E.length) return;
+  const porGov = new Map();
+  E.forEach(e => { if (!porGov.has(e.governo)) porGov.set(e.governo, []); porGov.get(e.governo).push(e); });
+  $("#eventos").innerHTML = `<details class="episodio"><summary>Marcos tributários e de burocracia (${E.length} atos do Planalto, por governo)</summary><p class="note">Cada linha é um ato lido no texto do Planalto: data, instrumento, o que mexe e o sentido declarado no próprio texto ("altera" quando o texto não traz o valor anterior). A lista de IR, IPI e IOF não é exaustiva, então contar atos por governo não compara nada.</p>${[...porGov.entries()].map(([g, xs]) => `<h4>${esc(g)}</h4><ul>${xs.map(e => `<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.data)} · ${esc(e.instrumento)}</a>: ${esc(e.tributo || e.tema)} · <em>${esc(e.sentido)}</em>${e.nota ? ` <small>(${esc(e.nota)})</small>` : ""}</li>`).join("")}</ul>`).join("")}</details>`;
+}
+lista(); leituraGov(); grade(); eventos(); desenhar();
+/* ---------- estudos: a camada de literatura (emendas 07-09), sem nota nem soma ---------- */
+let litGov = "todos";
+const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
+function estudos() {
+  const R = LIT.rodadas, ult = R[R.length - 1];
+  $("#lit-intro").innerHTML = `O que a literatura revisada por pares mediu sobre os episódios de cada mandato, por um protocolo de busca selado antes de buscar (emendas 07 a 10): OpenAlex e Crossref; entra só artigo com DOI, periódico Q1 no SJR (edição 2024), Brasil no título ou no resumo e um desenho de identificação nomeado no resumo; tudo que a busca devolveu está listado com o motivo. Rodadas publicadas: ${R.map(r => `emenda ${r.emenda}: ${r.incluidos} incluídos em ${r.trabalhos} trabalhos`).join("; ")}. A página mostra a última completa, emenda ${ult.emenda} (${ult.incluidos} estudos, ${LIT.episodios.length} episódios).${LIT.pendente ? " " + LIT.pendente + "." : ""} Sem nota, soma ou veredito: o número por mandato reflete os anos decorridos e os episódios declarados, nunca a qualidade do governo nem o sentido dos resultados.`;
+  const govs = ["todos", ...DATA.colunas.filter(c => c !== "pre_real")];
+  $("#lit-filtro").innerHTML = `<span>mandato</span>` + govs.map(g => `<button class="btn ${g === litGov ? "on" : ""}" data-lg="${g}" type="button">${g === "todos" ? "Todos" : gov(g).curto}</button>`).join("");
+  $$("[data-lg]").forEach(b => b.onclick = () => { litGov = b.dataset.lg; estudos(); });
+  const E = LIT.estudos, byKey = Object.fromEntries(E.map(s => [s.chave, s]));
+  const eps = LIT.episodios.filter(e => litGov === "todos" || e.mandatos.includes(litGov));
+  $("#lit").innerHTML = eps.map(e => {
+    const inc = e.incluidos.map(k => byKey[k]).filter(Boolean);
+    const exc = LIT.excluidos.filter(x => x.episodios.includes(e.numero));
+    const cards = inc.map(s => `<article class="study"><h4><a href="https://doi.org/${esc(s.doi)}" target="_blank" rel="noopener">${esc(s.titulo)}</a></h4><p class="meta">${esc(s.autores)} · <b>${esc(s.periodico)}</b> (Q1, SJR ${s.sjr_edicao}) · ${s.ano} · ${s.citacoes_openalex} citações no OpenAlex · mandatos: ${s.mandatos.map(g => gov(g) ? gov(g).curto : g).join(", ")}</p><p class="meta">desenho encontrado no resumo: <i>${esc(s.desenho)}</i></p>${s.frases_resultado.length ? `<blockquote>${s.frases_resultado.map(f => `<p>"${esc(f)}"</p>`).join("")}</blockquote>` : `<p class="meta">resumo sem frase de resultado pelas palavras declaradas</p>`}</article>`).join("");
+    const motivos = Object.entries(e.excluidos_por_motivo).map(([m, n]) => `${m}: ${n}`).join(" · ");
+    return `<section class="episodio"><h2>${e.numero} · ${esc(e.nome)}<small>${e.mandatos.map(g => gov(g) ? gov(g).curto : g).join(", ")}</small></h2>
+      <p class="note">consulta: "${esc(e.consulta_en)}" (${e.lidos_en} lidos de ${e.total_en.toLocaleString("pt-BR")} no OpenAlex) · "${esc(e.consulta_pt)}" (${e.lidos_pt} de ${e.total_pt.toLocaleString("pt-BR")}) · ${inc.length} incluído${inc.length === 1 ? "" : "s"}, ${exc.length} excluídos${motivos ? " (" + motivos + ")" : ""}</p>
+      ${cards || `<p class="note" style="color:var(--mark)">nenhum artigo Q1 com desenho de identificação encontrado por este protocolo: ausência declarada, não prova de que não exista</p>`}
+      ${exc.length ? `<details><summary>excluídos deste episódio (${exc.length})</summary><div class="scroll"><table class="rob"><thead><tr><th>Título</th><th>Periódico</th><th>Ano</th><th>Quartil</th><th>Motivo</th></tr></thead><tbody>${exc.map(x => `<tr><td style="white-space:normal;text-align:left">${esc(x.titulo)}</td><td style="white-space:normal;text-align:left">${esc(x.periodico)}</td><td>${x.ano ?? ""}</td><td>${esc(x.quartil_sjr)}</td><td>${esc(x.motivo)}</td></tr>`).join("")}</tbody></table></div></details>` : ""}
+    </section>`;
+  }).join("");
+}
+estudos();
+
+/* ---------- auditoria por janelas ---------- */
+let audFiltro = "bandeiras";
+function auditoria() {
+  const rows = AUD.linhas.filter(r => audFiltro === "todos" ? true : audFiltro === "bandeiras" ? r.bandeira : r.grupo === audFiltro);
+  const J = AUD.janelas.map(j => j.nome);
+  const cel = (r, j) => { const x = r.janelas[j]; if (!x) return `<td style="color:var(--muted)">sem dado</td>`; const cor = x.leitura === "melhorou" ? "var(--up)" : x.leitura === "piorou" ? "var(--down)" : "var(--ink2)"; return `<td style="color:${cor}" title="${x.de}: ${fmt(x.valor_inicial, 2)} -> ${r.ultimo_ano}: ${fmt(r.ultimo, 2)}">${x.leitura} <small style="color:var(--muted)">${fmt(x.valor_inicial, 2)} → ${fmt(r.ultimo, 2)}</small></td>`; };
+  $("#aud").innerHTML = `<table class="rob"><thead><tr><th>Série</th><th>Régua / base</th><th>Direção</th>${J.map(j => `<th>${j === "inicio" ? "desde 1995" : j === "mandato" ? "mandato corrente (2022+)" : "últimos " + j}</th>`).join("")}<th>Bandeira</th></tr></thead><tbody>${rows.map(r => `<tr><td>${r.nome}<br><small style="color:var(--muted)">${r.grupo}</small></td><td style="white-space:normal;min-width:160px;text-align:left">${r.regua}</td><td>${polTexto(r.pol)}</td>${J.map(j => cel(r, j)).join("")}<td style="color:var(--mark)">${r.bandeira || ""}</td></tr>`).join("")}</tbody></table><p class="note" style="margin-top:8px">Séries lidas na base principal (candle ou primeira linha); produtos nas três réguas; itens do índice nos valores encadeados. ${AUD.bandeiras.length} bandeiras em ${AUD.linhas.length} linhas.</p>`;
+}
+$$("[data-aud]").forEach(b => b.onclick = () => { audFiltro = b.dataset.aud; $$("[data-aud]").forEach(x => x.classList.toggle("on", x === b)); auditoria(); });
+auditoria();
+
+let rz; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(desenhar, 200); });
+</script>

@@ -1,0 +1,365 @@
+# Metodologia
+
+> [!NOTE]
+> Idioma canônico: inglês. O mesmo documento existe em português (Brasil), espanhol,
+> italiano e hebraico. Todos os números da prosa são preenchidos a partir de `output/results.json`
+> por `scripts/make_docs.py`, de modo que as cinco versões não podem divergir. A versão em hebraico
+> é uma tradução automática, sem revisão humana da renderização da direita para a esquerda.
+
+## 1. A pergunta
+
+Um infográfico viral ("Governos do Brasil: economia, sociedade e marcos importantes", publicado
+no X em 2026-10-18 com a legenda "Perguntei ao ChatGPT…" e repassado pelo WhatsApp) imprime
+{{n_total}} números sobre oito governos brasileiros. Este repositório faz uma única pergunta, estreita
+e verificável: **cada número impresso pode ser reproduzido a partir de dados públicos, sob uma regra fixada em código?**
+Ele não ranqueia governos e não afirma nem sugere a quem o infográfico foi feito para
+favorecer: a intenção não pode ser medida a partir de dados.
+
+## 2. Dados e a cadeia de hash de aquisição
+
+Cada arquivo baixado para este estudo é registrado em um `manifest.jsonl` (um por pasta em
+`data/raw/`), somente de acréscimo (append-only), com um objeto JSON por linha contendo `seq`, `url`, `timestamp_utc`,
+`http_status`, `bytes`, `sha256` do arquivo salvo e `prev_hash`.
+
+```text
+prev_hash(line 1) = sha256("")                       # the empty string
+prev_hash(line i) = sha256(exact bytes of line i-1)  # LF included
+```
+
+Alterar um único byte de uma linha antiga muda o seu hash e rompe todos os `prev_hash` seguintes. A mesma
+ideia, aplicada ao repositório inteiro, produz o selo (`output/provenance.json`):
+
+```text
+h_0 = sha256("")
+h_i = sha256(h_{i-1} + path_i + sha256(file_i))      # files in lexicographic order of path
+chain_hash = h_n
+```
+
+A ideia de encadear registros por hashes criptográficos, de modo que a história não possa ser reescrita sem
+detecção, vem de Haber e Stornetta (1991, DOI 10.1007/bf00196791). Arquivos que são estatísticas públicas
+de governo e pequenos o bastante são redistribuídos; documentos grandes de terceiros (PDF,
+ZIP, páginas de notícias) são mantidos apenas como hash mais URL, e `python -m govfc.chain restore <folder>`
+os baixa de novo e compara os bytes. Uma URL ativa pode legitimamente servir uma versão mais nova:
+uma divergência significa "a fonte mudou ou a cópia foi alterada", nunca "prova de adulteração".
+
+Aqui, a reprodutibilidade é definida a partir do **retrato selado** (sealed snapshot), não de um novo download: alguns
+endpoints (por exemplo, a série `IGP12_IGPDI12` do Ipeadata) devolvem todo o histórico até o
+mês corrente, de modo que um download feito no mês seguinte tem bytes diferentes.
+
+## 3. Transcrição do infográfico
+
+A imagem é guardada com o seu hash (`data/infographic/`). Cada número impresso foi transcrito
+para `data/infographic/infografico-transcrito.csv` com a janela ou o ano impresso ao lado
+(por exemplo, "1995-2002" ou "1990 (referencia)"). Uma célula com dois valores ("8,4 -> 6,5")
+vira duas linhas. Um asterisco final significa "estimativas ou dados parciais", segundo o próprio
+rodapé do infográfico.
+
+## 4. Janelas: o que o infográfico imprime versus os mandatos reais
+
+Cada indicador é avaliado **na janela impressa no infográfico**. Os mandatos
+(datas de posse e de saída, `data/curated/mandatos.csv`, com fontes) servem para mostrar o que o
+infográfico deixa de fora e para construir janelas que correspondam aos mandatos reais. O infográfico cobre 8 dos
+13 chefes de governo entre 1964 e 2026 e omite {{omitido_pct}}% dos meses
+({{omitido_meses}} de {{total_meses}}): Castelo Branco, Geisel, Figueiredo, Sarney e Collor.
+Os meses são `days / 30.4375`.
+
+## 5. Indicadores: especificação primária e fórmulas
+
+Para cada indicador declara-se **uma especificação primária** (em `code/govfc/build_results.py`,
+`ESPECIFICACAO`). As alternativas que também foram testadas são guardadas ao lado como *sensibilidade*
+e nunca alteram o veredito. Elas são informadas com a sua contagem (`n_alternativas`), porque
+testar muitas alternativas e ficar com a mais próxima infla a concordância por acaso
+(comparações múltiplas); a que vale é a especificação primária.
+
+| Indicador | Especificação primária | Série (responsável, código) |
+|---|---|---|
+| Crescimento do PIB | média aritmética do crescimento real anual na janela impressa | contas nacionais do IBGE (Instituto Brasileiro de Geografia e Estatística) via Ipeadata `SCN10_PIBG10` |
+| Inflação | IPCA mensal composto por ano civil; média aritmética na janela | BCB (Banco Central do Brasil) SGS 433 (IPCA); sensibilidade: SGS 188 (INPC), 189 (IGP-M), 190 (IGP-DI), Ipeadata `IGP12_IGPDI12` |
+| Desemprego | a série cuja cobertura inclui toda a janela, nunca emendada: PME antiga (até 2002), PME nova (2003-2015), PNAD Contínua (a partir de 2012) | IBGE via Ipeadata `PME12_TDA12`, `PAN12_TD12`; SIDRA 4562 |
+| Salário mínimo | valor real, dezembro do último ano da janela sobre dezembro do ano anterior | Ipea `GAC12_SALMINRE12` |
+| Pobreza | uma única série, US$ 6,85/dia (paridade do poder de compra, PPC, de 2017), no ano impresso | Plataforma de Pobreza e Desigualdade (PIP) do Banco Mundial |
+| Gini | uma única série, renda domiciliar per capita, no ano impresso | PIP do Banco Mundial |
+| Expectativa de vida | uma única edição (vintage), no ano impresso | WDI do Banco Mundial `SP.DYN.LE00.IN` (World Population Prospects da ONU) |
+
+**Médias.** O infográfico diz "média anual". A leitura literal é a
+média aritmética das taxas anuais, que é a especificação primária. A média geométrica é
+o melhor resumo de taxas que se compõem (Fleming e Wallace 1986, DOI 10.1145/5666.5673) e é
+informada como sensibilidade; as duas diferem por menos de 0,3 ponto percentual em todas as janelas do
+infográfico, exceto na hiperinflação (Itamar 1992-94: aritmética 1504%, geométrica 1373%).
+
+**Por que uma fonte homogênea para os indicadores sociais.** O infográfico compara entre
+governos, de modo que a comparação só faz sentido dentro de um único método. Uma primeira versão do
+motor tomava o IBGE onde havia o ano e o Banco Mundial onde não havia; isso mistura métodos
+dentro de uma mesma linha e foi substituído (ver `CHANGELOG.md`).
+
+## 6. A regra de veredito
+
+Uma só regra, em `code/govfc/verdict.py`, aplicada de forma idêntica a todas as linhas e fixada antes de os
+resultados serem lidos. Seja *impresso* o número como impresso e *reproduzido* o número obtido
+sob a especificação primária.
+
+| Veredito | Condição |
+|---|---|
+| reproduz | *reproduzido* arredonda (meio para cima) para *impresso* no número de casas decimais impresso |
+| aproxima | caso contrário, mas a menos de 0,3 ponto percentual (linhas em percentual) ou a menos de 5% relativos (qualquer linha) |
+| não reproduz | além disso |
+| não verificado | nenhuma série oficial cobre a janela ou o ano impresso |
+
+**Limitação declarada.** As especificações primárias foram fixadas depois de uma passada exploratória pelos
+dados (o `RESULTADO.md` de cada área). Os vereditos descrevem, portanto, como os números impressos
+se relacionam com os dados públicos; não são um teste de hipótese pré-registrado. O que *foi* pré-registrado,
+antes de qualquer dado ser baixado, é a lista das dimensões omitidas e a forma de reportá-las
+(`data/raw/preregistro/PREREGISTRATION.md`).
+
+## 7. A dimensão monetária
+
+O infográfico não tem nenhuma linha monetária. Este repositório acrescenta uma porque a inflação medida por um
+índice de preços ao consumidor não é a única forma pela qual a política monetária de um governo chega às famílias.
+
+* **Base monetária (M0)** e **M1** podem ser emendadas ao longo de períodos longos; **M2, M3, M4** existem como séries
+  oficiais apenas a partir de julho de 1988 e em **três definições** (antes de 2001; a metodologia
+  de 2001, reconstruída pelo Banco Central a partir de 1988 e descontinuada em junho de 2018; e a
+  definição "Novo" a partir de dezembro de 2001). São comparadas como **razão ao PIB dentro de cada
+  regime**, nunca como níveis entre regimes.
+* **Trocas de moeda.** O Brasil cortou zeros cinco vezes entre 1967 e 1994 (o Real vale
+  CR$ 2.750 = R$ 1,00); os níveis no SGS estão na moeda da época e são convertidos antes de
+  qualquer razão ser calculada.
+* **Senhoriagem e imposto inflacionário.** O imposto inflacionário é a transferência dos detentores de moeda
+  para o emissor por meio da perda de poder de compra da base monetária. Usamos a fórmula mensal de
+  Cysne e Coimbra-Lisboa (2004, DOI 10.1590/0101-35172004-1602, eq. 2) e informamos a transferência
+  total do imposto inflacionário (TIT, com base em M1), porque a definição da base monetária mudou
+  em 1980. Conceitos: Bailey (1956, DOI 10.1086/257766) e Fischer (1982, DOI 10.1086/261057).
+  Nossa implementação reproduz a Tabela 1 dos próprios autores para 1947-2003 com erro absoluto médio
+  de 0,18 ponto percentual do PIB (correlação 0,9986); o atalho anual
+  `pi/(1+pi) x M0/GDP` falha na hiperinflação (1980-1994, correlação de cerca de -0,06) e a variação
+  da base monetária sobre o PIB não é o imposto inflacionário (em 1994 é 4,9% do PIB contra 1,0%,
+  porque o Plano Real remonetizou a economia).
+
+## 8. Quebras de método e a comparação dentro de um único método
+
+Uma série pode melhorar apenas porque a forma de calculá-la mudou. Para cada série usada aqui, o
+repositório registra (`data/curated/quebras.csv`) cada quebra: data, método antigo e novo, **o motivo
+que a própria fonte apresenta**, o sentido do efeito, o efeito medido onde os dois
+métodos se sobrepõem (ou "sem sobreposição"), e se a fonte apresenta a mudança como uma melhoria.
+Ao lado de toda comparação que atravessa uma quebra, mostra-se uma comparação **dentro de um único método**
+(`comparativo-metodo-constante`). As quebras oficiais, que afetam qualquer comparação e não são culpa de
+ninguém, são mantidas separadas das escolhas feitas pelo próprio infográfico, que misturam métodos em uma mesma linha.
+
+## 9. Dimensões que o infográfico omite
+
+A lista das dimensões omitidas, a regra de inclusão e a regra de relato foram escritas antes de qualquer
+um desses dados ser baixado (`data/raw/preregistro/PREREGISTRATION.md`), ancoradas na
+Constituição do Brasil (art. 6, 215-216, 225) e no próprio texto do infográfico. Todo
+indicador coletado é reportado para todos os governos, nos dois sentidos.
+
+## 10. Limitações
+
+1. Os vereditos dependem da especificação primária; as listas de sensibilidade mostram o quanto.
+2. Algumas séries têm lacunas por construção (não há série oficial de desemprego para 1968-73; o IPCA
+   começa em 1980; não há PNAD para 1994).
+3. Sites de terceiros alterados durante a coleta são registrados por hash, não arquivados.
+4. A cadeia de hash prova que um arquivo não mudou desde que foi registrado aqui; ela não
+   prova que a fonte estava certa.
+5. A intenção não é medida. Nada aqui diz a quem o infográfico pretendia favorecer.
+
+## 11. Fase 2: o índice composto
+
+A fase 1 (seções 1 a 10) não pontua nada: reproduz números impressos e mostra séries brutas com
+as suas quebras de método. A fase 2 acrescenta **um índice composto de condições de vida**, cujas regras
+foram escritas e seladas na cadeia de hash (`data/raw/preregistro/PREREGISTRATION-FASE-2.md`) antes de
+qualquer agregado ser calculado. O índice mede as condições do país durante cada mandato, não o mérito
+de um governo; a palavra "governo" não está no seu nome, e a causalidade fica com o leitor.
+
+* **Três portas.** Um item entra só se (1) a sua direção de leitura ("maior é melhor" ou "menor é
+  melhor") está estabelecida em artigo revisado por pares com DOI conferido no Crossref e quartil 1 no
+  SJR; (2) não é um composto de terceiros que já carrega pesos; (3) o seu conceito ainda não foi
+  contado ("um conceito, uma vez"). Literatura cinzenta não sustenta nenhuma regra.
+* **Duas camadas publicadas.** O núcleo consensual (N, {{n_areas_n}} áreas) e o bloco de premissas econômicas (P),
+  cujas direções são premissas declaradas do autor (mais indústria de transformação, menos consumo do
+  governo, mais abertura comercial, menos propriedade estatal da economia), com a literatura a favor e
+  contra citada lado a lado. O índice é publicado como N e N+P; hoje {{n_itens}} itens em {{n_areas}} áreas.
+* **Balizas congeladas.** Primeiro a polaridade (um item "menor é melhor" entra multiplicado por -1), depois uma escala
+  de 0 a 100 por item: 0 = pior e 100 = melhor valor observado no Brasil no período-base 1995-2024, sem
+  corte (um valor fora do período-base pode passar de 100 ou ficar abaixo de 0 e é mostrado assim).
+* **Pesos.** O juízo declarado é importância igual de cada área e, dentro da área, de cada item. O
+  pré-registro então ajusta os pesos das áreas até que a importância efetiva de cada área (a razão de
+  correlação entre área e índice, Paruolo, Saisana e Saltelli 2013) fique igual, dentro de limites; nesta
+  edição o ajuste não convergiu dentro dos limites, e o índice usa os pesos nominais iguais e declara isso,
+  exatamente como o pré-registro manda. Cenários publicados com o índice: pesos iguais, agregação
+  geométrica e não compensatória (Mazziotta e Pareto 2016), balizas por percentil, último valor carregado
+  e {{n_sorteios}} sorteios Dirichlet de pesos de área, que dão a faixa de 5 % a 95 % do fechamento de cada
+  mandato e a fração de sorteios em que cada mandato mantém a posição.
+* **Quebras e lacunas.** Uma quebra de método só é encadeada por sobreposição medida (diferença média para
+  taxas e proporções, razão média para níveis, com o efeito impresso no item); sem sobreposição fica a base
+  mais longa e o item simplesmente para. Sem imputação: item ausente sai da média da área naquele ano, e o
+  índice não é calculado para ano com menos de 70 % dos itens do núcleo.
+* **Frequência.** Índice anual desde 1995 e mensal desde janeiro de 1996 (emenda 06), com candle por ano
+  (abertura = dezembro anterior, fechamento = dezembro) e candle por mandato (abertura = ano anterior à
+  posse, fechamento = último ano do mandato; FHC abre em 1995 porque não existe 1994).
+* **Fechamento do índice do núcleo (N) por mandato, como publicado:** FHC {{idx_fhc}}, Lula 1-2 {{idx_lula12}},
+  Dilma {{idx_dilma}}, Temer {{idx_temer}}, Bolsonaro {{idx_bolsonaro}}, Lula 3 {{idx_lula3}}. O meio da tabela não se
+  separa sob os sorteios de pesos; a primeira e a última posições se separam. Isto é descrição de
+  condições, com tendências seculares (expectativa de vida, escolaridade) empurrando para cima todo mandato posterior.
+
+Decisões de implementação registradas depois do selo, que não são emendas: o item `v2clstown` do V-Dem
+entra com a escala como o codebook a define (valor maior significa menos propriedade estatal), de modo
+que a premissa selada é preservada; as premissas econômicas formam uma área própria em N+P; as razões
+sobre o PIB usam o denominador a preços de mercado.
+
+## 12. Emendas datadas ao pré-registro
+
+O pré-registro original nunca é reescrito. Cada mudança é uma emenda datada, selada na mesma cadeia de
+hash antes de o dado que ela rege ser baixado ou calculado ({{n_emendas}} até agora, em
+`data/raw/preregistro/`): 01, os grupos de comparação ("o mundo": mundo, América Latina e Caribe,
+renda média-alta e sete países latino-americanos, uma fonte por indicador), a dinâmica descritiva dentro
+de cada mandato e os semáforos de confiança do dado; 02, a visão em candle, a janela pré-Real e a regra
+por ano; 03, moeda, fiscal, tributos, burocracia, Estado, o "porquinho" (R$ 100 mil de dezembro de 1994
+acompanhados no tempo), preços de produtos em horas de trabalho e a visão de terminal; 04, candles anuais
+em taxa, nunca em nível que só sobe; 05, uma página com dois níveis, a célula "início -> fim" e as
+correções de dado da revisão de 2026-10-20; 06, o índice mensal; 07, 08, 09 e 10, a camada de literatura
+(seção 14). Parâmetros escolhidos depois da emenda 05 e declarados aqui: um valor de início ou de fim
+pode se afastar do limite do mandato em no máximo 13 meses para séries sub-anuais e 35 meses para séries
+anuais (a PNAD pulou 1994, 2000 e 2010, e o Saeb é bienal); o mandato em curso termina no último valor
+publicado, com a data impressa; quando duas bases cobrem um mandato, a de menor atraso total é a
+principal, senão a célula diz "sem base única" e mostra o valor em cada base.
+
+## 13. Leitura por mandato e o terminal
+
+A pergunta "o governo foi bom ou ruim" é respondida só por descrição, em três camadas separadas que a
+página mostra lado a lado e nunca soma: (1) o índice e os itens que mais se moveram dentro da janela do
+candle do mandato, em pontos de 0 a 100 dentro das balizas; (2) Brasil menos América Latina e Caribe na
+mesma série da mesma fonte, no ano anterior à posse e no último ano do mandato; (3) a grade de todos os
+indicadores, "início -> fim" numa base homogênea por célula. Um agregado exploratório "contra a
+tendência" foi calculado e descartado, porque não estava pré-registrado e a tendência incluía os anos do
+próprio mandato. O terminal traz {{n_term_ind}} indicadores em {{n_dominios}} domínios; uma série com duas
+bases é desenhada como duas linhas e nunca é lida através da quebra.
+
+## 14. A camada de literatura
+
+A única camada que fala de causas o faz pela boca dos autores de estudos revisados por pares, sob um
+protocolo de busca selado antes de buscar (emenda 07, modificada por 08, 09 e 10). Para cada episódio
+declarado (Plano Real, metas de inflação, Bolsa Família, crise de 2008, recessão de 2014-16, reformas
+trabalhista e da previdência, fiscalização do desmatamento, dívida externa e reservas, entre outros;
+{{n_episodios}} episódios), duas consultas curtas (inglês e português) vão ao OpenAlex, e toda obra devolvida
+é listada com o seu status e o motivo da exclusão. Uma obra só é incluída se (a) tem DOI; (b) o seu
+periódico é quartil 1 na edição 2024 do SJR; (c) o Brasil aparece no título ou no resumo; (d) um desenho
+de identificação de uma lista fechada é nomeado no resumo (diferenças em diferenças, descontinuidade,
+variáveis instrumentais, controle sintético, aleatorizado, experimento natural, estudo de evento, escore
+de propensão, modelo estrutural ou de equilíbrio geral, entre outros, casados em limite de palavra);
+(e) o Crossref a registra como artigo de periódico. Até duas frases de resultado são citadas do resumo.
+Não há nota, soma nem veredito; a contagem por mandato reflete os anos decorridos e os episódios
+declarados, nunca a qualidade do governo nem o sentido dos resultados.
+
+Quatro rodadas estão publicadas com os seus números, e a escolha das consultas entre rodadas olhou só
+para quantos trabalhos cada chamada devolveu, nunca para quais artigos apareceram: a rodada 07 (busca em
+texto completo ordenada por citações, teto 40) devolveu {{lit07_trab}} trabalhos e incluiu {{lit07_inc}}; a rodada 08
+(título e resumo, por relevância, teto 100) devolveu {{lit08_trab}} e incluiu {{lit08_inc}}; a rodada 09 (consultas
+curtas, teto 200) devolveu {{lit09_trab}} e incluiu {{lit09_inc}}; a rodada 10 (o bruto da rodada 09 mais três
+episódios sobre dívida externa, reservas e dívida pública) devolveu {{lit10_trab}} e incluiu {{n_estudos}}. A
+página mostra a última rodada. Limitações declaradas: muitos periódicos brasileiros estão fora do SJR ou
+publicam sem DOI; um desenho casado por palavra admite obras que só o mencionam (um perfil de coorte, um
+obituário, um chamado à ação), que ficam listadas porque removê-las à mão seria um julgamento; vários
+episódios têm ausência declarada, inclusive o da dívida externa.
+
+## 15. Dívida externa e o custo de carregar a dívida pública
+
+A dimensão "posição externa" do pré-registro original nomeia a dívida externa, de modo que esta é uma
+camada descritiva da fase 1 (coleção `data/raw/externo-fase3/`), com todo código de série tirado da Nota
+Explicativa do próprio Banco Central de 24 de fevereiro de 2026, que os nomeia um a um. O Banco Central
+publica dois conceitos de dívida externa bruta, mostrados como duas linhas rotuladas que nunca são
+somadas nem emendadas: o conceito restrito (empréstimos, títulos emitidos no exterior e crédito
+comercial, SGS 3684, trimestral desde 1972), que é o das manchetes, e o conceito BPM6 (o restrito mais
+as operações intercompanhia e os títulos do mercado doméstico em poder de não residentes, SGS 25563,
+desde 2002), que o Banco Central chama de "a dívida externa brasileira". Em {{div_data}} estavam em
+US$ {{div_restrita_bi}} bilhões e US$ {{div_bpm6_bi}} bilhões. Três razões que o Banco Central descontinuou em
+fevereiro de 2026 são mostradas como publicadas e nunca prolongadas: dívida externa bruta sobre o PIB
+(SGS 11407), **dívida externa líquida sobre o PIB (SGS 11409)** e a parcela do setor público
+(SGS 11408); a posição de investimento internacional líquida sobre o PIB (SGS 12506) completa o conjunto.
+
+O conceito líquido importa para uma manchete de 2026 que dizia que o Brasil "voltou a ser devedor"
+porque a dívida externa bruta tinha passado as reservas internacionais. A definição do próprio Banco
+Central subtrai da dívida bruta restrita não só as reservas, mas também os créditos brasileiros no
+exterior e os haveres de bancos comerciais no exterior (US$ {{div_ativos_bi}} bilhões em {{div_liq_data}});
+por ela, o último valor oficial ({{div_liq_data}}) ainda era uma posição credora de US$ {{div_liq_bi}} bilhões,
+e a última razão oficial era {{div_liq_pib}} % do PIB em {{div_liq_pib_data}}. Como o indicador deixou de existir,
+não há valor oficial de 2026 em nenhum conceito, e este repositório não calcula nenhum: a página desenha
+dívida bruta e reservas juntas e declara que a diferença entre elas não é a dívida externa líquida do
+Banco Central. O custo de carregar a dívida pública entra pelos juros nominais e pelo resultado nominal
+do setor público consolidado em 12 meses como proporção do PIB (BCB, NFSP), ao lado da dívida pública
+bruta e líquida já mostradas. A comparação mundial usa um terceiro conceito, o estoque de dívida externa
+sobre a renda nacional bruta do Banco Mundial, só para o Brasil e o grupo de renda média-alta, porque
+essa fonte não tem agregado para o mundo nem para a América Latina e não cobre nenhum país de renda alta.
+
+## 16. Limitações das fases 2 e 3
+
+1. Os componentes do índice tinham sido vistos antes de as regras da fase 2 serem seladas (a grade por
+   mandato já estava publicada); o que o selo protege é a lista, as direções, as balizas, os pesos e a
+   agregação, fixados antes de o agregado ser calculado e aplicados igualmente a todo mandato.
+2. Cinco itens do índice param em 2014-2015 porque a PNAD Contínua não se sobrepõe à PNAD e o
+   pré-registro proíbe encadear sem sobreposição; os mandatos posteriores são lidos com menos itens, e a
+   cobertura diz isso.
+3. O filtro da literatura é severo e mecânico; mede o que periódicos Q1 com desenho nomeado publicaram
+   sobre o Brasil, não o que se sabe.
+4. O ajuste dos pesos por importância efetiva não convergiu; os pesos nominais iguais são o padrão
+   declarado, e a importância de fato exercida por cada área é publicada, não corrigida.
+
+## 17. Referências
+
+* Atkinson, A. B. (1970). On the measurement of inequality. *Journal of Economic Theory* 2(3),
+  244-263. DOI 10.1016/0022-0531(70)90039-6
+* Bailey, M. J. (1956). The welfare cost of inflationary finance. *Journal of Political Economy*
+  64(2), 93-110. DOI 10.1086/257766
+* Cysne, R. P.; Coimbra-Lisboa, P. C. (2004). Imposto inflacionário e transferências
+  inflacionárias no Brasil: 1947-2003. *Revista de Economia Política* 24(4), 632-637.
+  DOI 10.1590/0101-35172004-1602
+* Fischer, S. (1982). Seigniorage and the case for a national money. *Journal of Political
+  Economy* 90(2), 295-313. DOI 10.1086/261057
+* Fleming, P. J.; Wallace, J. J. (1986). How not to lie with statistics: the correct way to
+  summarize benchmark results. *Communications of the ACM* 29(3), 218-221.
+  DOI 10.1145/5666.5673
+* Haber, S.; Stornetta, W. S. (1991). How to time-stamp a digital document. *Journal of
+  Cryptology* 3, 99-111. DOI 10.1007/bf00196791
+* Barrionuevo, A. (2015). A formação distorcida de preços administrados na experiência
+  brasileira recente. *Revista de Economia Política* 35(3), 475-491.
+  DOI 10.1590/0101-31572015v35n03a06
+* Peng, R. D. (2011). Reproducible research in computational science. *Science* 334(6060),
+  1226-1227. DOI 10.1126/science.1213847
+* Wilkinson, M. D. et al. (2016). The FAIR Guiding Principles for scientific data management and
+  stewardship. *Scientific Data* 3, 160018. DOI 10.1038/sdata.2016.18
+
+Referências de método e de direção da fase 2 ({{n_refs_fase2}} artigos, todos quartil 1 no SJR, cada
+registro do Crossref salvo com o seu hash em `data/raw/referencias-fase2/`):
+
+* Arcand, J. L.; Berkes, E.; Panizza, U. (2015). Too much finance? *Journal of Economic Growth*. DOI 10.1007/s10887-015-9115-2
+* Assunção, J.; Gandour, C.; Rocha, R. (2023). DETER-ing deforestation in the Amazon. *American Economic Journal: Applied Economics*. DOI 10.1257/app.20200196
+* Becker, W.; Saisana, M.; Paruolo, P.; Vandecasteele, I. (2017). Weights and importance in composite indicators. *Ecological Indicators*. DOI 10.1016/j.ecolind.2017.03.056
+* Bergh, A.; Henrekson, M. (2011). Government size and growth: a survey. *Journal of Economic Surveys*. DOI 10.1111/j.1467-6419.2011.00697.x
+* Blanchflower, D. G.; Bell, D. N. F.; Montagnoli, A.; Moro, M. (2014). The happiness trade-off between unemployment and inflation. *Journal of Money, Credit and Banking*. DOI 10.1111/jmcb.12154
+* Böhringer, C.; Jochem, P. E. P. (2007). Measuring the immeasurable: a survey of sustainability indices. *Ecological Economics*. DOI 10.1016/j.ecolecon.2007.03.008
+* Coppedge, M. et al. (2011). Conceptualizing and measuring democracy: a new approach. *Perspectives on Politics*. DOI 10.1017/s1537592711000880
+* Decancq, K.; Lugo, M. A. (2013). Weights in multidimensional indices of wellbeing: an overview. *Econometric Reviews*. DOI 10.1080/07474938.2012.690641
+* Di Tella, R.; MacCulloch, R. J.; Oswald, A. J. (2001). Preferences over inflation and unemployment. *American Economic Review*. DOI 10.1257/aer.91.1.335
+* Fleurbaey, M. (2009). Beyond GDP: the quest for a measure of social welfare. *Journal of Economic Literature*. DOI 10.1257/jel.47.4.1029
+* Frankel, J. A.; Romer, D. (1999). Does trade cause growth? *American Economic Review*. DOI 10.1257/aer.89.3.379
+* Greco, S.; Ishizaka, A.; Tasiou, M.; Torrisi, G. (2019). On the methodological framework of composite indices. *Social Indicators Research*. DOI 10.1007/s11205-017-1832-9
+* Hansen, M. C. et al. (2013). High-resolution global maps of 21st-century forest cover change. *Science*. DOI 10.1126/science.1244693
+* Hidalgo, C. A.; Hausmann, R. (2009). The building blocks of economic complexity. *Proceedings of the National Academy of Sciences*. DOI 10.1073/pnas.0900943106
+* Klugman, J.; Rodríguez, F.; Choi, H.-J. (2011). The HDI 2010: new controversies, old critiques. *Journal of Economic Inequality*. DOI 10.1007/s10888-011-9178-z
+* Lovejoy, T. E.; Nobre, C. (2018). Amazon tipping point. *Science Advances*. DOI 10.1126/sciadv.aat2340
+* Marquardt, K. L.; Pemstein, D. (2018). IRT models for expert-coded panel data. *Political Analysis*. DOI 10.1017/pan.2018.28
+* Mazziotta, M.; Pareto, A. (2016). On a generalized non-compensatory composite index. *Social Indicators Research*. DOI 10.1007/s11205-015-0998-2
+* McMann, K. et al. (2020). Why low levels of democracy promote corruption and high levels diminish it. *Political Research Quarterly*. DOI 10.1177/1065912919862054
+* McMann, K. et al. (2022). Assessing data quality: an approach and an application. *Political Analysis*. DOI 10.1017/pan.2021.27
+* Mian, A.; Sufi, A.; Verner, E. (2017). Household debt and business cycles worldwide. *Quarterly Journal of Economics*. DOI 10.1093/qje/qjx017
+* Nepstad, D. et al. (2014). Slowing Amazon deforestation through public policy. *Science*. DOI 10.1126/science.1248525
+* Paruolo, P.; Saisana, M.; Saltelli, A. (2013). Ratings and rankings: voodoo or science? *Journal of the Royal Statistical Society, Series A*. DOI 10.1111/j.1467-985x.2012.01059.x
+* Ravallion, M. (2012). Mashup indices of development. *World Bank Research Observer*. DOI 10.1093/wbro/lkr009
+* Ravallion, M. (2012). Troubling tradeoffs in the Human Development Index. *Journal of Development Economics*. DOI 10.1016/j.jdeveco.2012.01.003
+* Rodríguez, F.; Rodrik, D. (2000). Trade policy and economic growth: a skeptic's guide. *NBER Macroeconomics Annual*. DOI 10.1086/654419
+* Rodrik, D. (2016). Premature deindustrialization. *Journal of Economic Growth*. DOI 10.1007/s10887-015-9122-3
+* Saisana, M.; Saltelli, A.; Tarantola, S. (2005). Uncertainty and sensitivity analysis techniques as tools for the quality assessment of composite indicators. *Journal of the Royal Statistical Society, Series A*. DOI 10.1111/j.1467-985x.2005.00350.x
+* Wacziarg, R.; Welch, K. H. (2008). Trade liberalization and growth: new evidence. *World Bank Economic Review*. DOI 10.1093/wber/lhn007
+
+As referências de direção de cada item do índice e as de método do terminal ({{n_refs_q1}} entradas, cada
+uma com o seu DOI) estão em `docs/references-q1.bib`. Cada DOI foi conferido contra o registro da
+Crossref, salvo com o seu hash em `data/raw/referencias/` e `data/raw/referencias-fase2/`.

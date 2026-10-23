@@ -1,0 +1,35 @@
+{
+ "categorias_ano_mais_recente_por_categoria": [
+  {
+   "ano": 2025,
+   "categoria": "Economics and Econometrics",
+   "quartil": "Q2"
+  },
+  {
+   "ano": 2025,
+   "categoria": "Social Sciences (miscellaneous)",
+   "quartil": "Q1"
+  },
+  {
+   "ano": 2025,
+   "categoria": "Statistics and Probability",
+   "quartil": "Q1"
+  },
+  {
+   "ano": 2025,
+   "categoria": "Statistics, Probability and Uncertainty",
+   "quartil": "Q1"
+  }
+ ],
+ "consulta_issn": [
+  "0305-9049",
+  "1468-0084"
+ ],
+ "data_consulta": "2026-10-19",
+ "linhas_categoria_ano": 108,
+ "metodo": "fetch() dentro do Chrome real do Ulisses na pagina do Scimago (curl/urllib recebem 403 do Cloudflare); extraida a 1a tabela (Category/Year/Quartile) e mantido o ano mais recente de cada categoria",
+ "sha256_texto_resposta_prefixo20": "1087965289527c195a9f0afeb75951eeaf70cde908ef81f1fff93c7ae8525689",
+ "sid": "22902",
+ "titulo_scimago": "Oxford Bulletin of Economics and Statistics",
+ "url": "https://www.scimagojr.com/journalsearch.php?q=22902&tip=sid&clean=0"
+}

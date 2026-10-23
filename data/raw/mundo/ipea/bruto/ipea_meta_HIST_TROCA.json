@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"HIST_TROCA","SERNOME":"Termos de troca - \u00edndice (m\u00e9dia 1995 = 100) - INATIVA","SERCOMENTARIO":"Fonte: Para 1901-1975: Estat\u00edsticas  hist\u00f3ricas  do Brasil:  s\u00e9ries econ\u00f4micas,  demogr\u00e1ficas e sociais de 1550  a 1988. 2. ed. rev. e atual. do v. 3 de S\u00e9ries estat\u00edsticas retrospectivas. Rio de Janeiro: IBGE, 1990.  Apud: Estat\u00edsticas do s\u00e9culo XX, Centro de documenta\u00e7\u00e3o e dissemina\u00e7\u00e3o de informa\u00e7\u00f5es. Rio de Janeiro: IBGE, 2003. S\u00e9rie interrompida.","SERATUALIZACAO":"2003-10-17T18:18:05-03:00","BASNOME":"Macroecon\u00f4mico","FNTSIGLA":"Outras fontes","FNTNOME":"Outras fontes, inclusive compila\u00e7\u00e3o de v\u00e1rios autores","FNTURL":null,"PERNOME":"Anual","UNINOME":"-","MULNOME":null,"SERSTATUS":"I","TEMCODIGO":5,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

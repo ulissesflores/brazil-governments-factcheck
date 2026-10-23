@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"PNADCA_TXA15MUF","SERNOME":"Taxa de analfabetismo - pessoas com 15 anos ou mais","SERCOMENTARIO":"Taxa de analfabetismo das pessoas de 15 anos ou mais de idade (%)\r\n<p>Para acessar outras desagrega\u00e7\u00f5es, utilize os atalhos a seguir: \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726941&MINDATA=2012&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brasil</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726941&MINDATA=2012&MAXDATA=2030&TNIVID=1&TPAID=1&module=S>por Regi\u00e3o</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726941&MINDATA=2012&MAXDATA=2030&TNIVID=2&TPAID=1&module=S>por UF</a>. <p>\r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726409&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Dados Censo Demogr\u00e1fico</a>\r\n<p><a href=https://www.ipeadata.gov.br/Default.aspx target=_blank>Ipeadata - P\u00e1gina principal</a>.","SERATUALIZACAO":"2026-06-30T12:37:46.427-03:00","BASNOME":"Social","FNTSIGLA":"IBGE/PNAD Cont\u00ednua","FNTNOME":"Instituto Brasileiro de Geografia e Estat\u00edstica, Pesquisa Nacional por Amostra de Domic\u00edlios Cont\u00ednua (IBGE/PNAD Cont\u00ednua)","FNTURL":"http://www.ibge.gov.br/home/estatistica/indicadores/trabalhoerendimento/pnad_continua/","PERNOME":"Anual","UNINOME":"(%)","MULNOME":null,"SERSTATUS":null,"TEMCODIGO":90,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}

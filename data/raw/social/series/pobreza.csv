@@ -1,0 +1,546 @@
+indicador,fonte,definicao_linha,ano,valor,unidade,nota
+pobreza,IBGE-SIS2018-PPC2011,"US$ 1,9 PPC2011",2016,6.58,%,"Tabela 2.28a, edicao SIS 2018"
+pobreza,IBGE-SIS2018-PPC2011,"US$ 1,9 PPC2011",2017,7.36,%,"Tabela 2.28a, edicao SIS 2018"
+pobreza,IBGE-SIS2018-PPC2011,"US$ 5,5 PPC2011",2016,25.72,%,"Tabela 2.28, edicao SIS 2018"
+pobreza,IBGE-SIS2018-PPC2011,"US$ 5,5 PPC2011",2017,26.47,%,"Tabela 2.28, edicao SIS 2018"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 1,9 PPC2011",2012,5.76,%,"Tabela 2.28b, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 1,9 PPC2011",2013,5.1,%,"Tabela 2.28b, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 1,9 PPC2011",2014,4.49,%,"Tabela 2.28b, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 1,9 PPC2011",2015,4.89,%,"Tabela 2.28b, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 1,9 PPC2011",2016,5.84,%,"Tabela 2.28b, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 1,9 PPC2011",2017,6.44,%,"Tabela 2.28b, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 1,9 PPC2011",2018,6.52,%,"Tabela 2.28b, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 3,2 PPC2011",2012,12.23,%,"Tabela 2.28a, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 3,2 PPC2011",2013,11.38,%,"Tabela 2.28a, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 3,2 PPC2011",2014,9.87,%,"Tabela 2.28a, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 3,2 PPC2011",2015,10.73,%,"Tabela 2.28a, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 3,2 PPC2011",2016,12.12,%,"Tabela 2.28a, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 3,2 PPC2011",2017,12.31,%,"Tabela 2.28a, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 3,2 PPC2011",2018,12.38,%,"Tabela 2.28a, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 5,5 PPC2011",2012,26.46,%,"Tabela 2.28, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 5,5 PPC2011",2013,24.89,%,"Tabela 2.28, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 5,5 PPC2011",2014,22.8,%,"Tabela 2.28, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 5,5 PPC2011",2015,23.69,%,"Tabela 2.28, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 5,5 PPC2011",2016,25.51,%,"Tabela 2.28, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 5,5 PPC2011",2017,26.0,%,"Tabela 2.28, edicao SIS 2019"
+pobreza,IBGE-SIS2019-PPC2011,"US$ 5,5 PPC2011",2018,25.28,%,"Tabela 2.28, edicao SIS 2019"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 1,9 PPC2011",2012,5.76,%,"Tabela 2.25a, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 1,9 PPC2011",2013,5.1,%,"Tabela 2.25a, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 1,9 PPC2011",2014,4.49,%,"Tabela 2.25a, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 1,9 PPC2011",2015,4.89,%,"Tabela 2.25a, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 1,9 PPC2011",2016,5.84,%,"Tabela 2.25a, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 1,9 PPC2011",2017,6.44,%,"Tabela 2.25a, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 1,9 PPC2011",2018,6.52,%,"Tabela 2.25a, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 1,9 PPC2011",2019,6.54,%,"Tabela 2.25a, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 3,2 PPC2011",2012,12.23,%,"Tabela 2.25b, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 3,2 PPC2011",2013,11.38,%,"Tabela 2.25b, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 3,2 PPC2011",2014,9.87,%,"Tabela 2.25b, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 3,2 PPC2011",2015,10.73,%,"Tabela 2.25b, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 3,2 PPC2011",2016,12.12,%,"Tabela 2.25b, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 3,2 PPC2011",2017,12.31,%,"Tabela 2.25b, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 3,2 PPC2011",2018,12.38,%,"Tabela 2.25b, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 3,2 PPC2011",2019,12.16,%,"Tabela 2.25b, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 5,5 PPC2011",2012,26.46,%,"Tabela 2.25, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 5,5 PPC2011",2013,24.89,%,"Tabela 2.25, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 5,5 PPC2011",2014,22.8,%,"Tabela 2.25, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 5,5 PPC2011",2015,23.69,%,"Tabela 2.25, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 5,5 PPC2011",2016,25.51,%,"Tabela 2.25, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 5,5 PPC2011",2017,26.0,%,"Tabela 2.25, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 5,5 PPC2011",2018,25.28,%,"Tabela 2.25, edicao SIS 2020"
+pobreza,IBGE-SIS2020-PPC2011,"US$ 5,5 PPC2011",2019,24.71,%,"Tabela 2.25, edicao SIS 2020"
+pobreza,IBGE-SIS2024,50% da mediana,2012,23.14,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,50% da mediana,2013,22.91,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,50% da mediana,2014,22.51,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,50% da mediana,2015,22.71,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,50% da mediana,2016,23.37,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,50% da mediana,2017,23.64,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,50% da mediana,2018,24.02,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,50% da mediana,2019,24.63,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,50% da mediana,2020,22.19,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,50% da mediana,2021,24.05,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,50% da mediana,2022,22.25,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,50% da mediana,2023,21.74,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 2,15 PPC2017",2012,6.6,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 2,15 PPC2017",2013,5.84,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 2,15 PPC2017",2014,5.18,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 2,15 PPC2017",2015,5.63,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 2,15 PPC2017",2016,6.73,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 2,15 PPC2017",2017,7.28,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 2,15 PPC2017",2018,7.35,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 2,15 PPC2017",2019,7.35,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 2,15 PPC2017",2020,6.04,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 2,15 PPC2017",2021,9.0,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 2,15 PPC2017",2022,5.87,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 2,15 PPC2017",2023,4.4,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 3,65 PPC2017",2012,14.44,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 3,65 PPC2017",2013,13.27,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 3,65 PPC2017",2014,12.06,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 3,65 PPC2017",2015,12.59,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 3,65 PPC2017",2016,14.42,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 3,65 PPC2017",2017,14.74,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 3,65 PPC2017",2018,14.47,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 3,65 PPC2017",2019,14.18,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 3,65 PPC2017",2020,12.06,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 3,65 PPC2017",2021,16.9,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 3,65 PPC2017",2022,12.43,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 3,65 PPC2017",2023,10.31,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 6,85 PPC2017",2012,34.71,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 6,85 PPC2017",2013,32.44,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 6,85 PPC2017",2014,30.82,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 6,85 PPC2017",2015,31.65,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 6,85 PPC2017",2016,33.67,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 6,85 PPC2017",2017,33.69,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 6,85 PPC2017",2018,33.34,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 6,85 PPC2017",2019,32.51,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 6,85 PPC2017",2020,30.96,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 6,85 PPC2017",2021,36.69,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 6,85 PPC2017",2022,31.62,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2024,"US$ 6,85 PPC2017",2023,27.37,%,"Tabela 2.17, edicao SIS 2024"
+pobreza,IBGE-SIS2025,50% da mediana,2012,23.14,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,50% da mediana,2013,22.91,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,50% da mediana,2014,22.53,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,50% da mediana,2015,22.69,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,50% da mediana,2016,23.38,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,50% da mediana,2017,23.63,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,50% da mediana,2018,23.99,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,50% da mediana,2019,24.67,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,50% da mediana,2020,22.2,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,50% da mediana,2021,24.01,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,50% da mediana,2022,22.21,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,50% da mediana,2023,21.69,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,50% da mediana,2024,21.43,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 2,15 PPC2017",2012,6.59,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 2,15 PPC2017",2013,5.84,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 2,15 PPC2017",2014,5.19,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 2,15 PPC2017",2015,5.65,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 2,15 PPC2017",2016,6.74,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 2,15 PPC2017",2017,7.3,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 2,15 PPC2017",2018,7.38,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 2,15 PPC2017",2019,7.37,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 2,15 PPC2017",2020,6.05,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 2,15 PPC2017",2021,9.02,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 2,15 PPC2017",2022,5.87,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 2,15 PPC2017",2023,4.4,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 2,15 PPC2017",2024,3.47,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 3,65 PPC2017",2012,14.45,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 3,65 PPC2017",2013,13.29,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 3,65 PPC2017",2014,12.09,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 3,65 PPC2017",2015,12.63,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 3,65 PPC2017",2016,14.46,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 3,65 PPC2017",2017,14.79,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 3,65 PPC2017",2018,14.53,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 3,65 PPC2017",2019,14.24,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 3,65 PPC2017",2020,12.1,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 3,65 PPC2017",2021,16.95,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 3,65 PPC2017",2022,12.44,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 3,65 PPC2017",2023,10.28,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 3,65 PPC2017",2024,8.6,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 6,85 PPC2017",2012,34.73,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 6,85 PPC2017",2013,32.48,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 6,85 PPC2017",2014,30.88,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 6,85 PPC2017",2015,31.72,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 6,85 PPC2017",2016,33.75,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 6,85 PPC2017",2017,33.79,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 6,85 PPC2017",2018,33.44,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 6,85 PPC2017",2019,32.61,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 6,85 PPC2017",2020,31.06,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 6,85 PPC2017",2021,36.77,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 6,85 PPC2017",2022,31.65,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 6,85 PPC2017",2023,27.3,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,IBGE-SIS2025,"US$ 6,85 PPC2017",2024,23.11,%,"Tabela 2.17, edicao SIS 2025"
+pobreza,Ipeadata-ADH_PIND,renda dom. per capita <= R$70 (ago/2010),1991,18.64,%,Censo (Atlas DH)
+pobreza,Ipeadata-ADH_PIND,renda dom. per capita <= R$70 (ago/2010),2000,12.48,%,Censo (Atlas DH)
+pobreza,Ipeadata-ADH_PIND,renda dom. per capita <= R$70 (ago/2010),2010,6.62,%,Censo (Atlas DH)
+pobreza,Ipeadata-ADH_PMPOB,renda dom. per capita <= R$140 (ago/2010),1991,38.16,%,Censo (Atlas DH)
+pobreza,Ipeadata-ADH_PMPOB,renda dom. per capita <= R$140 (ago/2010),2000,27.9,%,Censo (Atlas DH)
+pobreza,Ipeadata-ADH_PMPOB,renda dom. per capita <= R$140 (ago/2010),2010,15.2,%,Censo (Atlas DH)
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1976,42.12,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1977,39.06,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1978,42.74,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1979,38.74,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1981,40.79,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1982,41.0,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1983,48.73,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1984,48.3,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1985,42.01,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1986,26.41,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1987,38.71,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1988,43.57,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1989,41.36,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1990,41.92,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1992,42.09,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1993,42.98,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1995,35.08,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1996,34.73,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1997,35.18,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1998,33.97,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",1999,35.26,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",2001,35.09,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",2002,34.38,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",2003,35.75,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",2004,33.71,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",2005,30.83,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",2006,26.75,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",2007,25.36,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",2008,22.6,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",2009,21.41,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",2011,18.42,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",2012,15.93,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",2013,15.09,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-DISOC_PPY,"linha propria Ipea = 2x indigencia (cesta FAO), 24 regioes; serie INTERROMPIDA",2014,13.29,%,PNAD; sem anos de Censo
+pobreza,Ipeadata-P0,renda fam. per capita < 50% do SM de set/1991 (Atlas 1998),1970,67.9,%,Censo
+pobreza,Ipeadata-P0,renda fam. per capita < 50% do SM de set/1991 (Atlas 1998),1980,39.47,%,Censo
+pobreza,Ipeadata-P0,renda fam. per capita < 50% do SM de set/1991 (Atlas 1998),1991,45.46,%,Censo
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",1995,25.09,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",1996,25.82,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",1997,25.8,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",1998,24.56,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",1999,25.39,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2001,25.52,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2002,23.68,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2003,24.72,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2004,22.52,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2005,19.63,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2006,16.57,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2007,16.18,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2008,13.73,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2009,12.18,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2011,10.31,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2012,8.84,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2013,7.86,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2014,7.02,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2015,7.63,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2016,8.94,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2017,9.2,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2018,9.41,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2019,9.37,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2020,7.9,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2021,11.17,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2022,7.65,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2023,5.82,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2024,4.77,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE300,"PPC$3,00 (2021)",2025,4.63,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",1995,36.06,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",1996,35.75,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",1997,36.41,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",1998,35.25,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",1999,36.59,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2001,35.96,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2002,35.34,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2003,34.08,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2004,32.5,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2005,30.63,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2006,26.41,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2007,24.8,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2008,22.01,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2009,20.85,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2011,17.09,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2012,14.69,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2013,13.56,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2014,12.25,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2015,12.84,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2016,14.72,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2017,14.94,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2018,14.78,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2019,14.48,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2020,12.22,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2021,17.33,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2022,12.63,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2023,10.41,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2024,8.76,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE420,"PPC$4,20 (2021)",2025,8.16,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",1995,61.22,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",1996,60.24,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",1997,60.83,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",1998,60.06,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",1999,61.88,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2001,60.99,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2002,60.8,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2003,59.77,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2004,58.83,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2005,56.21,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2006,52.43,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2007,49.74,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2008,46.72,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2009,44.77,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2011,39.93,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2012,36.77,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2013,34.59,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2014,33.22,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2015,33.94,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2016,36.25,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2017,36.64,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2018,35.56,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2019,34.63,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2020,33.53,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2021,38.9,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2022,33.84,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2023,29.96,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2024,26.58,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,Ipeadata-PNADS_PERCPOBRE830,"PPC$8,30 (2021)",2025,25.21,%,PNAD harmonizada a PNADC (Souza&Hecksher 2025)
+pobreza,PIP,US$ 2.15/dia PPC2017,1981,23.95,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1982,24.42,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1983,30.58,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1984,29.92,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1985,25.75,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1986,12.27,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1987,19.95,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1988,22.42,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1989,20.4,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1990,23.99,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1992,23.29,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1993,22.1,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1995,14.74,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1996,16.0,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1997,15.98,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1998,14.34,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,1999,14.97,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,2001,13.04,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,2002,11.74,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,2003,12.61,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,2004,11.06,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,2005,9.96,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,2006,8.26,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,2007,7.87,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,2008,6.51,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,2009,6.12,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,2011,5.32,%,PNAD income
+pobreza,PIP,US$ 2.15/dia PPC2017,2012,4.49,%,PNADC-E1 income
+pobreza,PIP,US$ 2.15/dia PPC2017,2013,3.74,%,PNADC-E1 income
+pobreza,PIP,US$ 2.15/dia PPC2017,2014,3.31,%,PNADC-E1 income
+pobreza,PIP,US$ 2.15/dia PPC2017,2015,3.89,%,PNADC-E1 income
+pobreza,PIP,US$ 2.15/dia PPC2017,2016,4.75,%,PNADC-E1 income
+pobreza,PIP,US$ 2.15/dia PPC2017,2017,5.31,%,PNADC-E1 income
+pobreza,PIP,US$ 2.15/dia PPC2017,2018,5.32,%,PNADC-E1 income
+pobreza,PIP,US$ 2.15/dia PPC2017,2019,5.41,%,PNADC-E1 income
+pobreza,PIP,US$ 2.15/dia PPC2017,2020,1.95,%,PNADC-E5 income
+pobreza,PIP,US$ 2.15/dia PPC2017,2021,5.84,%,PNADC-E5 income
+pobreza,PIP,US$ 2.15/dia PPC2017,2022,3.5,%,PNADC-E1 income
+pobreza,PIP,US$ 2.15/dia PPC2017,2023,2.66,%,PNADC-E1 income
+pobreza,PIP,US$ 2.15/dia PPC2017,2024,1.96,%,PNADC-E1 income
+pobreza,PIP,US$ 3.00/dia PPC2021,1981,30.69,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1982,30.97,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1983,37.73,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1984,36.94,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1985,32.42,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1986,16.68,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1987,25.5,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1988,28.14,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1989,25.65,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1990,30.34,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1992,29.4,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1993,28.2,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1995,19.51,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1996,20.65,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1997,20.38,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1998,19.13,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,1999,20.02,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,2001,17.55,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,2002,16.19,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,2003,17.13,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,2004,15.33,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,2005,13.66,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,2006,11.37,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,2007,10.79,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,2008,9.12,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,2009,8.44,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,2011,7.12,%,PNAD income
+pobreza,PIP,US$ 3.00/dia PPC2021,2012,6.39,%,PNADC-E1 income
+pobreza,PIP,US$ 3.00/dia PPC2021,2013,5.38,%,PNADC-E1 income
+pobreza,PIP,US$ 3.00/dia PPC2021,2014,4.77,%,PNADC-E1 income
+pobreza,PIP,US$ 3.00/dia PPC2021,2015,5.38,%,PNADC-E1 income
+pobreza,PIP,US$ 3.00/dia PPC2021,2016,6.49,%,PNADC-E1 income
+pobreza,PIP,US$ 3.00/dia PPC2021,2017,6.96,%,PNADC-E1 income
+pobreza,PIP,US$ 3.00/dia PPC2021,2018,6.91,%,PNADC-E1 income
+pobreza,PIP,US$ 3.00/dia PPC2021,2019,7.03,%,PNADC-E1 income
+pobreza,PIP,US$ 3.00/dia PPC2021,2020,2.77,%,PNADC-E5 income
+pobreza,PIP,US$ 3.00/dia PPC2021,2021,7.46,%,PNADC-E5 income
+pobreza,PIP,US$ 3.00/dia PPC2021,2022,4.85,%,PNADC-E1 income
+pobreza,PIP,US$ 3.00/dia PPC2021,2023,3.8,%,PNADC-E1 income
+pobreza,PIP,US$ 3.00/dia PPC2021,2024,3.01,%,PNADC-E1 income
+pobreza,PIP,US$ 3.65/dia PPC2017,1981,42.87,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1982,42.98,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1983,50.92,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1984,50.15,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1985,45.2,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1986,26.11,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1987,36.47,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1988,39.31,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1989,36.41,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1990,41.59,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1992,40.73,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1993,39.65,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1995,29.67,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1996,29.97,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1997,30.17,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1998,28.87,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,1999,29.87,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,2001,26.21,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,2002,25.33,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,2003,26.08,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,2004,24.41,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,2005,22.35,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,2006,19.41,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,2007,18.01,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,2008,15.69,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,2009,14.59,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,2011,12.03,%,PNAD income
+pobreza,PIP,US$ 3.65/dia PPC2017,2012,10.63,%,PNADC-E1 income
+pobreza,PIP,US$ 3.65/dia PPC2017,2013,9.51,%,PNADC-E1 income
+pobreza,PIP,US$ 3.65/dia PPC2017,2014,8.6,%,PNADC-E1 income
+pobreza,PIP,US$ 3.65/dia PPC2017,2015,9.31,%,PNADC-E1 income
+pobreza,PIP,US$ 3.65/dia PPC2017,2016,10.65,%,PNADC-E1 income
+pobreza,PIP,US$ 3.65/dia PPC2017,2017,11.04,%,PNADC-E1 income
+pobreza,PIP,US$ 3.65/dia PPC2017,2018,10.93,%,PNADC-E1 income
+pobreza,PIP,US$ 3.65/dia PPC2017,2019,10.79,%,PNADC-E1 income
+pobreza,PIP,US$ 3.65/dia PPC2017,2020,5.33,%,PNADC-E5 income
+pobreza,PIP,US$ 3.65/dia PPC2017,2021,11.24,%,PNADC-E5 income
+pobreza,PIP,US$ 3.65/dia PPC2017,2022,8.42,%,PNADC-E1 income
+pobreza,PIP,US$ 3.65/dia PPC2017,2023,7.35,%,PNADC-E1 income
+pobreza,PIP,US$ 3.65/dia PPC2017,2024,6.11,%,PNADC-E1 income
+pobreza,PIP,US$ 4.20/dia PPC2021,1981,43.05,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1982,43.21,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1983,51.09,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1984,50.36,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1985,45.64,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1986,26.27,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1987,36.73,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1988,39.5,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1989,36.76,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1990,41.83,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1992,40.94,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1993,39.93,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1995,29.75,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1996,30.17,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1997,30.62,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1998,29.01,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,1999,30.42,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,2001,26.45,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,2002,25.54,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,2003,26.28,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,2004,24.66,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,2005,22.7,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,2006,19.58,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,2007,18.2,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,2008,15.89,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,2009,14.83,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,2011,12.16,%,PNAD income
+pobreza,PIP,US$ 4.20/dia PPC2021,2012,10.73,%,PNADC-E1 income
+pobreza,PIP,US$ 4.20/dia PPC2021,2013,9.66,%,PNADC-E1 income
+pobreza,PIP,US$ 4.20/dia PPC2021,2014,8.72,%,PNADC-E1 income
+pobreza,PIP,US$ 4.20/dia PPC2021,2015,9.43,%,PNADC-E1 income
+pobreza,PIP,US$ 4.20/dia PPC2021,2016,10.8,%,PNADC-E1 income
+pobreza,PIP,US$ 4.20/dia PPC2021,2017,11.16,%,PNADC-E1 income
+pobreza,PIP,US$ 4.20/dia PPC2021,2018,11.07,%,PNADC-E1 income
+pobreza,PIP,US$ 4.20/dia PPC2021,2019,10.91,%,PNADC-E1 income
+pobreza,PIP,US$ 4.20/dia PPC2021,2020,5.39,%,PNADC-E5 income
+pobreza,PIP,US$ 4.20/dia PPC2021,2021,11.48,%,PNADC-E5 income
+pobreza,PIP,US$ 4.20/dia PPC2021,2022,8.52,%,PNADC-E1 income
+pobreza,PIP,US$ 4.20/dia PPC2021,2023,7.44,%,PNADC-E1 income
+pobreza,PIP,US$ 4.20/dia PPC2021,2024,6.19,%,PNADC-E1 income
+pobreza,PIP,US$ 6.85/dia PPC2017,1981,66.98,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1982,66.42,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1983,72.1,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1984,72.23,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1985,67.96,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1986,49.47,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1987,59.17,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1988,61.35,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1989,58.34,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1990,63.73,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1992,65.4,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1993,64.34,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1995,52.64,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1996,52.62,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1997,53.0,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1998,51.96,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,1999,53.81,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,2001,48.02,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,2002,47.32,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,2003,48.66,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,2004,47.34,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,2005,45.02,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,2006,41.38,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,2007,39.02,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,2008,35.82,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,2009,33.81,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,2011,29.91,%,PNAD income
+pobreza,PIP,US$ 6.85/dia PPC2017,2012,28.24,%,PNADC-E1 income
+pobreza,PIP,US$ 6.85/dia PPC2017,2013,25.76,%,PNADC-E1 income
+pobreza,PIP,US$ 6.85/dia PPC2017,2014,24.36,%,PNADC-E1 income
+pobreza,PIP,US$ 6.85/dia PPC2017,2015,25.27,%,PNADC-E1 income
+pobreza,PIP,US$ 6.85/dia PPC2017,2016,27.1,%,PNADC-E1 income
+pobreza,PIP,US$ 6.85/dia PPC2017,2017,27.17,%,PNADC-E1 income
+pobreza,PIP,US$ 6.85/dia PPC2017,2018,26.78,%,PNADC-E1 income
+pobreza,PIP,US$ 6.85/dia PPC2017,2019,26.3,%,PNADC-E1 income
+pobreza,PIP,US$ 6.85/dia PPC2017,2020,18.8,%,PNADC-E5 income
+pobreza,PIP,US$ 6.85/dia PPC2017,2021,28.45,%,PNADC-E5 income
+pobreza,PIP,US$ 6.85/dia PPC2017,2022,23.44,%,PNADC-E1 income
+pobreza,PIP,US$ 6.85/dia PPC2017,2023,21.62,%,PNADC-E1 income
+pobreza,PIP,US$ 6.85/dia PPC2017,2024,18.94,%,PNADC-E1 income
+pobreza,PIP,US$ 8.30/dia PPC2021,1981,68.88,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1982,68.35,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1983,73.9,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1984,74.01,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1985,70.02,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1986,51.65,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1987,61.29,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1988,63.04,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1989,60.3,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1990,65.8,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1992,67.87,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1993,66.04,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1995,54.79,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1996,54.9,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1997,55.11,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1998,54.29,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,1999,55.82,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,2001,50.29,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,2002,49.81,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,2003,50.89,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,2004,49.53,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,2005,47.51,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,2006,43.71,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,2007,41.22,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,2008,38.22,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,2009,36.34,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,2011,32.15,%,PNAD income
+pobreza,PIP,US$ 8.30/dia PPC2021,2012,30.4,%,PNADC-E1 income
+pobreza,PIP,US$ 8.30/dia PPC2021,2013,27.89,%,PNADC-E1 income
+pobreza,PIP,US$ 8.30/dia PPC2021,2014,26.42,%,PNADC-E1 income
+pobreza,PIP,US$ 8.30/dia PPC2021,2015,27.36,%,PNADC-E1 income
+pobreza,PIP,US$ 8.30/dia PPC2021,2016,29.1,%,PNADC-E1 income
+pobreza,PIP,US$ 8.30/dia PPC2021,2017,29.28,%,PNADC-E1 income
+pobreza,PIP,US$ 8.30/dia PPC2021,2018,28.66,%,PNADC-E1 income
+pobreza,PIP,US$ 8.30/dia PPC2021,2019,28.03,%,PNADC-E1 income
+pobreza,PIP,US$ 8.30/dia PPC2021,2020,20.83,%,PNADC-E5 income
+pobreza,PIP,US$ 8.30/dia PPC2021,2021,30.58,%,PNADC-E5 income
+pobreza,PIP,US$ 8.30/dia PPC2021,2022,25.3,%,PNADC-E1 income
+pobreza,PIP,US$ 8.30/dia PPC2021,2023,23.3,%,PNADC-E1 income
+pobreza,PIP,US$ 8.30/dia PPC2021,2024,20.65,%,PNADC-E1 income
+pobreza,SIDRA-5817,"linha internacional ODS US$ 3,00 PPC2021",2012,8.8,%,PNADC
+pobreza,SIDRA-5817,"linha internacional ODS US$ 3,00 PPC2021",2013,7.9,%,PNADC
+pobreza,SIDRA-5817,"linha internacional ODS US$ 3,00 PPC2021",2014,7.0,%,PNADC
+pobreza,SIDRA-5817,"linha internacional ODS US$ 3,00 PPC2021",2015,7.6,%,PNADC
+pobreza,SIDRA-5817,"linha internacional ODS US$ 3,00 PPC2021",2016,9.0,%,PNADC
+pobreza,SIDRA-5817,"linha internacional ODS US$ 3,00 PPC2021",2017,9.2,%,PNADC
+pobreza,SIDRA-5817,"linha internacional ODS US$ 3,00 PPC2021",2018,9.3,%,PNADC
+pobreza,SIDRA-5817,"linha internacional ODS US$ 3,00 PPC2021",2019,9.2,%,PNADC
+pobreza,SIDRA-5817,"linha internacional ODS US$ 3,00 PPC2021",2020,7.9,%,PNADC
+pobreza,SIDRA-5817,"linha internacional ODS US$ 3,00 PPC2021",2021,11.2,%,PNADC
+pobreza,SIDRA-5817,"linha internacional ODS US$ 3,00 PPC2021",2022,7.6,%,PNADC
+pobreza,SIDRA-5817,"linha internacional ODS US$ 3,00 PPC2021",2023,5.8,%,PNADC
+pobreza,SIDRA-5817,"linha internacional ODS US$ 3,00 PPC2021",2024,4.7,%,PNADC
+pobreza,SIDRA-5877,"linha nacional ODS US$ 8,30 PPC2021",2012,36.8,%,PNADC
+pobreza,SIDRA-5877,"linha nacional ODS US$ 8,30 PPC2021",2013,34.7,%,PNADC
+pobreza,SIDRA-5877,"linha nacional ODS US$ 8,30 PPC2021",2014,33.2,%,PNADC
+pobreza,SIDRA-5877,"linha nacional ODS US$ 8,30 PPC2021",2015,33.9,%,PNADC
+pobreza,SIDRA-5877,"linha nacional ODS US$ 8,30 PPC2021",2016,36.1,%,PNADC
+pobreza,SIDRA-5877,"linha nacional ODS US$ 8,30 PPC2021",2017,36.6,%,PNADC
+pobreza,SIDRA-5877,"linha nacional ODS US$ 8,30 PPC2021",2018,35.5,%,PNADC
+pobreza,SIDRA-5877,"linha nacional ODS US$ 8,30 PPC2021",2019,34.5,%,PNADC
+pobreza,SIDRA-5877,"linha nacional ODS US$ 8,30 PPC2021",2020,33.4,%,PNADC
+pobreza,SIDRA-5877,"linha nacional ODS US$ 8,30 PPC2021",2021,38.9,%,PNADC
+pobreza,SIDRA-5877,"linha nacional ODS US$ 8,30 PPC2021",2022,33.7,%,PNADC
+pobreza,SIDRA-5877,"linha nacional ODS US$ 8,30 PPC2021",2023,29.8,%,PNADC
+pobreza,SIDRA-5877,"linha nacional ODS US$ 8,30 PPC2021",2024,26.5,%,PNADC

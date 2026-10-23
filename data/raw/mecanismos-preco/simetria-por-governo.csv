@@ -1,0 +1,121 @@
+classe,governo,status,valor,unidade,detalhe,razao,ids_mecanismos
+K1_preco_relativo_monitorados_vs_livres_na_janela,castelo,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K2_soma_gap_pp_anos_31dez,castelo,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K1_preco_relativo_monitorados_vs_livres_na_janela,costa_silva,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K2_soma_gap_pp_anos_31dez,costa_silva,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K1_preco_relativo_monitorados_vs_livres_na_janela,junta,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K2_soma_gap_pp_anos_31dez,junta,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K1_preco_relativo_monitorados_vs_livres_na_janela,medici,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K2_soma_gap_pp_anos_31dez,medici,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K1_preco_relativo_monitorados_vs_livres_na_janela,geisel,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K2_soma_gap_pp_anos_31dez,geisel,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K1_preco_relativo_monitorados_vs_livres_na_janela,figueiredo,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K2_soma_gap_pp_anos_31dez,figueiredo,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K1_preco_relativo_monitorados_vs_livres_na_janela,sarney,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K2_soma_gap_pp_anos_31dez,sarney,sem dado,,,nao_colhido,SGS 11428 e 4449 comecam em jan/1991; o IPCA nasce sem decomposicao oficial livres/monitorados antes disso. Nao reconstruido.,
+K1_preco_relativo_monitorados_vs_livres_na_janela,collor,medido,12.22,% composto na janela do mandato,,"janela 1991-01 a 1992-09, 21 meses; negativo = monitorados subiram menos que livres; 12 meses seguintes = 3.87% (inicio da serie (jan/1991) corta o mandato)",serie gap-por-governo.csv
+K2_soma_gap_pp_anos_31dez,collor,medido,-34.09,p.p. (soma dos gaps anuais),,anos atribuidos pela regra 31/12; soma de p.p. sob hiperinflacao (1991-1994) nao e comparavel com anos de inflacao baixa,gap-anual-mandatos.csv
+K1_preco_relativo_monitorados_vs_livres_na_janela,itamar,medido,-17.04,% composto na janela do mandato,,"janela 1992-10 a 1994-12, 27 meses; negativo = monitorados subiram menos que livres; 12 meses seguintes = 5.40%",serie gap-por-governo.csv
+K2_soma_gap_pp_anos_31dez,itamar,medido,-99.51,p.p. (soma dos gaps anuais),,anos atribuidos pela regra 31/12; soma de p.p. sob hiperinflacao (1991-1994) nao e comparavel com anos de inflacao baixa,gap-anual-mandatos.csv
+K1_preco_relativo_monitorados_vs_livres_na_janela,fhc,medido,82.74,% composto na janela do mandato,,"janela 1995-01 a 2002-12, 96 meses; negativo = monitorados subiram menos que livres; 12 meses seguintes = 5.01%",serie gap-por-governo.csv
+K2_soma_gap_pp_anos_31dez,fhc,medido,-67.81,p.p. (soma dos gaps anuais),,anos atribuidos pela regra 31/12,gap-anual-mandatos.csv
+K1_preco_relativo_monitorados_vs_livres_na_janela,lula12,medido,3.71,% composto na janela do mandato,,"janela 2003-01 a 2010-12, 96 meses; negativo = monitorados subiram menos que livres; 12 meses seguintes = -0.42%",serie gap-por-governo.csv
+K2_soma_gap_pp_anos_31dez,lula12,medido,-4.29,p.p. (soma dos gaps anuais),,anos atribuidos pela regra 31/12,gap-anual-mandatos.csv
+K1_preco_relativo_monitorados_vs_livres_na_janela,dilma,medido,-2.92,% composto na janela do mandato,,"janela 2011-01 a 2016-08, 68 meses; negativo = monitorados subiram menos que livres; 12 meses seguintes = 4.94%",serie gap-por-governo.csv
+K2_soma_gap_pp_anos_31dez,dilma,medido,0.96,p.p. (soma dos gaps anuais),,anos atribuidos pela regra 31/12,gap-anual-mandatos.csv
+K1_preco_relativo_monitorados_vs_livres_na_janela,temer,medido,10.37,% composto na janela do mandato,,"janela 2016-09 a 2018-12, 28 meses; negativo = monitorados subiram menos que livres; 12 meses seguintes = 1.61%",serie gap-por-governo.csv
+K2_soma_gap_pp_anos_31dez,temer,medido,-8.87,p.p. (soma dos gaps anuais),,anos atribuidos pela regra 31/12,gap-anual-mandatos.csv
+K1_preco_relativo_monitorados_vs_livres_na_janela,bolsonaro,medido,-5.37,% composto na janela do mandato,,"janela 2019-01 a 2022-12, 48 meses; negativo = monitorados subiram menos que livres; 12 meses seguintes = 5.82%",serie gap-por-governo.csv
+K2_soma_gap_pp_anos_31dez,bolsonaro,medido,4.88,p.p. (soma dos gaps anuais),,anos atribuidos pela regra 31/12,gap-anual-mandatos.csv
+K1_preco_relativo_monitorados_vs_livres_na_janela,lula3,medido,7.51,% composto na janela do mandato,,"janela 2023-01 a 2026-09, 45 meses; negativo = monitorados subiram menos que livres; 12 meses seguintes = sem dado% (janela termina em set/2026 (fim dos dados), mandato em curso)",serie gap-por-governo.csv
+K2_soma_gap_pp_anos_31dez,lula3,medido,-7.14,p.p. (soma dos gaps anuais),,anos atribuidos pela regra 31/12,gap-anual-mandatos.csv
+K3_controle_legal_geral_de_precos,castelo,sem dado,,instrumentos achados,nao_colhido,"Controle de precos da CONEP (1965) so citado em resumo de busca, nao lido em fonte primaria",
+K3_controle_legal_geral_de_precos,costa_silva,sem dado,,instrumentos achados,"instrumento_achado_sem_medida: 1 (CIP, 29/08/1968)","instrumento localizado, sem serie de precos nem de custo",CTL-CIP-1968
+K3_controle_legal_geral_de_precos,junta,sem dado,,instrumentos achados,nao_colhido,mandato de dois meses; nada colhido,
+K3_controle_legal_geral_de_precos,medici,sem dado,,instrumentos achados,instrumento_achado_sem_medida: CIP em vigor; 1973 em literatura,CIP herdado; 1973: precos tabelados e indices divergentes (CPDOC),CTL-CIP-1968;IDX-1973
+K3_controle_legal_geral_de_precos,geisel,sem dado,,instrumentos achados,nao_colhido,CIP em vigor (herdado); nada especifico colhido,CTL-CIP-1968
+K3_controle_legal_geral_de_precos,figueiredo,sem dado,,instrumentos achados,nao_colhido,CIP em vigor (herdado); nada especifico colhido,CTL-CIP-1968
+K3_controle_legal_geral_de_precos,sarney,sem dado,,instrumentos achados,"instrumento_achado_sem_medida: 3 congelamentos (1986, 1987, 1989) + CIP",tres decretos/leis de congelamento geral; custo nao medido; IPCA descritivo no mecanismo,CTL-CRUZADO-1986;CTL-BRESSER-1987;CTL-VERAO-1989
+K3_controle_legal_geral_de_precos,collor,sem dado,,instrumentos achados,"instrumento_achado_sem_medida: 2 (Lei 8.030/1990, Lei 8.178/1991)",duas leis de controle de reajuste; custo nao medido,CTL-COLLOR1-1990;CTL-COLLOR2-1991
+K3_controle_legal_geral_de_precos,itamar,sem dado,,,nada_achado_nesta_colheita,"nenhum controle geral achado na colheita historia; nao e prova de ausencia (busca dirigida por plano, nao varredura)",
+K3_controle_legal_geral_de_precos,fhc,sem dado,,,nada_achado_nesta_colheita,"nenhum controle geral achado na colheita historia; nao e prova de ausencia (busca dirigida por plano, nao varredura)",
+K3_controle_legal_geral_de_precos,lula12,sem dado,,,nada_achado_nesta_colheita,"nenhum controle geral achado na colheita historia; nao e prova de ausencia (busca dirigida por plano, nao varredura)",
+K3_controle_legal_geral_de_precos,dilma,sem dado,,,nada_achado_nesta_colheita,"nenhum controle geral achado na colheita historia; nao e prova de ausencia (busca dirigida por plano, nao varredura)",
+K3_controle_legal_geral_de_precos,temer,sem dado,,,nada_achado_nesta_colheita,"nenhum controle geral achado na colheita historia; nao e prova de ausencia (busca dirigida por plano, nao varredura)",
+K3_controle_legal_geral_de_precos,bolsonaro,sem dado,,,nada_achado_nesta_colheita,"nenhum controle geral achado na colheita historia; nao e prova de ausencia (busca dirigida por plano, nao varredura)",
+K3_controle_legal_geral_de_precos,lula3,sem dado,,,nada_achado_nesta_colheita,"nenhum controle geral achado na colheita historia; nao e prova de ausencia (busca dirigida por plano, nao varredura)",
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,castelo,sem dado,,,nada_achado_nesta_colheita,nao localizado em IBGE/BCB nesta colheita; nao e prova de ausencia,
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,costa_silva,sem dado,,,nada_achado_nesta_colheita,nao localizado em IBGE/BCB nesta colheita; nao e prova de ausencia,
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,junta,sem dado,,,nada_achado_nesta_colheita,nao localizado em IBGE/BCB nesta colheita; nao e prova de ausencia,
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,medici,sem dado,,episodios,instrumento_achado_sem_medida: 1973 (literatura),dois indices contemporaneos divergem (CPDOC); nao ha medida propria,IDX-1973
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,geisel,sem dado,,,nada_achado_nesta_colheita,nao localizado em IBGE/BCB nesta colheita; nao e prova de ausencia,
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,figueiredo,sem dado,,,nada_achado_nesta_colheita,nao localizado em IBGE/BCB nesta colheita; nao e prova de ausencia,
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,sarney,sem dado,,episodios,"instrumento_achado_sem_medida: 2 episodios IBGE (jun/1987, jan/1989) + expurgos de 1986",IBGE documenta 'represada' no IPC; efeito em pontos de indice nao medido,IDX-IPC-1987;IDX-IPC-1989;IDX-IPC-1986
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,collor,sem dado,,,nada_achado_nesta_colheita,nao localizado em IBGE/BCB nesta colheita; nao e prova de ausencia,
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,itamar,sem dado,,,nada_achado_nesta_colheita,nao localizado em IBGE/BCB nesta colheita; nao e prova de ausencia,
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,fhc,sem dado,,,nada_achado_nesta_colheita,nao localizado em IBGE/BCB nesta colheita; nao e prova de ausencia,
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,lula12,sem dado,,,nada_achado_nesta_colheita,nao localizado em IBGE/BCB nesta colheita; nao e prova de ausencia,
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,dilma,sem dado,,,nada_achado_nesta_colheita,nao localizado em IBGE/BCB nesta colheita; nao e prova de ausencia,
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,temer,sem dado,,,nada_achado_nesta_colheita,nao localizado em IBGE/BCB nesta colheita; nao e prova de ausencia,
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,bolsonaro,sem dado,,,nada_achado_nesta_colheita,nao localizado em IBGE/BCB nesta colheita; nao e prova de ausencia,
+K4_represamento_ou_mudanca_de_regra_no_indice_de_precos,lula3,sem dado,,,nada_achado_nesta_colheita,nao localizado em IBGE/BCB nesta colheita; nao e prova de ausencia,
+K5_preco_de_combustivel_na_petrobras,castelo,sem dado,,,nao_colhido,"resultado do segmento derivados nao colhido para este governo (a tabela do Ipea cobre 2006, 2010-2017); politica de precos de cada periodo nao lida",
+K5_preco_de_combustivel_na_petrobras,costa_silva,sem dado,,,nao_colhido,"resultado do segmento derivados nao colhido para este governo (a tabela do Ipea cobre 2006, 2010-2017); politica de precos de cada periodo nao lida",
+K5_preco_de_combustivel_na_petrobras,junta,sem dado,,,nao_colhido,"resultado do segmento derivados nao colhido para este governo (a tabela do Ipea cobre 2006, 2010-2017); politica de precos de cada periodo nao lida",
+K5_preco_de_combustivel_na_petrobras,medici,sem dado,,,nao_colhido,"resultado do segmento derivados nao colhido para este governo (a tabela do Ipea cobre 2006, 2010-2017); politica de precos de cada periodo nao lida",
+K5_preco_de_combustivel_na_petrobras,geisel,sem dado,,,nao_colhido,"resultado do segmento derivados nao colhido para este governo (a tabela do Ipea cobre 2006, 2010-2017); politica de precos de cada periodo nao lida",
+K5_preco_de_combustivel_na_petrobras,figueiredo,sem dado,,,nao_colhido,"resultado do segmento derivados nao colhido para este governo (a tabela do Ipea cobre 2006, 2010-2017); politica de precos de cada periodo nao lida",
+K5_preco_de_combustivel_na_petrobras,sarney,sem dado,,,nao_colhido,"resultado do segmento derivados nao colhido para este governo (a tabela do Ipea cobre 2006, 2010-2017); politica de precos de cada periodo nao lida",
+K5_preco_de_combustivel_na_petrobras,collor,sem dado,,,nao_colhido,"resultado do segmento derivados nao colhido para este governo (a tabela do Ipea cobre 2006, 2010-2017); politica de precos de cada periodo nao lida",
+K5_preco_de_combustivel_na_petrobras,itamar,sem dado,,,nao_colhido,"resultado do segmento derivados nao colhido para este governo (a tabela do Ipea cobre 2006, 2010-2017); politica de precos de cada periodo nao lida",
+K5_preco_de_combustivel_na_petrobras,fhc,sem dado,,,nao_colhido,"resultado do segmento derivados nao colhido para este governo (a tabela do Ipea cobre 2006, 2010-2017); politica de precos de cada periodo nao lida",
+K5_preco_de_combustivel_na_petrobras,lula12,sem dado,,,nao_colhido,"resultado do segmento derivados nao colhido para este governo (a tabela do Ipea cobre 2006, 2010-2017); politica de precos de cada periodo nao lida",
+K5_preco_de_combustivel_na_petrobras,dilma,medido,"-41,0",US$ bi (soma 2011-2014 do resultado do segmento derivados),,"Ipea, a partir das DFP da Petrobras; TCU sem merito julgado",PETRO-2011-2014;PETRO-TCU
+K5_preco_de_combustivel_na_petrobras,temer,sem dado,,,nao_colhido,"resultado do segmento derivados nao colhido para este governo (a tabela do Ipea cobre 2006, 2010-2017); politica de precos de cada periodo nao lida",
+K5_preco_de_combustivel_na_petrobras,bolsonaro,sem dado,,,nao_colhido,"resultado do segmento derivados nao colhido para este governo (a tabela do Ipea cobre 2006, 2010-2017); politica de precos de cada periodo nao lida",
+K5_preco_de_combustivel_na_petrobras,lula3,sem dado,,,instrumento_achado_sem_medida: ECDG 16/05/2023,TCU acompanha; sem valor,PETRO-ECDG-2023
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,castelo,sem dado,,,nao_colhido,CIDE-combustiveis so existe desde a Lei 10.336 de 2001; outros tributos sobre combustiveis do periodo nao colhidos,
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,costa_silva,sem dado,,,nao_colhido,CIDE-combustiveis so existe desde a Lei 10.336 de 2001; outros tributos sobre combustiveis do periodo nao colhidos,
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,junta,sem dado,,,nao_colhido,CIDE-combustiveis so existe desde a Lei 10.336 de 2001; outros tributos sobre combustiveis do periodo nao colhidos,
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,medici,sem dado,,,nao_colhido,CIDE-combustiveis so existe desde a Lei 10.336 de 2001; outros tributos sobre combustiveis do periodo nao colhidos,
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,geisel,sem dado,,,nao_colhido,CIDE-combustiveis so existe desde a Lei 10.336 de 2001; outros tributos sobre combustiveis do periodo nao colhidos,
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,figueiredo,sem dado,,,nao_colhido,CIDE-combustiveis so existe desde a Lei 10.336 de 2001; outros tributos sobre combustiveis do periodo nao colhidos,
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,sarney,sem dado,,,nao_colhido,CIDE-combustiveis so existe desde a Lei 10.336 de 2001; outros tributos sobre combustiveis do periodo nao colhidos,
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,collor,sem dado,,,nao_colhido,CIDE-combustiveis so existe desde a Lei 10.336 de 2001; outros tributos sobre combustiveis do periodo nao colhidos,
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,itamar,sem dado,,,nao_colhido,CIDE-combustiveis so existe desde a Lei 10.336 de 2001; outros tributos sobre combustiveis do periodo nao colhidos,
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,fhc,sem dado,,,nao_colhido,CIDE criada pela Lei 10.336/2001 e arrecadada desde 2002 (R$ 7.228 mi no ano); reducoes de aliquota no periodo nao colhidas,
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,lula12,sem dado,,,nao_colhido,"a receita da CIDE cai de 7.939 (2007) para 5.934 (2008) e 4.828 (2009) e volta a 7.738 (2010); o instrumento nao foi lido, sem atribuicao de causa",
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,dilma,medido,"CIDE: receita 8.924 (2011) para 13,8 (2014)",R$ mi,,"estimativas oficiais ex-ante (Receita) ou receita observada (CIDE), nao comparaveis entre si; nao somar",CIDE-2012-2015
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,temer,sem dado,,R$ bi (teto),"instrumento_achado_sem_medida: subvencao com teto de R$ 9,5 bi; valor pago nao medido","estimativas oficiais ex-ante (Receita) ou receita observada (CIDE), nao comparaveis entre si; nao somar",DIESEL-2018
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,bolsonaro,medido,"estimativas da Receita: 3.001,99 (2021); 14.932,41 e 16.511,22 (2022)",R$ mi,,"estimativas oficiais ex-ante (Receita) ou receita observada (CIDE), nao comparaveis entre si; nao somar",DIESEL-2021;LC192-2022;LC194-2022;LC194-COMSEFAZ
+K6_reducao_temporaria_de_tributo_sobre_combustiveis,lula3,medido,"estimativas da Receita/EM: 25.000 e 6.610 (2023); compensacao aos estados R$ 27.014,9 mi (pela LC 194)",R$ mi,,"estimativas oficiais ex-ante (Receita) ou receita observada (CIDE), nao comparaveis entre si; nao somar",MP1157-2023;LC201-2023
+K7_tarifa_de_energia_diferida_ou_subsidiada,castelo,sem dado,,,nao_colhido,nao colhido para este governo,
+K7_tarifa_de_energia_diferida_ou_subsidiada,costa_silva,sem dado,,,nao_colhido,nao colhido para este governo,
+K7_tarifa_de_energia_diferida_ou_subsidiada,junta,sem dado,,,nao_colhido,nao colhido para este governo,
+K7_tarifa_de_energia_diferida_ou_subsidiada,medici,sem dado,,,nao_colhido,nao colhido para este governo,
+K7_tarifa_de_energia_diferida_ou_subsidiada,geisel,sem dado,,,nao_colhido,nao colhido para este governo,
+K7_tarifa_de_energia_diferida_ou_subsidiada,figueiredo,sem dado,,,nao_colhido,nao colhido para este governo,
+K7_tarifa_de_energia_diferida_ou_subsidiada,sarney,sem dado,,,nao_colhido,nao colhido para este governo,
+K7_tarifa_de_energia_diferida_ou_subsidiada,collor,sem dado,,,nao_colhido,nao colhido para este governo,
+K7_tarifa_de_energia_diferida_ou_subsidiada,itamar,sem dado,,,nao_colhido,nao colhido para este governo,
+K7_tarifa_de_energia_diferida_ou_subsidiada,fhc,sem dado,,% (teto),"instrumento_achado_sem_medida: ate 2,9% e 7,9% sobre a tarifa (teto legal)",recuperacao do custo do racionamento de 2001; total em R$ nao medido,ENER-RTE-2002
+K7_tarifa_de_energia_diferida_ou_subsidiada,lula12,sem dado,,,nao_colhido,nao colhido para este governo,
+K7_tarifa_de_energia_diferida_ou_subsidiada,dilma,medido,8.460 (2013) e 11.805 (2014) da Uniao na CDE; zero a partir de 2015,R$ mi (orcado),,CGU/Aneel; quotas dos consumidores sobem de 1.700 (2014) para 18.920 (2015),ENER-MP579-2012
+K7_tarifa_de_energia_diferida_ou_subsidiada,temer,sem dado,,,nao_colhido,nao colhido para este governo,
+K7_tarifa_de_energia_diferida_ou_subsidiada,bolsonaro,medido,"15,3",R$ bi (emprestimo Conta Covid),,amortizacao pela CDE entre 2021 e 2025,ENER-COVID-2020
+K7_tarifa_de_energia_diferida_ou_subsidiada,lula3,sem dado,,,nao_colhido,amortizacao da Conta Covid cai neste governo (2023-2025); valor por ano nao colhido,ENER-COVID-2020
+K8_desoneracao_setorial_temporaria,castelo,sem dado,,,nao_colhido,nao colhido para este governo; DGT da Receita comeca em 2014,
+K8_desoneracao_setorial_temporaria,costa_silva,sem dado,,,nao_colhido,nao colhido para este governo; DGT da Receita comeca em 2014,
+K8_desoneracao_setorial_temporaria,junta,sem dado,,,nao_colhido,nao colhido para este governo; DGT da Receita comeca em 2014,
+K8_desoneracao_setorial_temporaria,medici,sem dado,,,nao_colhido,nao colhido para este governo; DGT da Receita comeca em 2014,
+K8_desoneracao_setorial_temporaria,geisel,sem dado,,,nao_colhido,nao colhido para este governo; DGT da Receita comeca em 2014,
+K8_desoneracao_setorial_temporaria,figueiredo,sem dado,,,nao_colhido,nao colhido para este governo; DGT da Receita comeca em 2014,
+K8_desoneracao_setorial_temporaria,sarney,sem dado,,,nao_colhido,nao colhido para este governo; DGT da Receita comeca em 2014,
+K8_desoneracao_setorial_temporaria,collor,sem dado,,,nao_colhido,nao colhido para este governo; DGT da Receita comeca em 2014,
+K8_desoneracao_setorial_temporaria,itamar,sem dado,,,nao_colhido,nao colhido para este governo; DGT da Receita comeca em 2014,
+K8_desoneracao_setorial_temporaria,fhc,sem dado,,,nao_colhido,nao colhido para este governo; DGT da Receita comeca em 2014,
+K8_desoneracao_setorial_temporaria,lula12,medido,1.817 desonerado no 1o semestre de 2009; custo 559,R$ mi,,IPI de automoveis; estudo do Ipea via TCU,IPI-AUTO-2009;DESON-IPI-IR-2008-2012
+K8_desoneracao_setorial_temporaria,dilma,medido,"folha: 22.107,3 (2014) e 25.199,1 (2015); IR+IPI bruto 2011: 77,23 e 2012: 85,20",R$ mi (folha) e R$ bi (IR+IPI),,DGT 2016 e TCU 713/2014; IPI de automoveis 2012-2014 sem valor proprio,FOLHA-2011-2015;DESON-IPI-IR-2008-2012
+K8_desoneracao_setorial_temporaria,temer,sem dado,,,nao_colhido,"folha segue em vigor (14.546,6 projetado para 2016, 12.104,7 para 2018), mas nao ha ato novo do governo medido",FOLHA-2011-2015
+K8_desoneracao_setorial_temporaria,bolsonaro,sem dado,,,nao_colhido,"folha segue em vigor (projecao de 10.155,4 para 2019); atos novos do governo (Desoneracoes Instituidas 2019 a 2022) nao triados para este tema",FOLHA-2011-2015
+K8_desoneracao_setorial_temporaria,lula3,sem dado,,,nao_colhido,MP 1.202/2023 mexe na folha (revoga parte da desoneracao); nao triada,

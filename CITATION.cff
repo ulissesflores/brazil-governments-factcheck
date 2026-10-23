@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below. / Se você usar este repositório, cite-o como abaixo."
+title: "Brazil governments fact-check and X-ray: hash-chained public data to check a viral infographic and compare what it omits"
+abstract: >-
+  Reproducible check of a viral infographic that compares eight Brazilian governments (1967-2026),
+  plus a curated, hash-chained layer of public series (economy, money, labour, income, health,
+  security, education, housing, environment, democracy) with the source edition on every row and a
+  catalogue of method and rule breaks. One verdict rule is fixed in code and applied to every
+  printed number; the specifications and every alternative tried are reported. A second phase adds
+  a pre-registered composite index of living conditions (frozen goalposts, declared weights,
+  published scenarios), a terminal of indicators with one homogeneous base per cell, a literature
+  layer found by a sealed search protocol (quartile-1 studies with a named identification design)
+  and the external-debt and public-debt-cost series, each as the Central Bank publishes them. No
+  estimate, no score of government merit. Português: checagem reprodutível de um infográfico viral que compara oito governos
+  brasileiros, mais uma camada curada de séries públicas com cadeia de hash, edição da fonte em
+  cada linha e catálogo de quebras de método e de regra.
+authors:
+  - family-names: Flores
+    given-names: Carlos Ulisses
+    orcid: "https://orcid.org/0000-0002-6034-7765"
+    website: "https://ulissesflores.com"
+    affiliation: "Codex Hash Research Laboratory"
+type: dataset
+version: 0.1.0
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+keywords:
+  - brazil
+  - fact-checking
+  - reproducibility
+  - hash-chain
+  - inflation
+  - seigniorage
+  - method-breaks
+references:
+  - type: article
+    authors: [{family-names: Haber, given-names: Stuart}, {family-names: Stornetta, given-names: W. Scott}]
+    title: "How to time-stamp a digital document"
+    journal: "Journal of Cryptology"
+    year: 1991
+    volume: 3
+    start: 99
+    end: 111
+    doi: "10.1007/bf00196791"
+  - type: article
+    authors: [{family-names: Cysne, given-names: Rubens Penha}, {family-names: Coimbra-Lisboa, given-names: Paulo C.}]
+    title: "Imposto inflacionário e transferências inflacionárias no Brasil: 1947-2003"
+    journal: "Revista de Economia Política"
+    year: 2004
+    volume: 24
+    start: 632
+    end: 637
+    doi: "10.1590/0101-35172004-1602"
+  - type: article
+    authors: [{family-names: Peng, given-names: Roger D.}]
+    title: "Reproducible research in computational science"
+    journal: "Science"
+    year: 2011
+    volume: 334
+    start: 1226
+    end: 1227
+    doi: "10.1126/science.1213847"

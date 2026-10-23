@@ -1,0 +1,7 @@
+{
+  "@odata.context":"http://ipeadata.gov.br/api/odata4/$metadata#Metadados","value":[
+    {
+      "SERCODIGO":"PME12_TDA12","SERNOME":"Taxa de desemprego - aberto - refer\u00eancia: 30 dias - RMs - INATIVA","SERCOMENTARIO":"Para 1982-1989: Pesquisa mensal de emprego: estat\u00edsticas b\u00e1sicas - s\u00e9ries retrospectivas, n\u00famero 1, Rio de Janeiro: IBGE, 1990. Regi\u00f5es metropolitanas (RMs): Recife, Salvador, Belo Horizonte, Rio de Janeiro, S\u00e3o Paulo e Porto Alegre.  Obs.: Refere-se a pessoas com 15 anos ou mais de idade. S\u00e9rie descontinuada pela fonte.","SERATUALIZACAO":"2003-02-18T12:34:12-03:00","BASNOME":"Macroecon\u00f4mico","FNTSIGLA":"IBGE/PME antiga","FNTNOME":"Instituto Brasileiro de Geografia e Estat\u00edstica, Pesquisa Mensal de Emprego - antiga metodologia (IBGE/PME antiga)","FNTURL":"www.ibge.gov.br","PERNOME":"Mensal","UNINOME":"(%)","MULNOME":null,"SERSTATUS":"I","TEMCODIGO":12,"PAICODIGO":"BRA","SERNUMERICA":true
+    }
+  ]
+}
