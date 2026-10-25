@@ -233,7 +233,7 @@ la ventana de la vela del mandato, en puntos de 0 a 100 dentro de las metas; (2)
 Latina y el Caribe en la misma serie de la misma fuente, en el año anterior a la toma de posesión y en el
 último año del mandato; (3) la cuadrícula de todos los indicadores, "inicio -> fin" en una base homogénea
 por celda. Un agregado exploratorio "contra la tendencia" se calculó y se descartó, porque no estaba
-prerregistrado y la tendencia incluía los años del propio mandato. El terminal lleva 101
+prerregistrado y la tendencia incluía los años del propio mandato. El terminal lleva 102
 indicadores en 19 dominios; una serie con dos bases se dibuja como dos líneas y nunca se lee a
 través del quiebre.
 
@@ -279,15 +279,21 @@ Central discontinuó en febrero de 2026 se muestran tal como se publicaron y nun
 externa bruta sobre el PIB (SGS 11407), **deuda externa neta sobre el PIB (SGS 11409)** y la parte del
 sector público (SGS 11408); la posición de inversión internacional neta sobre el PIB (SGS 12506) completa el conjunto.
 
-El concepto neto importa para un titular de 2026 que decía que Brasil "volvió a ser deudor" porque la
-deuda externa bruta había superado las reservas internacionales. La definición del propio Banco Central
-resta de la deuda bruta restringida no solo las reservas, sino también los créditos brasileños en el
-exterior y los activos de los bancos comerciales en el exterior (US$ 36,6 mil millones en
-2025-12); según ella, el último valor oficial (2025-12) seguía siendo una posición acreedora de
-US$ -17,2 mil millones, y la última razón oficial era -0,9 % del PIB en 2025-09. Como
-el indicador dejó de existir, no hay valor oficial de 2026 en ningún concepto, y este repositorio no
-calcula ninguno: la página dibuja deuda bruta y reservas juntas y declara que su diferencia no es la deuda
-externa neta del Banco Central. El costo de cargar la deuda pública entra por los intereses nominales y el
+El concepto neto importa para un titular de octubre de 2026 que decía que Brasil "volvió a ser deudor".
+La definición del propio Banco Central resta de la deuda bruta restringida no solo las reservas, sino
+también los créditos brasileños en el exterior y los activos de los bancos comerciales en el exterior
+(US$ 36,6 mil millones en 2025-12, según la Tabla 31 de la Nota de enero de 2026). El nivel
+de esa deuda externa neta sigue publicado (SGS 3685, trimestral desde 1987) y se muestra tal como está:
+US$ 5,1 mil millones en 2026-06, el primer valor positivo desde 2007-09. Lo que
+los titulares llamaron "reservas de US$ 402 mil millones" es el conjunto de activos que el Banco Central
+resta, no las reservas en concepto de caja. La serie coincide con la Tabla 31 en todos los trimestres en
+que ambas existen; diciembre de 2025, que la Nota traía como estimación de US$ -17,2 mil millones,
+aparece revisado a US$ -8,7 mil millones. La razón sobre el PIB (SGS 11409) fue descontinuada y
+no se prolonga; la última oficial era -0,9 % del PIB en 2025-09. La página dibuja deuda
+bruta y reservas juntas y declara que su diferencia no es la deuda externa neta. **Fe de erratas
+(2026-10-24).** La primera versión de esta sección afirmaba que no había valor oficial de 2026 en ningún
+concepto y que el titular calculaba "bruta menos reservas"; ambas afirmaciones estaban equivocadas, y la
+corrección está registrada en el CHANGELOG. El costo de cargar la deuda pública entra por los intereses nominales y el
 resultado nominal del sector público consolidado en 12 meses como proporción del PIB (BCB, NFSP), junto a
 la deuda pública bruta y neta ya mostradas. La comparación mundial usa un tercer concepto, el stock de
 deuda externa sobre el ingreso nacional bruto del Banco Mundial, solo para Brasil y el grupo de renta

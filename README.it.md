@@ -2,12 +2,12 @@
 
 # Radiografia del Brasile per Governo
 
-**57 numeri di un'infografica virale su otto governi brasiliani, verificati uno per uno contro dati pubblici sotto una regola fissata nel codice; poi la radiografia di ciò che ha lasciato fuori: 101 serie con catena di hash dal 1964, un indice preregistrato delle condizioni di vita e la letteratura sottoposta a revisione paritaria su ogni episodio. Nessun voto di merito.**
+**57 numeri di un'infografica virale su otto governi brasiliani, verificati uno per uno contro dati pubblici sotto una regola fissata nel codice; poi la radiografia di ciò che ha lasciato fuori: 102 serie con catena di hash dal 1964, un indice preregistrato delle condizioni di vita e la letteratura sottoposta a revisione paritaria su ogni episodio. Nessun voto di merito.**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23604103.svg)](https://doi.org/10.5281/zenodo.23604103)
 ![license: Apache-2.0 + CC BY 4.0](https://img.shields.io/badge/license-Apache--2.0%20%2B%20CC%20BY%204.0-blue)
 ![python](https://img.shields.io/badge/python-3.11%20%7C%203.12-informational)
-![tests](https://img.shields.io/badge/tests-116_passing-success)
+![tests](https://img.shields.io/badge/tests-117_passing-success)
 ![reproducible](https://img.shields.io/badge/reproducible-SHA--256_chain-success)
 
 [English](README.md) · [Português](README.pt-BR.md) · [Español](README.es.md) · [Italiano](README.it.md) · [עברית](README.he.md)
@@ -35,7 +35,7 @@
 | Si riproducono / si approssimano / non si riproducono / non verificati | 2 / 19 / 29 / 7 |
 | Mesi del 1964-2026 che l'infografica omette | 257,6 su 750,1 (34,3%) |
 | Osservazioni curate / indicatori / rotture di metodo | 26.490 / 279 / 229 |
-| Elementi dell'indice / indicatori del terminale / studi Q1 nello strato della letteratura | 39 / 101 / 38 |
+| Elementi dell'indice / indicatori del terminale / studi Q1 nello strato della letteratura | 39 / 102 / 38 |
 | Emendamenti datati alla preregistrazione | 0 |
 | Dipendenze a tempo di esecuzione | nessuna (libreria standard di Python, 3.11+) |
 
@@ -67,7 +67,7 @@ Ogni cella mostra sopra il numero stampato e sotto il numero riprodotto, con un 
 Tutto ciò che segue è stato preregistrato e sigillato nella catena di hash prima di essere calcolato (0 emendamenti datati, mai riscritti, in `data/raw/preregistro/`); le regole sono in `docs/it/METHODOLOGY.md`, sezioni da 11 a 16.
 
 1. **Un indice composito delle condizioni di vita** (39 elementi in 13 aree, `output/indice.json`): ogni elemento entra solo con una direzione di lettura stabilita in un articolo di quartile 1, valutato rispetto a soglie congelate 1995-2024, con pesi uguali dichiarati, scenari pubblicati e 10.000 estrazioni di pesi. Descrive le condizioni durante ogni mandato; non classifica il merito.
-2. **Un terminale di 101 indicatori in 19 domini** (`output/terminal.json`, pagina `output/raio-x.html`), una base omogenea per cella, due basi disegnate come due linee e mai raccordate, e una lettura per mandato in tre strati separati: l'indice, Brasile meno America Latina sulla stessa fonte e la griglia "inizio -> fine".
+2. **Un terminale di 102 indicatori in 19 domini** (`output/terminal.json`, pagina `output/raio-x.html`), una base omogenea per cella, due basi disegnate come due linee e mai raccordate, e una lettura per mandato in tre strati separati: l'indice, Brasile meno America Latina sulla stessa fonte e la griglia "inizio -> fine".
 3. **Uno strato della letteratura** (23 episodi, 4 tornate pubblicate, 38 studi, `output/literatura.json`): ciò che studi sottoposti a revisione paritaria di quartile 1 con un disegno di identificazione nominato hanno misurato su ogni episodio, trovati da un protocollo di ricerca sigillato prima di cercare, ogni lavoro restituito elencato con il motivo dell'esclusione, senza voto e senza verdetto.
 4. **Debito estero e costo del debito pubblico** (`data/raw/externo-fase3/`): i due concetti di debito estero lordo della Banca Centrale mostrati separati, il suo rapporto di debito netto interrotto mostrato come pubblicato e mai prolungato, e gli interessi nominali e il risultato nominale del settore pubblico; nessun valore netto del 2026 viene calcolato perché l'indicatore ufficiale non esiste più.
 

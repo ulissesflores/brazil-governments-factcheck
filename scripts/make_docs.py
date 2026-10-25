@@ -116,6 +116,15 @@ def _tokens_fases_2_e_3(inteiro, dec1):
     liq_pib, data_liq = ultimo("divida_externa_liquida_pib_pct_sgs11409.csv")
     tab31 = "tabela31_nota_jan2026.csv"
     liq, data_tab31 = ultimo(tab31, "tab31_divida_externa_liquida_usd_mi")
+    # Correction of 2026-10-24: the net level (SGS 3685) is still published; read as hashed.
+    liq_sgs, data_liq_sgs = ultimo("divida_externa_liquida_usd_mi_sgs3685.csv")
+    serie_liq = {
+        (int(r["ano"]), int(r["mes_ou_trimestre"])): float(r["valor"])
+        for r in csv.DictReader(
+            open(ext / "divida_externa_liquida_usd_mi_sgs3685.csv", encoding="utf-8")
+        )
+    }
+    pos = max(k for k, v in serie_liq.items() if v > 0 and k < (2026, 1))
     ativos = (
         ultimo(tab31, "tab31_creditos_brasileiros_exterior_usd_mi")[0]
         + ultimo(tab31, "tab31_haveres_bancos_comerciais_usd_mi")[0]
@@ -148,6 +157,10 @@ def _tokens_fases_2_e_3(inteiro, dec1):
         "div_liq_pib": dec1(liq_pib),
         "div_liq_pib_data": data_liq,
         "div_ativos_bi": dec1(ativos / 1000),
+        "div_liq_sgs_bi": dec1(liq_sgs / 1000),
+        "div_liq_sgs_data": data_liq_sgs,
+        "div_liq_pos_data": f"{pos[0]}-{pos[1]:02d}",
+        "div_liq_dez25_bi": dec1(serie_liq[(2025, 12)] / 1000),
     }
     for r in lit["rodadas"]:
         out[f"lit{r['emenda']}_trab"] = inteiro(r["trabalhos"])

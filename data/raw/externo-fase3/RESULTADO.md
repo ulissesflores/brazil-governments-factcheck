@@ -1,4 +1,4 @@
-# RESULTADO - coleta externo-fase3 (divida externa e custo da divida publica), 2026-10-23
+# RESULTADO - coleta externo-fase3 (divida externa e custo da divida publica), 2026-10-23 (SGS 3685 acrescentada e errata em 2026-10-24)
 
 Pasta: `fontes/dados/externo-fase3/`. Cadeia: `manifest.jsonl` (todo download por `govfc.chain add`). Scripts: `scripts/baixar.py` (rede) e `scripts/construir.py` (sem rede).
 Dimensao `ext` do pre-registro original (PREREGISTRATION.md, 'External position: ... external debt'): camada descritiva da fase 1, sem emenda. Codigos do SGS nomeados pela Nota Explicativa do BCB de 24/02/2026 (`bruto/202602_Texto_de_estatisticas_do_setor_externo.pdf`).
@@ -30,11 +30,15 @@ Dimensao `ext` do pre-registro original (PREREGISTRATION.md, 'External position:
 | nfsp_resultado_nominal_12m_pib_pct (SGS 5727) | 2002-11 | 5,2 | 2,4 | 10,2 | 9,0 | 5,8 | 4,6 | 9,5 (2026-08) |
 | nfsp_resultado_primario_12m_pib_pct (SGS 5793) | 2002-11 | -3,2 | -2,6 | 1,9 | 2,5 | 0,8 | -1,2 | 0,6 (2026-08) |
 
-## Ultimos valores oficiais da divida externa liquida (Tabela 31 da Nota de jan/2026; o BCB descontinuou a tabela em fev/2026)
+## Divida externa liquida em US$ (SGS 3685, AINDA PUBLICADA; a Tabela 31 foi descontinuada em fev/2026)
 
-Definicao do BCB: liquida = bruta (restrita) - reservas internacionais - creditos brasileiros no exterior - haveres de bancos comerciais. Negativo = credor externo liquido. Em `series/tabela31_nota_jan2026.csv`.
+Definicao do BCB (coluna M da Tabela 31): liquida = bruta (restrita) - reservas internacionais - creditos brasileiros no exterior - haveres de bancos comerciais. Negativo = credor externo liquido. Tabela 31 da Nota de jan/2026 em `series/tabela31_nota_jan2026.csv`; a serie SGS 3685 coincide com ela em todos os trimestres comuns (jun/2024-set/2025) e traz dez/2025 revisado.
 
-A noticia que motivou o pedido (BP Money, 21/10/2026; `bruto/noticia_bpmoney_2026-10-21.html`) calcula 'bruta - reservas' (407,1 - 402 = +5,1 bi em jun/2026). Essa diferenca NAO e a divida externa liquida do BCB: faltam os creditos no exterior e os haveres dos bancos (cerca de US$ 36 bi em dez/2025). Nao existe valor oficial de 2026 em nenhum conceito e NADA foi calculado aqui para 2026.
+| Serie | Inicio | mar/1990 | dez/2002 | set/2007 | dez/2007 | dez/2010 | dez/2016 | dez/2022 | dez/2024 | dez/2025 | Ultimo |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| divida_externa_liquida_usd_mi (SGS 3685) | 1987-06 | 100.656,5 | 164.999,1 | 16.952,5 | -11.947,6 | -50.627,8 | -67.413,4 | -27.483,0 | -13.510,0 | -8.701,6 | 5.083,5 (2026-06) |
+
+ERRATA (2026-10-24). A primeira versao deste RESULTADO (2026-10-23) dizia que a noticia que motivou o pedido (BP Money, 21/10/2026; `bruto/noticia_bpmoney_2026-10-21.html`) calculava 'bruta - reservas' e que nao existia valor oficial de 2026 em nenhum conceito. As duas afirmacoes estavam erradas: o nivel da divida externa liquida continua publicado pelo BCB (SGS 3685) e e exatamente o numero da manchete (+5.083,49 em jun/2026, primeiro valor positivo desde set/2007); os 'US$ 402 bi de reservas' da manchete sao as reservas mais os creditos brasileiros no exterior e os haveres de bancos, o conjunto de ativos que o BCB subtrai (a propria noticia diz que os creditos ja estao contabilizados). O que foi descontinuado em fev/2026 e a RAZAO sobre o PIB (SGS 11409) e a Tabela 31. Nada foi calculado nem prolongado aqui.
 
 ## Leitura
 

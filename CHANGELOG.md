@@ -2,6 +2,11 @@
 
 Format: Keep a Changelog; versioning: SemVer. 1.0.0 is the first release and the one that mints the DOI (concept DOI added at the final tag).
 
+## [Unreleased]
+
+### Fixed
+* **Correction (2026-10-24).** The external debt layer, the page and section 15 of the methodology stated that the Central Bank had no official 2026 value of net external debt under any concept and that the October 2026 headline ("Brazil is a net debtor again") computed "gross debt minus reserves". Both statements were wrong. The level series SGS 3685 (gross restricted debt minus reserves, Brazilian credits abroad and commercial banks' assets abroad: column M of Table 31) is still published, matches Table 31 on every overlapping quarter, and reads +US$ 5.08 billion in 2026-06, the first positive value since 2007-09; the headline quoted that official number, and its "US$ 402 billion of reserves" is the set of assets the Central Bank subtracts, not cash reserves (US$ 367.6 billion). Added the series to the collection (`externo-fase3`, chain line 23), the indicator `divext_liquida` to the terminal, four tokens to the methodology in five languages and the tests that pin the values. December 2025, published as an estimate of -17.2 in the January note, is -8.7 in the series.
+
 ## [1.0.0] - 2026-10-23
 
 Concept DOI 10.5281/zenodo.23604103 (Zenodo; the rc1 release minted the deposit, the final tag carries this DOI in the files).

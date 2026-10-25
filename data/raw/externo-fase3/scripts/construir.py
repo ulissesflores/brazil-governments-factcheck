@@ -39,6 +39,7 @@ S = {
  21521: ("divida_externa_setor_publico_restrita_usd_mi", "Divida externa bruta do setor publico, conceito restrito (governo geral, Banco Central e entidades publicas), posicao de fim de trimestre", "US$ milhoes", TRIM + "; o BCB revisou a divisao publico/privado de dez/2020 a set/2025 na Nota de mar/2026", True),
  24010: ("pii_liquida_usd_mi", "Posicao de investimento internacional liquida (ativos externos menos passivos externos), fim de trimestre", "US$ milhoes", TRIM, True),
  11407: ("divida_externa_restrita_pib_pct", "Divida externa bruta (conceito restrito, SGS 3684) / PIB acumulado em 12 meses em US$ (SGS 4192), %", "Percentual do PIB", DESC + "; " + TRIM, True),
+ 3685: ("divida_externa_liquida_usd_mi", "Divida externa liquida, conceito antigo do BCB (coluna M da Tabela 31 das Notas ate jan/2026): divida externa bruta restrita menos reservas internacionais, creditos brasileiros no exterior e haveres de bancos comerciais no exterior; negativo = credor externo liquido", "US$ milhoes", TRIM + "; AINDA PUBLICADA pelo BCB (conferido 2026-10-24); coincide com a Tabela 31 da Nota de jan/2026 nos trimestres comuns (jun/2024-set/2025); dez/2025 revisado pelo BCB de -17.217,78 (estimado na Nota) para -8.701,59", True),
  11409: ("divida_externa_liquida_pib_pct", "Divida externa liquida / PIB, % (conceito antigo do BCB: divida externa bruta restrita menos reservas internacionais, creditos brasileiros no exterior e haveres de bancos comerciais; negativo = credor externo liquido)", "Percentual do PIB", DESC + " porque a construcao original nao adere ao BPM6/EDS 2013; " + TRIM, True),
  11408: ("divida_externa_setor_publico_pct", "Divida externa bruta do setor publico (SGS 21521) / divida externa bruta restrita (SGS 3684), %", "Percentual", DESC + "; " + TRIM, True),
  12506: ("pii_liquida_pib_pct", "Posicao de investimento internacional liquida (SGS 24010) / PIB acumulado em 12 meses em US$ (SGS 4192), %", "Percentual do PIB", DESC + "; " + TRIM, True),
@@ -103,7 +104,7 @@ def ult(c):
     return f"{data[c][k]:,.1f} ({k[0]}-{m:02d})".replace(",", "X").replace(".", ",").replace("X", ".")
 def em(c, a, m):
     v = data[c].get((a, m)); return "sem dado" if v is None else f"{v:,.1f}".replace(",", "X").replace(".", ",").replace("X", ".")
-md = ["# RESULTADO - coleta externo-fase3 (divida externa e custo da divida publica), 2026-10-23", "",
+md = ["# RESULTADO - coleta externo-fase3 (divida externa e custo da divida publica), 2026-10-23 (SGS 3685 acrescentada e errata em 2026-10-24)", "",
       "Pasta: `fontes/dados/externo-fase3/`. Cadeia: `manifest.jsonl` (todo download por `govfc.chain add`). Scripts: `scripts/baixar.py` (rede) e `scripts/construir.py` (sem rede).",
       "Dimensao `ext` do pre-registro original (PREREGISTRATION.md, 'External position: ... external debt'): camada descritiva da fase 1, sem emenda. Codigos do SGS nomeados pela Nota Explicativa do BCB de 24/02/2026 (`bruto/202602_Texto_de_estatisticas_do_setor_externo.pdf`).", "",
       "## Os dois conceitos de divida externa bruta do BCB (US$ milhoes, fim de trimestre)", "",
@@ -118,9 +119,13 @@ md += ["", "## Custo da divida publica (NFSP, 12 meses, % do PIB, convencao do B
        "| Serie | Inicio | dez/2003 | dez/2010 | dez/2015 | dez/2016 | dez/2019 | dez/2022 | Ultimo |", "|---|---|---|---|---|---|---|---|---|"]
 for c in (5760, 5727, 5793):
     k0 = min(data[c]); md.append(f"| {S[c][0]} (SGS {c}) | {k0[0]}-{k0[1]:02d} | {em(c,2003,12)} | {em(c,2010,12)} | {em(c,2015,12)} | {em(c,2016,12)} | {em(c,2019,12)} | {em(c,2022,12)} | {ult(c)} |")
-md += ["", "## Ultimos valores oficiais da divida externa liquida (Tabela 31 da Nota de jan/2026; o BCB descontinuou a tabela em fev/2026)", "",
-       "Definicao do BCB: liquida = bruta (restrita) - reservas internacionais - creditos brasileiros no exterior - haveres de bancos comerciais. Negativo = credor externo liquido. Em `series/tabela31_nota_jan2026.csv`.", "",
-       "A noticia que motivou o pedido (BP Money, 21/10/2026; `bruto/noticia_bpmoney_2026-10-21.html`) calcula 'bruta - reservas' (407,1 - 402 = +5,1 bi em jun/2026). Essa diferenca NAO e a divida externa liquida do BCB: faltam os creditos no exterior e os haveres dos bancos (cerca de US$ 36 bi em dez/2025). Nao existe valor oficial de 2026 em nenhum conceito e NADA foi calculado aqui para 2026.", "",
+md += ["", "## Divida externa liquida em US$ (SGS 3685, AINDA PUBLICADA; a Tabela 31 foi descontinuada em fev/2026)", "",
+       "Definicao do BCB (coluna M da Tabela 31): liquida = bruta (restrita) - reservas internacionais - creditos brasileiros no exterior - haveres de bancos comerciais. Negativo = credor externo liquido. Tabela 31 da Nota de jan/2026 em `series/tabela31_nota_jan2026.csv`; a serie SGS 3685 coincide com ela em todos os trimestres comuns (jun/2024-set/2025) e traz dez/2025 revisado.", "",
+       "| Serie | Inicio | mar/1990 | dez/2002 | set/2007 | dez/2007 | dez/2010 | dez/2016 | dez/2022 | dez/2024 | dez/2025 | Ultimo |", "|---|---|---|---|---|---|---|---|---|---|---|---|"]
+for c in (3685,):
+    k0 = min(data[c]); md.append(f"| {S[c][0]} (SGS {c}) | {k0[0]}-{k0[1]+2:02d} | {em(c,1990,1)} | {em(c,2002,10)} | {em(c,2007,7)} | {em(c,2007,10)} | {em(c,2010,10)} | {em(c,2016,10)} | {em(c,2022,10)} | {em(c,2024,10)} | {em(c,2025,10)} | {ult(c)} |")
+md += ["",
+       "ERRATA (2026-10-24). A primeira versao deste RESULTADO (2026-10-23) dizia que a noticia que motivou o pedido (BP Money, 21/10/2026; `bruto/noticia_bpmoney_2026-10-21.html`) calculava 'bruta - reservas' e que nao existia valor oficial de 2026 em nenhum conceito. As duas afirmacoes estavam erradas: o nivel da divida externa liquida continua publicado pelo BCB (SGS 3685) e e exatamente o numero da manchete (+5.083,49 em jun/2026, primeiro valor positivo desde set/2007); os 'US$ 402 bi de reservas' da manchete sao as reservas mais os creditos brasileiros no exterior e os haveres de bancos, o conjunto de ativos que o BCB subtrai (a propria noticia diz que os creditos ja estao contabilizados). O que foi descontinuado em fev/2026 e a RAZAO sobre o PIB (SGS 11409) e a Tabela 31. Nada foi calculado nem prolongado aqui.", "",
        "## Leitura", "",
        "'Sem dado' = a serie nao existe naquele ponto; nada estimado nem interpolado. As duas medidas de divida bruta nunca sao somadas nem emendadas: 25563 = 3684 + 7941 + 22160 por construcao do BCB, e a pagina mostra cada uma com o proprio nome. O WDI/IDS (DT.DOD.DECT.CD, GN.ZS) e um TERCEIRO conceito (Banco Mundial), usado so na comparacao com vizinhos na mesma fonte (colecao `mundo`)."]
 (P / "RESULTADO.md").write_text("\n".join(md) + "\n", encoding="utf-8")

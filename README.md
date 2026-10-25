@@ -2,12 +2,12 @@
 
 # Brazil X-Ray by Government
 
-**57 numbers from a viral infographic about eight Brazilian governments, checked one by one against public data under a rule fixed in code; then the X-ray of what it left out: 101 hash-chained series since 1964, a pre-registered index of living conditions and the peer-reviewed literature on each episode. No score of merit.**
+**57 numbers from a viral infographic about eight Brazilian governments, checked one by one against public data under a rule fixed in code; then the X-ray of what it left out: 102 hash-chained series since 1964, a pre-registered index of living conditions and the peer-reviewed literature on each episode. No score of merit.**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23604103.svg)](https://doi.org/10.5281/zenodo.23604103)
 ![license: Apache-2.0 + CC BY 4.0](https://img.shields.io/badge/license-Apache--2.0%20%2B%20CC%20BY%204.0-blue)
 ![python](https://img.shields.io/badge/python-3.11%20%7C%203.12-informational)
-![tests](https://img.shields.io/badge/tests-116_passing-success)
+![tests](https://img.shields.io/badge/tests-117_passing-success)
 ![reproducible](https://img.shields.io/badge/reproducible-SHA--256_chain-success)
 
 [English](README.md) · [Português](README.pt-BR.md) · [Español](README.es.md) · [Italiano](README.it.md) · [עברית](README.he.md)
@@ -35,7 +35,7 @@
 | Reproduce / approximate / do not reproduce / unverified | 2 / 19 / 29 / 7 |
 | Months of 1964-2026 the infographic omits | 257.6 of 750.1 (34.3%) |
 | Curated observations / indicators / method breaks | 26,490 / 279 / 229 |
-| Index items / terminal indicators / Q1 studies in the literature layer | 39 / 101 / 38 |
+| Index items / terminal indicators / Q1 studies in the literature layer | 39 / 102 / 38 |
 | Dated amendments to the pre-registration | 0 |
 | Runtime dependencies | none (Python standard library, 3.11+) |
 
@@ -67,7 +67,7 @@ Each cell shows the printed number above and the reproduced number below, with a
 Everything below was pre-registered and sealed in the hash chain before being computed (0 dated amendments, never rewritten, in `data/raw/preregistro/`); the rules are in `docs/en/METHODOLOGY.md`, sections 11 to 16.
 
 1. **A composite index of living conditions** (39 items in 13 areas, `output/indice.json`): every item enters only with a reading direction established in a quartile-1 article, scored against frozen goalposts 1995-2024, with equal declared weights, published scenarios and 10,000 weight draws. It describes conditions during each term; it does not rank merit.
-2. **A terminal of 101 indicators in 19 domains** (`output/terminal.json`, page `output/raio-x.html`), one homogeneous base per cell, two bases drawn as two lines and never spliced, and a reading by term in three separate layers: the index, Brazil minus Latin America on the same source, and the "start -> end" grid.
+2. **A terminal of 102 indicators in 19 domains** (`output/terminal.json`, page `output/raio-x.html`), one homogeneous base per cell, two bases drawn as two lines and never spliced, and a reading by term in three separate layers: the index, Brazil minus Latin America on the same source, and the "start -> end" grid.
 3. **A literature layer** (23 episodes, 4 published rounds, 38 studies, `output/literatura.json`): what peer-reviewed quartile-1 studies with a named identification design measured about each episode, found by a search protocol sealed before searching, every returned work listed with its reason for exclusion, no score and no verdict.
 4. **External debt and the cost of public debt** (`data/raw/externo-fase3/`): the Central Bank's two concepts of gross external debt shown apart, its discontinued net-debt ratio shown as published and never extended, and the nominal interest and nominal result of the public sector; no 2026 net figure is computed because the official indicator no longer exists.
 

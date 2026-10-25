@@ -26,6 +26,7 @@ SERIES = {
     4192: "PIB mensal em US$ milhoes correntes (denominador das razoes do BCB: soma de 12 meses)",
     11408: "divida externa do setor publico / divida externa bruta, %, DESCONTINUADA pelo BCB em fev/2026",
     11409: "divida externa liquida / PIB, %, DESCONTINUADA pelo BCB em fev/2026 (construcao original nao adere ao BPM6/EDS 2013)",
+    3685: "divida externa liquida, US$ milhoes, trimestral desde 1987T2, AINDA PUBLICADA (acrescentada em 2026-10-24: a serie e a coluna M da Tabela 31 das Notas ate jan/2026, bruta restrita menos reservas, creditos brasileiros no exterior e haveres de bancos comerciais; coincide com a Tabela 31 em jun/2024-set/2025; 2026T2 = +5.083,49, o numero da manchete de 21/10/2026)",
     24010: "posicao de investimento internacional liquida, US$ milhoes, trimestral desde 2002",
     12506: "posicao de investimento internacional liquida / PIB, %, DESCONTINUADA pelo BCB em fev/2026",
     22705: "exportacoes de bens e servicos, US$ milhoes, mensal desde 1995",

@@ -231,7 +231,7 @@ candle do mandato, em pontos de 0 a 100 dentro das balizas; (2) Brasil menos Am�
 mesma série da mesma fonte, no ano anterior à posse e no último ano do mandato; (3) a grade de todos os
 indicadores, "início -> fim" numa base homogênea por célula. Um agregado exploratório "contra a
 tendência" foi calculado e descartado, porque não estava pré-registrado e a tendência incluía os anos do
-próprio mandato. O terminal traz 101 indicadores em 19 domínios; uma série com duas
+próprio mandato. O terminal traz 102 indicadores em 19 domínios; uma série com duas
 bases é desenhada como duas linhas e nunca é lida através da quebra.
 
 ## 14. A camada de literatura
@@ -276,15 +276,21 @@ fevereiro de 2026 são mostradas como publicadas e nunca prolongadas: dívida ex
 (SGS 11407), **dívida externa líquida sobre o PIB (SGS 11409)** e a parcela do setor público
 (SGS 11408); a posição de investimento internacional líquida sobre o PIB (SGS 12506) completa o conjunto.
 
-O conceito líquido importa para uma manchete de 2026 que dizia que o Brasil "voltou a ser devedor"
-porque a dívida externa bruta tinha passado as reservas internacionais. A definição do próprio Banco
-Central subtrai da dívida bruta restrita não só as reservas, mas também os créditos brasileiros no
-exterior e os haveres de bancos comerciais no exterior (US$ 36,6 bilhões em 2025-12);
-por ela, o último valor oficial (2025-12) ainda era uma posição credora de US$ -17,2 bilhões,
-e a última razão oficial era -0,9 % do PIB em 2025-09. Como o indicador deixou de existir,
-não há valor oficial de 2026 em nenhum conceito, e este repositório não calcula nenhum: a página desenha
-dívida bruta e reservas juntas e declara que a diferença entre elas não é a dívida externa líquida do
-Banco Central. O custo de carregar a dívida pública entra pelos juros nominais e pelo resultado nominal
+O conceito líquido importa para uma manchete de outubro de 2026 que dizia que o Brasil "voltou a ser
+devedor". A definição do próprio Banco Central subtrai da dívida bruta restrita não só as reservas, mas
+também os créditos brasileiros no exterior e os haveres de bancos comerciais no exterior
+(US$ 36,6 bilhões em 2025-12, pela Tabela 31 da Nota de janeiro de 2026). O nível dessa
+dívida externa líquida continua publicado (SGS 3685, trimestral desde 1987) e é mostrado como está:
+US$ 5,1 bilhões em 2026-06, o primeiro valor positivo desde 2007-09. O que as
+manchetes chamaram de "reservas de US$ 402 bilhões" é o conjunto de ativos que o Banco Central subtrai,
+não as reservas no conceito caixa. A série coincide com a Tabela 31 em todos os trimestres em que as duas
+existem; dezembro de 2025, que a Nota trazia como estimativa de US$ -17,2 bilhões, aparece revisado
+para US$ -8,7 bilhões. A razão sobre o PIB (SGS 11409) foi descontinuada e não é prolongada;
+a última oficial era -0,9 % do PIB em 2025-09. A página desenha dívida bruta e reservas
+juntas e declara que a diferença entre elas não é a dívida externa líquida. **Errata (2026-10-24).** A
+primeira versão desta seção afirmava que não havia valor oficial de 2026 em nenhum conceito e que a
+manchete calculava "bruta menos reservas"; as duas afirmações estavam erradas, e a correção está
+registrada no CHANGELOG. O custo de carregar a dívida pública entra pelos juros nominais e pelo resultado nominal
 do setor público consolidado em 12 meses como proporção do PIB (BCB, NFSP), ao lado da dívida pública
 bruta e líquida já mostradas. A comparação mundial usa um terceiro conceito, o estoque de dívida externa
 sobre a renda nacional bruta do Banco Mundial, só para o Brasil e o grupo de renda média-alta, porque

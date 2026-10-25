@@ -232,7 +232,7 @@ inside the term's candle window, in 0-100 points within the goalposts; (2) Brazi
 and the Caribbean on the same series of the same source, in the year before inauguration and in the
 last year of the term; (3) the grid of every indicator, "start -> end" on one homogeneous base per
 cell. An exploratory "versus trend" aggregate was computed and discarded, because it was not
-pre-registered and the trend included the term's own years. The terminal carries 101 indicators in
+pre-registered and the trend included the term's own years. The terminal carries 102 indicators in
 19 domains; a series with two bases is drawn as two lines and never read across the break.
 
 ## 14. The literature layer
@@ -278,15 +278,20 @@ discontinued in February 2026 are shown as published and never extended: gross e
 GDP (SGS 11407), **net external debt over GDP (SGS 11409)** and the public sector's share
 (SGS 11408); the net international investment position over GDP (SGS 12506) completes the set.
 
-The net concept matters for a 2026 headline that said Brazil "became a net debtor again" because
-gross external debt had passed international reserves. The Central Bank's own definition subtracts
-from the restricted gross debt not only reserves but also Brazilian credits abroad and commercial
-banks' assets abroad (US$ 36.6 billion at 2025-12); under it, the last official value
-(2025-12) was still a creditor position of US$ -17.2 billion, and the last official ratio was
--0.9 % of GDP at 2025-09. Because the indicator no longer exists, there is no official
-2026 value under any concept, and this repository computes none: the page draws gross debt and
-reserves together and states that their difference is not the Central Bank's net external debt.
-The cost of carrying public debt enters through the nominal interest and the nominal result of the
+The net concept matters for an October 2026 headline that said Brazil "became a net debtor again".
+The Central Bank's own definition subtracts from the restricted gross debt not only reserves but also
+Brazilian credits abroad and commercial banks' assets abroad (US$ 36.6 billion at
+2025-12, from Table 31 of the January 2026 note). The level of that net external debt is still
+published (SGS 3685, quarterly since 1987) and is shown as published: US$ 5.1 billion at
+2026-06, the first positive value since 2007-09. What the headlines called
+"US$ 402 billion of reserves" is the set of assets the Central Bank subtracts, not cash reserves. The
+series matches Table 31 on every quarter both exist; December 2025, which the note carried as an
+estimate of US$ -17.2 billion, appears revised to US$ -8.7 billion. The ratio to GDP
+(SGS 11409) was discontinued and is not extended; the last official one was -0.9 % of GDP at
+2025-09. The page draws gross debt and reserves together and states that their difference is
+not the net external debt. **Erratum (2026-10-24).** The first version of this section stated that there
+was no official 2026 value under any concept and that the headline computed "gross minus reserves"; both
+statements were wrong, and the correction is recorded in the CHANGELOG. The cost of carrying public debt enters through the nominal interest and the nominal result of the
 consolidated public sector over 12 months as a share of GDP (BCB, NFSP), beside the gross and net
 public debt already shown. The world comparison uses a third concept, the World Bank's external debt
 stocks over gross national income, for Brazil and the upper-middle-income group only, because that

@@ -705,6 +705,7 @@ DOMINIOS = [
         [
             "divext",
             "divext_reservas",
+            "divext_liquida",
             "divext_pib",
             "divext_liquida_pib",
             "divext_publico",
@@ -822,6 +823,7 @@ def construir():
             21521: "divida_externa_setor_publico_restrita_usd_mi",
             11407: "divida_externa_restrita_pib_pct",
             11409: "divida_externa_liquida_pib_pct",
+            3685: "divida_externa_liquida_usd_mi",
             11408: "divida_externa_setor_publico_pct",
             12506: "pii_liquida_pib_pct",
             5760: "nfsp_juros_nominais_12m_pib_pct",
@@ -1433,7 +1435,27 @@ def construir():
                     reservas_mensal,
                 ),
             ],
-            nota="o cruzamento das duas linhas em 2026 é o fato da notícia; 'dívida menos reservas' NÃO é a dívida externa líquida do BCB, que subtrai também créditos brasileiros no exterior e haveres de bancos comerciais (ver 'Dívida externa líquida / PIB')",
+            nota="o cruzamento das duas linhas é o fato da notícia de outubro de 2026; 'dívida menos reservas' NÃO é a dívida externa líquida do BCB, que subtrai também créditos brasileiros no exterior e haveres de bancos comerciais (ver 'Dívida externa líquida')",
+        ),
+        ind(
+            "divext_liquida",
+            "Dívida externa líquida",
+            "US$ milhões (negativo = credor externo líquido)",
+            "menos",
+            "trimestral",
+            None,
+            [
+                (
+                    "Bruta restrita menos reservas, créditos brasileiros no exterior e haveres de bancos comerciais (coluna M da Tabela 31), BCB SGS 3685 (1987-2026)",
+                    ext[3685],
+                )
+            ],
+            nota=(
+                "o nível em US$ continua publicado pelo BCB (a razão sobre o PIB, SGS 11409, é que foi descontinuada): "
+                f"+{fmt_br(ext[3685][max(ext[3685])], 0)} em {max(ext[3685])}, primeiro valor positivo desde "
+                f"{max(k for k, v in ext[3685].items() if v > 0 and k < '2026')}; coincide com a Tabela 31 da Nota de "
+                f"jan/2026 nos trimestres comuns; dez/2025 revisado de -17.218 (estimado na Nota) para {fmt_br(ext[3685]['2025-12'], 0)}"
+            ),
         ),
         ind(
             "divext_pib",
@@ -1465,7 +1487,7 @@ def construir():
                 )
             ],
             nota=NOTA_DESC
-            + " por não aderir ao BPM6; o último valor oficial é -0,9% em set/2025; não há valor oficial de 2026 em nenhum conceito e nada foi calculado aqui",
+            + " por não aderir ao BPM6; o último valor oficial da razão é -0,9% em set/2025; o nível em US$ (SGS 3685) continua publicado, em 'Dívida externa líquida'; nada foi prolongado aqui",
         ),
         ind(
             "divext_publico",

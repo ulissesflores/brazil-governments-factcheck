@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256-chain",
-  "chain_hash": "2ae6312bf9279c8317361fb7db7c7908bdd8206dc26071a64d02ac060ad848af",
+  "chain_hash": "ec447a1bed43bf6bc3c2701eb846a3b27a05de5edaf2e5333e5d44edd4cfafdf",
   "files": [
     {
       "path": "REPRODUCIBILITY.md",
@@ -32,7 +32,7 @@
     },
     {
       "path": "code/govfc/explica.py",
-      "sha256": "8927cc34ceda093b0b9828f2d6e811366ddb9c8f3460d5d1125e39b0f8600062"
+      "sha256": "f728ed5dcb1016472f7471f834d1b3a867a4bd9a5de85be08c4d14e067bdd52f"
     },
     {
       "path": "code/govfc/figuras.py",
@@ -68,7 +68,7 @@
     },
     {
       "path": "code/govfc/terminal.py",
-      "sha256": "375a7fe8187c4ac5e131e94d2f95f99de3a15ebf62c82aa306d7936a97d7e065"
+      "sha256": "80dd8d7fc585d71f468db91150b2acb1b0fc2c487486811ec42d217700bd91ab"
     },
     {
       "path": "code/govfc/verdict.py",
@@ -1168,19 +1168,23 @@
     },
     {
       "path": "data/raw/externo-fase3/RESULTADO.md",
-      "sha256": "2b67761791dedc89fe6a6b9036d36997648526dd4d7f0ead05bf583e703baa7f"
+      "sha256": "e02348f97273dbf045ce6edef726b17948d78c715a0af6a0c07ac160dc45c19e"
     },
     {
       "path": "data/raw/externo-fase3/manifest.jsonl",
-      "sha256": "1772d76c246dc0a37176ac562b490b01cc13a105cb9dec18d1fce71285736f04"
+      "sha256": "0a23cdef326122f62c2317a93549fe209725d9afe67be57ed34efcfab69ce7d6"
+    },
+    {
+      "path": "data/raw/externo-fase3/scripts/baixar.log",
+      "sha256": "f3a49b6416c5aee05c09e6e6172fe8d6178a4e627f0f2e69a60a38370cbdd4e3"
     },
     {
       "path": "data/raw/externo-fase3/scripts/baixar.py",
-      "sha256": "79001321678688e3c6d8d18a9b5d571e760d72956c44d2bddee1dc7d8efb8502"
+      "sha256": "44b9d463a70405bd95da98e8bc97d37349cca88a7f93ce85e197fe99d927ab03"
     },
     {
       "path": "data/raw/externo-fase3/scripts/construir.py",
-      "sha256": "8798b4f8ee1930c9b5930f9d8a428150ae04e4f821f389276dd6ef5ed733bb8a"
+      "sha256": "1eed0a9a48c50032d0af94a08e04d6eae351d424ad210d8b1f0ce8fb2b25e2a1"
     },
     {
       "path": "data/raw/externo-fase3/series/divida_externa_bruta_bpm6_usd_mi_sgs25563.csv",
@@ -1193,6 +1197,10 @@
     {
       "path": "data/raw/externo-fase3/series/divida_externa_liquida_pib_pct_sgs11409.csv",
       "sha256": "f40ff03b1d49c425965700c0f3439184a659c62764497c2dd185792455cb62c6"
+    },
+    {
+      "path": "data/raw/externo-fase3/series/divida_externa_liquida_usd_mi_sgs3685.csv",
+      "sha256": "046519b7d4088e2e73d715113eb603f273d78250a0c1a85a66741c56b694b123"
     },
     {
       "path": "data/raw/externo-fase3/series/divida_externa_restrita_pib_pct_sgs11407.csv",
@@ -8828,23 +8836,23 @@
     },
     {
       "path": "docs/en/METHODOLOGY.md",
-      "sha256": "89f99d0b10bf72f3502db1788736697315b0b6690fae5d4449ac3898919b2ca1"
+      "sha256": "121201ec41121d13d6185d4a290abfee9e4a106efd4fbe817adc263559c692b3"
     },
     {
       "path": "docs/es/METHODOLOGY.md",
-      "sha256": "196eee68f9d2d5a060ac6b3de2a805ff6f20b255420e31ed4491c9a41cdd487d"
+      "sha256": "98dc7b3cef0aefb0bc9e3467bcfd2ec9a27735345bd9c79d2f39dca241050a37"
     },
     {
       "path": "docs/he/METHODOLOGY.md",
-      "sha256": "45a90bbf87400ab0c912354d61415f75037ad835edc5d9d8829c18c4267d5d01"
+      "sha256": "f4eb0e63d250de6719e3fa773f1bdfbb10207d6520ad01af90cd0f0a04609142"
     },
     {
       "path": "docs/it/METHODOLOGY.md",
-      "sha256": "058e191e84d04169edb25932ea164a2c6985da3bd0e12e5210f2787f50e9238d"
+      "sha256": "c444d70ce995936173a797d14e9688ed664c577dd63ea325a62d90e9802bc669"
     },
     {
       "path": "docs/pt-BR/METHODOLOGY.md",
-      "sha256": "c6c189d24b1a8f9b41338d7591972580a89828b7f7364a0fe7ed13646cbd25ec"
+      "sha256": "7980e633fff755ba25fa8e8d0dc562a7a4e9448e9d8d3ce1f736f7e8acb720b0"
     },
     {
       "path": "docs/references-q1.bib",
@@ -8860,7 +8868,7 @@
     },
     {
       "path": "output/auditoria.json",
-      "sha256": "3f23732163ae960e29c6ec0a6f60582a3abab8f92ff0bf26a46274f01f0a42be"
+      "sha256": "0eeb566241adaeab64bfcb5e4d717b4ba8fd38a56098594efdcf6edebe22ca33"
     },
     {
       "path": "output/dinamica.json",
@@ -8888,7 +8896,7 @@
     },
     {
       "path": "output/terminal.json",
-      "sha256": "9d06e8acdbf023b76b4435562e6a5f38df877da14ad5363f8a5a8969f795f3ca"
+      "sha256": "9044b6ae4583662b096df360030ec7930547f643a89a35635e88a8a6b30ea2ab"
     },
     {
       "path": "run_all.py",
@@ -8900,7 +8908,7 @@
     },
     {
       "path": "scripts/make_docs.py",
-      "sha256": "515daec1af539222f07405d11176394ceead2ab865ed132787f6ca27860c4a0f"
+      "sha256": "b7fa55d620f33722e4b9813d1d6161e5ad080e1764840fa7f71e28b49261d38c"
     },
     {
       "path": "scripts/make_figures.py",
@@ -8936,7 +8944,7 @@
     },
     {
       "path": "tests/test_externo.py",
-      "sha256": "e580ea4abce717d4342eae4e9612e5fb42398db8670f40e77aebc1f88b520d24"
+      "sha256": "d594e34de145062262b45e444a564ca3660b51311c7c7f2798323711af2dfece"
     },
     {
       "path": "tests/test_figures.py",
@@ -8968,7 +8976,7 @@
     },
     {
       "path": "tests/test_terminal.py",
-      "sha256": "077e9152e17ba5b834caaa18c1a189d26b05a231e3c84454a0221fff3d01ac11"
+      "sha256": "545970984ee76240a7b50ed6e995fa3c6bba8ea35e3c33258785afff99ad92f5"
     },
     {
       "path": "tests/test_verdict.py",

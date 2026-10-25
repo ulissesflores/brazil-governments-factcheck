@@ -1,6 +1,6 @@
 # Hash chain
 
-chain_hash: `2ae6312bf9279c8317361fb7db7c7908bdd8206dc26071a64d02ac060ad848af`
+chain_hash: `ec447a1bed43bf6bc3c2701eb846a3b27a05de5edaf2e5333e5d44edd4cfafdf`
 
 | file | sha256 |
 |---|---|
@@ -11,7 +11,7 @@ chain_hash: `2ae6312bf9279c8317361fb7db7c7908bdd8206dc26071a64d02ac060ad848af`
 | `code/govfc/chain.py` | `a37b2195839b53095af8db99593797896bf0f498151ac86486dac281856cbea5` |
 | `code/govfc/curate.py` | `35d69a4d3b0c260fa71f6d6faa1340310581d215b2ab89cb47ba87702a494053` |
 | `code/govfc/dinamica.py` | `6f534ae95d2e224d82c844d5e372afe444d59e9244b749e04810ddb795be0574` |
-| `code/govfc/explica.py` | `8927cc34ceda093b0b9828f2d6e811366ddb9c8f3460d5d1125e39b0f8600062` |
+| `code/govfc/explica.py` | `f728ed5dcb1016472f7471f834d1b3a867a4bd9a5de85be08c4d14e067bdd52f` |
 | `code/govfc/figuras.py` | `23ac08cc61f1154287668526fd9a82a05628b977130b964c5f7612d9f204880e` |
 | `code/govfc/i18n.py` | `c247356f1c346f9d9301b5653ccb2d9601ead173814cf3c956ab039715f1ba81` |
 | `code/govfc/indice.py` | `5d5d3db0e18b900eefd6e960c1db02781ee3d731d54d718c73e0e30a1b3bfe09` |
@@ -20,7 +20,7 @@ chain_hash: `2ae6312bf9279c8317361fb7db7c7908bdd8206dc26071a64d02ac060ad848af`
 | `code/govfc/medidor.py` | `c2286888727da8c2ced6f12a35c2ee640eaaa4e433aec01941d0b52e5f804fe2` |
 | `code/govfc/mundo.py` | `77d98028324a75b48d2f068d887e811aae30bd2b57a00e60ca247b3b6be009f5` |
 | `code/govfc/svg.py` | `ff792b43e935c58d179f20fc1619e2a9504120882b43392ac3d4625ed4a6cfcb` |
-| `code/govfc/terminal.py` | `375a7fe8187c4ac5e131e94d2f95f99de3a15ebf62c82aa306d7936a97d7e065` |
+| `code/govfc/terminal.py` | `80dd8d7fc585d71f468db91150b2acb1b0fc2c487486811ec42d217700bd91ab` |
 | `code/govfc/verdict.py` | `fd416fcb0c3c6b5c19e86dcb81000e517db067ffcc020f277a9d04ec489393ff` |
 | `data/curated/indicators.csv` | `b64a81942c73edef743811f2f5f143a26396fcb106f34bc06145b7ddf563d449` |
 | `data/curated/mandatos.csv` | `5a7580ee69ff5d787e99be8a54d06fc678d4b5541a623fe6781b1831a5408cc6` |
@@ -295,13 +295,15 @@ chain_hash: `2ae6312bf9279c8317361fb7db7c7908bdd8206dc26071a64d02ac060ad848af`
 | `data/raw/economia-real/sidra-pnadc-anual-t4562-raw.json` | `920580da0c0ba2ce303fa33c628ef36a871fc6856993cbc46d241946a778e6c0` |
 | `data/raw/economia-real/sidra-pnadc-trimestral-t4099-raw.json` | `8a08dbe82e3dcf8e1f0ef947d64c3cd63939ab8e15c01ce2443a43ff6ab39d45` |
 | `data/raw/economia-real/sidra-t6784-pib-percapita-raw.json` | `d829825ae4c6b48f3132dc81d4c1bfa6c42cca00b4481bc932370684328b5f2e` |
-| `data/raw/externo-fase3/RESULTADO.md` | `2b67761791dedc89fe6a6b9036d36997648526dd4d7f0ead05bf583e703baa7f` |
-| `data/raw/externo-fase3/manifest.jsonl` | `1772d76c246dc0a37176ac562b490b01cc13a105cb9dec18d1fce71285736f04` |
-| `data/raw/externo-fase3/scripts/baixar.py` | `79001321678688e3c6d8d18a9b5d571e760d72956c44d2bddee1dc7d8efb8502` |
-| `data/raw/externo-fase3/scripts/construir.py` | `8798b4f8ee1930c9b5930f9d8a428150ae04e4f821f389276dd6ef5ed733bb8a` |
+| `data/raw/externo-fase3/RESULTADO.md` | `e02348f97273dbf045ce6edef726b17948d78c715a0af6a0c07ac160dc45c19e` |
+| `data/raw/externo-fase3/manifest.jsonl` | `0a23cdef326122f62c2317a93549fe209725d9afe67be57ed34efcfab69ce7d6` |
+| `data/raw/externo-fase3/scripts/baixar.log` | `f3a49b6416c5aee05c09e6e6172fe8d6178a4e627f0f2e69a60a38370cbdd4e3` |
+| `data/raw/externo-fase3/scripts/baixar.py` | `44b9d463a70405bd95da98e8bc97d37349cca88a7f93ce85e197fe99d927ab03` |
+| `data/raw/externo-fase3/scripts/construir.py` | `1eed0a9a48c50032d0af94a08e04d6eae351d424ad210d8b1f0ce8fb2b25e2a1` |
 | `data/raw/externo-fase3/series/divida_externa_bruta_bpm6_usd_mi_sgs25563.csv` | `79b8a5e0775deeafdf0aad87e958028d584f9eeba76da2944a2fef51653fbdc7` |
 | `data/raw/externo-fase3/series/divida_externa_bruta_restrita_usd_mi_sgs3684.csv` | `a02370472aff530148393f05bd35441b4adcd08f0549ee709a0541df71d2c8de` |
 | `data/raw/externo-fase3/series/divida_externa_liquida_pib_pct_sgs11409.csv` | `f40ff03b1d49c425965700c0f3439184a659c62764497c2dd185792455cb62c6` |
+| `data/raw/externo-fase3/series/divida_externa_liquida_usd_mi_sgs3685.csv` | `046519b7d4088e2e73d715113eb603f273d78250a0c1a85a66741c56b694b123` |
 | `data/raw/externo-fase3/series/divida_externa_restrita_pib_pct_sgs11407.csv` | `266d5fa57eaec6aeed13ba0282bdacc7f612cc53791bef37114c9e8694c198da` |
 | `data/raw/externo-fase3/series/divida_externa_setor_publico_pct_sgs11408.csv` | `631703ac81e7d6b66f0cb48831516ef30b6e31709aa0d94187492b10c0f8b61b` |
 | `data/raw/externo-fase3/series/divida_externa_setor_publico_restrita_usd_mi_sgs21521.csv` | `5e9374696cba733b3e21be581812fceed827844564f7c6380c858fc0f2bfdfdb` |
@@ -2210,25 +2212,25 @@ chain_hash: `2ae6312bf9279c8317361fb7db7c7908bdd8206dc26071a64d02ac060ad848af`
 | `data/raw/vdem-fase2/manifest.jsonl` | `0573f01dbd4436b0f181b3b17421ee66caabb1d87ae0c8016df8f29214a5c098` |
 | `data/raw/vdem-fase2/quebras.csv` | `82914404df2337e07a46e5726ec18477edea5b28b20427701f8e5cdcba4e7c74` |
 | `data/raw/vdem-fase2/series/vdem_brasil_v16.csv` | `63e42d8672e98031c5df807ef0a01fd528a937d64add906a97ba54f273a6d68c` |
-| `docs/en/METHODOLOGY.md` | `89f99d0b10bf72f3502db1788736697315b0b6690fae5d4449ac3898919b2ca1` |
-| `docs/es/METHODOLOGY.md` | `196eee68f9d2d5a060ac6b3de2a805ff6f20b255420e31ed4491c9a41cdd487d` |
-| `docs/he/METHODOLOGY.md` | `45a90bbf87400ab0c912354d61415f75037ad835edc5d9d8829c18c4267d5d01` |
-| `docs/it/METHODOLOGY.md` | `058e191e84d04169edb25932ea164a2c6985da3bd0e12e5210f2787f50e9238d` |
-| `docs/pt-BR/METHODOLOGY.md` | `c6c189d24b1a8f9b41338d7591972580a89828b7f7364a0fe7ed13646cbd25ec` |
+| `docs/en/METHODOLOGY.md` | `121201ec41121d13d6185d4a290abfee9e4a106efd4fbe817adc263559c692b3` |
+| `docs/es/METHODOLOGY.md` | `98dc7b3cef0aefb0bc9e3467bcfd2ec9a27735345bd9c79d2f39dca241050a37` |
+| `docs/he/METHODOLOGY.md` | `f4eb0e63d250de6719e3fa773f1bdfbb10207d6520ad01af90cd0f0a04609142` |
+| `docs/it/METHODOLOGY.md` | `c444d70ce995936173a797d14e9688ed664c577dd63ea325a62d90e9802bc669` |
+| `docs/pt-BR/METHODOLOGY.md` | `7980e633fff755ba25fa8e8d0dc562a7a4e9448e9d8d3ce1f736f7e8acb720b0` |
 | `docs/references-q1.bib` | `57491dab72800d40e5725440f135c14d8322eb4da42c9b2587e428ef1b0174e2` |
 | `docs/references.bib` | `558ded10ca7749427d5e02bce6a15cda81b6beff9399ad2fe1c30627667b5870` |
 | `make_provenance.py` | `8df5cc21c2fd84c8e4b72b223c8eee4db225f6a061ad2a40cb63f25ab7bcb680` |
-| `output/auditoria.json` | `3f23732163ae960e29c6ec0a6f60582a3abab8f92ff0bf26a46274f01f0a42be` |
+| `output/auditoria.json` | `0eeb566241adaeab64bfcb5e4d717b4ba8fd38a56098594efdcf6edebe22ca33` |
 | `output/dinamica.json` | `e2e874e8ef37b20e3c7a45b8d3f5bc4e15af2aa9c774c6711d023062d3439026` |
 | `output/indice.json` | `7369aa7287dc79d1b623d80e38e957c2e7016877465421bcf206eb402542b140` |
 | `output/literatura.json` | `da813ba569c74d953fad972d2d6d9cfaa4fde2d14305281e94699461f92dd986` |
 | `output/mundo.json` | `1226ae53152f25a60c2e2f9dd966c792edaf008ff5c1932e8ea7cc300a8bcd00` |
 | `output/results.json` | `3f2209756f340174245071077a476afc87e93f6de1d950798d4034bd8d586804` |
 | `output/series.json` | `135f459812d6c9483fdecf9334fdc5551cdf9d9e265d1bd419c0d22464150b0e` |
-| `output/terminal.json` | `9d06e8acdbf023b76b4435562e6a5f38df877da14ad5363f8a5a8969f795f3ca` |
+| `output/terminal.json` | `9044b6ae4583662b096df360030ec7930547f643a89a35635e88a8a6b30ea2ab` |
 | `run_all.py` | `c519a1802837084ef76bd01171130798bd75ea6a978c62946343553b1542520d` |
 | `scripts/build_page.py` | `d679574f1f56fc1dedd6b8da856094375b002839e280aaae48e562f0cf84e77b` |
-| `scripts/make_docs.py` | `515daec1af539222f07405d11176394ceead2ab865ed132787f6ca27860c4a0f` |
+| `scripts/make_docs.py` | `b7fa55d620f33722e4b9813d1d6161e5ad080e1764840fa7f71e28b49261d38c` |
 | `scripts/make_figures.py` | `021d233f9758c726cb28829fd5be016300c8ab71550b34be15d88eac4c8200e1` |
 | `scripts/prune_evidence.py` | `74e3f1cdd205ca4fc8003c43dd70fbab247e3e1cf7aa00897eabab743f1fa870` |
 | `tests/test_auditoria.py` | `7e344a8a26cbc4df8e674a831777fae10cb62cc8b29fa9bdf4876073147376c9` |
@@ -2237,7 +2239,7 @@ chain_hash: `2ae6312bf9279c8317361fb7db7c7908bdd8206dc26071a64d02ac060ad848af`
 | `tests/test_dinamica.py` | `7ee6210f61478d8d93a25ed178ceff404a344d6966f92f615bbe2843ba566016` |
 | `tests/test_docs.py` | `7b435bee66dee259b8fb651d0aacfc0d8b9d97f13fdbfaacbb2713d028910b94` |
 | `tests/test_estado.py` | `5db1f323e8fc69d90a196db931df8003b3381568b35278fe0d3849dd9826370a` |
-| `tests/test_externo.py` | `e580ea4abce717d4342eae4e9612e5fb42398db8670f40e77aebc1f88b520d24` |
+| `tests/test_externo.py` | `d594e34de145062262b45e444a564ca3660b51311c7c7f2798323711af2dfece` |
 | `tests/test_figures.py` | `e93d4a96d40514d03604a76c8e97c7e6161bfc0aee416a5407a3ac5cf3dbb270` |
 | `tests/test_indice.py` | `b76a6952635649bbefc03f967fde91be9abfb0045ade315b683b1aa38343e9d8` |
 | `tests/test_literatura.py` | `bd611d0eece0f67599f20f0a9f56df9a139aa86953252f73fa33d310da0a2e51` |
@@ -2245,7 +2247,7 @@ chain_hash: `2ae6312bf9279c8317361fb7db7c7908bdd8206dc26071a64d02ac060ad848af`
 | `tests/test_mundo.py` | `5a0f97137494caa92c0b208b477ba096497aadff69d80034af8d84212ec3b338` |
 | `tests/test_numeros_publicados.py` | `fb51ab1a64da0b53b6d505a0fbfb8c89d0b0e28c4ece72900954f62ab8326de7` |
 | `tests/test_references.py` | `d645d747cb63bbcb94588d435bb1918db63c614adcd40acd817289f932044bf7` |
-| `tests/test_terminal.py` | `077e9152e17ba5b834caaa18c1a189d26b05a231e3c84454a0221fff3d01ac11` |
+| `tests/test_terminal.py` | `545970984ee76240a7b50ed6e995fa3c6bba8ea35e3c33258785afff99ad92f5` |
 | `tests/test_verdict.py` | `16731afc2ec61409a833742b37e9206c70d00aa54dddd8e12532a66611f02eb3` |
 
 ## Informational (NOT hashed)

@@ -2,12 +2,12 @@
 
 # Radiografía de Brasil por Gobierno
 
-**57 números de un infográfico viral sobre ocho gobiernos brasileños, comprobados uno a uno contra datos públicos bajo una regla fijada en código; después, la radiografía de lo que dejó fuera: 101 series con cadena de hash desde 1964, un índice prerregistrado de condiciones de vida y la literatura revisada por pares sobre cada episodio. Sin nota de mérito.**
+**57 números de un infográfico viral sobre ocho gobiernos brasileños, comprobados uno a uno contra datos públicos bajo una regla fijada en código; después, la radiografía de lo que dejó fuera: 102 series con cadena de hash desde 1964, un índice prerregistrado de condiciones de vida y la literatura revisada por pares sobre cada episodio. Sin nota de mérito.**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23604103.svg)](https://doi.org/10.5281/zenodo.23604103)
 ![license: Apache-2.0 + CC BY 4.0](https://img.shields.io/badge/license-Apache--2.0%20%2B%20CC%20BY%204.0-blue)
 ![python](https://img.shields.io/badge/python-3.11%20%7C%203.12-informational)
-![tests](https://img.shields.io/badge/tests-116_passing-success)
+![tests](https://img.shields.io/badge/tests-117_passing-success)
 ![reproducible](https://img.shields.io/badge/reproducible-SHA--256_chain-success)
 
 [English](README.md) · [Português](README.pt-BR.md) · [Español](README.es.md) · [Italiano](README.it.md) · [עברית](README.he.md)
@@ -35,7 +35,7 @@
 | Se reproducen / se aproximan / no se reproducen / no verificados | 2 / 19 / 29 / 7 |
 | Meses de 1964-2026 que el infográfico omite | 257,6 de 750,1 (34,3%) |
 | Observaciones curadas / indicadores / quiebres de método | 26.490 / 279 / 229 |
-| Ítems del índice / indicadores del terminal / estudios Q1 en la capa de literatura | 39 / 101 / 38 |
+| Ítems del índice / indicadores del terminal / estudios Q1 en la capa de literatura | 39 / 102 / 38 |
 | Enmiendas fechadas al prerregistro | 0 |
 | Dependencias en tiempo de ejecución | ninguna (biblioteca estándar de Python, 3.11+) |
 
@@ -67,7 +67,7 @@ Cada celda muestra arriba el número impreso y abajo el número reproducido, con
 Todo lo que sigue fue prerregistrado y sellado en la cadena de hash antes de calcularse (0 enmiendas fechadas, nunca reescritas, en `data/raw/preregistro/`); las reglas están en `docs/es/METHODOLOGY.md`, secciones 11 a 16.
 
 1. **Un índice compuesto de condiciones de vida** (39 ítems en 13 áreas, `output/indice.json`): cada ítem entra solo con una dirección de lectura establecida en un artículo de cuartil 1, puntuado contra metas congeladas 1995-2024, con pesos iguales declarados, escenarios publicados y 10.000 sorteos de pesos. Describe las condiciones durante cada mandato; no clasifica méritos.
-2. **Un terminal de 101 indicadores en 19 dominios** (`output/terminal.json`, página `output/raio-x.html`), una base homogénea por celda, dos bases dibujadas como dos líneas y nunca empalmadas, y una lectura por mandato en tres capas separadas: el índice, Brasil menos América Latina en la misma fuente y la cuadrícula "inicio -> fin".
+2. **Un terminal de 102 indicadores en 19 dominios** (`output/terminal.json`, página `output/raio-x.html`), una base homogénea por celda, dos bases dibujadas como dos líneas y nunca empalmadas, y una lectura por mandato en tres capas separadas: el índice, Brasil menos América Latina en la misma fuente y la cuadrícula "inicio -> fin".
 3. **Una capa de literatura** (23 episodios, 4 rondas publicadas, 38 estudios, `output/literatura.json`): lo que estudios revisados por pares de cuartil 1 con diseño de identificación nombrado midieron sobre cada episodio, hallados por un protocolo de búsqueda sellado antes de buscar, toda obra devuelta listada con su motivo de exclusión, sin nota y sin veredicto.
 4. **Deuda externa y el costo de la deuda pública** (`data/raw/externo-fase3/`): los dos conceptos de deuda externa bruta del Banco Central mostrados por separado, su razón de deuda neta discontinuada mostrada tal como se publicó y nunca prolongada, y los intereses nominales y el resultado nominal del sector público; no se calcula ningún valor neto de 2026 porque el indicador oficial dejó de existir.
 

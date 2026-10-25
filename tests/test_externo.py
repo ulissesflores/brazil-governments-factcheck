@@ -1,4 +1,4 @@
-"""External debt layer: BCB numbers as hashed, concepts kept apart, no 2026 net figure."""
+"""External debt layer: BCB numbers as hashed, concepts kept apart, net level as published."""
 
 import csv
 import json
@@ -54,7 +54,26 @@ def test_discontinued_ratios_end_where_the_bcb_stopped_them():
         assert ultimo[0] == "2025-09-01", ind  # nothing extended into 2026
         assert "descontinuada" in IND[ind]["nota"]
     assert _linha("divext_liquida_pib", "SGS 11409")["2025-09-01"] == -0.9
-    assert "nada foi calculado" in IND["divext_liquida_pib"]["nota"]
+    assert "nada foi prolongado" in IND["divext_liquida_pib"]["nota"]
+
+
+def test_net_external_debt_level_is_still_published_and_turned_positive_in_jun_2026():
+    # Correction of 2026-10-24: the first version claimed no official 2026 value existed.
+    liq = _csv("divida_externa_liquida_usd_mi_sgs3685.csv")
+    assert liq[(2026, 6)] == 5083.49  # the headline number of 21/10/2026, official
+    assert liq[(2026, 3)] == -1100.3 and liq[(2025, 12)] == -8701.59  # Dec/2025 revised
+    assert max(k for k, v in liq.items() if v > 0 and k < (2026, 1)) == (2007, 9)
+    assert all(v < 0 for k, v in liq.items() if (2007, 12) <= k <= (2026, 3))
+    tab = {}
+    with open(SERIES / "tabela31_nota_jan2026.csv", newline="", encoding="utf-8") as fh:
+        for r in csv.DictReader(fh):
+            if r["indicador"] == "tab31_divida_externa_liquida_usd_mi":
+                tab[(int(r["ano"]), int(r["mes_ou_trimestre"]))] = float(r["valor"])
+    for k in ((2024, 6), (2024, 9), (2024, 12), (2025, 6), (2025, 9)):
+        assert liq[k] == tab[k], k  # the SGS series is Table 31's column M
+    pontos = dict(IND["divext_liquida"]["linhas"][0]["pontos"])
+    assert pontos["2026-06-01"] == 5083.49 and min(pontos) == "1987-06-01"
+    assert "continua publicado" in IND["divext_liquida"]["nota"]
 
 
 def test_official_net_external_debt_table_is_negative_through_dec_2025():

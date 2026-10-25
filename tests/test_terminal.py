@@ -154,4 +154,4 @@ def test_world_series_draw_brazil_beside_the_preregistered_references():
     g = IND["mun_gini"]  # the PIP has no group aggregates: the first four countries stand in
     assert g["linhas"][0]["rotulo"] == "Brasil" and len(g["linhas"]) == 5
     assert all(i["id"].startswith("mun_") for i in T["indicadores"][-13:])
-    assert len(T["indicadores"]) == 101 and len(T["dominios"]) == 19
+    assert len(T["indicadores"]) == 102 and len(T["dominios"]) == 19
