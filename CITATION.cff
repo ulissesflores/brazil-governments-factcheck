@@ -27,6 +27,12 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23604103
     description: "Concept DOI (all versions); each release has its own version DOI on Zenodo."
+  - type: doi
+    value: 10.5281/zenodo.23748065
+    description: "Version DOI of release 1.0.1 (external-debt erratum, literature round 11, amendments 12 and 13)."
+  - type: doi
+    value: 10.5281/zenodo.23604137
+    description: "Version DOI of release 1.0.0 (superseded by 1.0.1: states that the BCB has no official 2026 net external debt value, which is wrong)."
 repository-code: "https://github.com/ulissesflores/brazil-governments-factcheck"
 license:
   - Apache-2.0

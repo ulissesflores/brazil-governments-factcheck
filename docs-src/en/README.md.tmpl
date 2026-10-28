@@ -105,7 +105,7 @@ Carlos Ulisses Flores. ORCID [0000-0002-6034-7765](https://orcid.org/0000-0002-6
 
 ## Citation
 
-Cite the concept DOI 10.5281/zenodo.23604103 (it always resolves to the latest version); a specific run is cited by its version DOI, shown on the Zenodo record of each release. Metadata: `CITATION.cff`, `codemeta.json`.
+Cite the concept DOI 10.5281/zenodo.23604103 (it always resolves to the latest version); a specific run is cited by its version DOI, shown on the Zenodo record of each release. Versions: 1.0.1 (external-debt erratum, round 11, amendments 12 and 13) version DOI 10.5281/zenodo.23748065; 1.0.0 version DOI 10.5281/zenodo.23604137. Metadata: `CITATION.cff`, `codemeta.json`.
 
 ```bibtex
 @misc{flores2026raiox,

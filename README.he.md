@@ -105,7 +105,7 @@ Carlos Ulisses Flores. ORCID [0000-0002-6034-7765](https://orcid.org/0000-0002-6
 
 ## ציטוט
 
-צטטו את ה-concept DOI 10.5281/zenodo.23604103 (מוביל תמיד לגרסה האחרונה); ריצה מסוימת מצוטטת לפי DOI הגרסה שלה, המופיע ברשומת Zenodo של כל release. מטא-נתונים: `CITATION.cff`, `codemeta.json`.
+צטטו את ה-concept DOI 10.5281/zenodo.23604103 (מוביל תמיד לגרסה האחרונה); ריצה מסוימת מצוטטת לפי DOI הגרסה שלה, המופיע ברשומת Zenodo של כל release. גרסאות: 1.0.1 (תיקון החוב החיצוני נטו, סבב 11, תיקונים 12 ו-13) DOI גרסה 10.5281/zenodo.23748065; 1.0.0 DOI גרסה 10.5281/zenodo.23604137. מטא-נתונים: `CITATION.cff`, `codemeta.json`.
 
 ```bibtex
 @misc{flores2026raiox,

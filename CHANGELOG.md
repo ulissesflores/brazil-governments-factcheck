@@ -6,7 +6,7 @@ Format: Keep a Changelog; versioning: SemVer. 1.0.0 is the first release and the
 
 ## [1.0.1] - 2026-10-28
 
-Concept DOI 10.5281/zenodo.23604103 (unchanged); this release mints a new version DOI that supersedes 1.0.0, which archives the text with the external-debt error corrected below.
+Concept DOI 10.5281/zenodo.23604103 (unchanged); version DOI 10.5281/zenodo.23748065, which supersedes 1.0.0 (10.5281/zenodo.23604137), which archives the text with the external-debt error corrected below.
 
 ### Added
 * **Literature round 11 (amendment 12, 2026-10-25).** Four institutional episodes (central bank independence, fiscal rules as a class, press freedom, judicial independence) under the same sealed protocol: 54 queries, 7,487 distinct works, 43 included (1, 4, 1 and 0 for the new episodes). The editor's hypothesis that central bank autonomy and spending limits "keep things from getting worse" is recorded in the amendment and is neither asserted nor tested here: only included studies speak.

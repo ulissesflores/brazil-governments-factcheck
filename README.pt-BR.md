@@ -105,7 +105,7 @@ Carlos Ulisses Flores. ORCID [0000-0002-6034-7765](https://orcid.org/0000-0002-6
 
 ## Citação
 
-Cite o concept DOI 10.5281/zenodo.23604103 (resolve sempre para a versão mais recente); uma execução específica é citada pelo DOI de versão, mostrado no registro do Zenodo de cada release. Metadados: `CITATION.cff`, `codemeta.json`.
+Cite o concept DOI 10.5281/zenodo.23604103 (resolve sempre para a versão mais recente); uma execução específica é citada pelo DOI de versão, mostrado no registro do Zenodo de cada release. Versões: 1.0.1 (errata da dívida externa líquida, rodada 11, emendas 12 e 13) DOI de versão 10.5281/zenodo.23748065; 1.0.0 DOI de versão 10.5281/zenodo.23604137. Metadados: `CITATION.cff`, `codemeta.json`.
 
 ```bibtex
 @misc{flores2026raiox,
