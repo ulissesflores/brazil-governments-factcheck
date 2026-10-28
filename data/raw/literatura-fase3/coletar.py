@@ -96,6 +96,19 @@ EPISODIOS_10 = [
 ]
 CONSULTAS_10 = dict(CONSULTAS_09, **{n: (en, pt) for n, _nome, _govs, en, pt in EPISODIOS_10})
 
+# EMENDA-12 §B: episódios 24-27 (instituições: autonomia do BC, regras fiscais, imprensa, poderes); mesmos parâmetros
+TODOS = ["fhc", "lula12", "dilma", "temer", "bolsonaro", "lula3"]
+EPISODIOS_12 = [
+    ("24", "Autonomia do Banco Central: de fato desde as metas (1999) e de direito pela LC 179 (2021)", TODOS, "central bank independence Brazil", "autonomia do Banco Central"),
+    ("25", "Regras fiscais como classe: LRF (2000), teto de gastos (2016) e arcabouço (2023)", TODOS, "fiscal rules Brazil", "regras fiscais Brasil"),
+    ("26", "Liberdade de imprensa e de expressão (1995-)", TODOS, "press freedom Brazil", "liberdade de imprensa Brasil"),
+    ("27", "Independência judicial e separação de poderes (1995-)", TODOS, "judicial independence Brazil", "independência judicial Brasil"),
+]
+CONSULTAS_11 = dict(CONSULTAS_10, **{n: (en, pt) for n, _nome, _govs, en, pt in EPISODIOS_12})
+
+# rodada -> emenda que a rege, quando os números diferem (a rodada 11 é a EMENDA-12)
+RODADA_EMENDA = {"11": "12"}
+
 PROTOCOLOS = {
     "07": {
         "prefixo": "openalex-",
@@ -132,6 +145,18 @@ PROTOCOLOS = {
         "teto": 200,
         "consultas": CONSULTAS_10,
         "episodios": EPISODIOS + EPISODIOS_10,
+        "url": lambda q: "https://api.openalex.org/works?filter=title_and_abstract.search:" + quote(q) + ",type:article|review&sort=relevance_score:desc&per_page=200",
+        "desenhos": DESENHOS_08,
+        "siglas": SIGLAS_08,
+        "resumo_crossref": True,
+    },
+    # EMENDA-12 §C: mesmos parâmetros e prefixo das rodadas 09 e 10 (o bruto dos 23 episódios é reutilizado); 4 episódios a mais
+    "11": {
+        "prefixo": "openalex9-",
+        "saida": "series/emenda11",
+        "teto": 200,
+        "consultas": CONSULTAS_11,
+        "episodios": EPISODIOS + EPISODIOS_10 + EPISODIOS_12,
         "url": lambda q: "https://api.openalex.org/works?filter=title_and_abstract.search:" + quote(q) + ",type:article|review&sort=relevance_score:desc&per_page=200",
         "desenhos": DESENHOS_08,
         "siglas": SIGLAS_08,
@@ -318,7 +343,8 @@ def resultado(emenda, P, linhas, motivos, cortes):
     for r in inc:
         for e in r["episodios"].split("; "):
             por_ep[e] = por_ep.get(e, 0) + 1
-    md = [f"# Coleta `literatura-fase3`, rodada da EMENDA-{emenda} §B", "", f"Gerado em {time.strftime('%Y-%m-%d')} por `coletar.py --emenda {emenda}`, do bruto hasheado. Regra executada por código; nenhuma seleção à mão.", "", "## Números", "", "| Medida | Valor |", "|---|---|",
+    amd = RODADA_EMENDA.get(emenda, emenda)
+    md = [f"# Coleta `literatura-fase3`, rodada {emenda} (EMENDA-{amd} §B)", "", f"Gerado em {time.strftime('%Y-%m-%d')} por `coletar.py --emenda {emenda}`, do bruto hasheado. Regra executada por código; nenhuma seleção à mão.", "", "## Números", "", "| Medida | Valor |", "|---|---|",
           f"| Consultas ao OpenAlex | {len(cortes)} (teto {P['teto']} por consulta) |", f"| Trabalhos distintos devolvidos | {len(linhas)} |", f"| Incluídos (a-e) | {len(inc)} |"]
     md += [f"| {m} | {n} |" for m, n in sorted(motivos.items(), key=lambda x: -x[1])]
     md += ["", "## Incluídos por episódio", "", "| Episódio | Incluídos |", "|---|---|"]

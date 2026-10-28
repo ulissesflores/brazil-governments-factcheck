@@ -31,11 +31,16 @@ def test_every_completed_round_is_published_with_its_counts():
     assert L["rodadas"][1]["trabalhos"] == 532 and L["rodadas"][1]["incluidos"] == 14
     assert L["rodadas"][2]["trabalhos"] == 5457 and L["rodadas"][2]["incluidos"] == 36
     assert L["rodadas"][3]["trabalhos"] == 6497 and L["rodadas"][3]["incluidos"] == 38
+    # Round 11 (amendment 12, 2026-10-25): institutions. Zero included on judicial independence.
+    assert L["rodadas"][4]["trabalhos"] == 7487 and L["rodadas"][4]["incluidos"] == 43
     assert L["rodadas"][-1]["incluidos"] == len(L["estudos"])
-    assert [r["consultas"] for r in L["rodadas"]] == [40, 40, 40, 46]
-    assert len(L["episodios"]) == 23 and all(e["lidos_en"] <= 200 for e in L["episodios"])
-    assert [e["numero"] for e in L["episodios"][-3:]] == ["21", "22", "23"]  # amendment 10
-    assert not L["pendente"], "all four sealed rounds are complete"
+    assert [r["consultas"] for r in L["rodadas"]] == [40, 40, 40, 46, 54]
+    assert len(L["episodios"]) == 27 and all(e["lidos_en"] <= 200 for e in L["episodios"])
+    assert [e["numero"] for e in L["episodios"][-7:-4]] == ["21", "22", "23"]  # amendment 10
+    assert [e["numero"] for e in L["episodios"][-4:]] == ["24", "25", "26", "27"]  # amendment 12
+    por_ep = {e["numero"]: len(e["incluidos"]) for e in L["episodios"]}
+    assert (por_ep["24"], por_ep["25"], por_ep["26"], por_ep["27"]) == (1, 4, 1, 0)
+    assert not L["pendente"], "all five sealed rounds are complete"
 
 
 def test_design_words_are_matched_on_word_boundaries_and_siglas_as_written():

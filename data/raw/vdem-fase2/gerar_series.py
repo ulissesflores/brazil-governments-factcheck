@@ -15,7 +15,9 @@ ITENS = {  # variavel: (rotulo, definicao, unidade)
     "v2x_jucon": ("Restricoes judiciais ao Executivo", "Em que medida o Executivo respeita a Constituicao e as decisoes judiciais e o Judiciario age com independencia (V-Dem v2x_jucon; 0-1, mais alto = mais restricao)", "indice 0-1"),
     "v2clstown": ("Propriedade estatal da economia (escala do modelo de medicao)", "Does the state own or directly control important sectors of the economy? (V-Dem v2clstown; saida intervalar do modelo de medicao; MAIS ALTO = MENOS propriedade estatal; 0 = quase todo o capital e do Estado, 4 = muito pouco)", "escala intervalar do modelo (aprox. 0-4)"),
     "v2clstown_osp": ("Propriedade estatal da economia (escala original)", "v2clstown_osp: estimativa na escala original ordinal 0-4 (mais alto = MENOS propriedade estatal)", "escala original 0-4"),
-    "v2x_polyarchy": ("Democracia eleitoral (bonus, conferencia com OWID)", "v2x_polyarchy, Electoral democracy index (0-1, mais alto = mais democratico)", "indice 0-1"),
+    # EMENDA-13 (2026-10-25): contexto no terminal, nao pontua no indice
+    "v2x_freexp_altinf": ("Liberdade de expressao e de imprensa (contexto, EMENDA-13)", "To what extent does government respect press and media freedom, the freedom of ordinary people to discuss political matters at home and in the public sphere, as well as the freedom of academic and cultural expression? (V-Dem v2x_freexp_altinf; indice 0-1, mais alto = mais liberdade)", "indice 0-1"),
+    "v2x_polyarchy": ("Democracia eleitoral (bonus, conferencia com OWID)","v2x_polyarchy, Electoral democracy index (0-1, mais alto = mais democratico)", "indice 0-1"),
 }
 SUF = {"": "estimativa pontual", "_codelow": "limite inferior (codelow, limite inferior da incerteza publicado pelo V-Dem)", "_codehigh": "limite superior (codehigh, limite superior da incerteza publicado pelo V-Dem)"}
 

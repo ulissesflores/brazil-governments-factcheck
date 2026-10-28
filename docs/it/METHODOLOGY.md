@@ -210,7 +210,7 @@ propria in N+P; i rapporti sul PIL usano il denominatore a prezzi di mercato.
 ## 12. Emendamenti datati alla preregistrazione
 
 La preregistrazione originale non viene mai riscritta. Ogni modifica è un emendamento datato, sigillato
-nella stessa catena di hash prima che il dato che governa sia scaricato o calcolato (0 finora, in
+nella stessa catena di hash prima che il dato che governa sia scaricato o calcolato (13 finora, in
 `data/raw/preregistro/`): 01, i gruppi di confronto ("il mondo": mondo, America Latina e Caraibi, reddito
 medio-alto e sette paesi latinoamericani, una fonte per indicatore), la dinamica descrittiva dentro ogni
 mandato e i semafori di affidabilità del dato; 02, la vista a candele, la finestra pre-Real e la regola
@@ -218,7 +218,11 @@ per anno; 03, moneta, fisco, tributi, burocrazia, Stato, il "salvadanaio" (R$ 10
 seguiti nel tempo), prezzi dei prodotti in ore di lavoro e la vista terminale; 04, candele annuali sui
 tassi, mai su un livello che sale soltanto; 05, una pagina con due livelli, la cella "inizio -> fine" e le
 correzioni dei dati della revisione del 2026-10-20; 06, l'indice mensile; 07, 08, 09 e 10, lo strato della
-letteratura (sezione 14). Parametri scelti dopo l'emendamento 05 e dichiarati qui: un valore di inizio o di
+letteratura (sezione 14); 11, i cinque item dell'indice che si fermano al 2014-2015 restano come sono, mai
+prolungati; 12, quattro episodi istituzionali nello strato della letteratura (indipendenza della banca
+centrale, regole fiscali come classe, libertà di stampa, indipendenza giudiziaria), tornata 11; 13, la libertà
+di espressione e di stampa del V-Dem entra nel terminale come contesto e non fa punteggio, perché scelta dopo
+la pubblicazione dell'indice (dichiarata post hoc). Parametri scelti dopo l'emendamento 05 e dichiarati qui: un valore di inizio o di
 fine può discostarsi dal limite del mandato al massimo di 13 mesi per le serie infrannuali e di 35 mesi per
 le serie annuali (la PNAD ha saltato 1994, 2000 e 2010, e il Saeb è biennale); il mandato in corso termina
 sull'ultimo valore pubblicato, con la data stampata; quando due basi coprono un mandato, quella con il
@@ -232,7 +236,7 @@ mossi di più dentro la finestra della candela del mandato, in punti da 0 a 100 
 meno America Latina e Caraibi sulla stessa serie della stessa fonte, nell'anno precedente all'insediamento
 e nell'ultimo anno del mandato; (3) la griglia di tutti gli indicatori, "inizio -> fine" su una base
 omogenea per cella. Un aggregato esplorativo "contro tendenza" è stato calcolato e scartato, perché non era
-preregistrato e la tendenza includeva gli anni del mandato stesso. Il terminale porta 102
+preregistrato e la tendenza includeva gli anni del mandato stesso. Il terminale porta 103
 indicatori in 19 domini; una serie con due basi è disegnata come due linee e non è mai letta
 attraverso la rottura.
 
@@ -242,7 +246,7 @@ L'unico strato che parla di cause lo fa con le parole degli autori di studi sott
 paritaria, sotto un protocollo di ricerca sigillato prima di cercare (emendamento 07, modificato da 08,
 09 e 10). Per ogni episodio dichiarato (Plano Real, obiettivi di inflazione, Bolsa Família, crisi del
 2008, recessione del 2014-16, riforme del lavoro e delle pensioni, controllo della deforestazione, debito
-estero e riserve, tra gli altri; 23 episodi), due interrogazioni brevi (inglese e portoghese)
+estero e riserve, tra gli altri; 27 episodi), due interrogazioni brevi (inglese e portoghese)
 vanno a OpenAlex, e ogni lavoro restituito è elencato con il suo stato e il motivo dell'esclusione. Un
 lavoro è incluso solo se (a) ha un DOI; (b) la sua rivista è quartile 1 nell'edizione 2024 dello SJR; (c) il
 Brasile compare nel titolo o nell'abstract; (d) un disegno di identificazione di una lista chiusa è nominato
@@ -259,7 +263,11 @@ guardato solo a quanti lavori restituiva ogni chiamata, mai a quali articoli com
 7; la tornata 08 (titolo e abstract, per rilevanza, tetto 100) ha restituito 532 e ne ha
 inclusi 14; la tornata 09 (interrogazioni brevi, tetto 200) ha restituito 5.457 e ne ha inclusi
 36; la tornata 10 (il grezzo della tornata 09 più tre episodi su debito estero, riserve e debito
-pubblico) ha restituito 6.497 e ne ha inclusi 38. La pagina mostra l'ultima tornata.
+pubblico) ha restituito 6.497 e ne ha inclusi 38; la tornata 11 (emendamento 12: lo stesso
+grezzo più quattro episodi istituzionali, con l'ipotesi dell'editore che l'autonomia della banca centrale e i
+limiti di spesa "impediscano di peggiorare" registrata nell'emendamento e mai affermata dalla pagina) ha
+restituito 7.487 e ne ha inclusi 43; per l'indipendenza giudiziaria non è passato nessuno
+studio. La pagina mostra l'ultima tornata.
 Limitazioni dichiarate: molte riviste brasiliane sono fuori dallo SJR o pubblicano senza DOI; un disegno
 abbinato per parola ammette lavori che lo menzionano soltanto (un profilo di coorte, un necrologio, un
 appello all'azione), che restano elencati perché rimuoverli a mano sarebbe un giudizio; diversi episodi

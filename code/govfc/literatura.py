@@ -20,14 +20,17 @@ COLECAO = RAIZ / "data" / "raw" / "literatura-fase3"
 #: 2026-10-22/23 in two sittings (the OpenAlex daily budget stopped it at query 20 of 40). Round 10
 #: (amendment 10) reuses the hashed raw of round 09 and adds episodes 21-23 (external debt, reserves,
 #: public debt): 46 queries, 6 of them new.
+#: Round 11 (amendment 12, 2026-10-25) reuses the raw of rounds 09/10 and adds episodes 24-27 (central
+#: bank independence, fiscal rules as a class, press freedom, judicial independence): 54 queries, 8 new.
 RODADAS = [
     ("07", "series/emenda07"),
     ("08", "series/emenda08"),
     ("09", "series"),
     ("10", "series/emenda10"),
+    ("11", "series/emenda11"),
 ]
 PREREGISTRO = [
-    f"data/raw/preregistro/PREREGISTRATION-EMENDA-{n}.md" for n in ("07", "08", "09", "10")
+    f"data/raw/preregistro/PREREGISTRATION-EMENDA-{n}.md" for n in ("07", "08", "09", "10", "12")
 ]
 
 

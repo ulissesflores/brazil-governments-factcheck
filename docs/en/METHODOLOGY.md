@@ -209,7 +209,7 @@ N+P; GDP shares use the denominator at market prices.
 ## 12. Dated amendments to the pre-registration
 
 The original pre-registration is never rewritten. Each change is a dated amendment, sealed in the
-same hash chain before the data it governs is downloaded or computed (0 so far, in
+same hash chain before the data it governs is downloaded or computed (13 so far, in
 `data/raw/preregistro/`): 01, the comparison groups ("the world": world, Latin America and the
 Caribbean, upper-middle income and seven Latin American countries, one source per indicator), the
 descriptive dynamics inside each term and the data-confidence lights; 02, the candle view, the pre-Real
@@ -217,7 +217,11 @@ window and the per-year rule; 03, money, fiscal, taxes, bureaucracy, the state, 
 (R$ 100 thousand of December 1994 followed through time), product prices in hours of work and the
 terminal view; 04, yearly candles on rates, never on levels that only rise; 05, one page with two
 levels, the "start -> end" cell and the data corrections of the 2026-10-20 review; 06, the monthly
-index; 07, 08, 09 and 10, the literature layer (section 14). Parameters chosen after amendment 05 and
+index; 07, 08, 09 and 10, the literature layer (section 14); 11, the five index items that stop in
+2014-2015 stay as they are, never extended; 12, four institutional episodes in the literature layer
+(central bank independence, fiscal rules as a class, press freedom, judicial independence), round 11;
+13, V-Dem's freedom of expression and press enters the terminal as context and does not score, because
+it was chosen after the index was published (declared post hoc). Parameters chosen after amendment 05 and
 declared here: a start or end value may lag the term boundary by at most 13 months for sub-annual
 series and 35 months for annual series (the PNAD skipped 1994, 2000 and 2010, and the Saeb is
 biennial); the term in course ends on the latest published value, with its date printed; when two
@@ -232,7 +236,7 @@ inside the term's candle window, in 0-100 points within the goalposts; (2) Brazi
 and the Caribbean on the same series of the same source, in the year before inauguration and in the
 last year of the term; (3) the grid of every indicator, "start -> end" on one homogeneous base per
 cell. An exploratory "versus trend" aggregate was computed and discarded, because it was not
-pre-registered and the trend included the term's own years. The terminal carries 102 indicators in
+pre-registered and the trend included the term's own years. The terminal carries 103 indicators in
 19 domains; a series with two bases is drawn as two lines and never read across the break.
 
 ## 14. The literature layer
@@ -241,7 +245,7 @@ The only layer that speaks of causes does so in the words of the authors of peer
 under a search protocol sealed before searching (amendment 07, modified by 08, 09 and 10). For each
 declared episode (Plano Real, inflation targeting, Bolsa Família, the 2008 crisis, the 2014-16
 recession, the labour and pension reforms, deforestation enforcement, external debt and reserves,
-among others; 23 episodes), two short queries (English and Portuguese) go to OpenAlex, and every
+among others; 27 episodes), two short queries (English and Portuguese) go to OpenAlex, and every
 returned work is listed with its status and the reason for exclusion. A work is included only if
 (a) it has a DOI; (b) its journal is quartile 1 in the 2024 edition of the SJR; (c) Brazil appears in
 the title or the abstract; (d) an identification design from a closed list is named in the abstract
@@ -257,7 +261,10 @@ how many works each call returned, never at which articles appeared: round 07 (f
 by citations, cap 40) returned 1,329 works and included 7; round 08 (title and abstract, by
 relevance, cap 100) returned 532 and included 14; round 09 (short queries, cap 200) returned
 5,457 and included 36; round 10 (the raw of round 09 plus three episodes on external debt,
-reserves and public debt) returned 6,497 and included 38. The page shows the last round.
+reserves and public debt) returned 6,497 and included 38; round 11 (amendment 12: the same
+raw plus four institutional episodes, with the editor's hypothesis that central bank autonomy and spending
+limits "keep things from getting worse" recorded in the amendment and never asserted by the page) returned
+7,487 and included 43; no study passed for judicial independence. The page shows the last round.
 Declared limitations: many Brazilian journals are outside the SJR or publish without DOI; a design
 matched by word admits works that only mention it (a cohort profile, an obituary, a call to action),
 which stay listed because removing them by hand would be a judgement; several episodes have a

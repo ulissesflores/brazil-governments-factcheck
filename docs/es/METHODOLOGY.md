@@ -210,7 +210,7 @@ N+P; las razones sobre el PIB usan el denominador a precios de mercado.
 ## 12. Enmiendas fechadas al prerregistro
 
 El prerregistro original nunca se reescribe. Cada cambio es una enmienda fechada, sellada en la misma
-cadena de hash antes de que el dato que rige sea descargado o calculado (0 hasta ahora, en
+cadena de hash antes de que el dato que rige sea descargado o calculado (13 hasta ahora, en
 `data/raw/preregistro/`): 01, los grupos de comparación ("el mundo": mundo, América Latina y el Caribe,
 renta media-alta y siete países latinoamericanos, una fuente por indicador), la dinámica descriptiva
 dentro de cada mandato y los semáforos de confianza del dato; 02, la vista en velas, la ventana pre-Real
@@ -218,7 +218,11 @@ y la regla por año; 03, moneda, fiscal, tributos, burocracia, Estado, la "alcan
 diciembre de 1994 seguidos en el tiempo), precios de productos en horas de trabajo y la vista de terminal;
 04, velas anuales en tasa, nunca en un nivel que solo sube; 05, una página con dos niveles, la celda
 "inicio -> fin" y las correcciones de datos de la revisión de 2026-10-20; 06, el índice mensual; 07, 08,
-09 y 10, la capa de literatura (sección 14). Parámetros elegidos después de la enmienda 05 y declarados
+09 y 10, la capa de literatura (sección 14); 11, los cinco ítems del índice que se detienen en 2014-2015 quedan
+como están, nunca prolongados; 12, cuatro episodios institucionales en la capa de literatura (independencia del
+banco central, reglas fiscales como clase, libertad de prensa, independencia judicial), ronda 11; 13, la libertad
+de expresión y de prensa del V-Dem entra en el terminal como contexto y no puntúa, porque fue elegida después de
+la publicación del índice (declarado post hoc). Parámetros elegidos después de la enmienda 05 y declarados
 aquí: un valor de inicio o de fin puede apartarse del límite del mandato como máximo 13 meses en series
 subanuales y 35 meses en series anuales (la PNAD omitió 1994, 2000 y 2010, y el Saeb es bienal); el
 mandato en curso termina en el último valor publicado, con su fecha impresa; cuando dos bases cubren un
@@ -233,7 +237,7 @@ la ventana de la vela del mandato, en puntos de 0 a 100 dentro de las metas; (2)
 Latina y el Caribe en la misma serie de la misma fuente, en el año anterior a la toma de posesión y en el
 último año del mandato; (3) la cuadrícula de todos los indicadores, "inicio -> fin" en una base homogénea
 por celda. Un agregado exploratorio "contra la tendencia" se calculó y se descartó, porque no estaba
-prerregistrado y la tendencia incluía los años del propio mandato. El terminal lleva 102
+prerregistrado y la tendencia incluía los años del propio mandato. El terminal lleva 103
 indicadores en 19 dominios; una serie con dos bases se dibuja como dos líneas y nunca se lee a
 través del quiebre.
 
@@ -243,7 +247,7 @@ La única capa que habla de causas lo hace en palabras de los autores de estudio
 bajo un protocolo de búsqueda sellado antes de buscar (enmienda 07, modificada por 08, 09 y 10). Para
 cada episodio declarado (Plan Real, metas de inflación, Bolsa Família, crisis de 2008, recesión de
 2014-16, reformas laboral y de pensiones, fiscalización de la deforestación, deuda externa y reservas,
-entre otros; 23 episodios), dos consultas cortas (inglés y portugués) van a OpenAlex, y toda
+entre otros; 27 episodios), dos consultas cortas (inglés y portugués) van a OpenAlex, y toda
 obra devuelta se lista con su estado y el motivo de exclusión. Una obra se incluye solo si (a) tiene DOI;
 (b) su revista es cuartil 1 en la edición 2024 del SJR; (c) Brasil aparece en el título o en el resumen;
 (d) un diseño de identificación de una lista cerrada se nombra en el resumen (diferencias en diferencias,
@@ -258,8 +262,11 @@ trabajos devolvió cada llamada, nunca qué artículos aparecieron: la ronda 07 
 ordenada por citas, tope 40) devolvió 1.329 trabajos e incluyó 7; la ronda 08 (título y
 resumen, por relevancia, tope 100) devolvió 532 e incluyó 14; la ronda 09 (consultas
 cortas, tope 200) devolvió 5.457 e incluyó 36; la ronda 10 (el bruto de la ronda 09 más tres
-episodios sobre deuda externa, reservas y deuda pública) devolvió 6.497 e incluyó 38. La
-página muestra la última ronda. Limitaciones declaradas: muchas revistas brasileñas están fuera del SJR o
+episodios sobre deuda externa, reservas y deuda pública) devolvió 6.497 e incluyó 38; la
+ronda 11 (enmienda 12: el mismo bruto más cuatro episodios institucionales, con la hipótesis del editor de que la
+autonomía del banco central y los límites de gasto "impiden empeorar" registrada en la enmienda y nunca afirmada
+por la página) devolvió 7.487 e incluyó 43; para independencia judicial no pasó ningún estudio.
+La página muestra la última ronda. Limitaciones declaradas: muchas revistas brasileñas están fuera del SJR o
 publican sin DOI; un diseño casado por palabra admite obras que solo lo mencionan (un perfil de cohorte,
 un obituario, un llamado a la acción), que quedan listadas porque quitarlas a mano sería un juicio; varios
 episodios tienen ausencia declarada, incluido el de la deuda externa.

@@ -209,7 +209,7 @@ sobre o PIB usam o denominador a preços de mercado.
 ## 12. Emendas datadas ao pré-registro
 
 O pré-registro original nunca é reescrito. Cada mudança é uma emenda datada, selada na mesma cadeia de
-hash antes de o dado que ela rege ser baixado ou calculado (0 até agora, em
+hash antes de o dado que ela rege ser baixado ou calculado (13 até agora, em
 `data/raw/preregistro/`): 01, os grupos de comparação ("o mundo": mundo, América Latina e Caribe,
 renda média-alta e sete países latino-americanos, uma fonte por indicador), a dinâmica descritiva dentro
 de cada mandato e os semáforos de confiança do dado; 02, a visão em candle, a janela pré-Real e a regra
@@ -217,7 +217,11 @@ por ano; 03, moeda, fiscal, tributos, burocracia, Estado, o "porquinho" (R$ 100 
 acompanhados no tempo), preços de produtos em horas de trabalho e a visão de terminal; 04, candles anuais
 em taxa, nunca em nível que só sobe; 05, uma página com dois níveis, a célula "início -> fim" e as
 correções de dado da revisão de 2026-10-20; 06, o índice mensal; 07, 08, 09 e 10, a camada de literatura
-(seção 14). Parâmetros escolhidos depois da emenda 05 e declarados aqui: um valor de início ou de fim
+(seção 14); 11, os cinco itens do índice que param em 2014-2015 ficam como estão, sem prolongamento; 12, quatro
+episódios institucionais na camada de literatura (autonomia do Banco Central, regras fiscais como classe,
+liberdade de imprensa, independência judicial), rodada 11; 13, a liberdade de expressão e de imprensa do
+V-Dem entra no terminal como contexto e não pontua, porque foi escolhida depois da publicação do índice
+(declarado como pós-hoc). Parâmetros escolhidos depois da emenda 05 e declarados aqui: um valor de início ou de fim
 pode se afastar do limite do mandato em no máximo 13 meses para séries sub-anuais e 35 meses para séries
 anuais (a PNAD pulou 1994, 2000 e 2010, e o Saeb é bienal); o mandato em curso termina no último valor
 publicado, com a data impressa; quando duas bases cobrem um mandato, a de menor atraso total é a
@@ -231,7 +235,7 @@ candle do mandato, em pontos de 0 a 100 dentro das balizas; (2) Brasil menos Am�
 mesma série da mesma fonte, no ano anterior à posse e no último ano do mandato; (3) a grade de todos os
 indicadores, "início -> fim" numa base homogênea por célula. Um agregado exploratório "contra a
 tendência" foi calculado e descartado, porque não estava pré-registrado e a tendência incluía os anos do
-próprio mandato. O terminal traz 102 indicadores em 19 domínios; uma série com duas
+próprio mandato. O terminal traz 103 indicadores em 19 domínios; uma série com duas
 bases é desenhada como duas linhas e nunca é lida através da quebra.
 
 ## 14. A camada de literatura
@@ -240,7 +244,7 @@ A única camada que fala de causas o faz pela boca dos autores de estudos revisa
 protocolo de busca selado antes de buscar (emenda 07, modificada por 08, 09 e 10). Para cada episódio
 declarado (Plano Real, metas de inflação, Bolsa Família, crise de 2008, recessão de 2014-16, reformas
 trabalhista e da previdência, fiscalização do desmatamento, dívida externa e reservas, entre outros;
-23 episódios), duas consultas curtas (inglês e português) vão ao OpenAlex, e toda obra devolvida
+27 episódios), duas consultas curtas (inglês e português) vão ao OpenAlex, e toda obra devolvida
 é listada com o seu status e o motivo da exclusão. Uma obra só é incluída se (a) tem DOI; (b) o seu
 periódico é quartil 1 na edição 2024 do SJR; (c) o Brasil aparece no título ou no resumo; (d) um desenho
 de identificação de uma lista fechada é nomeado no resumo (diferenças em diferenças, descontinuidade,
@@ -255,8 +259,11 @@ para quantos trabalhos cada chamada devolveu, nunca para quais artigos aparecera
 texto completo ordenada por citações, teto 40) devolveu 1.329 trabalhos e incluiu 7; a rodada 08
 (título e resumo, por relevância, teto 100) devolveu 532 e incluiu 14; a rodada 09 (consultas
 curtas, teto 200) devolveu 5.457 e incluiu 36; a rodada 10 (o bruto da rodada 09 mais três
-episódios sobre dívida externa, reservas e dívida pública) devolveu 6.497 e incluiu 38. A
-página mostra a última rodada. Limitações declaradas: muitos periódicos brasileiros estão fora do SJR ou
+episódios sobre dívida externa, reservas e dívida pública) devolveu 6.497 e incluiu 38; a
+rodada 11 (emenda 12: o mesmo bruto mais quatro episódios institucionais, com a hipótese do editor de que a
+autonomia do Banco Central e os limites de gasto "impedem de ficar pior" registrada na emenda e nunca
+afirmada pela página) devolveu 7.487 e incluiu 43; para independência judicial não passou
+nenhum estudo. A página mostra a última rodada. Limitações declaradas: muitos periódicos brasileiros estão fora do SJR ou
 publicam sem DOI; um desenho casado por palavra admite obras que só o mencionam (um perfil de coorte, um
 obituário, um chamado à ação), que ficam listadas porque removê-las à mão seria um julgamento; vários
 episódios têm ausência declarada, inclusive o da dívida externa.

@@ -21,6 +21,7 @@ def main():
     saida = RAIZ / "output" / "figures"
     saida.mkdir(parents=True, exist_ok=True)
     res = figuras.carregar_resultados()
+    ind = figuras.carregar_indice()
     ruins = 0
     for lang in LINGUAS:
         cena = figuras.placar(res, lang)
@@ -29,6 +30,12 @@ def main():
             ruins += 1
         (saida / f"placar.{lang}.svg").write_text(cena.svg(), encoding="utf-8")
         print(f"placar.{lang}.svg")
+        cena = figuras.areas(ind, lang)
+        for e in medidor.estouros(cena):
+            print(f"OVERFLOW areas.{lang}: {e}")
+            ruins += 1
+        (saida / f"areas.{lang}.svg").write_text(cena.svg(), encoding="utf-8")
+        print(f"areas.{lang}.svg")
     return 1 if ruins else 0
 
 

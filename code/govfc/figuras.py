@@ -4,12 +4,15 @@ Claim-map (no figure without a claim):
 
 * ``placar`` -- claim: "of the 57 numbers printed on the infographic, only 2 reproduce from
   public data and 30 do not" (counts read from ``results.json``).
+* ``areas`` -- claim: "in the composite index only the first and the last positions separate
+  under the weight draws; by area, the opening and closing scores of each term" (read from
+  ``indice.json``).
 """
 
 import json
 from pathlib import Path
 
-from govfc.i18n import COLUNAS, DECIMAL, INDICADORES, PLACAR
+from govfc.i18n import AREAS_FIG, COLUNAS, DECIMAL, INDICADORES, PLACAR
 from govfc.svg import Cena
 from govfc.verdict import APROXIMADO, NAO_REPRODUZ, NAO_VERIFICADO, REPRODUZ
 
@@ -192,5 +195,116 @@ def placar(res, lang):
     c.texto(ax, yb + 60, pie, 17, OURO_CLARO, anchor=ah, maxw=W - 80)
     if rtl:
         c.texto(ax, yb + 90, PLACAR["traducao_he"], 15, TEXTO2, anchor=ah, maxw=W - 80)
+    c.descricao = " ".join(desc)
+    return c
+
+
+ORDEM_MANDATOS = ["fhc", "lula12", "dilma", "temer", "bolsonaro", "lula3"]
+ROTULO_INDICE = "__indice__"
+
+
+def carregar_indice():
+    """Parsed ``output/indice.json`` (the sealed composite index)."""
+    return json.loads((RAIZ / "output" / "indice.json").read_text(encoding="utf-8"))
+
+
+def _abre_fecha(vn):
+    """``{(gov, linha): (abertura, fechamento)}`` for the index row and every area.
+
+    The opening year is the year before inauguration (FHC opens in 1995: there is no 1994 index),
+    the closing year is the last year of the term, as in the term candles (``candles_mandato``).
+    """
+    sa = vn["scores_areas"]
+    out = {}
+    for c in vn["candles_mandato"]:
+        a0 = 1995 if c["gov"] == "fhc" else c["anos"][0] - 1
+        a1 = c["anos"][1]
+        out[(c["gov"], ROTULO_INDICE)] = (c["o"], c["c"])
+        for area in vn["areas"]:
+            out[(c["gov"], area)] = (sa.get(str(a0), {}).get(area), sa.get(str(a1), {}).get(area))
+    return out
+
+
+def areas(ind, lang):
+    """Index area scores at the opening and closing of each term (amendment 13 sitting).
+
+    Parameters
+    ----------
+    ind : dict
+        Parsed ``indice.json``.
+    lang : str
+        One of ``pt-BR``, ``en``, ``es``, ``it``, ``he``.
+
+    Returns
+    -------
+    govfc.svg.Cena
+        The scene.
+    """
+    vn = ind["versoes"]["N"]
+    T = {k: (v[lang] if isinstance(v, dict) and lang in v else v) for k, v in AREAS_FIG.items()}
+    nomes = {ROTULO_INDICE: T["indice"]} | {a: AREAS_FIG["areas"][a][lang] for a in vn["areas"]}
+    linhas = [ROTULO_INDICE] + list(vn["areas"])
+    cel = _abre_fecha(vn)
+    W, x0, cw, gap, rh = 1760, 470, 205, 8, 72
+    y0 = 330
+    H = y0 + len(linhas) * (rh + 6) + 150
+    c = Cena(W, H, MARINHO, T["titulo"], "")
+    rtl = lang == "he"
+    ax, ah = (W - 40, "end") if rtl else (40, "start")
+    c.texto(ax, 74, T["titulo"], 44, TEXTO, bold=True, anchor=ah, maxw=W - 80)
+    c.texto(ax, 122, T["subtitulo"], 21, OURO_CLARO, anchor=ah, maxw=W - 80)
+    c.texto(ax, 160, T["leitura"], 19, TEXTO2, anchor=ah, maxw=W - 80)
+    for i, (cor, rot) in enumerate(zip([AZUL, OURO, CINZA], T["legenda"], strict=True)):
+        lx = 40 + i * 520
+        if i < 2:
+            c.circulo(lx + 9, 207, 8, fill=cor, stroke=cor, sw=2)
+        else:
+            c.texto(lx + 9, 213, "—", 18, CINZA, anchor="middle", maxw=20)
+        c.texto(lx + 26, 213, rot, 18, TEXTO, maxw=480)
+    janela = {
+        c["gov"]: (1995 if c["gov"] == "fhc" else c["anos"][0] - 1, c["anos"][1])
+        for c in vn["candles_mandato"]
+    }
+    for j, gov in enumerate(ORDEM_MANDATOS):
+        nome = COLUNAS[gov][lang][0]
+        anos = f"{janela[gov][0]}–{janela[gov][1]}"  # the index window (opening -> closing year)
+        cx = x0 + j * (cw + gap)
+        c.texto(cx + cw / 2, 282, nome, 21, TEXTO, bold=True, anchor="middle", maxw=cw)
+        c.texto(cx + cw / 2, 308, anos, 17, TEXTO2, anchor="middle", maxw=cw)
+    desc = [T["titulo"] + "."]
+    for i, linha in enumerate(linhas):
+        y = y0 + i * (rh + 6)
+        lx, la = (x0 - 20, "end") if rtl else (40, "start")
+        c.texto(
+            lx, y + 44, nomes[linha], 21, TEXTO, bold=linha == ROTULO_INDICE, anchor=la, maxw=400
+        )
+        for j, gov in enumerate(ORDEM_MANDATOS):
+            cx = x0 + j * (cw + gap)
+            ab, fe = cel[(gov, linha)]
+            c.rect(cx, y, cw, rh, fill=SUPERFICIE, rx=8)
+            if ab is None or fe is None:
+                c.texto(cx + cw / 2, y + 44, "—", 22, CINZA, anchor="middle", maxw=cw - 20)
+                desc.append(f"{nomes[linha]}, {COLUNAS[gov][lang][0]}: —.")
+                continue
+            cor = AZUL if fe >= ab else OURO
+            c.texto(cx + 14, y + 30, fmt(ab, 1, lang), 19, TEXTO2, maxw=80)
+            c.texto(
+                cx + cw - 14, y + 30, fmt(fe, 1, lang), 21, cor, bold=True, anchor="end", maxw=90
+            )
+            tx0, tx1, ty = cx + 14, cx + cw - 14, y + 54
+            c.linha(tx0, ty, tx1, ty, CINZA, sw=1)
+            px = tx0 + (tx1 - tx0) * ab / 100
+            qx = tx0 + (tx1 - tx0) * fe / 100
+            c.linha(px, ty, qx, ty, cor, sw=4)
+            c.circulo(px, ty, 5, fill=MARINHO, stroke=cor, sw=2)
+            c.circulo(qx, ty, 5, fill=cor, stroke=cor, sw=2)
+            par = f"{fmt(ab, 1, lang)} -> {fmt(fe, 1, lang)}"
+            desc.append(f"{nomes[linha]}, {COLUNAS[gov][lang][0]}: {par}.")
+    yb = y0 + len(linhas) * (rh + 6) + 30
+    c.texto(ax, yb, T["rodape"], 17, TEXTO2, anchor=ah, maxw=W - 80)
+    pie = f"SHA-256: {selo_curto()} · {URL_REPO} · CC BY 4.0"
+    c.texto(ax, yb + 30, pie, 17, OURO_CLARO, anchor=ah, maxw=W - 80)
+    if rtl:
+        c.texto(ax, yb + 60, PLACAR["traducao_he"], 15, TEXTO2, anchor=ah, maxw=W - 80)
     c.descricao = " ".join(desc)
     return c

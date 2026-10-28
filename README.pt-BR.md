@@ -2,12 +2,12 @@
 
 # Raio-X do Brasil por Governo
 
-**57 números de um infográfico viral sobre oito governos brasileiros, conferidos um a um contra dados públicos sob uma regra fixada em código; depois, o raio-X do que ele deixou de fora: 102 séries com cadeia de hash desde 1964, um índice pré-registrado de condições de vida e a literatura revisada por pares sobre cada episódio. Sem nota de mérito.**
+**57 números de um infográfico viral sobre oito governos brasileiros, conferidos um a um contra dados públicos sob uma regra fixada em código; depois, o raio-X do que ele deixou de fora: 103 séries com cadeia de hash desde 1964, um índice pré-registrado de condições de vida e a literatura revisada por pares sobre cada episódio. Sem nota de mérito.**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23604103.svg)](https://doi.org/10.5281/zenodo.23604103)
 ![license: Apache-2.0 + CC BY 4.0](https://img.shields.io/badge/license-Apache--2.0%20%2B%20CC%20BY%204.0-blue)
 ![python](https://img.shields.io/badge/python-3.11%20%7C%203.12-informational)
-![tests](https://img.shields.io/badge/tests-117_passing-success)
+![tests](https://img.shields.io/badge/tests-120_passing-success)
 ![reproducible](https://img.shields.io/badge/reproducible-SHA--256_chain-success)
 
 [English](README.md) · [Português](README.pt-BR.md) · [Español](README.es.md) · [Italiano](README.it.md) · [עברית](README.he.md)
@@ -35,8 +35,8 @@
 | Reproduzem / aproximam / não reproduzem / não verificados | 2 / 19 / 29 / 7 |
 | Meses de 1964-2026 que o infográfico omite | 257,6 de 750,1 (34,3%) |
 | Observações curadas / indicadores / quebras de método | 26.490 / 279 / 229 |
-| Itens do índice / indicadores do terminal / estudos Q1 na camada de literatura | 39 / 102 / 38 |
-| Emendas datadas ao pré-registro | 0 |
+| Itens do índice / indicadores do terminal / estudos Q1 na camada de literatura | 39 / 103 / 43 |
+| Emendas datadas ao pré-registro | 13 |
 | Dependências em tempo de execução | nenhuma (biblioteca padrão do Python, 3.11+) |
 
 ## Início rápido
@@ -64,11 +64,11 @@ Cada célula mostra o número impresso acima e o número reproduzido abaixo, com
 
 ## Além do infográfico: as camadas acrescentadas
 
-Tudo abaixo foi pré-registrado e selado na cadeia de hash antes de ser calculado (0 emendas datadas, nunca reescritas, em `data/raw/preregistro/`); as regras estão em `docs/pt-BR/METHODOLOGY.md`, seções 11 a 16.
+Tudo abaixo foi pré-registrado e selado na cadeia de hash antes de ser calculado (13 emendas datadas, nunca reescritas, em `data/raw/preregistro/`); as regras estão em `docs/pt-BR/METHODOLOGY.md`, seções 11 a 16.
 
 1. **Um índice composto de condições de vida** (39 itens em 13 áreas, `output/indice.json`): cada item entra só com direção de leitura estabelecida em artigo de quartil 1, pontuado contra balizas congeladas 1995-2024, com pesos iguais declarados, cenários publicados e 10.000 sorteios de pesos. Descreve as condições durante cada mandato; não ranqueia mérito.
-2. **Um terminal de 102 indicadores em 19 domínios** (`output/terminal.json`, página `output/raio-x.html`), uma base homogênea por célula, duas bases desenhadas como duas linhas e nunca emendadas, e uma leitura por mandato em três camadas separadas: o índice, Brasil menos América Latina na mesma fonte e a grade "início -> fim".
-3. **Uma camada de literatura** (23 episódios, 4 rodadas publicadas, 38 estudos, `output/literatura.json`): o que estudos revisados por pares de quartil 1 com desenho de identificação nomeado mediram sobre cada episódio, achados por um protocolo de busca selado antes de buscar, toda obra devolvida listada com o motivo da exclusão, sem nota e sem veredito.
+2. **Um terminal de 103 indicadores em 19 domínios** (`output/terminal.json`, página `output/raio-x.html`), uma base homogênea por célula, duas bases desenhadas como duas linhas e nunca emendadas, e uma leitura por mandato em três camadas separadas: o índice, Brasil menos América Latina na mesma fonte e a grade "início -> fim".
+3. **Uma camada de literatura** (27 episódios, 5 rodadas publicadas, 43 estudos, `output/literatura.json`): o que estudos revisados por pares de quartil 1 com desenho de identificação nomeado mediram sobre cada episódio, achados por um protocolo de busca selado antes de buscar, toda obra devolvida listada com o motivo da exclusão, sem nota e sem veredito.
 4. **Dívida externa e o custo da dívida pública** (`data/raw/externo-fase3/`): os dois conceitos de dívida externa bruta do Banco Central mostrados separados, a sua razão de dívida líquida descontinuada mostrada como publicada e nunca prolongada, e os juros nominais e o resultado nominal do setor público; nenhum valor líquido de 2026 é calculado porque o indicador oficial deixou de existir.
 
 ## O que se afirma e o que não se afirma
@@ -112,7 +112,7 @@ Cite o concept DOI 10.5281/zenodo.23604103 (resolve sempre para a versão mais r
   author  = {Flores, Carlos Ulisses},
   title   = {Brazil X-Ray by Government: hash-chained public data to check a viral infographic and compare what it omits},
   year    = {2026},
-  version = {1.0.0},
+  version = {1.0.1},
   url     = {https://github.com/ulissesflores/brazil-governments-factcheck},
   doi     = {10.5281/zenodo.23604103}
 }

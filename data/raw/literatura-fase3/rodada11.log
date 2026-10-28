@@ -1,0 +1,18 @@
+== selo EMENDA-12/13 2026-10-25T15:37:20Z
+{"arquivo": "PREREGISTRATION-EMENDA-12.md", "bytes": 4436, "http_status": null, "nota": "metadata reconstruida (timestamp = mtime). EMENDA-12: episodios 24-27 na camada de literatura (autonomia do BC, regras fiscais, imprensa, poderes), rodada 11; selada antes de qualquer consulta", "sha256": "c5da64e9ee2b234ed1ffcfc56a84ba716be19c49dd85d099f2bf6984773fc2e8", "timestamp_utc": "2026-10-25T15:35:26Z", "url": "", "seq": 15, "prev_hash": "9ad14e12c5e13923b67b1e635e0b69b93c8099538978703de613c09b345c92e2"}
+{"arquivo": "PREREGISTRATION-EMENDA-13.md", "bytes": 2793, "http_status": null, "nota": "metadata reconstruida (timestamp = mtime). EMENDA-13: v2x_freexp_altinf (V-Dem v16) entra como contexto no terminal, nao pontua; pos-hoc declarado", "sha256": "62c2d6322ab92aa109bfad600d8ec5f1f365fe6ca9dabcc4fdba6eb38819f768", "timestamp_utc": "2026-10-25T15:35:43Z", "url": "", "seq": 16, "prev_hash": "d0a5be997fafb6e6f64b5794e026f03bd650a1429f456406773e471e5ba3c8d8"}
+16 lines; head d3864521da6c780558cb79fa9128276d7312574026c39603bcef407d6f3037fe; OK
+== rodada 11 2026-10-25T15:37:20Z
+{
+ "sem DOI": 2909,
+ "sem resumo no OpenAlex nem no Crossref": 160,
+ "quartil Q2": 529,
+ "sem desenho declarado no resumo": 524,
+ "quartil Q4": 233,
+ "periódico fora do SJR 2024": 2625,
+ "quartil Q3": 329,
+ "não é sobre o Brasil": 119,
+ "incluido": 43,
+ "quartil -": 16
+}
+== fim 2026-10-25T15:38:22Z rc=0

@@ -4,6 +4,16 @@ Format: Keep a Changelog; versioning: SemVer. 1.0.0 is the first release and the
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-28
+
+Concept DOI 10.5281/zenodo.23604103 (unchanged); this release mints a new version DOI that supersedes 1.0.0, which archives the text with the external-debt error corrected below.
+
+### Added
+* **Literature round 11 (amendment 12, 2026-10-25).** Four institutional episodes (central bank independence, fiscal rules as a class, press freedom, judicial independence) under the same sealed protocol: 54 queries, 7,487 distinct works, 43 included (1, 4, 1 and 0 for the new episodes). The editor's hypothesis that central bank autonomy and spending limits "keep things from getting worse" is recorded in the amendment and is neither asserted nor tested here: only included studies speak.
+* **Press and expression freedom (V-Dem v2x_freexp_altinf, amendment 13) as a CONTEXT series in the terminal**, with the published uncertainty bounds, derived from the already-sealed v16 file. It does not score in the index: it was chosen after the index was published, which is what the pre-registration forbids for a scoring item.
+* **Figure `areas`:** index area scores at the opening and closing of each term, in five languages, read from `output/indice.json`.
+* **The texts of the 13 dated amendments and of the phase-2 pre-registration are now redistributed in `data/raw/preregistro/`** (they were hash-only in 1.0.0; the hashes in `manifest.jsonl` are unchanged, so every text can be checked against the seal of 2026-10-23).
+
 ### Fixed
 * **Correction (2026-10-24).** The external debt layer, the page and section 15 of the methodology stated that the Central Bank had no official 2026 value of net external debt under any concept and that the October 2026 headline ("Brazil is a net debtor again") computed "gross debt minus reserves". Both statements were wrong. The level series SGS 3685 (gross restricted debt minus reserves, Brazilian credits abroad and commercial banks' assets abroad: column M of Table 31) is still published, matches Table 31 on every overlapping quarter, and reads +US$ 5.08 billion in 2026-06, the first positive value since 2007-09; the headline quoted that official number, and its "US$ 402 billion of reserves" is the set of assets the Central Bank subtracts, not cash reserves (US$ 367.6 billion). Added the series to the collection (`externo-fase3`, chain line 23), the indicator `divext_liquida` to the terminal, four tokens to the methodology in five languages and the tests that pin the values. December 2025, published as an estimate of -17.2 in the January note, is -8.7 in the series.
 

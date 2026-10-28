@@ -1,6 +1,6 @@
 # Hash chain
 
-chain_hash: `ec447a1bed43bf6bc3c2701eb846a3b27a05de5edaf2e5333e5d44edd4cfafdf`
+chain_hash: `5daf4d48b045fd8d547e1aba66eadee000036d53983c29006071dacf2f1456bc`
 
 | file | sha256 |
 |---|---|
@@ -11,16 +11,16 @@ chain_hash: `ec447a1bed43bf6bc3c2701eb846a3b27a05de5edaf2e5333e5d44edd4cfafdf`
 | `code/govfc/chain.py` | `a37b2195839b53095af8db99593797896bf0f498151ac86486dac281856cbea5` |
 | `code/govfc/curate.py` | `35d69a4d3b0c260fa71f6d6faa1340310581d215b2ab89cb47ba87702a494053` |
 | `code/govfc/dinamica.py` | `6f534ae95d2e224d82c844d5e372afe444d59e9244b749e04810ddb795be0574` |
-| `code/govfc/explica.py` | `f728ed5dcb1016472f7471f834d1b3a867a4bd9a5de85be08c4d14e067bdd52f` |
-| `code/govfc/figuras.py` | `23ac08cc61f1154287668526fd9a82a05628b977130b964c5f7612d9f204880e` |
-| `code/govfc/i18n.py` | `c247356f1c346f9d9301b5653ccb2d9601ead173814cf3c956ab039715f1ba81` |
+| `code/govfc/explica.py` | `51bc9b3632a7b7215d2606e123fa3a75123ef8441479109ef27d1b0665980adf` |
+| `code/govfc/figuras.py` | `8deabcdc7a4af68ceca7a19a5a483a5743553e1f861104e339f3fb1bb744867e` |
+| `code/govfc/i18n.py` | `ea6e76106cb3914a50c1311cb39c972e02cd21c2fdb8b05f820f0e04aadbea40` |
 | `code/govfc/indice.py` | `5d5d3db0e18b900eefd6e960c1db02781ee3d731d54d718c73e0e30a1b3bfe09` |
-| `code/govfc/literatura.py` | `b1599d2190a0e65460c7182850c79211f1d381580b9a5edb5d0793ab2c2460d7` |
+| `code/govfc/literatura.py` | `0f21ac3bf6f86bca53ca6612cf35a615c14ad32eea46b675ffe7737d55f7906c` |
 | `code/govfc/mandatos.py` | `ef51b1e39fd55fc7ab333583c27aca3ca9862e6954f5a7dd7945807969d5cfbc` |
 | `code/govfc/medidor.py` | `c2286888727da8c2ced6f12a35c2ee640eaaa4e433aec01941d0b52e5f804fe2` |
 | `code/govfc/mundo.py` | `77d98028324a75b48d2f068d887e811aae30bd2b57a00e60ca247b3b6be009f5` |
 | `code/govfc/svg.py` | `ff792b43e935c58d179f20fc1619e2a9504120882b43392ac3d4625ed4a6cfcb` |
-| `code/govfc/terminal.py` | `80dd8d7fc585d71f468db91150b2acb1b0fc2c487486811ec42d217700bd91ab` |
+| `code/govfc/terminal.py` | `b97bc14f0710896b437d3c530572751e97b304e9eb34e722a003f9bcb5e1d18b` |
 | `code/govfc/verdict.py` | `fd416fcb0c3c6b5c19e86dcb81000e517db067ffcc020f277a9d04ec489393ff` |
 | `data/curated/indicators.csv` | `b64a81942c73edef743811f2f5f143a26396fcb106f34bc06145b7ddf563d449` |
 | `data/curated/mandatos.csv` | `5a7580ee69ff5d787e99be8a54d06fc678d4b5541a623fe6781b1831a5408cc6` |
@@ -394,17 +394,27 @@ chain_hash: `ec447a1bed43bf6bc3c2701eb846a3b27a05de5edaf2e5333e5d44edd4cfafdf`
 | `data/raw/ipca-itens-fase2/series/ipca_plano_saude_var_mensal_sidra655.csv` | `df01349442bb9d013bcfe32f8a11846d0d22b825e6b8b63b71864afbff4e3b8a` |
 | `data/raw/ipca-itens-fase2/series/ipca_plano_saude_var_mensal_sidra7060.csv` | `26fba8efbef1e4d128be6574b7c717354065e77a4fad63b7caed0424c2dfb39d` |
 | `data/raw/literatura-fase3/RESULTADO.md` | `aeb9722f10c063152031863a20089e7a8e0ad0ee318c3e1d9e40931b4a64f38a` |
-| `data/raw/literatura-fase3/coletar.py` | `1c6b923e68a452904f729e1581cf5d3eb465ab0201dfc85340db6d4181f93740` |
-| `data/raw/literatura-fase3/manifest.jsonl` | `1725b6661ba6162e9d644361a0fb4c367b271ced48fb8f39ddeb02bcad42484a` |
+| `data/raw/literatura-fase3/coletar.py` | `bfd403fb75f886d12e16ce5f76b0f7081e933e30aba208372c024d8f168c8da1` |
+| `data/raw/literatura-fase3/manifest.jsonl` | `da8ac4f1b497231026493b55357f5b72ac7157783fa3f6de981a4a04167516f0` |
+| `data/raw/literatura-fase3/rodada09d.log` | `d8f9e17e6e38e21ef64f995b8decbdcde99adc033104d35e4cc11c9796da16a7` |
+| `data/raw/literatura-fase3/rodada10.log` | `d51e5b004b86ee6d5433758d6591560f626d7d695f1c0eca1b019cc105854512` |
+| `data/raw/literatura-fase3/rodada11.log` | `6a3c528ecc22320f49abb046eabdc14380e6d47b4907a8194382a6fb438ab998` |
+| `data/raw/literatura-fase3/series/emenda07/RESULTADO-emenda07.md` | `10564500f0e9b06f99ea01e71a44b981d81b89d3cfc77643a4405056f7792b7b` |
 | `data/raw/literatura-fase3/series/emenda07/episodios.csv` | `635f7f07380b3c3e62ce955ca3499333c9e77cec4131ca5e84970240949025a6` |
 | `data/raw/literatura-fase3/series/emenda07/literatura_incluidos.csv` | `0b956fd545a5816da8761216bf49084a16a1add0675504d56922c654e76b0270` |
 | `data/raw/literatura-fase3/series/emenda07/literatura_todos.csv` | `82ebddb80714bfa0c95c2200df0eebf12f273e28ca557293e55f837cb5f4fb9b` |
+| `data/raw/literatura-fase3/series/emenda08/RESULTADO-emenda08.md` | `f7b3bbd14d7a05d751b3ce7f76a627a013e6fb75ef5432983c90ef3683a93176` |
 | `data/raw/literatura-fase3/series/emenda08/episodios.csv` | `d14cd872ed550869123e367d364be77eac9e087f6766b55f092f4bf847bbe47b` |
 | `data/raw/literatura-fase3/series/emenda08/literatura_incluidos.csv` | `3bc0c931f6277460f0418bea2aeb02fd657eb185c5044684b588c53010d4211a` |
 | `data/raw/literatura-fase3/series/emenda08/literatura_todos.csv` | `c96f7bc6b1e87ecf92b611490e7db7bdce628cf8057b3db45146c8a864eee7c6` |
+| `data/raw/literatura-fase3/series/emenda10/RESULTADO-emenda10.md` | `508a969e4274735b835974b1e580c8c219bc8d124507c0cba8cf1f0618bfa936` |
 | `data/raw/literatura-fase3/series/emenda10/episodios.csv` | `aaa8670b585c5f310005190f043cc08e5747091fa5e0eba3ae9226c38398a72d` |
 | `data/raw/literatura-fase3/series/emenda10/literatura_incluidos.csv` | `f266717b8b4b540db18210763b20a9c1faf7c46041c3e04729996469cb1cb5f4` |
 | `data/raw/literatura-fase3/series/emenda10/literatura_todos.csv` | `685c710f4b3e352da8585dd54b9d6e547bbfc3d349f8d9426d3a28be560cccba` |
+| `data/raw/literatura-fase3/series/emenda11/RESULTADO-emenda11.md` | `62b47c1536db7d21910701ca7def3db083312d8750b2ca9128412b9e21577c74` |
+| `data/raw/literatura-fase3/series/emenda11/episodios.csv` | `44cdc0572ade48d0c04c801600adfab200434131c79d203f24d313d9a8609123` |
+| `data/raw/literatura-fase3/series/emenda11/literatura_incluidos.csv` | `dbe7531c900bc37f8378e241eb9ea87250ba422cc80d85ebabb2154b470a7918` |
+| `data/raw/literatura-fase3/series/emenda11/literatura_todos.csv` | `79d1feac7b6fa1821c127241f1080d098acae4da8cdf84356688e0f8b9ddabc9` |
 | `data/raw/literatura-fase3/series/episodios.csv` | `6809fad8b071da9d1bf2a6a56de132131b53546a7747885f9e4c7a291a2e962f` |
 | `data/raw/literatura-fase3/series/literatura_incluidos.csv` | `04c0009069286b77c8f3cae8a3c2bd593f31c978950736090bdccebefa01c2d1` |
 | `data/raw/literatura-fase3/series/literatura_todos.csv` | `1606137457302891189776f1f4d915db9eeff7f6633216bac42eeb4e643cf747` |
@@ -1534,8 +1544,22 @@ chain_hash: `ec447a1bed43bf6bc3c2701eb846a3b27a05de5edaf2e5333e5d44edd4cfafdf`
 | `data/raw/porquinho/scripts/quebras_gerar.py` | `47244fac8971c2aea4804e0c650f957bdc8b859bce4a43f2e3d8bd358c728e02` |
 | `data/raw/porquinho/series/porquinho.csv` | `64bd42139a53bbd251517826deb7182511db1ec8337ac24c17f04fbcd6ea043a` |
 | `data/raw/porquinho/series/porquinho_por_governo.csv` | `65d4883f3c6afd638a54539adea21643f74a675674c824154e0b20a85cfd52db` |
+| `data/raw/preregistro/PREREGISTRATION-EMENDA-01.md` | `360a30455124b5f029c9b20c5838d68b6cb76a356e4796b9fc402f83278e32cd` |
+| `data/raw/preregistro/PREREGISTRATION-EMENDA-02.md` | `86be29f66f836a24ba75d48d3f3718c813ea1346d5bacc3877bf7b1084c6cab9` |
+| `data/raw/preregistro/PREREGISTRATION-EMENDA-03.md` | `9c66cde852b2ecba805353157984c0d0cf7cf2f74e9a393fe361cb8f4abf46b3` |
+| `data/raw/preregistro/PREREGISTRATION-EMENDA-04.md` | `5ea2169a8728f434cd0f97c555f11161a254304a39d35b7863085b9e7f5720c9` |
+| `data/raw/preregistro/PREREGISTRATION-EMENDA-05.md` | `96a60c474557598d8f28eebbb073e257f1c828a05ec1af9e6bfadc932203242d` |
+| `data/raw/preregistro/PREREGISTRATION-EMENDA-06.md` | `cc06d58ae360e17491abb160c8a28257a73a85200dff24647174d91ee3e16cd0` |
+| `data/raw/preregistro/PREREGISTRATION-EMENDA-07.md` | `d206b6d6d65d332aa1c1b5783d68ce9c0cdb50d2e78d28bfbdaa71e067ff54a5` |
+| `data/raw/preregistro/PREREGISTRATION-EMENDA-08.md` | `a32cc6d4974683a094b9da9dbe7b7c4ce9563187970359f239cf923b3ae3b858` |
+| `data/raw/preregistro/PREREGISTRATION-EMENDA-09.md` | `c82475619e35c051025c18b20ad0765d111bfa1ddf25f9e75d420456d59ebbd1` |
+| `data/raw/preregistro/PREREGISTRATION-EMENDA-10.md` | `e07bd6a4d42c758b479870718b5fcd93047c5f5be258e462e6c2ca97cf4494c8` |
+| `data/raw/preregistro/PREREGISTRATION-EMENDA-11.md` | `df7cb3fe4696f05918d5b830e617731c408e1cc88cec0257f010f22600c760f8` |
+| `data/raw/preregistro/PREREGISTRATION-EMENDA-12.md` | `c5da64e9ee2b234ed1ffcfc56a84ba716be19c49dd85d099f2bf6984773fc2e8` |
+| `data/raw/preregistro/PREREGISTRATION-EMENDA-13.md` | `62c2d6322ab92aa109bfad600d8ec5f1f365fe6ca9dabcc4fdba6eb38819f768` |
+| `data/raw/preregistro/PREREGISTRATION-FASE-2.md` | `391697237c13f1fe7d0b2777c3704e0d17d1d58e4bf07df69349739a4dc56399` |
 | `data/raw/preregistro/PREREGISTRATION.md` | `f1545d13f2743f9fe8142241b1a7cb0c493564011c77907430ce08db3a9ba17b` |
-| `data/raw/preregistro/manifest.jsonl` | `6f3935fee2dede7777a1b2fa528d6bf7f5a78dfe35b0f30656639d63cbe1692e` |
+| `data/raw/preregistro/manifest.jsonl` | `4e278cae1a971736f09c32e16a34a23e8176b7b6fe83cb9e57acbd4e3d4c6183` |
 | `data/raw/produtos/RESULTADO.md` | `d28f1bb001ba82f0caebaf983c3b92dd5bfb974be71d35a39425c586ccd52a53` |
 | `data/raw/produtos/bruto/anp/ipeadata-ANP_PRGASOL-raw.json` | `d839eb62677089c3139c0a324d6b6809379a096eeba7e1d7ac7ced4f0c5dd2d6` |
 | `data/raw/produtos/bruto/anp/ipeadata-ANP_PRGLP-raw.json` | `a08085fa0e94684d1639395715416540ad55acaf2b426afb4a81d73061557ba2` |
@@ -2208,30 +2232,31 @@ chain_hash: `ec447a1bed43bf6bc3c2701eb846a3b27a05de5edaf2e5333e5d44edd4cfafdf`
 | `data/raw/tributos-estado/series/tesouro-ctb-governo-geral-por-boletim.csv` | `aa1eaea2bacc594293a4cbbcdb81fae2103536073e257341f52a30ea6f9ee227` |
 | `data/raw/tributos-estado/series/tesouro-dividendos-2015-2020.csv` | `6d91c63c79b3d7555d49cee733034f7967660cb28fca60dfde7a9e54d19cbbdd` |
 | `data/raw/vdem-fase2/RESULTADO.md` | `a0bd3b76bac70be5404b62b2dc14dbcc900272e74a9949e0830b537f4e50d368` |
-| `data/raw/vdem-fase2/gerar_series.py` | `4c39df85fdf4bca6b615f8af2586a53e50ebaa040782a078135d6558e6ad92e6` |
+| `data/raw/vdem-fase2/gerar_series.py` | `80e960d3d395783fd53337199a32a19e882e3f52e3647a13402135fdf9e0d613` |
 | `data/raw/vdem-fase2/manifest.jsonl` | `0573f01dbd4436b0f181b3b17421ee66caabb1d87ae0c8016df8f29214a5c098` |
 | `data/raw/vdem-fase2/quebras.csv` | `82914404df2337e07a46e5726ec18477edea5b28b20427701f8e5cdcba4e7c74` |
-| `data/raw/vdem-fase2/series/vdem_brasil_v16.csv` | `63e42d8672e98031c5df807ef0a01fd528a937d64add906a97ba54f273a6d68c` |
-| `docs/en/METHODOLOGY.md` | `121201ec41121d13d6185d4a290abfee9e4a106efd4fbe817adc263559c692b3` |
-| `docs/es/METHODOLOGY.md` | `98dc7b3cef0aefb0bc9e3467bcfd2ec9a27735345bd9c79d2f39dca241050a37` |
-| `docs/he/METHODOLOGY.md` | `f4eb0e63d250de6719e3fa773f1bdfbb10207d6520ad01af90cd0f0a04609142` |
-| `docs/it/METHODOLOGY.md` | `c444d70ce995936173a797d14e9688ed664c577dd63ea325a62d90e9802bc669` |
-| `docs/pt-BR/METHODOLOGY.md` | `7980e633fff755ba25fa8e8d0dc562a7a4e9448e9d8d3ce1f736f7e8acb720b0` |
+| `data/raw/vdem-fase2/series/conferencia-saida.txt` | `4bd12b1bc187b284066bc5fc0b56a784d10ad896500be9c4aea56d6a564d6f86` |
+| `data/raw/vdem-fase2/series/vdem_brasil_v16.csv` | `eaf79715abaf5aefee7dadf1c00f715e4dcde29d1e8f4b5edc80c1fbd3f863c5` |
+| `docs/en/METHODOLOGY.md` | `50e158e6059ba3d644792431c975e30b1b5e07d5e8c8901bd82fc334fa59e33a` |
+| `docs/es/METHODOLOGY.md` | `3f727817f9b448b73599a95eb41cb69bcc059dced6594c530588e7b0e7e6d87f` |
+| `docs/he/METHODOLOGY.md` | `bd1984d42f36a7c9c37d2455802eac2697d5e3620bd701806df21752487dfbfe` |
+| `docs/it/METHODOLOGY.md` | `447cdcbe68bffffff2a53477a703cc842b8134a5a827e50345287bb024612c2d` |
+| `docs/pt-BR/METHODOLOGY.md` | `d68d6734afdc4dfc91987f0c4c028fdf464cf11fe55d3b1b28ba3d91d079399a` |
 | `docs/references-q1.bib` | `57491dab72800d40e5725440f135c14d8322eb4da42c9b2587e428ef1b0174e2` |
 | `docs/references.bib` | `558ded10ca7749427d5e02bce6a15cda81b6beff9399ad2fe1c30627667b5870` |
 | `make_provenance.py` | `8df5cc21c2fd84c8e4b72b223c8eee4db225f6a061ad2a40cb63f25ab7bcb680` |
-| `output/auditoria.json` | `0eeb566241adaeab64bfcb5e4d717b4ba8fd38a56098594efdcf6edebe22ca33` |
+| `output/auditoria.json` | `fa54af291a9d7a537e01774281ca19d3a246e21a012abd2e459301d6b17ad487` |
 | `output/dinamica.json` | `e2e874e8ef37b20e3c7a45b8d3f5bc4e15af2aa9c774c6711d023062d3439026` |
 | `output/indice.json` | `7369aa7287dc79d1b623d80e38e957c2e7016877465421bcf206eb402542b140` |
-| `output/literatura.json` | `da813ba569c74d953fad972d2d6d9cfaa4fde2d14305281e94699461f92dd986` |
+| `output/literatura.json` | `d3cac57b0498749d3abc8a8c0ebc7395f8d1a355c9078bf16f81171b22300004` |
 | `output/mundo.json` | `1226ae53152f25a60c2e2f9dd966c792edaf008ff5c1932e8ea7cc300a8bcd00` |
 | `output/results.json` | `3f2209756f340174245071077a476afc87e93f6de1d950798d4034bd8d586804` |
 | `output/series.json` | `135f459812d6c9483fdecf9334fdc5551cdf9d9e265d1bd419c0d22464150b0e` |
-| `output/terminal.json` | `9044b6ae4583662b096df360030ec7930547f643a89a35635e88a8a6b30ea2ab` |
+| `output/terminal.json` | `4c00cd691555c00c3df618d75449a4f831622f0664563f001e28326ea2404890` |
 | `run_all.py` | `c519a1802837084ef76bd01171130798bd75ea6a978c62946343553b1542520d` |
 | `scripts/build_page.py` | `d679574f1f56fc1dedd6b8da856094375b002839e280aaae48e562f0cf84e77b` |
 | `scripts/make_docs.py` | `b7fa55d620f33722e4b9813d1d6161e5ad080e1764840fa7f71e28b49261d38c` |
-| `scripts/make_figures.py` | `021d233f9758c726cb28829fd5be016300c8ab71550b34be15d88eac4c8200e1` |
+| `scripts/make_figures.py` | `ccb4eaac9943776ad1326e79815fcec3b0461cfbf33479ddd0fc7a03866874cb` |
 | `scripts/prune_evidence.py` | `74e3f1cdd205ca4fc8003c43dd70fbab247e3e1cf7aa00897eabab743f1fa870` |
 | `tests/test_auditoria.py` | `7e344a8a26cbc4df8e674a831777fae10cb62cc8b29fa9bdf4876073147376c9` |
 | `tests/test_chain.py` | `435fb78d0f2c155077706256a393654be550cbba49fbbcf3ac325f37d2ae3c4f` |
@@ -2240,16 +2265,16 @@ chain_hash: `ec447a1bed43bf6bc3c2701eb846a3b27a05de5edaf2e5333e5d44edd4cfafdf`
 | `tests/test_docs.py` | `7b435bee66dee259b8fb651d0aacfc0d8b9d97f13fdbfaacbb2713d028910b94` |
 | `tests/test_estado.py` | `5db1f323e8fc69d90a196db931df8003b3381568b35278fe0d3849dd9826370a` |
 | `tests/test_externo.py` | `d594e34de145062262b45e444a564ca3660b51311c7c7f2798323711af2dfece` |
-| `tests/test_figures.py` | `e93d4a96d40514d03604a76c8e97c7e6161bfc0aee416a5407a3ac5cf3dbb270` |
+| `tests/test_figures.py` | `5ef516f7db95e7f3a3498e3a01c5fc63dac6eb230fa703ab4f323797625d0382` |
 | `tests/test_indice.py` | `b76a6952635649bbefc03f967fde91be9abfb0045ade315b683b1aa38343e9d8` |
-| `tests/test_literatura.py` | `bd611d0eece0f67599f20f0a9f56df9a139aa86953252f73fa33d310da0a2e51` |
+| `tests/test_literatura.py` | `b678c0393d91ea83a25e2206a55ea9b860c2b47686255d07cf89d345607e40de` |
 | `tests/test_mandatos.py` | `798a2c3c6a39b644b4a3481cb006d220033d5c099e0f7addba7f25436dc25b87` |
 | `tests/test_mundo.py` | `5a0f97137494caa92c0b208b477ba096497aadff69d80034af8d84212ec3b338` |
 | `tests/test_numeros_publicados.py` | `fb51ab1a64da0b53b6d505a0fbfb8c89d0b0e28c4ece72900954f62ab8326de7` |
 | `tests/test_references.py` | `d645d747cb63bbcb94588d435bb1918db63c614adcd40acd817289f932044bf7` |
-| `tests/test_terminal.py` | `545970984ee76240a7b50ed6e995fa3c6bba8ea35e3c33258785afff99ad92f5` |
+| `tests/test_terminal.py` | `0f4a5e97b2a21eee481dd970c0775091bd6969c7c4b24e9a5af24d1126a3edcb` |
 | `tests/test_verdict.py` | `16731afc2ec61409a833742b37e9206c70d00aa54dddd8e12532a66611f02eb3` |
 
 ## Informational (NOT hashed)
 
-- Python 3.15.0 on Darwin
+- Python 3.12.12 on Darwin

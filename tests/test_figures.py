@@ -54,3 +54,33 @@ def test_all_hebrew_strings_start_with_a_hebrew_letter_or_rlm():
         if tem_hebraico(t):
             primeiro = next((c for c in t if c.isalpha()), "")
             assert "֐" <= primeiro <= "׿" or t.startswith("‏"), t
+
+
+IND = figuras.carregar_indice()
+
+
+@pytest.mark.parametrize("lang", LINGUAS)
+def test_areas_labels_fit(lang):
+    assert medidor.estouros(figuras.areas(IND, lang)) == []
+
+
+def test_areas_cells_come_from_the_index_and_only_the_extremes_separate():
+    vn = IND["versoes"]["N"]
+    cel = figuras._abre_fecha(vn)
+    cand = {c["gov"]: c for c in vn["candles_mandato"]}
+    for gov in figuras.ORDEM_MANDATOS:
+        assert cel[(gov, figuras.ROTULO_INDICE)] == (cand[gov]["o"], cand[gov]["c"])
+    assert cel[("fhc", "Instituições")][0] == vn["scores_areas"]["1995"]["Instituições"]
+    assert cel[("temer", "Instituições")][0] == vn["scores_areas"]["2015"]["Instituições"]
+    rob = {r["gov"]: r for r in vn["robustez"]}
+    assert rob["lula3"]["posicao"] == 1 and rob["fhc"]["posicao"] == 6
+    assert all(rob[g]["fracao_mantem_posicao"] < 0.8 for g in ("dilma", "temer", "bolsonaro"))
+    svg = figuras.areas(IND, "pt-BR").svg()
+    assert "Instituições" in svg and "—" in svg  # Educação and Moradia have no closing score
+
+
+def test_areas_hebrew_strings_start_with_a_hebrew_letter_or_rlm():
+    svg = figuras.areas(IND, "he").svg()
+    for s in re.findall(r">([^<]+)</text>", svg):
+        if tem_hebraico(s):
+            assert s[0] == "‏" or "א" <= s[0] <= "ת", s

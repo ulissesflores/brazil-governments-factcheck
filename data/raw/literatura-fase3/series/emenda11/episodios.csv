@@ -1,0 +1,28 @@
+numero,episodio,mandatos,consulta_en,consulta_pt,total_openalex_en,lidos_en,total_openalex_pt,lidos_pt
+01,Plano Real e estabilização,fhc,Plano Real,Plano Real,5367,200,5367,200
+02,Metas de inflação e câmbio flutuante (1999),fhc,inflation targeting Brazil,metas de inflação Brasil,540,200,239,200
+03,Lei de Responsabilidade Fiscal (2000),fhc,Fiscal Responsibility Law Brazil,Lei de Responsabilidade Fiscal,138,138,1383,200
+04,Bolsa Escola e Bolsa Família (2001-),fhc; lula12; dilma,Bolsa Familia,Bolsa Família,1226,200,2955,200
+05,Valorização do salário mínimo (2005-),lula12; dilma,minimum wage Brazil,salário mínimo Brasil,1056,200,694,200
+06,Boom de commodities e crescimento 2003-11,lula12,commodity boom Brazil,commodities Brasil crescimento,190,190,290,200
+07,Crise de 2008 e resposta,lula12,Brazil 2008 crisis,crise de 2008 Brasil,1048,200,894,200
+08,Minha Casa Minha Vida (2009-),lula12; dilma,Minha Casa Minha Vida,Minha Casa Minha Vida,1724,200,1724,200
+09,BNDES subsidiado e conteúdo local (2008-14),lula12; dilma,BNDES,BNDES,1496,200,1496,200
+10,Desonerações e nova matriz econômica (2011-14),dilma,payroll tax Brazil,desoneração da folha,41,41,101,101
+11,Recessão de 2014-16 e suas causas,dilma; temer,Brazil recession 2015,recessão 2015 Brasil,107,107,73,73
+12,Lava Jato e efeitos econômicos (2014-18),dilma; temer,Lava Jato,Lava Jato,1078,200,1078,200
+13,Teto de gastos (2016),temer; bolsonaro,spending cap Brazil,teto de gastos,37,37,248,200
+14,Reforma trabalhista (2017),temer; bolsonaro,labor reform Brazil,reforma trabalhista,826,200,2218,200
+15,Reforma da Previdência (2019),bolsonaro,pension reform Brazil,reforma da previdência,200,200,919,200
+16,"Pandemia, Auxílio Emergencial e vacinação (2020-21)",bolsonaro,Auxilio Emergencial,Auxílio Emergencial,50,50,408,200
+17,Desmatamento e fiscalização (2004-24),lula12; dilma; temer; bolsonaro; lula3,Amazon deforestation policy,desmatamento Amazônia política,1180,200,119,119
+18,Pix e autonomia do Banco Central (2020-21),bolsonaro,Pix Brazil,Pix Banco Central,80,80,35,35
+19,Arcabouço fiscal (2023),lula3,fiscal framework Brazil,arcabouço fiscal,460,200,189,189
+20,Bolsa Família 2023 e transferências recentes,lula3,cash transfer Brazil 2023,Bolsa Família 2023,18,18,58,58
+21,"Dívida externa, reservas internacionais e vulnerabilidade externa (1994-)",fhc; lula12; dilma; temer; bolsonaro; lula3,external debt Brazil,dívida externa Brasil,379,200,177,177
+22,Acumulação de reservas e quitação com o FMI (2005-2008),lula12,international reserves Brazil,reservas internacionais Brasil,682,200,180,180
+23,Trajetória da dívida pública bruta e custo de carregamento (2014-),dilma; temer; bolsonaro; lula3,public debt Brazil,dívida pública Brasil,937,200,390,200
+24,Autonomia do Banco Central: de fato desde as metas (1999) e de direito pela LC 179 (2021),fhc; lula12; dilma; temer; bolsonaro; lula3,central bank independence Brazil,autonomia do Banco Central,78,78,108,108
+25,"Regras fiscais como classe: LRF (2000), teto de gastos (2016) e arcabouço (2023)",fhc; lula12; dilma; temer; bolsonaro; lula3,fiscal rules Brazil,regras fiscais Brasil,298,200,141,141
+26,Liberdade de imprensa e de expressão (1995-),fhc; lula12; dilma; temer; bolsonaro; lula3,press freedom Brazil,liberdade de imprensa Brasil,354,200,296,200
+27,Independência judicial e separação de poderes (1995-),fhc; lula12; dilma; temer; bolsonaro; lula3,judicial independence Brazil,independência judicial Brasil,140,140,53,53

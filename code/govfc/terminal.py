@@ -720,7 +720,7 @@ DOMINIOS = [
     ("Moradia e infraestrutura", ["agua", "esgoto", "internet"]),
     ("Ambiente", ["desmatamento"]),
     ("Ciência e tecnologia", ["pd", "pesquisadores", "patentes", "eci"]),
-    ("Instituições (V-Dem)", ["libdem", "corrupcao", "legcon", "jucon"]),
+    ("Instituições (V-Dem)", ["libdem", "corrupcao", "legcon", "jucon", "imprensa"]),
     ("Premissas econômicas (camada P)", ["industria", "governo", "abertura", "estatal"]),
     (
         "Estado e tributos",
@@ -1854,6 +1854,38 @@ def construir():
                 nota="item do índice composto: a nota de 0 a 100 usa a série encadeada pela sobreposição medida; aqui cada base é a sua própria linha",
             )
         )
+
+    # Amendment 13 (2026-10-25): press and expression freedom as CONTEXT, outside the index. The three
+    # lines are the V-Dem point estimate and its published uncertainty bounds, newest first = main line.
+    fx = {
+        suf: _longo_ind("vdem-fase2", "vdem_brasil_v16.csv", "v2x_freexp_altinf" + suf)
+        for suf in ("", "_codelow", "_codehigh")
+    }
+    saida.append(
+        ind(
+            "imprensa",
+            "Liberdade de expressão e de imprensa (V-Dem v2x_freexp_altinf)",
+            "0 a 1",
+            "mais",
+            "anual",
+            linhas=[
+                ("V-Dem v16, estimativa pontual", {a: v for a, v in fx[""].items() if a >= 1950}),
+                (
+                    "limite inferior (codelow)",
+                    {a: v for a, v in fx["_codelow"].items() if a >= 1950},
+                ),
+                (
+                    "limite superior (codehigh)",
+                    {a: v for a, v in fx["_codehigh"].items() if a >= 1950},
+                ),
+            ],
+            nota=(
+                "contexto: não pontua no índice (EMENDA-13, 2026-10-25, escolhido depois da publicação do índice); "
+                f"{fx[''][1995]:.3f} em 1995, {fx[''][2022]:.3f} em 2022, {fx[''][2024]:.3f} em 2024, "
+                f"{fx[''][max(fx[''])]:.3f} em {max(fx[''])}; o índice de democracia liberal já contém a liberdade de expressão"
+            ),
+        )
+    )
 
     # Brazil against the pre-registered references (amendment 01 §A), one source per indicator.
     mundo = json.loads((RAIZ / "output" / "mundo.json").read_text(encoding="utf-8"))

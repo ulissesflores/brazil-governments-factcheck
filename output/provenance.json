@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256-chain",
-  "chain_hash": "ec447a1bed43bf6bc3c2701eb846a3b27a05de5edaf2e5333e5d44edd4cfafdf",
+  "chain_hash": "5daf4d48b045fd8d547e1aba66eadee000036d53983c29006071dacf2f1456bc",
   "files": [
     {
       "path": "REPRODUCIBILITY.md",
@@ -32,15 +32,15 @@
     },
     {
       "path": "code/govfc/explica.py",
-      "sha256": "f728ed5dcb1016472f7471f834d1b3a867a4bd9a5de85be08c4d14e067bdd52f"
+      "sha256": "51bc9b3632a7b7215d2606e123fa3a75123ef8441479109ef27d1b0665980adf"
     },
     {
       "path": "code/govfc/figuras.py",
-      "sha256": "23ac08cc61f1154287668526fd9a82a05628b977130b964c5f7612d9f204880e"
+      "sha256": "8deabcdc7a4af68ceca7a19a5a483a5743553e1f861104e339f3fb1bb744867e"
     },
     {
       "path": "code/govfc/i18n.py",
-      "sha256": "c247356f1c346f9d9301b5653ccb2d9601ead173814cf3c956ab039715f1ba81"
+      "sha256": "ea6e76106cb3914a50c1311cb39c972e02cd21c2fdb8b05f820f0e04aadbea40"
     },
     {
       "path": "code/govfc/indice.py",
@@ -48,7 +48,7 @@
     },
     {
       "path": "code/govfc/literatura.py",
-      "sha256": "b1599d2190a0e65460c7182850c79211f1d381580b9a5edb5d0793ab2c2460d7"
+      "sha256": "0f21ac3bf6f86bca53ca6612cf35a615c14ad32eea46b675ffe7737d55f7906c"
     },
     {
       "path": "code/govfc/mandatos.py",
@@ -68,7 +68,7 @@
     },
     {
       "path": "code/govfc/terminal.py",
-      "sha256": "80dd8d7fc585d71f468db91150b2acb1b0fc2c487486811ec42d217700bd91ab"
+      "sha256": "b97bc14f0710896b437d3c530572751e97b304e9eb34e722a003f9bcb5e1d18b"
     },
     {
       "path": "code/govfc/verdict.py",
@@ -1564,11 +1564,27 @@
     },
     {
       "path": "data/raw/literatura-fase3/coletar.py",
-      "sha256": "1c6b923e68a452904f729e1581cf5d3eb465ab0201dfc85340db6d4181f93740"
+      "sha256": "bfd403fb75f886d12e16ce5f76b0f7081e933e30aba208372c024d8f168c8da1"
     },
     {
       "path": "data/raw/literatura-fase3/manifest.jsonl",
-      "sha256": "1725b6661ba6162e9d644361a0fb4c367b271ced48fb8f39ddeb02bcad42484a"
+      "sha256": "da8ac4f1b497231026493b55357f5b72ac7157783fa3f6de981a4a04167516f0"
+    },
+    {
+      "path": "data/raw/literatura-fase3/rodada09d.log",
+      "sha256": "d8f9e17e6e38e21ef64f995b8decbdcde99adc033104d35e4cc11c9796da16a7"
+    },
+    {
+      "path": "data/raw/literatura-fase3/rodada10.log",
+      "sha256": "d51e5b004b86ee6d5433758d6591560f626d7d695f1c0eca1b019cc105854512"
+    },
+    {
+      "path": "data/raw/literatura-fase3/rodada11.log",
+      "sha256": "6a3c528ecc22320f49abb046eabdc14380e6d47b4907a8194382a6fb438ab998"
+    },
+    {
+      "path": "data/raw/literatura-fase3/series/emenda07/RESULTADO-emenda07.md",
+      "sha256": "10564500f0e9b06f99ea01e71a44b981d81b89d3cfc77643a4405056f7792b7b"
     },
     {
       "path": "data/raw/literatura-fase3/series/emenda07/episodios.csv",
@@ -1583,6 +1599,10 @@
       "sha256": "82ebddb80714bfa0c95c2200df0eebf12f273e28ca557293e55f837cb5f4fb9b"
     },
     {
+      "path": "data/raw/literatura-fase3/series/emenda08/RESULTADO-emenda08.md",
+      "sha256": "f7b3bbd14d7a05d751b3ce7f76a627a013e6fb75ef5432983c90ef3683a93176"
+    },
+    {
       "path": "data/raw/literatura-fase3/series/emenda08/episodios.csv",
       "sha256": "d14cd872ed550869123e367d364be77eac9e087f6766b55f092f4bf847bbe47b"
     },
@@ -1595,6 +1615,10 @@
       "sha256": "c96f7bc6b1e87ecf92b611490e7db7bdce628cf8057b3db45146c8a864eee7c6"
     },
     {
+      "path": "data/raw/literatura-fase3/series/emenda10/RESULTADO-emenda10.md",
+      "sha256": "508a969e4274735b835974b1e580c8c219bc8d124507c0cba8cf1f0618bfa936"
+    },
+    {
       "path": "data/raw/literatura-fase3/series/emenda10/episodios.csv",
       "sha256": "aaa8670b585c5f310005190f043cc08e5747091fa5e0eba3ae9226c38398a72d"
     },
@@ -1605,6 +1629,22 @@
     {
       "path": "data/raw/literatura-fase3/series/emenda10/literatura_todos.csv",
       "sha256": "685c710f4b3e352da8585dd54b9d6e547bbfc3d349f8d9426d3a28be560cccba"
+    },
+    {
+      "path": "data/raw/literatura-fase3/series/emenda11/RESULTADO-emenda11.md",
+      "sha256": "62b47c1536db7d21910701ca7def3db083312d8750b2ca9128412b9e21577c74"
+    },
+    {
+      "path": "data/raw/literatura-fase3/series/emenda11/episodios.csv",
+      "sha256": "44cdc0572ade48d0c04c801600adfab200434131c79d203f24d313d9a8609123"
+    },
+    {
+      "path": "data/raw/literatura-fase3/series/emenda11/literatura_incluidos.csv",
+      "sha256": "dbe7531c900bc37f8378e241eb9ea87250ba422cc80d85ebabb2154b470a7918"
+    },
+    {
+      "path": "data/raw/literatura-fase3/series/emenda11/literatura_todos.csv",
+      "sha256": "79d1feac7b6fa1821c127241f1080d098acae4da8cdf84356688e0f8b9ddabc9"
     },
     {
       "path": "data/raw/literatura-fase3/series/episodios.csv",
@@ -6123,12 +6163,68 @@
       "sha256": "65d4883f3c6afd638a54539adea21643f74a675674c824154e0b20a85cfd52db"
     },
     {
+      "path": "data/raw/preregistro/PREREGISTRATION-EMENDA-01.md",
+      "sha256": "360a30455124b5f029c9b20c5838d68b6cb76a356e4796b9fc402f83278e32cd"
+    },
+    {
+      "path": "data/raw/preregistro/PREREGISTRATION-EMENDA-02.md",
+      "sha256": "86be29f66f836a24ba75d48d3f3718c813ea1346d5bacc3877bf7b1084c6cab9"
+    },
+    {
+      "path": "data/raw/preregistro/PREREGISTRATION-EMENDA-03.md",
+      "sha256": "9c66cde852b2ecba805353157984c0d0cf7cf2f74e9a393fe361cb8f4abf46b3"
+    },
+    {
+      "path": "data/raw/preregistro/PREREGISTRATION-EMENDA-04.md",
+      "sha256": "5ea2169a8728f434cd0f97c555f11161a254304a39d35b7863085b9e7f5720c9"
+    },
+    {
+      "path": "data/raw/preregistro/PREREGISTRATION-EMENDA-05.md",
+      "sha256": "96a60c474557598d8f28eebbb073e257f1c828a05ec1af9e6bfadc932203242d"
+    },
+    {
+      "path": "data/raw/preregistro/PREREGISTRATION-EMENDA-06.md",
+      "sha256": "cc06d58ae360e17491abb160c8a28257a73a85200dff24647174d91ee3e16cd0"
+    },
+    {
+      "path": "data/raw/preregistro/PREREGISTRATION-EMENDA-07.md",
+      "sha256": "d206b6d6d65d332aa1c1b5783d68ce9c0cdb50d2e78d28bfbdaa71e067ff54a5"
+    },
+    {
+      "path": "data/raw/preregistro/PREREGISTRATION-EMENDA-08.md",
+      "sha256": "a32cc6d4974683a094b9da9dbe7b7c4ce9563187970359f239cf923b3ae3b858"
+    },
+    {
+      "path": "data/raw/preregistro/PREREGISTRATION-EMENDA-09.md",
+      "sha256": "c82475619e35c051025c18b20ad0765d111bfa1ddf25f9e75d420456d59ebbd1"
+    },
+    {
+      "path": "data/raw/preregistro/PREREGISTRATION-EMENDA-10.md",
+      "sha256": "e07bd6a4d42c758b479870718b5fcd93047c5f5be258e462e6c2ca97cf4494c8"
+    },
+    {
+      "path": "data/raw/preregistro/PREREGISTRATION-EMENDA-11.md",
+      "sha256": "df7cb3fe4696f05918d5b830e617731c408e1cc88cec0257f010f22600c760f8"
+    },
+    {
+      "path": "data/raw/preregistro/PREREGISTRATION-EMENDA-12.md",
+      "sha256": "c5da64e9ee2b234ed1ffcfc56a84ba716be19c49dd85d099f2bf6984773fc2e8"
+    },
+    {
+      "path": "data/raw/preregistro/PREREGISTRATION-EMENDA-13.md",
+      "sha256": "62c2d6322ab92aa109bfad600d8ec5f1f365fe6ca9dabcc4fdba6eb38819f768"
+    },
+    {
+      "path": "data/raw/preregistro/PREREGISTRATION-FASE-2.md",
+      "sha256": "391697237c13f1fe7d0b2777c3704e0d17d1d58e4bf07df69349739a4dc56399"
+    },
+    {
       "path": "data/raw/preregistro/PREREGISTRATION.md",
       "sha256": "f1545d13f2743f9fe8142241b1a7cb0c493564011c77907430ce08db3a9ba17b"
     },
     {
       "path": "data/raw/preregistro/manifest.jsonl",
-      "sha256": "6f3935fee2dede7777a1b2fa528d6bf7f5a78dfe35b0f30656639d63cbe1692e"
+      "sha256": "4e278cae1a971736f09c32e16a34a23e8176b7b6fe83cb9e57acbd4e3d4c6183"
     },
     {
       "path": "data/raw/produtos/RESULTADO.md",
@@ -8820,7 +8916,7 @@
     },
     {
       "path": "data/raw/vdem-fase2/gerar_series.py",
-      "sha256": "4c39df85fdf4bca6b615f8af2586a53e50ebaa040782a078135d6558e6ad92e6"
+      "sha256": "80e960d3d395783fd53337199a32a19e882e3f52e3647a13402135fdf9e0d613"
     },
     {
       "path": "data/raw/vdem-fase2/manifest.jsonl",
@@ -8831,28 +8927,32 @@
       "sha256": "82914404df2337e07a46e5726ec18477edea5b28b20427701f8e5cdcba4e7c74"
     },
     {
+      "path": "data/raw/vdem-fase2/series/conferencia-saida.txt",
+      "sha256": "4bd12b1bc187b284066bc5fc0b56a784d10ad896500be9c4aea56d6a564d6f86"
+    },
+    {
       "path": "data/raw/vdem-fase2/series/vdem_brasil_v16.csv",
-      "sha256": "63e42d8672e98031c5df807ef0a01fd528a937d64add906a97ba54f273a6d68c"
+      "sha256": "eaf79715abaf5aefee7dadf1c00f715e4dcde29d1e8f4b5edc80c1fbd3f863c5"
     },
     {
       "path": "docs/en/METHODOLOGY.md",
-      "sha256": "121201ec41121d13d6185d4a290abfee9e4a106efd4fbe817adc263559c692b3"
+      "sha256": "50e158e6059ba3d644792431c975e30b1b5e07d5e8c8901bd82fc334fa59e33a"
     },
     {
       "path": "docs/es/METHODOLOGY.md",
-      "sha256": "98dc7b3cef0aefb0bc9e3467bcfd2ec9a27735345bd9c79d2f39dca241050a37"
+      "sha256": "3f727817f9b448b73599a95eb41cb69bcc059dced6594c530588e7b0e7e6d87f"
     },
     {
       "path": "docs/he/METHODOLOGY.md",
-      "sha256": "f4eb0e63d250de6719e3fa773f1bdfbb10207d6520ad01af90cd0f0a04609142"
+      "sha256": "bd1984d42f36a7c9c37d2455802eac2697d5e3620bd701806df21752487dfbfe"
     },
     {
       "path": "docs/it/METHODOLOGY.md",
-      "sha256": "c444d70ce995936173a797d14e9688ed664c577dd63ea325a62d90e9802bc669"
+      "sha256": "447cdcbe68bffffff2a53477a703cc842b8134a5a827e50345287bb024612c2d"
     },
     {
       "path": "docs/pt-BR/METHODOLOGY.md",
-      "sha256": "7980e633fff755ba25fa8e8d0dc562a7a4e9448e9d8d3ce1f736f7e8acb720b0"
+      "sha256": "d68d6734afdc4dfc91987f0c4c028fdf464cf11fe55d3b1b28ba3d91d079399a"
     },
     {
       "path": "docs/references-q1.bib",
@@ -8868,7 +8968,7 @@
     },
     {
       "path": "output/auditoria.json",
-      "sha256": "0eeb566241adaeab64bfcb5e4d717b4ba8fd38a56098594efdcf6edebe22ca33"
+      "sha256": "fa54af291a9d7a537e01774281ca19d3a246e21a012abd2e459301d6b17ad487"
     },
     {
       "path": "output/dinamica.json",
@@ -8880,7 +8980,7 @@
     },
     {
       "path": "output/literatura.json",
-      "sha256": "da813ba569c74d953fad972d2d6d9cfaa4fde2d14305281e94699461f92dd986"
+      "sha256": "d3cac57b0498749d3abc8a8c0ebc7395f8d1a355c9078bf16f81171b22300004"
     },
     {
       "path": "output/mundo.json",
@@ -8896,7 +8996,7 @@
     },
     {
       "path": "output/terminal.json",
-      "sha256": "9044b6ae4583662b096df360030ec7930547f643a89a35635e88a8a6b30ea2ab"
+      "sha256": "4c00cd691555c00c3df618d75449a4f831622f0664563f001e28326ea2404890"
     },
     {
       "path": "run_all.py",
@@ -8912,7 +9012,7 @@
     },
     {
       "path": "scripts/make_figures.py",
-      "sha256": "021d233f9758c726cb28829fd5be016300c8ab71550b34be15d88eac4c8200e1"
+      "sha256": "ccb4eaac9943776ad1326e79815fcec3b0461cfbf33479ddd0fc7a03866874cb"
     },
     {
       "path": "scripts/prune_evidence.py",
@@ -8948,7 +9048,7 @@
     },
     {
       "path": "tests/test_figures.py",
-      "sha256": "e93d4a96d40514d03604a76c8e97c7e6161bfc0aee416a5407a3ac5cf3dbb270"
+      "sha256": "5ef516f7db95e7f3a3498e3a01c5fc63dac6eb230fa703ab4f323797625d0382"
     },
     {
       "path": "tests/test_indice.py",
@@ -8956,7 +9056,7 @@
     },
     {
       "path": "tests/test_literatura.py",
-      "sha256": "bd611d0eece0f67599f20f0a9f56df9a139aa86953252f73fa33d310da0a2e51"
+      "sha256": "b678c0393d91ea83a25e2206a55ea9b860c2b47686255d07cf89d345607e40de"
     },
     {
       "path": "tests/test_mandatos.py",
@@ -8976,7 +9076,7 @@
     },
     {
       "path": "tests/test_terminal.py",
-      "sha256": "545970984ee76240a7b50ed6e995fa3c6bba8ea35e3c33258785afff99ad92f5"
+      "sha256": "0f4a5e97b2a21eee481dd970c0775091bd6969c7c4b24e9a5af24d1126a3edcb"
     },
     {
       "path": "tests/test_verdict.py",

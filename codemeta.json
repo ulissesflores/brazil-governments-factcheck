@@ -3,7 +3,7 @@
   "@type": "SoftwareSourceCode",
   "name": "brazil-governments-factcheck",
   "description": "Reproducible check of a viral infographic about eight Brazilian governments, with a hash-chained curated layer of public series, a catalogue of method and rule breaks, a pre-registered composite index of living conditions, a terminal of indicators with one homogeneous base per cell, a literature layer under a sealed search protocol, and the Central Bank's external-debt series as published.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": [
     "https://spdx.org/licenses/Apache-2.0",
     "https://spdx.org/licenses/CC-BY-4.0"
